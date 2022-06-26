@@ -7,3 +7,4 @@ This file does **NOT** go in the `extensions` folder!
 
 # Credits
 - [@Hyperz](https://store.hyperz.net/discord) - *Physical Programming.*
+- [@Nano](https://micromodifications.net) - *Paid to have it made.*
