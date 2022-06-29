@@ -3,6 +3,8 @@ All the public extensions people make for Dark Bot.
 
 https://docs.hyperz.net/c/products/darkbotbackend
 
+---
+
 ## Dark Bot 1.3
 - Extension must include an `extension.json` file.
 - Drag and drop folder into the `extensions` folder of Dark Bot.
