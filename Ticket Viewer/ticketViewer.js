@@ -1,3 +1,4 @@
+const fs = require('fs');
 module.exports = async function(client, con, app) {
 
   client.darkbot.on('apiReady', function() {
