@@ -12,6 +12,6 @@ https://docs.hyperz.net/c/products/darkbotbackend
 - Restart Dark Bot.
 
 ## Dark Bot 1.2.2 (Deprecated)
-- Drag and drop individual `JS` fie into the `extensions` folder of Dark Bot.
+- Drag and drop individual `JS` file into the `extensions` folder of Dark Bot.
 - Configure properly.
 - Restart Dark Bot.
