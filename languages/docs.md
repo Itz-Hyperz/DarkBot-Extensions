@@ -11,6 +11,11 @@ Below you will find your options for this file.
 - `german`
 - `polish`
 - `korean`
+- `arabic`
+- `french`
+- `hindi`
+- `irish`
+- `turkish`
 - `danish`
 
 ---
