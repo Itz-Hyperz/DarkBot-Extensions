@@ -1,0 +1,6 @@
+- `english`
+- `spanish`
+- `german`
+- `polish`
+- `korean`
+- `danish`
