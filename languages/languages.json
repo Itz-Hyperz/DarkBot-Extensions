@@ -25,6 +25,31 @@
         "value": "korean"
     },
     {
+        "label": "Arabic",
+        "description": "عربي.",
+        "value": "arabic"
+    },
+    {
+        "label": "French",
+        "description": "Français.",
+        "value": "french"
+    },
+    {
+        "label": "Hindi",
+        "description": "हिन्दी.",
+        "value": "hindi"
+    },
+    {
+        "label": "Irish",
+        "description": "Gaeilge.",
+        "value": "irish"
+    },
+    {
+        "label": "Turkish",
+        "description": "Türk.",
+        "value": "turkish"
+    },
+    {
         "label": "Danish",
         "description": "Denmarkian.",
         "value": "danish"
