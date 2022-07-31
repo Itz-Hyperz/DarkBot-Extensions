@@ -1,0 +1,2659 @@
+{
+  "selectALanguage": "Sélectionnez une langue ci-dessous!",
+  "noPermissions": "Il n’y a pas encore d’autorisations configurées pour cette guilde !",
+  "missingPermissions": "Vous n’avez pas les autorisations requises pour utiliser cette commande !",
+  "noVoiceChannel": "Vous devez être dans un canal vocal pour l’utiliser.",
+  "onlyGuildOwner": "Seul le propriétaire de la guilde peut exécuter cette commande.",
+  "cancel": "Annuler",
+  "enabled": "Activé",
+  "disabled": "handicapé",
+  "yes": "oui",
+  "no": "Non",
+  "true": "vrai",
+  "false": "faux",
+  "eightBallCommand": "**Magic 🎱 Ball dit:** ",
+  "eightBallResponses": [
+    "C’est certain.",
+    "C’est décidément le cas.",
+    "Sans aucun doute.",
+    "Oui, absolument.",
+    "À mon avis, oui.",
+    "Oui.",
+    "Répondez flou, réessayez.",
+    "Mieux vaut ne pas vous le dire maintenant.",
+    "Impossible de prédire maintenant.",
+    "Ne comptez pas dessus.",
+    "Ma réponse est non.",
+    "Mes sources disent non.",
+    "Perspectives pas si bonnes.",
+    "Très douteux."
+  ],
+  "afkNoLonger": "Vous n’êtes plus marqué AFK.",
+  "nowMarkedAFK": "Vous êtes maintenant marqué AFK.",
+  "applicationMenu": {
+    "questions": "Questionne",
+    "embedTitle": "Menu de l’application",
+    "embedName": "**○ Nom:** ",
+    "noAppsYet": "Pas encore d’applications...",
+    "createForm": "Créer un formulaire"
+  },
+  "apply": {
+    "noAppsFound": "Aucune application trouvée pour cette guilde.",
+    "clickToApply": "Cliquez pour postuler à cette application.",
+    "selectApp": "Sélectionnez une application.",
+    "embedTitle": "Applications",
+    "embedDescription": "Sélectionnez une demande pour commencer à la remplir."
+  },
+  "avatar": "Avatar",
+  "balance": {
+    "deposit": "Dépôt",
+    "withdraw": "Retirer",
+    "transfer": "Transfert",
+    "bankingInfo": "Informations bancaires",
+    "wallet": "**Portefeuille:**",
+    "bank": "**Banque:**"
+  },
+  "birthdays": {
+    "selectAction": "Sélectionnez une action d’anniversaire.",
+    "addBirthday": "👶 Ajouter un anniversaire",
+    "addBirthdayDescription": "Ajoutez votre date de naissance à la base de données.",
+    "removeBirthday": "❌ Supprimer l’anniversaire",
+    "removeBirthdayDescription": "Supprimez votre date de naissance de la base de données.",
+    "embedTitle": "Menu anniversaire",
+    "embedDescription": "Ajoutez/supprimez votre anniversaire dans/depuis la base de données !"
+  },
+  "cases": {
+    "doesNotExist": "n’existe pas dans la liste d’ID de cas!",
+    "embedTitle": "Renseignements sur le cas",
+    "caseId": "ID de cas",
+    "caseType": "Type de cas",
+    "caseUser": "Utilisateur"
+  },
+  "clients": {
+    "selectAction": "Sélectionnez une action client.",
+    "addClient": "📥 Ajouter un client",
+    "addClientDescription": "Ajoutez un client à cette base de données de clients de guildes.",
+    "removeClient": "📤 Supprimer le client",
+    "removeClientDescription": "Supprimez un client de cette base de données de clients de guildes.",
+    "embedTitle": "Client Menu",
+    "embedDescription": "Ajouter/Supprimer des clients vers/depuis la base de données !",
+    "noClients": "Cette guilde n’a pas encore de clients.",
+    "clients": "Les clients"
+  },
+  "ddos": {
+    "NOTICE": "C’est une fausse commande de blague!!!!",
+    "sending": "Envoi d’une attaque à",
+    "successful": "Attaque DDOS réussie ;)",
+    "lag": "L’utilisateur prend du retard?",
+    "no": "Non?",
+    "failure": "Je ne peux pas ddos les gens :("
+  },
+  "dice": {
+    "landedOn": "**Atterri le:**",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "dm": {
+    "embedTitle": "📫 Vous avez du courrier!",
+    "messageSent": "**Message envoyé!**",
+    "messageSentFailed": "**Échec de l’envoi du message !**",
+    "dmsOff": "Ils ont probablement leurs DM réglés sur privés."
+  },
+  "embed": {
+    "notice": "Avis de",
+    "posted": "**Intégrer publié!**"
+  },
+  "embedBuilder": {
+    "embedTitle": "Générateur d’intégration",
+    "embedDescription": "Bienvenue dans le générateur d’intégration interactif. Utilisez les boutons ci-dessous pour créer l’intégration, après avoir cliqué sur post!",
+    "buttons": {
+      "authorText": "Texte de l’auteur",
+      "titleText": "Texte du titre",
+      "titleURL": "URL du titre",
+      "descriptionText": "Texte de description",
+      "footerText": "Texte du pied de page",
+      "authorImage": "Image de l’auteur",
+      "thumbnailImage": "Image miniature",
+      "largeImage": "Grande image",
+      "footerImage": "Image de pied de page",
+      "embedColor": "Couleur d’intégration",
+      "embedFields": "Incorporer des champs",
+      "addTimestamp": "Ajouter un horodatage",
+      "channelToPost": "Canal à publier",
+      "postEmbed": "Publier l’intégration",
+      "fieldName": "Nom du champ",
+      "fieldValue": "Valeur du champ",
+      "fieldInline": "Champ en ligne",
+      "goBack": "Retour",
+      "newField": "Nouveau champ"
+    },
+    "responses": {
+      "setAuthorText": "Sur quoi souhaitez-vous définir le texte de l’auteur ?",
+      "setTitleText": "Sur quoi souhaitez-vous définir le texte du titre ?",
+      "setTitleURL": "Sur quoi souhaitez-vous définir l’URL du titre ?",
+      "setDescriptionText": "Sur quoi souhaitez-vous définir la description ?",
+      "setFooterText": "Sur quoi souhaitez-vous définir le texte du pied de page ?",
+      "setAuthorImage": "Sur quoi aimeriez-vous définir l’image de l’auteur?",
+      "setColor": "Sur quelle couleur souhaitez-vous définir l’intégration ?",
+      "setThumbnailImage": "Sur quoi souhaitez-vous définir l’image miniature ?",
+      "setLargeImage": "Sur quoi aimeriez-vous définir la grande image?",
+      "setFooterImage": "Sur quoi souhaitez-vous définir l’image du pied de page ?",
+      "channelToPost": "Sur quel canal souhaitez-vous publier ceci ?",
+      "fieldName": "Quel devrait être le nom de ce champ?",
+      "fieldValue": "Quelle devrait être la valeur de ce champ?",
+      "embedPosted": "Embed Publié!"
+    }
+  },
+  "economy": {
+    "crime": {
+      "cooldown": "Vous ne pouvez pas commettre un crime en ce moment. Vous êtes toujours en train de vous rafraîchir.",
+      "crimeResponses": [
+        {
+          "text": "Vous avez battu une femme dans une ruelle et vous avez obtenu ",
+          "amount": "10"
+        },
+        {
+          "text": "Vous avez fait un drive-by sur du fromage biggie et vous avez fait ",
+          "amount": "600"
+        },
+        {
+          "text": "Vous avez saisi une voiture et volé ",
+          "amount": "19"
+        },
+        {
+          "text": "Vous avez tenu une banque et fait ",
+          "amount": "500"
+        },
+        {
+          "text": "Vous avez fait caca sur le poarch des voisins et vous avez eu ",
+          "amount": "1"
+        }
+      ]
+    },
+    "work": {
+      "cooldown": "Vous ne pouvez pas travailler en ce moment. Vous êtes toujours en train de vous rafraîchir.",
+      "workResponses": [
+        {
+          "text": "Vous avez nettoyé la maison de quelqu’un et fait ",
+          "amount": "138"
+        },
+        {
+          "text": "Vous avez travaillé au lave-auto et vous avez fait ",
+          "amount": "382"
+        },
+        {
+          "text": "Vous avez frit du poulet sur un gril pour les voisins et fait ",
+          "amount": "18"
+        },
+        {
+          "text": "Vous avez nettoyé les toilettes de la station-service et fait ",
+          "amount": "15"
+        },
+        {
+          "text": "Vous avez gratté de la peinture sur un mur et fait ",
+          "amount": "37"
+        },
+        {
+          "text": "Vous faites des pizzas pendant 6 heures et faites ",
+          "amount": "75"
+        },
+        {
+          "text": "Vous avez lavé la vaisselle et fait ",
+          "amount": "34"
+        },
+        {
+          "text": "Vous avez traversé le pays en voiture pour livrer du lait et vous avez fabriqué ",
+          "amount": "390"
+        },
+        {
+          "text": "Vous avez réapprovisionné les étagères des stations-service et fabriqué ",
+          "amount": "32"
+        },
+        {
+          "text": "Vous avez nettoyé le sol et fait ",
+          "amount": "20"
+        },
+        {
+          "text": "Vous avez donné un massage à quelqu’un et fait ",
+          "amount": "42"
+        },
+        {
+          "text": "Vous vous êtes moqué de Jake Hamblin et vous avez fait ",
+          "amount": "25"
+        },
+        {
+          "text": "Vous avez écrit du code et fait ",
+          "amount": "150"
+        },
+        {
+          "text": "Vous avez participé à un tournoi E-Sports et vous avez ",
+          "amount": "100"
+        },
+        {
+          "text": "Vous avez travaillé à la caisse chez walmart et vous avez fait ",
+          "amount": "62"
+        },
+        {
+          "text": "Vous avez assemblé une tondeuse à gazon et fabriqué ",
+          "amount": "250"
+        },
+        {
+          "text": "Vous coupez les cheveux de quelqu’un et faites ",
+          "amount": "25"
+        },
+        {
+          "text": "Vous avez fait un devoir d’enfant pour lui et vous avez fait ",
+          "amount": "67"
+        }
+      ]
+    },
+    "inventory": {
+      "emptyInventory": "Votre inventaire est vide.",
+      "embedTitle": "Inventaire",
+      "selectItem": "Sélectionnez un article dans votre inventaire pour l’utiliser.",
+      "items": "**Articles d’inventaire:**",
+      "clickToUse": "Cliquez pour utiliser cet élément.",
+      "selectAction": "Sélectionnez un élément pour l’utiliser."
+    },
+    "rob": {
+      "cooldown": "Vous ne pouvez pas voler quelqu’un en ce moment. Vous êtes toujours en train de vous rafraîchir.",
+      "tooLittleMoney": "Cet utilisateur a trop peu d’argent pour se faire voler.",
+      "robbed": "Vous avez volé",
+      "for": "pour",
+      "robbery": "Vol",
+      "amount": "Quantité",
+      "from": "De"
+    }
+  },
+  "games": {
+    "yourLink": "Voici votre lien!"
+  },
+  "giveaways": {
+    "enter": "Cliquez pour participer!",
+    "end": "Fin",
+    "reroll": "Re-Roll",
+    "posted": "**Le cadeau a été affiché!**",
+    "embedTitle": "Nouveau cadeau!",
+    "embedPrize": "**Prix:**",
+    "embedWinners": "**Gagnants:**",
+    "embedTimeLimit": "**Limite de temps:**"
+  },
+  "guilds": {
+    "leaveGuild": "Quitter la guilde",
+    "embedTitle": "Liste des guildes",
+    "embedGuildName": "**○ Nom de guilde :**",
+    "embedGuildId": "**○ Id de guilde:**",
+    "embedGuildMembers": "**○ Membres de la guilde :**",
+    "embedGuildOwnerTag": "**○ Balise du propriétaire de la guilde:**",
+    "embedGuildOwnerId": "**○ Id du propriétaire de la guilde :**"
+  },
+  "help": {
+    "selectAction": "Sélectionnez une catégorie.",
+    "embedTitle": "Menu Aide",
+    "defaultEmbedDesc": "Bienvenue sur Dark Bot ! Utilisez ce menu pour voir toutes mes commandes et voir ce qu’il y a à faire! La personnalisation devrait être assez facile!",
+    "user": "🧑 Commandes utilisateur",
+    "userDesc": "Affichez les commandes utilisateur que ce bot a à offrir.",
+    "economy": "🏦 Commandes économiques",
+    "economyDesc": "Voir les commandes d’économie que ce bot a à offrir.",
+    "music": "💿 Commandes de musique",
+    "musicDesc": "Affichez les commandes musicales que ce bot a à offrir.",
+    "utility": "🧰 Commandes de l’utilitaire",
+    "utilityDesc": "Affichez les commandes utilitaires que ce bot a à offrir.",
+    "moderation": "👮 Commandes de modération",
+    "moderationDesc": "Affichez les commandes de modération que ce bot a à offrir.",
+    "settings": "🔧 Commandes Paramètres",
+    "settingsDesc": "Affichez les commandes de paramètres que ce bot a à offrir.",
+    "owner": "👑 Commandes propriétaire",
+    "ownerDesc": "Voir les commandes du propriétaire (guilde) que ce bot a à offrir.",
+    "credits": "📜 Crédits",
+    "creditsDesc": "Voir les crédits de ce bot.",
+    "individualCommands": {
+      "embedTitle": "Aide sur les commandes",
+      "name": "**Nom:**",
+      "desc": "**Description:**",
+      "type": "**Type:**",
+      "slash": "taillader"
+    }
+  },
+  "hug": {
+    "hasJustHugged": "vient de s’étreindre"
+  },
+  "leveling": {
+    "disabled": "Ce serveur n’utilise pas la fonction de « nivellement ».",
+    "unknownUser": "Utilisateur inconnu (à gauche)",
+    "lvl": "**Lvl:**",
+    "xp": "**XP:**",
+    "embedTitle": "Classement du chat",
+    "requestedBy": "Demandé par",
+    "levelCommand": {
+      "embedTitle": "Niveau actuel des utilisateurs :",
+      "currentXp": "**XP actuel:**",
+      "currentLevel": "**Niveau actuel:**",
+      "noLevelData": "Cet utilisateur n’a aucun niveau dans cette guilde."
+    },
+    "levelUp": "Vous venez de monter de niveau !",
+    "newLevel": "Nouveau niveau :"
+  },
+  "logging": {
+    "actionLogs": "Journaux d’actions",
+    "enforcer": "Enforcer",
+    "userId": "Identifiant",
+    "userTag": "Balise utilisateur",
+    "reason": "Raison",
+    "time": "Heure",
+    "timestamp": "Horodatage",
+    "channel": "Canal",
+    "command": "Commander",
+    "options": "Options",
+    "noOptions": "Aucune option n’est fournie.",
+    "types": {
+      "userBanned": "Utilisateur banni",
+      "userOfflineBanned": "Utilisateur hors ligne banni",
+      "userKicked": "Utilisateur botté",
+      "userMuted": "Utilisateur en sourdine",
+      "autoUnmute": "Activer le son automatique",
+      "command": "Commande entrée",
+      "caseDeleted": "Cas supprimé",
+      "userUnbanned": "Utilisateur non banni",
+      "userUnmuted": "Utilisateur non mis en sourdine",
+      "userWarned": "Avertissement de l’utilisateur",
+      "filterSystem": "Système de filtrage",
+      "blacklistedTerm": "Terme sur la liste noire",
+      "levelUp": "Monter de niveau",
+      "newLevel": "Nouveau niveau"
+    },
+    "buttons": {
+      "addChannel": "Ajouter un canal"
+    },
+    "commandEmbed": {
+      "embedTitle": "Canaux de journalisation",
+      "type": "**○ Type de journal:**",
+      "channel": "**○ Canal de journalisation:**",
+      "noChannel": "Pas encore de chaînes..."
+    }
+  },
+  "music": {
+    "loopIsNow": "Loop est maintenant",
+    "noSongsPlaying": "Il n’y a pas de chansons en cours de lecture.",
+    "searching": "Recherche...",
+    "buttons": {
+      "pause": "⏸️ Pause",
+      "play": "▶️ Jouer",
+      "skip": "⏭️ Sautiller",
+      "stop": "⏹️ Arrêter",
+      "shuffle": "🔀 Mêler"
+    },
+    "musicCmd": {
+      "embedTitle": "En cours de lecture",
+      "name": "Nom",
+      "duration": "Durée",
+      "requestor": "Demandeur",
+      "views": "Affichage"
+    }
+  },
+  "marriage": {
+    "command": {
+      "selectAction": "Sélectionnez une action de mariage.",
+      "send": "💌 Envoyer une demande",
+      "sendDesc": "Si vous souhaitez épouser quelqu’un.",
+      "accept": "💍 Accepter une proposition",
+      "acceptDesc": "Quelqu’un vous a demandé de les épouser? Vraiment?",
+      "deny": "😭 Refuser une proposition",
+      "denyDesc": "Vous êtes une personne horrible si vous cliquez dessus...",
+      "divorce": "⚖️ Obtenir un divorce",
+      "divorceDesc": "Qui prend les enfants? Parce que ce ne sera pas moi.",
+      "embedTitle": "Système de mariage",
+      "embedDesc": "Consultez le système de mariage et apportez des changements!"
+    }
+  },
+  "massrole": {
+    "begin": "« Massrole lance maintenant... »",
+    "failed": "« Massrole a échoué... »",
+    "missing": "**Autorisations manquantes!**"
+  },
+  "meme": {
+    "grabbing": "Saisir un mème...",
+    "hereYaGo": "C’est parti !"
+  },
+  "mute": {
+    "already": "Cet utilisateur est déjà mis en sourdine.",
+    "not": "Cet utilisateur n’est pas mis en sourdine."
+  },
+  "offlineBan": {
+    "success": "Banni avec succès"
+  },
+  "payments": {
+    "notify": "Informez-nous si vous avez choisi cette option.",
+    "payment": "Paiement",
+    "pleasePay": "S’il vous plaît payer",
+    "location": "pour __one__ des modes de paiement ci-dessus.",
+    "otherOption": "Autre option"
+  },
+  "permissions": {
+    "addPermission": "Ajouter une autorisation",
+    "embedTitle": "Menu Autorisations",
+    "type": "**○ Type perm:**",
+    "role": "**○ ID de rôle:**",
+    "noPermsYet": "Pas encore de permanentes..."
+  },
+  "ping": {
+    "message": "🏓 La latence est la suivante :"
+  },
+  "pingPrevention": {
+    "selectAction": "Sélectionnez une action de prévention ping.",
+    "addPingPrev": "📫 Ajouter Ping Prevention",
+    "addPingPrevDesc": "Configurez votre prévention ping.",
+    "removePingPrev": "❌ Supprimer Ping Prevention",
+    "removePingPrevDesc": "Supprimez votre prévention ping.",
+    "embedTitle": "Menu Prévention Ping",
+    "embedDesc": "Gérez votre statut de prévention ping !"
+  },
+  "poll": {
+    "posted": "**Sondage publié!**"
+  },
+  "punishments": {
+    "noHistory": "Cet utilisateur n’a pas d’antécédents de punitions!",
+    "embedTitle": "Renseignements sur le cas"
+  },
+  "purge": {
+    "msgDeleted": "Messages supprimés!",
+    "error": "**Erreur lors de la suppression des messages !**",
+    "reason": "Je ne peux supprimer que les messages datant de moins de 14 jours..."
+  },
+  "queue": {
+    "clearQueue": "Effacer la file d’attente",
+    "embedTitle": "Chansons en file d’attente",
+    "noSongsQueued": "Il n’y a pas de chansons dans la file d’attente."
+  },
+  "restart": {
+    "restarting": "Redémarrage du client",
+    "restartingDesc": "**Redémarrage du client...**",
+    "success": "Redémarrage du client réussi",
+    "successDesc": "**Le client a été redémarré avec succès!**",
+    "failed": "Échec du redémarrage du client",
+    "private": "**Veuillez vérifier vos messages privés!**",
+    "failed2": "**Le redémarrage du client a échoué...**"
+  },
+  "reviews": {
+    "reply": "Laisser une réponse",
+    "newReview": "Nouvel avis de",
+    "posted": "Votre avis a été publié."
+  },
+  "selfroles": {
+    "addMenu": "Ajouter un menu",
+    "roleManager": "Gestionnaire de rôles",
+    "postPanel": "Panneau d’affichage",
+    "embedTitle": "Menus de rôle de soi",
+    "menuName": "**○ Nom du menu:**",
+    "noMenus": "Pas encore de menus..."
+  },
+  "server": {
+    "serverInfo": "Informations sur le serveur",
+    "name": "Nom",
+    "id": "Id",
+    "owner": "Propriétaire",
+    "members": "Membres",
+    "users": "Utilisateurs",
+    "bots": "Bots",
+    "date": "Date de création",
+    "requestedBy": "Demandé par"
+  },
+  "settings": {
+    "selectAction": "Sélectionnez une option de paramètres.",
+    "base": "📕 Modules de base",
+    "baseDesc": "Modifiez les modules de base de cette guilde.",
+    "security": "📘 Modules de sécurité",
+    "securityDesc": "Modifiez les modules de sécurité pour cette guilde.",
+    "fun": "📙 Modules amusants",
+    "funDesc": "Modifiez les modules amusants pour cette guilde.",
+    "embedTitle": "Menu Paramètres",
+    "embedDesc": "Affichez le menu des paramètres et apportez des modifications!"
+  },
+  "shop": {
+    "empty": "La boutique est vide.",
+    "shop": "Boutique",
+    "select": "Sélectionnez un article dans la boutique pour l’acheter.",
+    "shopItems": "**Articles de la boutique:**",
+    "click": "Cliquez pour acheter cet objet.",
+    "selectAction": "Sélectionnez un article pour l’acheter."
+  },
+  "snipe": {
+    "noMessage": "Il n’y a pas de messages à sniper dans ce canal!",
+    "messageFrom": "Message de",
+    "snipedBy": "Sniped par"
+  },
+  "sticky": {
+    "selectAction": "Sélectionnez une action de message collant.",
+    "add": "🍯 Ajouter Sticky",
+    "addDesc": "Ajoutez un message collant à la base de données.",
+    "remove": "❌ Supprimer Sticky",
+    "removeDesc": "Supprimez un message collant de la base de données.",
+    "embedTitle": "Menu de message collant",
+    "embedDesc": "Ajoutez/supprimez des messages collants vers/depuis la base de données !"
+  },
+  "suggestion": {
+    "recieved": "**Suggestion reçue!**",
+    "embedTitle": "Nouvelle suggestion!",
+    "noChan": "Cette guilde n’a pas encore mis en place la journalisation des suggestions."
+  },
+  "tickets": {
+    "noTickets": "Cette guilde n’a pas encore de catégories de billets configurées.",
+    "embedTitle": "Catégories de billets",
+    "embedDesc": "Voici les catégories de billets pour cette guilde. Sélectionnez-en un pour ouvrir un ticket dans cette catégorie.",
+    "selectAction": "Sélectionnez une catégorie de billet."
+  },
+  "ticketbuttons": {
+    "close": "🔒 Fermer le ticket",
+    "rename": "✏️ Renommer le ticket",
+    "add": "📥 Ajouter un utilisateur",
+    "remove": "📤 Supprimer l’utilisateur",
+    "claim": "🤝 Billet de réclamation",
+    "claimedBy": "🤝 Réclamé par",
+    "message": "Quelques boutons de ticket utiles.",
+    "onlyInTicket": "Cela ne peut être fait que dans un canal de billetterie."
+  },
+  "ticketpanels": {
+    "addPanel": "Ajouter un panneau",
+    "post": "Publier sur le canal",
+    "embedTitle": "Panneaux de billets",
+    "panelName": "**○ Nom du panneau:**",
+    "panelDesc": "**○ Description du panneau:**",
+    "noPanels": "Pas encore de panneaux..."
+  },
+  "timer": {
+    "set": "Ensemble de minuterie!",
+    "up": "Minuterie en place!",
+    "remind": "Je vous le rappellerai dans",
+    "to": "À",
+    "timer": "Heures",
+    "time": "**Heure: **",
+    "note": "**Remarque : **",
+    "ended": "**Minuterie terminée**"
+  },
+  "tos": {
+    "agree": "Je suis d’accord",
+    "tos": "Conditions d’utilisation",
+    "confirm": "Veuillez **confirmer** que vous acceptez les **[Conditions d’utilisation]",
+    "confirm2": "** \nen appuyant sur le bouton bleu ci-dessous qui dit « Je suis d’accord »."
+  },
+  "user": {
+    "info": "Informations sur l’utilisateur",
+    "tag": "Jour",
+    "id": "Id",
+    "bot": "Bot",
+    "cases": "Cas",
+    "level": "Niveau de chat",
+    "joined": "A rejoint Discord",
+    "requestedBy": "Demandé par"
+  },
+  "volume": {
+    "changed": "Volume modifié"
+  },
+  "globalButtons": {
+    "controls": "Contrôles:",
+    "options": "Options:",
+    "settings": "Paramètres:",
+    "tools": "Outils:",
+    "toggle": "Cabillot:",
+    "delete": "Supprimer la sélection",
+    "disabled": "Handicapé",
+    "enabled": "Activé",
+    "back": "Précédent",
+    "next": "Prochain",
+    "deleteSelected": "Supprimer la sélection",
+    "closed": "Fermé",
+    "open": "Ouvrir",
+    "home": "🏠 Rentre chez toi",
+    "accept": "Accepter",
+    "deny": "Nier",
+    "message": "Message",
+    "embed": "Incorporer",
+    "card": "Carte"
+  },
+  "commands": {
+    "eightBall": {
+      "name": "8ball",
+      "description": "Parlez à Dieu.",
+      "options": [
+        {
+          "name": "question",
+          "description": "La question à poser à la 🎱 balle.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "afk": {
+      "name": "afk",
+      "description": "Basculez votre statut AFK."
+    },
+    "applicationmenu": {
+      "name": "menu d’application",
+      "description": "Gérez ces applications de guildes."
+    },
+    "apply": {
+      "name": "appliquer",
+      "description": "Remplissez une demande ouverte."
+    },
+    "ascii": {
+      "name": "ASCII",
+      "description": "Créez du texte ascii.",
+      "options": [
+        {
+          "name": "SMS",
+          "description": "Texte à convertir en ascii.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "avatar": {
+      "name": "avatar",
+      "description": "Obtenez un avatar d’utilisateur.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur pour obtenir l’avatar de.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "balance": {
+      "name": "balance",
+      "description": "Consultez le solde de votre compte."
+    },
+    "ban": {
+      "name": "interdiction",
+      "description": "Bannissez quelqu’un de la guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à bannir de cette guilde.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        },
+        {
+          "name": "raison",
+          "description": "La raison de l’interdiction de l’utilisateur.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "birthdays": {
+      "name": "Anniversaires",
+      "description": "Ouvrez le panneau anniversaires."
+    },
+    "case": {
+      "name": "cas",
+      "description": "Afficher les informations d’un cas.",
+      "options": [
+        {
+          "name": "case_id",
+          "description": "ID de cas à afficher.",
+          "required": "vrai",
+          "type": "ENTIER"
+        }
+      ]
+    },
+    "clientmenu": {
+      "name": "menu client",
+      "description": "Gérez les clients de cette guilde."
+    },
+    "clients": {
+      "name": "les clients",
+      "description": "Voir les clients de cette guilde."
+    },
+    "credits": {
+      "name": "crédits",
+      "description": "Voir les crédits de ce bot!"
+    },
+    "crime": {
+      "name": "crime",
+      "description": "Commettre un crime."
+    },
+    "ddos": {
+      "name": "ddos",
+      "description": "Envoyez une attaque 😉 DDOS !",
+      "options": [
+        {
+          "name": "cible",
+          "description": "L’utilisateur à « attaquer ».",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "dice": {
+      "name": "Dit",
+      "description": "Lancez les dés."
+    },
+    "dm": {
+      "name": "décimètre",
+      "description": "Envoyez un message privé à un utilisateur en tant que bot.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "Message de l’utilisateur.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        },
+        {
+          "name": "Message",
+          "description": "Le message à leur envoyer.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "embed": {
+      "name": "Incorporer",
+      "description": "Faites dire quelque chose au bot.",
+      "options": [
+        {
+          "name": "canal",
+          "description": "Canal sur lequel publier l’intégration.",
+          "required": "vrai",
+          "type": "CANAL"
+        },
+        {
+          "name": "Message",
+          "description": "Le message à dire dans l’intégration.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "embedbuilder": {
+      "name": "embedbuilder",
+      "description": "Ouvrez le générateur d’intégration de message interactif."
+    },
+    "games": {
+      "name": "jeux",
+      "description": "Sélectionnez un jeu à jouer dans votre chaîne vocale.",
+      "options": [
+        {
+          "name": "jeu",
+          "description": "Sélectionnez un jeu auquel jouer.",
+          "required": "vrai",
+          "type": "CORDE",
+          "choices": [
+            {
+              "name": "Poker",
+              "value": "poker"
+            },
+            {
+              "name": "Youtube",
+              "value": "Youtube"
+            },
+            {
+              "name": "Échecs",
+              "value": "échecs"
+            },
+            {
+              "name": "Trahison",
+              "value": "trahison"
+            },
+            {
+              "name": "Pêche",
+              "value": "pêche"
+            },
+            {
+              "name": "Crazy 8's",
+              "value": "Huit"
+            },
+            {
+              "name": "Dames",
+              "value": "dames"
+            },
+            {
+              "name": "Mosaïque de lettres",
+              "value": "lettertile"
+            },
+            {
+              "name": "Collation Word",
+              "value": "wordsnack"
+            },
+            {
+              "name": "Équipage Doodle",
+              "value": "doodlecrew"
+            },
+            {
+              "name": "Lancer de sorts",
+              "value": "lancer de sorts"
+            },
+            {
+              "name": "Têtes d’esquisse",
+              "value": "Têtes d’esquisse"
+            }
+          ]
+        }
+      ]
+    },
+    "giveaway": {
+      "name": "Cadeau",
+      "description": "Créez un cadeau.",
+      "options": [
+        {
+          "name": "canal",
+          "description": "Le canal dans lequel mettre le cadeau.",
+          "required": "vrai",
+          "type": "CANAL"
+        },
+        {
+          "name": "color_hex",
+          "description": "La couleur HEX pour le cadeau. (Ex: #FFFFFF)",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "prix",
+          "description": "Ce que vous avez l’intention de donner.",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "time_limit",
+          "description": "Combien de temps le cadeau devrait durer.",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "Gagnants",
+          "description": "Combien de gagnants le cadeau devrait avoir.",
+          "required": "vrai",
+          "type": "ENTIER"
+        }
+      ]
+    },
+    "guilds": {
+      "name": "Guildes",
+      "description": "Voyez les guildes dans lesquelles se trouve ce bot."
+    },
+    "help": {
+      "name": "Aide",
+      "description": "Voir toutes les commandes et les informations sur le bot!",
+      "options": [
+        {
+          "name": "commander",
+          "description": "Afficher des informations sur une commande spécifique.",
+          "required": "faux",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "hug": {
+      "name": "embrasser",
+      "description": "Embrassez un utilisateur.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à étreindre.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "inventory": {
+      "name": "inventaire",
+      "description": "Affichez votre inventaire d’utilisateurs."
+    },
+    "kick": {
+      "name": "coup de pied",
+      "description": "Donnez un coup de pied à quelqu’un de cette guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à virer de cette guilde.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        },
+        {
+          "name": "raison",
+          "description": "La raison du coup de pied de l’utilisateur.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "leaderboard": {
+      "name": "classement",
+      "description": "Affichez ce classement de niveau chat des serveurs."
+    },
+    "level": {
+      "name": "niveau",
+      "description": "Afficher un niveau d’utilisateurs.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur pour afficher le niveau de",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "logging": {
+      "name": "exploitation forestière",
+      "description": "Modifiez les paramètres de journalisation de cette guilde."
+    },
+    "loop": {
+      "name": "boucle",
+      "description": "Basculez la boucle de la chanson."
+    },
+    "marriage": {
+      "name": "mariage",
+      "description": "Voir le système ❤️ de mariage !"
+    },
+    "massrole": {
+      "name": "massrole",
+      "description": "Attribuez un rôle à chaque membre de ce serveur.",
+      "options": [
+        {
+          "name": "rôle",
+          "description": "Le rôle à donner à chaque membre.",
+          "required": "vrai",
+          "type": "RÔLE"
+        }
+      ]
+    },
+    "meme": {
+      "name": "meme",
+      "description": "Obtenez un mème!"
+    },
+    "music": {
+      "name": "musique",
+      "description": "Accédez aux commandes de musique.",
+      "options": [
+        {
+          "name": "play_song",
+          "description": "La chanson à jouer.",
+          "required": "faux",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "mute": {
+      "name": "Muet",
+      "description": "Mettez en sourdine quelqu’un dans la guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur doit couper le son de cette guilde.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        },
+        {
+          "name": "Heure",
+          "description": "Combien de temps vous souhaitez les mettre en sourdine. (Ex: 15m = 15 minutes)",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "raison",
+          "description": "Raison de la mise en sourdine de l’utilisateur.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "offlineban": {
+      "name": "offlineban",
+      "description": "Bannissez quelqu’un qui n’est pas dans la guilde.",
+      "options": [
+        {
+          "name": "user_id",
+          "description": "ID utilisateur de l’utilisateur à bannir.",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "raison",
+          "description": "La raison de bannir l’utilisateur.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "pay": {
+      "name": "payer",
+      "description": "Demandez à un utilisateur d’accepter vos conditions d’utilisation.",
+      "options": [
+        {
+          "name": "quantité",
+          "description": "Veuillez fournir le montant et la devise que l’utilisateur doit payer.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "permissions": {
+      "name": "Autorisations",
+      "description": "Modifiez ces autorisations de guildes."
+    },
+    "ping": {
+      "name": "Ping",
+      "description": "Une simple commande ping."
+    },
+    "pingprev": {
+      "name": "pingprev",
+      "description": "Gérez l’état de votre prévention ping."
+    },
+    "play": {
+      "name": "jouer",
+      "description": "Jouez de la musique ⏯️.",
+      "options": [
+        {
+          "name": "chanson",
+          "description": "La chanson à jouer.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "poll": {
+      "name": "scrutin",
+      "description": "Créez un sondage.",
+      "options": [
+        {
+          "name": "question",
+          "description": "La question du sondage.",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_1",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_2",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_3",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_4",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_5",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_6",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_7",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_8",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_9",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        },
+        {
+          "name": "option_10",
+          "description": "Une option pour le sondage.",
+          "required": "faux",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "punishments": {
+      "name": "Punitions",
+      "description": "Afficher l’historique des cas d’un utilisateur.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "Utilisateur pour afficher l’historique des cas de.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "purge": {
+      "name": "purger",
+      "description": "Supprimer en bloc des messages dans un canal.",
+      "options": [
+        {
+          "name": "quantité",
+          "description": "Le nombre de messages à purger.",
+          "required": "vrai",
+          "type": "ENTIER"
+        }
+      ]
+    },
+    "queue": {
+      "name": "queue",
+      "description": "Affichez la file d’attente de musique."
+    },
+    "removecase": {
+      "name": "removecase",
+      "description": "Supprimer un incident de la base de données.",
+      "options": [
+        {
+          "name": "case_id",
+          "description": "ID de cas à supprimer.",
+          "required": "vrai",
+          "type": "ENTIER"
+        }
+      ]
+    },
+    "restart": {
+      "name": "redémarrer",
+      "description": "Redémarrez le bot."
+    },
+    "review": {
+      "name": "révision",
+      "description": "Écrivez un avis en tant que client.",
+      "options": [
+        {
+          "name": "service",
+          "description": "Ce que vous avez acheté / acheté.",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "notation",
+          "description": "Ce que vous évaluez le produit sur 5.",
+          "required": "vrai",
+          "type": "ENTIER"
+        },
+        {
+          "name": "Message",
+          "description": "Laissez un message avec votre avis.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "rob": {
+      "name": "voler",
+      "description": "Rob un utilisateur.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à voler.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "say": {
+      "name": "dire",
+      "description": "Faites dire quelque chose au bot.",
+      "options": [
+        {
+          "name": "canal",
+          "description": "Canal sur lequel publier le message.",
+          "required": "vrai",
+          "type": "CANAL"
+        },
+        {
+          "name": "Message",
+          "description": "Le message à dire.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "selfroles": {
+      "name": "autorôles",
+      "description": "Configurez des auto-rôles pour cette guilde."
+    },
+    "server": {
+      "name": "serveur",
+      "description": "Affichez ces informations sur les serveurs."
+    },
+    "settings": {
+      "name": "Paramètres",
+      "description": "Modifiez les paramètres de cette guilde."
+    },
+    "shop": {
+      "name": "boutique",
+      "description": "Consultez la boutique ou effectuez un achat."
+    },
+    "snipe": {
+      "name": "bécassine",
+      "description": "Récupérez le dernier message supprimé dans ce canal."
+    },
+    "sticky": {
+      "name": "collant",
+      "description": "Ajouter ou supprimer des messages collants."
+    },
+    "suggest": {
+      "name": "suggérer",
+      "description": "Laissez une suggestion.",
+      "options": [
+        {
+          "name": "suggestion",
+          "description": "Ce que vous suggérez.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "ticket": {
+      "name": "billet",
+      "description": "Créez un ticket."
+    },
+    "ticketbuttons": {
+      "name": "ticketbuttons",
+      "description": "Afficher les boutons de ticket utiles."
+    },
+    "ticketpanels": {
+      "name": "panneaux de tickets",
+      "description": "Configurez des panneaux de tickets pour cette guilde."
+    },
+    "timer": {
+      "name": "Heures",
+      "description": "Réglez une minuterie.",
+      "options": [
+        {
+          "name": "Heure",
+          "description": "Le temps de déclenchement de la minuterie. (Ex: 1h = 1 heure, 1m = 1 minute, 5s = 5 secondes)",
+          "required": "vrai",
+          "type": "CORDE"
+        },
+        {
+          "name": "raison",
+          "description": "Que devrait vous rappeler le bot ?",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "tos": {
+      "name": "Cela",
+      "description": "Demandez à un utilisateur d’accepter vos conditions d’utilisation.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur que vous souhaitez demander d’accepter vos Conditions d’utilisation.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "unban": {
+      "name": "unban",
+      "description": "Débannissez quelqu’un de cette guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "ID utilisateur à débannir de cette guilde.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "unmute": {
+      "name": "activer le son",
+      "description": "Réactivez le son d’un membre de la guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à activer le son de cette guilde.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "user": {
+      "name": "utilisateur",
+      "description": "Afficher les informations d’un utilisateur.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "Utilisateur à afficher.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        }
+      ]
+    },
+    "volume": {
+      "name": "volume",
+      "description": "Modifiez le volume de la musique.",
+      "options": [
+        {
+          "name": "valeur",
+          "description": "La chanson à jouer.",
+          "required": "vrai",
+          "type": "ENTIER"
+        }
+      ]
+    },
+    "warn": {
+      "name": "avertir",
+      "description": "Avertissez un utilisateur de cette guilde.",
+      "options": [
+        {
+          "name": "utilisateur",
+          "description": "L’utilisateur à avertir.",
+          "required": "vrai",
+          "type": "UTILISATEUR"
+        },
+        {
+          "name": "raison",
+          "description": "Raison de l’avertissement de l’utilisateur.",
+          "required": "vrai",
+          "type": "CORDE"
+        }
+      ]
+    },
+    "wink": {
+      "name": "Clin d’œil",
+      "description": "Envoyez un clin d’œil gif à quelqu’un."
+    },
+    "work": {
+      "name": "travail",
+      "description": "Allez au travail."
+    }
+  },
+  "events": {
+    "actionLogs": "Journaux d’actions",
+    "actionBy": "Actionné par",
+    "someone": "quelqu’un",
+    "guilds": {
+      "join": "📥 Guilde rejointe!",
+      "leave": "📤 Guilde à gauche!",
+      "name": "**○ Nom:**",
+      "id": "**○ Id:**"
+    },
+    "updated": {
+      "before": "Avant les modifications",
+      "after": "Après les modifications",
+      "name": "Nom",
+      "user": "Utilisateur",
+      "type": "Type",
+      "id": "Id",
+      "created": "Créé",
+      "color": "Couleur",
+      "hoisted": "Hissé",
+      "position": "Position",
+      "mentionable": "Mentionnable"
+    },
+    "channels": {
+      "created": "Canal créé",
+      "deleted": "Canal supprimé",
+      "updated": "Canal mis à jour",
+      "id": "ID de canal",
+      "name": "Nom du canal"
+    },
+    "members": {
+      "left": "a quitté le serveur!",
+      "leftEmbedTitle": "Au revoir Utilisateur!",
+      "accountAge": "Âge du compte",
+      "members": "Membres",
+      "users": "Utilisateurs",
+      "sorry": "Pardon",
+      "lockdown": "est actuellement en confinement ! Essayez de vous joindre dans quelques heures ou contactez un administrateur externe pour voir ce qui se passe!\n\nIl est possible que le propriétaire ait simplement oublié de désactiver le verrouillage du serveur, indépendamment du fait que cela ait été enregistré et je suis sûr que le serveur sera bientôt rouvert.",
+      "lockdownMode": "Le serveur est en mode verrouillage !",
+      "lockdownTitle": "🔒 Verrouillage du serveur!",
+      "lockdownRemoval": "Suppression du confinement!",
+      "reason": "Raison",
+      "action": "Action",
+      "user": "Utilisateur",
+      "kicked": "Botté",
+      "sl": "Verrouillage du serveur!",
+      "altDetected": "Compte Alt détecté !",
+      "removalTitle": "Vous avez été enlevé!",
+      "removal1": "Vous avez été retiré de",
+      "removal2": "car votre compte ne répond pas aux exigences d’âge du compte des guildes.",
+      "join": "a rejoint le serveur !",
+      "joinEmbedTitle": "Bienvenue utilisateur!"
+    },
+    "messages": {
+      "deleted": "Message supprimé",
+      "channel": "Canal",
+      "content": "Contenu du message",
+      "noContent": "Aucun contenu",
+      "updated": "Message mis à jour",
+      "noAfk": "vous n’êtes plus marqué AFK dans cette guilde.",
+      "isAfk": "est actuellement AFK...",
+      "pingedBy": "Pingé par",
+      "pingPrev": "❤️ Système de prévention Ping",
+      "mail": "📫 Vous avez du courrier!",
+      "pleaseDont": "S’il vous plaît ne me faites pas de ping, j’ai une vie, tout comme vous :]"
+    },
+    "roles": {
+      "created": "Rôle créé",
+      "deleted": "Rôle supprimé",
+      "updated": "Rôle mis à jour",
+      "id": "ID de rôle",
+      "name": "Nom du rôle",
+      "actionedBy": "Actionné par"
+    },
+    "voice": {
+      "has": "a",
+      "was": "était",
+      "unavailable": "Indisponible",
+      "update": "Mise à jour de l’état de la voix",
+      "server": "serveur",
+      "left": "Gauche",
+      "joined": "joint",
+      "moved": "déplacé de",
+      "to": "À",
+      "deafened": "sourd",
+      "undeafened": "non assourdi",
+      "muted": "assourdi",
+      "unmuted": "non mis en sourdine",
+      "stopped": "arrêté leur vidéo",
+      "started": "ont commencé leur vidéo",
+      "stream": "commencé le streaming",
+      "stopstream": "arrêt du streaming"
+    }
+  },
+  "components": {
+    "agreeTos": {
+      "notasked": "On ne vous demande pas d’accepter les CGU",
+      "notasked2": "est invité à",
+      "agreed": "Convenu",
+      "hasAgreed": "a accepté les Conditions d’utilisation"
+    },
+    "appAccept": {
+      "button": "Accepté par",
+      "err": "Je n’ai pas pu trouver cette application.",
+      "embedTitle": "✅ Demande acceptée",
+      "app": "**Demande:**",
+      "message": "**Message:**"
+    },
+    "appDeny": {
+      "denied": "Refusé par",
+      "unable": "Je n’ai pas pu trouver cette application.",
+      "title": "❌ Demande refusée",
+      "app": "**Demande:**",
+      "message": "**Message:**"
+    },
+    "appMenuAdd": {
+      "title": "Créez une application!",
+      "name": "Nom de l’application",
+      "here": "Entrez le nom des applications ici.",
+      "am": "Message accepté",
+      "dm": "Message refusé",
+      "aam": "Entrez le message qu’un utilisateur doit recevoir s’il est accepté ici.",
+      "ddm": "Entrez le message qu’un utilisateur doit recevoir s’il est refusé ici."
+    },
+    "appMenuBack": {
+      "title": "Menu de l’application",
+      "name": "○ Nom :",
+      "noapps": "Pas encore d’applications..."
+    },
+    "appMenuCreate": {
+      "created": "Application créée!"
+    },
+    "appMenuDelete": {
+      "deleted": "Application supprimée!"
+    },
+    "appMenuGoHome": {
+      "title": "Menu de l’application",
+      "name": "○ Nom :",
+      "noapps": "Pas encore d’applications...",
+      "questions": "Questionne",
+      "createform": "Créer un formulaire"
+    },
+    "appMenuQuestions": {
+      "title": "Éditeur de questions",
+      "add": "Ajouter une question",
+      "app": "○ Application:",
+      "question": "○ Question :",
+      "noQuestion": "Aucune question n’a encore été créée."
+    },
+    "appMenuQuestionsAdd": {
+      "added": "Question ajoutée!",
+      "invalid": "Application non valide.",
+      "input": "Veuillez saisir la question que vous souhaitez ajouter à la demande.",
+      "cancel": "Annulé.",
+      "error": "Erreur lors de l’ajout d’une question. Veuillez réessayer, assurez-vous de ne pas inclure d’emojis dans vos questions."
+    },
+    "appMenuQuestionsDelete": {
+      "deleted": "Question supprimée !",
+      "unable": "Je n’ai pas trouvé cette question dans la base de données."
+    },
+    "appSelect": {
+      "noQuestions": "Cette application n’a pas encore de questions créées.",
+      "pleaseAnswer": "Veuillez répondre aux questions suivantes au mieux de vos capacités.",
+      "started": "Application démarrée dans les DM.",
+      "cancel": "Annulé.",
+      "date": "Date de soumission",
+      "submitted": "Demande soumise!",
+      "failed": "**Échec de l’application.**\nVeuillez vous assurer que vos DM ne sont pas privés.",
+      "q": "Q",
+      "a": "Un"
+    },
+    "backingDeposit": {
+      "noInput": "Veuillez saisir un montant que vous souhaitez déposer à la banque.",
+      "notValid": "Veuillez saisir un numéro valide.",
+      "notValid2": "**Veuillez saisir un numéro valide.**\nVeuillez réessayer...",
+      "notEnough": "**C’est plus que ce que vous avez dans votre solde.**\nVeuillez réessayer...",
+      "deposited": "**Déposé ",
+      "deposited1": " à la banque.**",
+      "logAuthor": " - Dépôt",
+      "amount": "Quantité"
+    },
+    "bankingTransfer": {
+      "user": "Veuillez fournir l’utilisateur auquel vous souhaitez transférer cette devise.",
+      "aUser": "Veuillez fournir le montant que vous souhaitez transférer à cet utilisateur.",
+      "valUser": "Veuillez saisir un utilisateur valide.",
+      "valNumber": "Veuillez saisir un numéro valide.",
+      "valNumber1": "**Veuillez saisir un numéro valide.**\nVeuillez réessayer...",
+      "notEnough": "**C’est plus que ce que vous avez dans votre solde.**\nVeuillez réessayer...",
+      "Done": " Transféré!**",
+      "logAuthor": " - Transfert",
+      "reciever": "Récepteur"
+    },
+    "bankingWithdraw": {
+      "iAmount": "Veuillez saisir un montant que vous souhaitez retirer de la banque.",
+      "number": "Veuillez saisir un numéro valide.",
+      "valNumber": "**Veuillez saisir un numéro valide.**\nVeuillez réessayer...",
+      "notEnough": "**C’est plus que ce que vous avez dans votre banque.**\nVeuillez réessayer...",
+      "Withdrew": "**Retiré ",
+      "Withdrew1": " de l’arrière.**",
+      "logAuthor": " - Retiré"
+    },
+    "birthdayAdd": {
+      "already": "Vous avez déjà enregistré un anniversaire dans cette guilde.",
+      "date": "Veuillez indiquer votre date de naissance.\n**Remarque:** Il doit être formaté comme ceci: 'MM-JJ-AAAA' sinon il **ne fonctionnera pas**.",
+      "cancel": "Annulé.",
+      "added": "**Anniversaire ajouté!**"
+    },
+    "birthdayRemove": {
+      "noBday": "Vous n’avez pas enregistré d’anniversaire dans cette guilde.",
+      "removed": "**Anniversaire supprimé!**"
+    },
+    "birthdatSystem": {
+      "title": "🥳 Bon anniversaire!",
+      "its": "C’est",
+      "bday": "Anniversaire aujourd’hui! Souhaitons-leur un joyeux anniversaire et célébrons!\n\n**Date:**"
+    },
+    "clientAdd": {
+      "user": "Veuillez mentionner l’utilisateur que vous souhaitez ajouter en tant que client.",
+      "iUser": "Utilisateur non valide.\nVeuillez mentionner l’utilisateur que vous souhaitez ajouter en tant que client.",
+      "already": "Cet utilisateur est déjà un client enregistré.",
+      "added": "📥 Client ajouté",
+      "done": "a été « ajouté » en tant que client.",
+      "add": "**Client ajouté!**"
+    },
+    "clientRemove": {
+      "noClients": "Cette guilde n’a pas de clients enregistrés.",
+      "mention": "Veuillez mentionner un client que vous souhaitez supprimer.",
+      "iClient": "Utilisateur non valide.\nVeuillez mentionner le client que vous souhaitez supprimer.",
+      "notR": "Cet utilisateur n’est pas un client enregistré.",
+      "removed": "📥 Client supprimé",
+      "dsec": "a été « retiré » en tant que client.",
+      "done": "**Client supprimé!**"
+    },
+    "forceLeaveGuild": {
+      "left": "Guilde de gauche"
+    },
+    "giveawayEnd": {
+      "end": "Fin du cadeau, veuillez patienter!",
+      "notCreator": "Vous n’êtes pas le créateur de ce cadeau!\nIl a été créé par :",
+      "ended": "Ce cadeau est déjà terminé.",
+      "notCreator1": "Ce cadeau est déjà terminé!\nIl a été créé par :",
+      "noExist": "Ce cadeau n’existe pas dans la base de données..."
+    },
+    "giveawayEnter": {
+      "enter": "a participé au concours! Nous avons maintenant",
+      "entries": "Entrées!",
+      "already": "Vous êtes déjà entré! Nous avons actuellement",
+      "notActive": "Ce cadeau n’est plus actif."
+    },
+    "giveawayRefresh": {
+      "for": "Cadeau pour",
+      "with": "avec",
+      "finish": "les gagnants ont eu la réinitialisation de la minuterie en raison du redémarrage du bot!"
+    },
+    "giveawayReroll": {
+      "wait": "Re-Rolling, s’il vous plaît attendez!",
+      "consoleNumber": "Un nombre de cadeaux n’est pas un chiffre...",
+      "title": "Cadeau re-roulé!",
+      "prize": "**Informations**\nPrix:",
+      "winners": "Gagnants:",
+      "time": "Délai:",
+      "winners2": "**Gagnants**",
+      "footer": "Cadeau par: ",
+      "endError": "ERREUR DE FIN DE CADEAU : ",
+      "uNot": "Vous n’avez pas créé ce cadeau.",
+      "wait1": "Vous devez attendre la fin du cadeau pour pouvoir rouler à nouveau!",
+      "find": "Nous n’avons pas pu trouver ce cadeau dans la base de données."
+    },
+    "helpPageSelect": {
+      "title": " Menu Aide",
+      "footer": "Fabriqué avec",
+      "by": "par"
+    },
+    "inventorySelect": {
+      "noItems": "Vous n’avez aucun article dans votre inventaire.",
+      "used": "a utilisé **1**",
+      "logAuthor": " - Article d’occasion",
+      "field1": "Article"
+    },
+    "loggingSelect": {
+      "selectPlaceHolder": "Sélectionnez le type de canal de journalisation.",
+      "options": {
+        "welcome": {
+          "label": "👋 Messages de bienvenue",
+          "desc": "Définissez un canal de journalisation pour les messages de bienvenue."
+        },
+        "leave": {
+          "label": "👋 Laisser des messages",
+          "desc": "Définissez un canal de journalisation pour les messages de congé."
+        },
+        "member": {
+          "label": "🔢 Nombre de membres",
+          "desc": "Définissez le canal de comptage des membres."
+        },
+        "user": {
+          "label": "🔢 Nombre d’utilisateurs",
+          "desc": "Définissez le canal de comptage d’utilisateurs."
+        },
+        "channel": {
+          "label": "🎒 Journaux de canaux",
+          "desc": "Définissez un canal de journalisation pour les modifications de canal."
+        },
+        "role": {
+          "label": "🎭 Journaux des rôles",
+          "desc": "Définir un canal de journalisation pour les journaux de modération"
+        },
+        "mod": {
+          "label": "🔨 Journaux de modération",
+          "desc": "Définir un canal de journalisation pour les journaux de modération"
+        },
+        "ticket": {
+          "label": "🎟️ Journaux de tickets",
+          "desc": "Définir un canal de journalisation pour les journaux de tickets"
+        },
+        "message": {
+          "label": "(M)️ Journaux des messages",
+          "desc": "Définissez un canal de journalisation pour les journaux des messages."
+        },
+        "command": {
+          "label": "🖨️ Journaux de commandes",
+          "desc": "Définissez un canal de journalisation pour les journaux de commandes."
+        },
+        "voice": {
+          "label": "📢 Journaux vocaux",
+          "desc": "Définissez un canal de journalisation pour les journaux vocaux."
+        },
+        "alt": {
+          "label": "👻 Journaux de prévention Alt",
+          "desc": "Définissez un canal de journalisation pour les journaux de prévention alt."
+        },
+        "server": {
+          "label": "🔒 Journaux des journaux du serveur",
+          "desc": "Définissez un canal de journalisation pour les journaux de verrouillage du serveur."
+        },
+        "filter": {
+          "label": "❌ Journaux de filtrage",
+          "desc": "Définissez un canal de journalisation pour les journaux de filtrage."
+        },
+        "client": {
+          "label": "💰 Journaux clients",
+          "desc": "Définissez un canal de journalisation pour les clients."
+        },
+        "review": {
+          "label": "⭐ Examiner les journaux",
+          "desc": "Définissez un canal de journalisation pour les avis."
+        },
+        "suggestion": {
+          "label": "📥 Journaux de suggestions",
+          "desc": "Définissez un canal de journalisation pour les suggestions."
+        },
+        "birthday": {
+          "label": "🎉 Journaux d’anniversaire",
+          "desc": "Définissez un canal de journalisation pour les messages d’anniversaire."
+        },
+        "application": {
+          "label": "📜 Journaux d’application",
+          "desc": "Définissez un canal de journalisation pour les journaux d’application."
+        },
+        "economy": {
+          "label": "🏦 Journaux économiques"
+        },
+        "eco": {
+          "label": "📈 Journaux de niveau supérieur",
+          "desc": "Définissez un canal de journalisation pour les journaux de niveau supérieur."
+        },
+        "other": {
+          "label": "❓ Autres journaux",
+          "desc": "Définissez un canal de journalisation pour les autres journaux."
+        }
+      }
+    },
+    "loggingBack": {
+      "title": "Canaux de journalisation",
+      "type": "**○ Type de journal:**",
+      "nochans": "Pas encore de chaînes...",
+      "chan": "**○ Canal de journalisation:**"
+    },
+    "loggingDelete": {
+      "content": "**Canal de journalisation supprimé**"
+    },
+    "loggingHome": {
+      "buttons": {
+        "addChan": "Ajouter un canal",
+        "deleted": "Supprimer la sélection"
+      },
+      "title": "Canaux de journalisation",
+      "type": "**○ Type de journal:**",
+      "nochans": "Pas encore de chaînes...",
+      "chan": "**○ Canal de journalisation:**"
+    },
+    "loggingNext": {
+      "title": "Canaux de journalisation",
+      "type": "**○ Type de journal:**",
+      "nochans": "Pas encore de chaînes...",
+      "chan": "**○ Canal de journalisation:**"
+    },
+    "loggingSelectB": {
+      "provide": "Veuillez fournir un canal pour que ces journaux puissent accéder.",
+      "cancel": "Annulé.",
+      "invalid": "**Canal non valide fourni, réessayez.**",
+      "created": "**Canal de journalisation créé!**\n**Type:**",
+      "channel": "**Canal:**"
+    },
+    "marriageAcceptProposal": {
+      "already": "Vous êtes déjà marié.",
+      "desc1": "Veuillez mentionner l’utilisateur dont vous souhaitez accepter la demande.",
+      "cancel": "Annulé.",
+      "self": "Vous pouvez vous marier.",
+      "never": "Cet utilisateur n’a jamais demandé à vous épouser...",
+      "title": "💘 Félicitations!",
+      "desc": "Votre demande de mariage a été acceptée par",
+      "married": "Vous êtes maintenant marié à"
+    },
+    "marriageDenyProposal": {
+      "already": "Vous êtes déjà marié.",
+      "desc": "Veuillez mentionner l’utilisateur auprès duquel vous souhaitez refuser la demande.",
+      "cancel": "Annulé.",
+      "deny": "Vous ne pouvez pas vous renier.",
+      "never": "Cet utilisateur n’a jamais demandé à vous épouser...",
+      "title": "😭 Nous sommes désolés !",
+      "desc1": "Votre demande de marriade a été refusée par",
+      "denied": "Vous avez refusé la demande de mariage de cet utilisateur."
+    },
+    "marriageDivorce": {
+      "title": "⚖️ Vous avez été servis!",
+      "desc": "Votre conjoint,",
+      "divorced": ", vient de divorcer. Nous ne savons rien, nous ne sommes que le service 👀 de livraison.",
+      "not": "Vous n’êtes actuellement pas marié.",
+      "no": "Vous n’êtes plus marié."
+    },
+    "marriageSelect": {
+      "place": "Sélectionnez une option",
+      "buttons": {
+        "request": {
+          "label": "💌 Envoyer une demande",
+          "desc": "Si vous souhaitez épouser quelqu’un."
+        },
+        "accept": {
+          "label": "💍 Accepter une proposition",
+          "desc": "Quelqu’un vous a demandé de les épouser? Vraiment?"
+        },
+        "deny": {
+          "label": "😭 Refuser une proposition",
+          "desc": "Vous êtes une personne horrible si vous cliquez dessus..."
+        },
+        "divorce": {
+          "label": "⚖️ Obtenir un divorce",
+          "desc": "Qui prend les enfants? Parce que ce ne sera pas moi."
+        }
+      }
+    },
+    "marriageSendRequest": {
+      "already": "Vous êtes déjà marié.",
+      "desc": "**Qui aimeriez-vous épouser?**\nVeuillez utiliser le symbole « @ » pour les mentionner.",
+      "cancel": "Annulé.",
+      "self": "Vous ne pouvez pas vous marier.",
+      "bot": "Vous ne pouvez pas épouser un bot, POINT.",
+      "title": "💌 Demande de mariage",
+      "desc1": "a demandé à vous épouser!\n\nPour répondre à cette demande, rendez-vous sur",
+      "desc12": ", ou tout autre canal de cette guilde, et exécutez '/marriage' pour gérer la demande.",
+      "person": "Cette personne est déjà mariée!",
+      "sent": "**Demande de mariage envoyée.**\nIls auront 2 minutes pour accepter votre demande de mariage avant son expiration.",
+      "expired": "La demande de mariage qui a été envoyée à",
+      "expired2": "a expiré.\nIl y en a beaucoup 🐟 dans le 🌊 !"
+    },
+    "marriageSystem": {
+      "con1": "Mariage",
+      "con2": " les demandes de mariage en attente ont été supprimées."
+    },
+    "musicPause": {
+      "vc": "Vous devez être dans un canal vocal.",
+      "paused": "Musique en pause - "
+    },
+    "musicPlay": {
+      "vc": "Vous devez être dans un canal vocal.",
+      "resumed": "Reprise de la musique - "
+    },
+    "musicQueueClear": {
+      "vc": "Vous devez être dans un canal vocal.",
+      "buttons": {
+        "label": "File d’attente effacée"
+      },
+      "cleared": "Musique effacée - "
+    },
+    "musicShuffle": {
+      "vc": "Vous devez être dans un canal vocal.",
+      "shuffled": "File d’attente mélangée - "
+    },
+    "musicSkip": {
+      "vc": "Vous devez être dans un canal vocal.",
+      "noSong": "Il n’y a pas de musique en cours de lecture sur ce serveur.",
+      "noSongQueue": "Il n’y a plus de chansons dans la file d’attente à ignorer.",
+      "skipped": "Musique sautée - "
+    },
+    "musicStop": {
+      "buttons": {
+        "status": {
+          "label": "Statut:"
+        },
+        "music": {
+          "label": "Musique arrêtée"
+        },
+        "stopped": {
+          "label": "Arrêté par :"
+        }
+      },
+      "vc": "Vous devez être dans un canal vocal."
+    },
+    "musicSystem": {
+      "buttons": {
+        "pause": {
+          "label": "Pause"
+        },
+        "play": {
+          "label": "Jouer"
+        },
+        "skip": {
+          "label": "Sautiller"
+        },
+        "stop": {
+          "label": "Arrêter"
+        },
+        "shuffle": {
+          "label": "Mêler"
+        }
+      },
+      "error": "Une erreur a été rencontrée...",
+      "playSong": {
+        "playing": "Lecture de chansons",
+        "name": "Nom",
+        "duration": "Durée",
+        "requestor": "Demandeur",
+        "views": "Affichage: "
+      },
+      "addSong": {
+        "updated": "⏰ Mise à jour de la file d'",
+        "name": "Nom",
+        "duration": "Durée",
+        "requestor": "Demandeur",
+        "views": "Affichage: "
+      },
+      "finish": {
+        "empty": "File d’attente vide.",
+        "no": "Plus de chansons dans la file d’attente."
+      },
+      "searchNoResult": {
+        "error": "Erreur 404",
+        "noResults": "Aucun résultat trouvé pour"
+      },
+      "searchResult": {
+        "search": "Résultats de la recherche",
+        "choose": "**Choisissez une option ci-dessous**",
+        "else": "Entrez autre chose ou attendez 60 secondes pour cance"
+      },
+      "iAnswer": {
+        "invalid": "Réponse non valide",
+        "provided": "Réponse non valide fournie pour la recherche."
+      }
+    },
+    "nextGuilds": {
+      "buttons": {
+        "leave": "Quitter la guilde"
+      },
+      "title": "Liste des guildes",
+      "guildName": "**○ Nom de guilde :**",
+      "guildId": "**○ Id de guilde:**",
+      "guildMembers": "**○ Membres de la guilde :**",
+      "guildOwnerTag": "**○ Balise du propriétaire de la guilde:**",
+      "guildOwnerId": "**○ Id du propriétaire de la guilde :**"
+    },
+    "permsAdd": {
+      "place": "Sélectionnez le type d’autorisation à ajouter.",
+      "options": {
+        "admin": {
+          "label": "🗝️ Administrateur",
+          "desc": "Ajoutez un rôle administratif (DANGEROUS)."
+        },
+        "mod": {
+          "label": "👮 ♂️ Présentateur",
+          "desc": "Ajoutez un rôle de modérateur."
+        },
+        "filter": {
+          "label": "❌ Filtre",
+          "desc": "Ajoutez un rôle de contournement de filtre."
+        },
+        "info": {
+          "label": "🔎 Information",
+          "desc": "Ajoutez un rôle d’affichage des informations."
+        },
+        "roles": {
+          "label": "🎭 Rôles personnels",
+          "desc": "Ajoutez un rôle de gestionnaire de rôles personnels."
+        },
+        "sticky": {
+          "label": "🍯 Messages collants",
+          "desc": "Ajoutez un rôle de gestionnaire de messages collants."
+        },
+        "giveaway": {
+          "label": "🎉 Gestionnaires de cadeaux",
+          "desc": "Ajoutez un rôle de gestionnaire de cadeaux."
+        },
+        "client": {
+          "label": "💰 Gestionnaires de clientèle",
+          "desc": "Ajoutez un rôle de gestionnaire de clients."
+        },
+        "ticket": {
+          "label": "🎟️ Assistance sur les tickets",
+          "desc": "Ajoutez un rôle de personnel d’assistance aux tickets."
+        },
+        "apps": {
+          "label": "📜 Applicatios",
+          "desc": "Ajoutez un rôle de gestionnaire d’applications."
+        },
+        "customers": {
+          "label": "🛍️ Clientèle",
+          "desc": "Ajoutez un rôle client."
+        },
+        "pingPrev": {
+          "label": "🔕 Prévention ping",
+          "desc": "Ajoutez un rôle d’administrateur et de contournement de la prévention ping."
+        }
+      }
+    },
+    "permsBack": {
+      "title": "Menu Autorisations",
+      "type": "**○ Type perm:**",
+      "no": "Pas encore de permanentes...",
+      "role": "**○ ID de rôle:**"
+    },
+    "permsDelete": {
+      "content": "**Autorisation supprimée**"
+    },
+    "permsHome": {
+      "buttons": {
+        "add": "Ajouter une autorisation",
+        "delete": "Supprimer la sélection"
+      },
+      "title": "Menu Autorisations",
+      "type": "**○ Type perm:**",
+      "no": "Pas encore de permanentes...",
+      "role": "**○ ID de rôle:**"
+    },
+    "permsNext": {
+      "title": "Menu Autorisations",
+      "type": "**○ Type perm:**",
+      "no": "Pas encore de permanentes...",
+      "role": "**○ ID de rôle:**"
+    },
+    "permsSelect": {
+      "provide": "Veuillez fournir un rôle à attribuer/ajouter pour cette autorisation.",
+      "cancel": "Annuler",
+      "Cancelled": "Annulé.",
+      "invalid": "**Rôle non valide fourni, réessayez.**",
+      "created": "**Autorisation créée!**",
+      "type": "**Type:**",
+      "role": "**Rôle:**"
+    },
+    "pingPreventionAdd": {
+      "already": "Vous avez déjà mis en place une prévention ping dans cette guilde.",
+      "color": "Veuillez définir un **couleur hexadécimal** pour votre intégration de prévention de ping.",
+      "cancel": "Annulé.",
+      "provide": "**Veuillez fournir une image pour l’intégration.**\nLe lien doit se terminer par '.png', '.jpg', '.webp', etc.\nTapez 'skip' pour sauter.",
+      "added": "**Ping Prevention Added!**"
+    },
+    "pingPreventionRemove": {
+      "no": "Vous n’avez pas d’enregistrements de prévention de ping dans cette guilde.",
+      "removed": "**Prévention ping supprimée!**"
+    },
+    "punishBack": {
+      "title": "Renseignements sur le cas",
+      "field1": "Id de cas :",
+      "field2": "Type de cas :",
+      "field3": "Enforcer:",
+      "field4": "Utilisateur:",
+      "field5": "Raison:",
+      "field6": "Horodatage:"
+    },
+    "punishNext": {
+      "title": "Renseignements sur le cas",
+      "field1": "Id de cas :",
+      "field2": "Type de cas :",
+      "field3": "Enforcer:",
+      "field4": "Utilisateur:",
+      "field5": "Raison:",
+      "field6": "Horodatage:"
+    },
+    "reviewReply": {
+      "cancel": "Annulé.",
+      "field": "Réponse du personnel",
+      "added": "**Avis ajouté!**"
+    },
+    "selfRolesAdd": {
+      "provide": "Veuillez fournir un nom pour ce panneau de rôles personnels.",
+      "cancel": "Annulé.",
+      "created": "**Menu Rôles personnels créé!**"
+    },
+    "selfRolesBack": {
+      "title": "Menus de rôle de soi",
+      "desc": "**○ Nom du menu:**",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesDelete": {
+      "unable": "Je n’ai pas pu trouver un menu de rôle personnel avec cet Id.",
+      "deleted": "**Menu Auto-rôles supprimé!**"
+    },
+    "selfRolesGoHome": {
+      "addMenu": "Ajouter un menu",
+      "delete": "Supprimer la sélection",
+      "roleManager": "Gestionnaire de rôles",
+      "postPanel": "Panneau d’affichage",
+      "title": "Menus de rôle de soi",
+      "desc": "**○ Nom du menu:**",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesManager": {
+      "addRole": "Ajouter un rôle",
+      "delete": "Supprimer la sélection",
+      "no": "Il n’y a pas de menus de rôles pour cette guilde.",
+      "title": "Menus de rôle de soi",
+      "menuName": "**○ Nom du menu:**",
+      "roleName": "**○ Nom du rôle:**",
+      "roleId": "**○ ID de rôle:**",
+      "noRoles": "Pas encore de rôles...",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesManagerAdd": {
+      "provide": "Veuillez fournir un rôle à ajouter au panel.",
+      "cancel": "Annulé.",
+      "provide2": "Veuillez fournir un rôle valide.",
+      "created": "**Self Role Créé!**"
+    },
+    "selfRolesManagerBack": {
+      "no": "Il n’y a pas de menus de rôles pour cette guilde.",
+      "title": "Menus de rôle de soi",
+      "menuName": "**○ Nom du menu:**",
+      "roleName": "**○ Nom du rôle:**",
+      "roleId": "**○ ID de rôle:**",
+      "noRoles": "Pas encore de rôles...",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesManagerDelete": {
+      "unable": "Je n’ai pas réussi à trouver un rôle personnel avec ce panel.",
+      "deleted": "**Auto-rôle supprimé!**"
+    },
+    "selfRolesManagerNext": {
+      "no": "Il n’y a pas de menus de rôles pour cette guilde.",
+      "title": "Menus de rôle de soi",
+      "menuName": "**○ Nom du menu:**",
+      "roleName": "**○ Nom du rôle:**",
+      "roleId": "**○ ID de rôle:**",
+      "noRoles": "Pas encore de rôles...",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesNext": {
+      "title": "Menus de rôle de soi",
+      "desc": "**○ Nom du menu:**",
+      "noMenus": "Pas encore de menus..."
+    },
+    "selfRolesPost": {
+      "unable": "Je n’ai pas pu trouver le panneau sélectionné.",
+      "unable2": "Je n’ai pas été en mesure de financer des rôles personnels dans ce panel.",
+      "desc": "Sélectionnez un rôle pour l’ajouter ou le supprimer de vos rôles.",
+      "place": "Sélectionnez un rôle.",
+      "provide": "Veuillez fournir un canal pour publier le panneau.",
+      "cancel": "Annulé.",
+      "valid": "Veuillez fournir un canal valide pour publier le panneau.",
+      "posted": "**Panel publié!**"
+    },
+    "settingsBaseAutorole": {
+      "backRole": "Rôle de retour",
+      "nextRole": "Rôle suivant",
+      "toggle": "Cabillot:",
+      "enable": "Activé",
+      "disable": "Handicapé",
+      "addRole": "Ajouter un rôle",
+      "removeRole": "Supprimer le rôle",
+      "no": "Il n’existe actuellement aucun rôle automatique.",
+      "title": "Système de rôle automatique",
+      "role": "**Rôle:**",
+      "verification": "**Vérification?**"
+    },
+    "settingsBaseAutoroleAdd": {
+      "mention": "Veuillez mentionner le rôle ou fournir un ID de rôle à ajouter.",
+      "q": "Aimeriez-vous que ce rôle soit donné lorsqu’ils rejoignent ou lorsqu’ils vérifient?\n\n**1.** Donner un rôle lorsqu’ils rejoignent\n**2.** Donner un rôle lorsqu’ils vérifient",
+      "cancel": "Annulé.",
+      "provide": "Veuillez fournir un rôle valide. \n'PROCESSUS ANNULÉ'",
+      "provide1": "Veuillez fournir une option valide. \n'PROCESSUS ANNULÉ'",
+      "added": "**Inscription automatique ajoutée!**"
+    },
+    "settingsBaseAutoroleBack": {
+      "no": "Il n’existe actuellement aucun rôle automatique.",
+      "title": "Système de rôle automatique",
+      "role": "**Rôle:**",
+      "noRoles": "Il n’existe actuellement aucun rôle automatique.",
+      "verification": "**Vérification?**"
+    },
+    "settingsBaseAutoroleDelete": {
+      "no": "Il n’y a pas d’autoroles faites pour cette guilde.",
+      "removed": "**Inscription automatique supprimée**"
+    },
+    "settingsBaseAutoroleNext": {
+      "no": "Il n’existe actuellement aucun rôle automatique.",
+      "title": "Système de rôle automatique",
+      "role": "**Rôle:**",
+      "noRoles": "Il n’existe actuellement aucun rôle automatique.",
+      "verification": "**Vérification?**"
+    },
+    "settingsBaseCashappUpdate": {
+      "provide": "Veuillez fournir un nouveau lien pour ce mode de paiement.\nTapez 'false' pour le désactiver.",
+      "cancel": "Annulé.",
+      "updated": "**Lien de paiement mis à jour**"
+    },
+    "settingsBaseCustomUpdate": {
+      "provide": "Veuillez fournir un nouveau lien pour ce mode de paiement.\nTapez 'false' pour le désactiver.",
+      "cancel": "Annulé.",
+      "updated": "**Lien de paiement mis à jour**"
+    },
+    "settingsBaseGeneralSettings": {
+      "options": "Options:",
+      "updateTheme": "Mettre à jour la couleur du thème",
+      "updateMuted": "Mettre à jour le rôle en sourdine",
+      "updateTos": "Mettre à jour le lien toS",
+      "maxTickets": "Max Billets",
+      "payment": "Paiement:",
+      "paypal": "PayPal",
+      "cashapp": "Application Cash",
+      "customLink": "Lien personnalisé",
+      "imageUrls": "URL des images :",
+      "card": "Carte d’adhésion/de départ"
+    },
+    "settingsBaseLeave": {
+      "options": "Options:",
+      "message": "Message",
+      "embed": "Incorporer",
+      "card": "Carte"
+    },
+    "settingsBaseMaxTickets": {
+      "provide": "Veuillez indiquer le nombre maximal de billets qu’un utilisateur peut avoir ouverts à la fois.",
+      "cancel": "Annulé.",
+      "valid": "Veuillez fournir un numéro **VALIDE**.",
+      "updated": "Max Tickets mis à jour"
+    },
+    "settingsBaseMuteRoleUpdate": {
+      "mention": "Veuillez mentionner le rôle que vous souhaitez donner aux utilisateurs lorsqu’ils sont mis en sourdine.",
+      "cancelled": "Annulé.",
+      "valid": "Veuillez fournir un rôle muet valide.",
+      "updated": "**Rôle muet mis à jour**"
+    },
+    "settingsBasePanelVerifyPost": {
+      "provide": "Veuillez fournir un canal pour publier le panneau.",
+      "cancelled": "Annulé.",
+      "valid": "Veuillez fournir un canal valide.",
+      "verify": "Vérifier",
+      "verification": "Vérification",
+      "please": "Veuillez vérifier vous-même en appuyant sur le **bouton** sous ce message. Cela confirmera que vous avez *lu et accepté les règles*, ainsi que vous êtes un humain.",
+      "posted": "**Panneau de vérification affiché**"
+    },
+    "settingsBasePaypalUpdate": {
+      "new": "Veuillez fournir un nouveau lien pour ce mode de paiement.\nTapez 'false' pour le désactiver.",
+      "cancelled": "Annulé.",
+      "set": "**Lien de paiement mis à jour**"
+    },
+    "settingsBaseSelect": {
+      "ERROR": "Ce panneau n’utilise activement aucune fonctionnalité de langue."
+    },
+    "settingsBaseThemeColorUpdate": {
+      "provide": "Veuillez fournir un nouveau **__COLOR HEX__** que le bot peut utiliser comme couleur de thème.\n**Ex:** '#FFFFFF'\n\nSélecteur de couleurs: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Veuillez fournir un **__COLOR HEX__** valide.\n**Ex:** '#FFFFFF'\n\nSélecteur de couleurs: <https://htmlcolorcodes.com/color-picker/>",
+      "cancelled": "Annulé.",
+      "updated": "**Couleur du thème mise à jour**"
+    },
+    "settingsBaseToggleAutorole": {
+      "add": "Ajouter un rôle",
+      "remove": "Supprimer le rôle",
+      "next": "Rôle suivant",
+      "back": "Rôle de retour"
+    },
+    "settingsBaseToggleCaptcha": {
+      "verification": "Vérification",
+      "captcha": "Captcha",
+      "post": "Publier un panneau"
+    },
+    "settingsBaseToggleVerify": {
+      "buttons": {
+        "verify": "Vérification",
+        "captcha": "Captcha",
+        "post": "Publier un panneau"
+      }
+    },
+    "settingsBaseToSUpdate": {
+      "please": "Veuillez fournir un nouveau lien vers les conditions d’utilisation pour effectuer la mise à jour.",
+      "cancelled": "Annulé.",
+      "valid": "Veuillez inclure un lien CGS valide.\nDoit commencer par : « http:// »",
+      "updated": "**Lien ToS mis à jour**"
+    },
+    "settingsBaseVerification": {
+      "buttons": {
+        "verify": "Vérification",
+        "captcha": "Captcha",
+        "post": "Publier un panneau"
+      }
+    },
+    "settingsBaseWelcomeCardUpdate": {
+      "please": "**Veuillez fournir un lien d’image pour l’URL d’arrière-plan de la carte.**\n'Remarque:' Le lien de l’image doit se terminer par '.png', '.jpg', '.webp', etc.",
+      "cancelled": "Annulé.",
+      "updated": "**Carte de bienvenue mise à jour**"
+    },
+    "settingsFunAutoReact": {
+      "next": "Page suivante",
+      "back": "Retour de page",
+      "add": "Ajouter une réponse",
+      "title": "Réactions automatiques",
+      "channel": "**Canal:**",
+      "no": "Pas de réactions automatiques actuelles...",
+      "response": "**Réponse :**",
+      "emoji": "Emoji non défini..."
+    },
+    "settingsFunAutoreactAdd": {
+      "please": "Veuillez fournir le canal que le bot doit écouter pour les réactions.",
+      "cancelled": "Annulé.",
+      "provide": "Veuillez indiquer avec quoi le bot doit maintenant réagir lorsqu’il entend un message dans ce canal.\n**Remarque:** vous devez mettre l’emoji dans un bloc de code, comme ':monkey_face:'",
+      "valid": "Veuillez fournir un canal valide.",
+      "added": "**Réaction automatique ajoutée**"
+    },
+    "settingsFunAutoreactBack": {
+      "title": "Réactions automatiques",
+      "channel": "**Canal:**",
+      "no": "Pas de réactions automatiques actuelles...",
+      "response": "**Réponse :**",
+      "emoji": "Emoji non défini..."
+    },
+    "settingsFunAutoreactDelete": {
+      "no": "Il n’y a pas de réactions automatiques définies pour cette guilde.",
+      "deleted": "**Réaction automatique supprimée**"
+    },
+    "settingsFunAutoreactNext": {
+      "title": "Réactions automatiques",
+      "channel": "**Canal:**",
+      "no": "Pas de réactions automatiques actuelles...",
+      "response": "**Réponse :**",
+      "emoji": "Emoji non défini..."
+    },
+    "settingsFunAutoRespond": {
+      "back": "Retour de page",
+      "next": "Page suivante",
+      "add": "Ajouter une réponse",
+      "title": "Réponses automatiques",
+      "detect": "**Détection:**",
+      "no": "Aucune réponse automatique actuelle...",
+      "response": "**Réponse :**",
+      "none": "Aucun ensemble..."
+    },
+    "settingsFunAutorespondAdd": {
+      "please": "Veuillez fournir les mots que le bot doit écouter avant de répondre.",
+      "cancelled": "Annulé.",
+      "provide": "Veuillez indiquer ce à quoi le bot doit maintenant répondre lorsqu’il entend un message contenant ce contenu.",
+      "added": "**Réponse automatique ajoutée**"
+    },
+    "settingsFunAutorespondBack": {
+      "title": "Réponses automatiques",
+      "detect": "**Détection:**",
+      "no": "Aucune réponse automatique actuelle...",
+      "response": "**Réponse :**",
+      "none": "Aucun ensemble..."
+    },
+    "settingsFunAutorespondDelete": {
+      "no": "Aucune réponse automatique n’est définie pour cette guilde.",
+      "deleted": "**Réponse automatique supprimée**"
+    },
+    "settingsFunAutorespondNext": {
+      "title": "Réponses automatiques",
+      "detect": "**Détection:**",
+      "no": "Aucune réponse automatique actuelle...",
+      "response": "**Réponse :**",
+      "none": "Aucun ensemble..."
+    },
+    "settingsFunBirthdays": {
+      "clear": "Effacer les données d’anniversaire",
+      "cleared": "Données d’anniversaire effacées"
+    },
+    "settingsFunClearLevelData": {
+      "clear": "Effacer en congé",
+      "cleared": "Données de niveau effacées",
+      "level": "Système de niveau"
+    },
+    "settingsFunEconomy": {
+      "back": "Retour De l’article",
+      "next": "Point suivant",
+      "add": "Ajouter un article de la boutique",
+      "currency": "Monnaie",
+      "clear": "Effacer toutes les données",
+      "cleared": "Toutes les données effacées",
+      "cooldowns": "Refroidissements :",
+      "work": "Travail",
+      "crime": "Crime",
+      "rob": "Voler",
+      "economy": "Paramètres d’économie",
+      "currency2": "**Devise:**",
+      "shop": "**Informations sur l’article de la boutique:**",
+      "id": "**○ Id:**",
+      "no": "Pas d’articles de boutique actuels...",
+      "name": "**○ Nom:**",
+      "price": "**○ Prix:**"
+    },
+    "settingsFunEconomyWork": {
+      "text": "Le refroidissement de travail de 2 heures pour tous les utilisateurs a été réinitialisé dans cette guilde."
+    },
+    "settingsFunEconomyAdd": {
+      "p": "Veuillez fournir le nom du produit.",
+      "c": "Annulé.",
+      "price": "Veuillez fournir un prix pour cet article.\n**Ex:** '10'",
+      "price1": "Veuillez fournir un prix valide.\n**Ex:** '10'",
+      "added": "'**Article de la boutique ajouté**",
+      "title": " - Élément créé",
+      "item": "Article",
+      "Price": "Prix"
+    },
+    "settingsFunEconomyCrime": {
+      "a": "Le taux de rattrapage du crime de 2 heures pour tous les utilisateurs a été réinitialisé dans cette guilde."
+    },
+    "settingsFunEconomyCurrency": {
+      "a": "Veuillez fournir la devise de cette guilde.\n**Remarque:** Vous devez le fournir sous forme de bloc de code, comme ':moneybag:'",
+      "c": "Annulé.",
+      "u": "**Devise mise à jour!**"
+    },
+    "settingsFunEconomyDelete": {
+      "a": "Il n’y a pas d’objets de magasin dans cette guilde.",
+      "d": "**Article de la boutique supprimé**",
+      "title": "Élément supprimé",
+      "i": "Article"
+    },
+    "settingsFunEconomyRob": {
+      "a": "2 heures de refroidissement de rob pour tous les utilisateurs a été réinitialisé dans cette guilde."
+    },
+    "settingsFunLevelSystem": {
+      "c": "Effacer les données de niveau",
+      "l": "Système de niveau",
+      "cL": "Effacer en congé"
+    },
+    "settingsFunToggleLevelKick": {
+      "a": "🏠 Rentre chez toi",
+      "b": "Cabillot:",
+      "c": "Paramètres:",
+      "d": "Effacer les données de niveau",
+      "e": "Système de niveau",
+      "f": "Effacer en congé"
+    },
+    "settingsFunToggleLevelSystem": {
+      "a": "🏠 Rentre chez toi",
+      "b": "Cabillot:",
+      "c": "Paramètres:",
+      "d": "Effacer les données de niveau",
+      "e": "Système de niveau",
+      "f": "Effacer en congé"
+    },
+    "settingsSecurityAltPrevention": {
+      "a": "Cabillot:",
+      "b": "Prévention des alts",
+      "c": "Âge du compte"
+    },
+    "settingsSecurityAltPrevTime": {
+      "a": "Veuillez indiquer un nouvel âge minimum pour le compte.\nEx: 30d = 30 jours.",
+      "b": "Annulé.",
+      "c": "**Âge du compte mis à jour**"
+    },
+    "settingsSecurityFilter": {
+      "a": "Contrôles:",
+      "b": "Retour de page",
+      "c": "Page suivante",
+      "d": "Options:",
+      "e": "Ajouter un filtre",
+      "f": "Supprimer la sélection",
+      "g": "Filtre de sécurité",
+      "h": "**Contenu:**",
+      "i": "Pas de filtres de courant..."
+    },
+    "settingsSecuirtyFilterAdd": {
+      "a": "Veuillez fournir le mot/lien que vous souhaitez mettre sur liste noire.",
+      "b": "Annulé.",
+      "c": "**Filtre ajouté**"
+    },
+    "settingsSecurityFilterBack": {
+      "a": "Filtre de sécurité",
+      "b": "**Contenu:**",
+      "c": "Pas de filtres de courant..."
+    },
+    "settingsSecurityFilterDelete": {
+      "a": "Aucun filtre n’est défini pour cette guilde.",
+      "b": "Ce filtre n’existe pas.",
+      "c": "**Filtre supprimé**"
+    },
+    "settingsSecurityFilterNext": {
+      "a": "Filtre de sécurité",
+      "b": "**Contenu:**",
+      "c": "Pas de filtres de courant..."
+    },
+    "settingsSecuritySelect": {
+      "a": "🏠 Rentre chez toi:"
+    },
+    "settingsSecurityServerLockdown": {
+      "a": "Cabillot:",
+      "b": "Activé",
+      "c": "Handicapé"
+    },
+    "settingsSecurityToggleAltPrev": {
+      "a": "🏠 Rentre chez toi",
+      "b": "Cabillot:",
+      "c": "Prévention des alts",
+      "d": "Âge du compte"
+    },
+    "settingsSecurityToggleLockdown": {
+      "a": "🏠 Rentre chez toi",
+      "b": "Cabillot:",
+      "c": "Verrouillage du serveur",
+      "d": "Verrouillage du serveur basculé!",
+      "e": "Utilisateur:",
+      "f": "Activée:",
+      "g": "Verrouillage du serveur"
+    },
+    "settingsSelect": {
+      "a": "🏠 Rentre chez toi",
+      "b": "👓 Paramètres généraux",
+      "c": "🟢 Module de bienvenue",
+      "d": "🔴 Module quitter",
+      "e": "🗝️ Vérification",
+      "f": "👋 Inscription automatique",
+      "g": "👻 Prévention des alts",
+      "h": "🔒 Verrouillage du serveur",
+      "i": "❌ Système de filtrage",
+      "j": "📊 Système de niveau",
+      "k": "🎉 Anniversaires",
+      "l": "💰 Économie",
+      "m": "🎯 Réaction automatique",
+      "n": "🦜 Réponse automatique",
+      "o": "Modifiez les paramètres généraux de cette guilde.",
+      "p": "Modifier le module de bienvenue pour cette guilde.",
+      "q": "Modifiez le module de congé pour cette guilde.",
+      "r": "Modifiez le module de vérification pour cette guilde.",
+      "s": "Modifiez le module de rôle automatique pour cette guilde.",
+      "t": "Modifiez le système de prévention des alt.",
+      "u": "Modifiez le mode de verrouillage du serveur.",
+      "v": "Modifiez le système de filtrage.",
+      "w": "Modifiez le système de niveaux de cette guilde.",
+      "x": "Modifier le module d’anniversaire pour cette guilde.",
+      "y": "Alter module d’économie pour cette guilde.",
+      "z": "Modifiez le module de réaction automatique pour cette guilde.",
+      "aa": "Modifiez le module de réponse automatique pour cette guilde.",
+      "ab": "Sélectionnez une option de paramètres de base.",
+      "ac": "Sélectionnez une option de paramètres de sécurité.",
+      "ad": "Sélectionnez une option de paramètres amusants."
+    },
+    "shopSelect": {
+      "a": "Cet article n’est pas dans la boutique.",
+      "b": "Vous n’avez pas assez d’argent pour acheter cet article.",
+      "c": "a acheté **1**",
+      "d": "Objet acheté",
+      "e": "Article",
+      "f": "Prix",
+      "g": "Il n’y a pas d’articles dans la boutique."
+    },
+    "stickyAdd": {
+      "a": "Annulé.",
+      "b": "Cette chaîne a déjà un message collant.\nVeuillez réessayer.",
+      "c": "Veuillez entrer ce que le message collant doit dire.",
+      "d": "Veuillez fournir un canal valide.",
+      "e": "**Message collant créé!**"
+    },
+    "stickyRemove": {
+      "a": "Il n’y a pas de messages collants dans cette guilde.",
+      "b": "Veuillez définir le canal dont vous souhaitez supprimer le message collant.",
+      "c": "Annulé.",
+      "d": "Veuillez fournir un canal valide.",
+      "e": "**Message collant supprimé!**",
+      "f": "Ce canal n’a pas de message collant.\nVeuillez réessayer."
+    },
+    "ticketAdd": {
+      "a": "Veuillez fournir un nom pour ce panneau de billets",
+      "b": "Annulé.",
+      "c": "Veuillez fournir une description pour ce panneau de billets.",
+      "d": "Veuillez fournir une catégorie 'Id' pour les billets à consulter.",
+      "e": "**Panneau créé!**"
+    },
+    "ticketAddUser": {
+      "a": "Vous ne pouvez utiliser cette commande que dans un canal de tickets !",
+      "b": "Veuillez fournir l’utilisateur que vous souhaitez ajouter au billet.",
+      "c": "Annulé.",
+      "d": "Veuillez fournir un utilisateur valide à ajouter à ce billet.",
+      "e": "a été ajouté à ce billet."
+    },
+    "ticketBack": {
+      "a": "Panneaux de billets",
+      "b": "**○ Nom du panneau:**",
+      "c": "Pas encore de panneaux...",
+      "d": "**○ Description du panneau:**",
+      "e": "N/A"
+    },
+    "ticketClaim": {
+      "a": "Cela ne peut être fait qu’à l’intérieur d’un canal de billetterie.",
+      "b": "🔒 Fermer le ticket",
+      "c": "✏️ Renommer le ticket",
+      "d": "📥 Ajouter un utilisateur",
+      "e": "📤 Supprimer l’utilisateur",
+      "f": "🤝 Réclamé par",
+      "g": "Réclamé par :"
+    },
+    "ticketClose": {
+      "a": "Cela ne peut être fait que dans un canal de billetterie.",
+      "b": "Aucun panneau trouvé.",
+      "c": "Aucune catégorie trouvée...",
+      "d": "Ticket fermé avec succès! (Veuillez patienter)",
+      "e": "Inconnu",
+      "f": "Billet fermé",
+      "g": "ID du billet",
+      "h": "Membre de clôture",
+      "i": "Membres dans Ticket",
+      "j": "Panneau"
+    },
+    "ticketDelete": {
+      "a": "Il n’y a pas de catégories de billets faites pour cette guilde.",
+      "b": "**Catégorie supprimée**"
+    },
+    "ticketNext": {
+      "a": "Panneaux de billets",
+      "b": "**○ Nom du panneau:**",
+      "c": "Pas encore de panneaux...",
+      "d": "**○ Description du panneau:**",
+      "e": "N/A"
+    },
+    "ticketPanelPost": {
+      "a": "Cette guilde n’a pas encore de catégories de billets configurées.",
+      "b": "Catégories de billets",
+      "c": "Voici les catégories de billets pour cette guilde. Sélectionnez-en un pour ouvrir un ticket dans cette catégorie.",
+      "d": "Système de tickets",
+      "e": "Sélectionnez une catégorie de billet.",
+      "f": "Annulé",
+      "g": "Veuillez fournir un canal valide.",
+      "h": "**Panneau de billets affiché!**",
+      "i": "Veuillez fournir un canal pour publier le panneau."
+    },
+    "ticketremove": {
+      "a": "Vous ne pouvez utiliser cette commande que dans un canal de tickets !',",
+      "b": "Veuillez fournir l’utilisateur que vous souhaitez supprimer du ticket.",
+      "c": "Annulé.",
+      "d": "Veuillez fournir un utilisateur valide à supprimer de ce ticket.",
+      "e": "**${member.user.tag}** a été supprimé de ce ticket."
+    },
+    "ticketrename": {
+      "a": "Vous ne pouvez utiliser cette commande que dans un canal de tickets !",
+      "b": "Veuillez indiquer le nom sur lequel le billet doit être défini.",
+      "c": "Annulé.",
+      "d": "**Ticket renommé!**"
+    },
+    "ticketselect": {
+      "catna": "Cette catégorie de billets n’existe pas.",
+      "content1": "Vous ne pouvez avoir que **",
+      "content2": "billet(s)** ouvert(s) à la fois.",
+      "notpset": "Il n’y a pas encore de permanentes de support de ticket configurées.",
+      "nocreate": "**Je n’ai pas pu créer ce ticket.**",
+      "closetick": "🔒 Fermer le ticket",
+      "opened1": "**Ouvert par:**",
+      "opened2": "Veuillez commencer à décrire la raison de l’ouverture de ce billet sous ce message.",
+      "opener": "**Ouvert par:** '${interaction.user.tag}'\n\nVeuillez commencer à décrire la raison de l’ouverture de ce billet sous ce message.",
+      "success": "Votre nouveau billet a été ouvert en ",
+      "title": "Système de tickets"
+    },
+    "verifyButton": {
+      "humanVerify": "Vérification humaine",
+      "desc1": "Veuillez taper le captcha suivant ci-dessous pour vérifier que vous êtes humain.",
+      "content1": "Veuillez vérifier vos messages directs (DM).",
+      "noleft": "Vous êtes à court de tentatives, veuillez revérifier sur le serveur.",
+      "left1": "Incorrect, vous avez ",
+      "left2": " tentative(s) à gauche.",
+      "youverifed": "Vous avez été vérifié!",
+      "dmsna": "Vos DM sont actuellement définis sur privé, veuillez les activer afin que je puisse vous DM notre test de vérification humaine."
+    }
+  }
+}

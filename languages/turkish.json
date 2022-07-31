@@ -1,0 +1,2659 @@
+{
+  "selectALanguage": "Aşağıdan bir dil seçin!",
+  "noPermissions": "Bu lonca için henüz izin kurulumu yapılmadı!",
+  "missingPermissions": "Bu komutu kullanmak için gerekli izinlere sahip değilsiniz!",
+  "noVoiceChannel": "Bunu kullanmak için bir ses kanalında olmanız gerekir.",
+  "onlyGuildOwner": "Sadece teşkilat sahibi bu komutu çalıştırabilir.",
+  "cancel": "İptal",
+  "enabled": "Etkin",
+  "disabled": "sakat",
+  "yes": "evet",
+  "no": "Hayır",
+  "true": "doğru",
+  "false": "yanlış",
+  "eightBallCommand": "**Magic 🎱 Ball diyor ki:** ",
+  "eightBallResponses": [
+    "Kesindir.",
+    "Kesinlikle öyle.",
+    "Kuşkusuz.",
+    "Evet kesinlikle.",
+    "Gördüğüm kadarıyla, evet.",
+    "Evet.",
+    "Puslu yanıtlayın, tekrar deneyin.",
+    "Şimdi söylemeseniz iyi olur.",
+    "Şimdi tahmin edemiyorum.",
+    "Buna güvenmeyin.",
+    "Cevabım hayır.",
+    "Kaynaklarım hayır diyor.",
+    "Görünüm o kadar iyi değil.",
+    "Çok şüpheli."
+  ],
+  "afkNoLonger": "Artık AFK olarak işaretlenmiyorsunuz.",
+  "nowMarkedAFK": "Artık AFK olarak işaretlendiniz.",
+  "applicationMenu": {
+    "questions": "Soru",
+    "embedTitle": "Uygulama Menüsü",
+    "embedName": "**○ Adı:** ",
+    "noAppsYet": "Henüz başvuru yok...",
+    "createForm": "Form Oluştur"
+  },
+  "apply": {
+    "noAppsFound": "Bu lonca için başvuru bulunamadı.",
+    "clickToApply": "Bu başvuruya başvurmak için tıklayınız.",
+    "selectApp": "Bir uygulama seçin.",
+    "embedTitle": "Uygulama",
+    "embedDescription": "Doldurmaya başlamak için bir uygulama seçin."
+  },
+  "avatar": "Avatar",
+  "balance": {
+    "deposit": "Pey",
+    "withdraw": "Ayırmak",
+    "transfer": "Aktarmak",
+    "bankingInfo": "Banka Bilgileri",
+    "wallet": "**Cüzdan:**",
+    "bank": "**Banka:**"
+  },
+  "birthdays": {
+    "selectAction": "Bir doğum günü eylemi seçin.",
+    "addBirthday": "👶 Doğum Günü Ekle",
+    "addBirthdayDescription": "Doğum gününüzü veritabanına ekleyin.",
+    "removeBirthday": "❌ Doğum Günü'nü Kaldır",
+    "removeBirthdayDescription": "Doğum gününüzü veritabanından kaldırın.",
+    "embedTitle": "Doğum Günü Menüsü",
+    "embedDescription": "Doğum gününüzü veritabanına ekleyin/veritabanından kaldırın!"
+  },
+  "cases": {
+    "doesNotExist": "vaka Kimliği listesinde mevcut değil!",
+    "embedTitle": "Vaka Bilgileri",
+    "caseId": "Vaka Kimliği",
+    "caseType": "Kasa Tipi",
+    "caseUser": "Kullanıcı"
+  },
+  "clients": {
+    "selectAction": "Bir istemci eylemi seçin.",
+    "addClient": "📥 İstemci Ekle",
+    "addClientDescription": "Bu loncaların istemci veritabanına bir istemci ekleyin.",
+    "removeClient": "📤 İstemciyi Kaldır",
+    "removeClientDescription": "Bu loncaların istemci veritabanından bir istemciyi kaldırın.",
+    "embedTitle": "İstemci Menüsü",
+    "embedDescription": "Veritabanına istemci ekle/veritabanından istemci kaldırın!",
+    "noClients": "Bu loncanın henüz müşterisi yok.",
+    "clients": "Istemci"
+  },
+  "ddos": {
+    "NOTICE": "Bu sahte bir şaka komutudur!!!!",
+    "sending": "Saldırıyı şuraya gönderme",
+    "successful": "DDOS Saldırısı Başarılı ;)",
+    "lag": "Kullanıcı gecikiyor mu?",
+    "no": "Hayır?",
+    "failure": "İnsanları :("
+  },
+  "dice": {
+    "landedOn": "**İniş Tarihi:**",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "dm": {
+    "embedTitle": "📫 Postanız var!",
+    "messageSent": "**Mesaj Gönderildi!**",
+    "messageSentFailed": "**İleti Gönderme Başarısız Oldu!**",
+    "dmsOff": "Muhtemelen DM'lerini özel olarak ayarlamışlardır."
+  },
+  "embed": {
+    "notice": "Bildirim",
+    "posted": "**Embed Gönderildi!**"
+  },
+  "embedBuilder": {
+    "embedTitle": "Gömme Oluşturucu",
+    "embedDescription": "Etkileşimli gömme oluşturucuya hoş geldiniz. Gönderiyi tıkladıktan sonra gömmeyi oluşturmak için aşağıdaki düğmeleri kullanın!",
+    "buttons": {
+      "authorText": "Yazar Metni",
+      "titleText": "Başlık Metni",
+      "titleURL": "Başlık URL'si",
+      "descriptionText": "Açıklama Metni",
+      "footerText": "Altbilgi Metni",
+      "authorImage": "Yazar Resmi",
+      "thumbnailImage": "Küçük Resim",
+      "largeImage": "Büyük resim",
+      "footerImage": "Altbilgi Resmi",
+      "embedColor": "Renk Göm",
+      "embedFields": "Alanları Gömme",
+      "addTimestamp": "Zaman damgası ekle",
+      "channelToPost": "Yayınlanacak kanal",
+      "postEmbed": "Yerleştirmeyi yayınlama",
+      "fieldName": "Alan Adı",
+      "fieldValue": "Alan Değeri",
+      "fieldInline": "Satır İçi Alan",
+      "goBack": "Geri Git",
+      "newField": "Yeni Alan"
+    },
+    "responses": {
+      "setAuthorText": "Yazar metnini neye ayarlamak istersiniz?",
+      "setTitleText": "Başlık metnini neye ayarlamak istersiniz?",
+      "setTitleURL": "Başlık URL'sini neye ayarlamak istersiniz?",
+      "setDescriptionText": "Açıklamayı neye ayarlamak istersiniz?",
+      "setFooterText": "Altbilgi metnini neye ayarlamak istersiniz?",
+      "setAuthorImage": "Yazar resmini neye ayarlamak istersiniz?",
+      "setColor": "Yerleştirmeyi hangi renge ayarlamak istersiniz?",
+      "setThumbnailImage": "Küçük resim görüntüsünü neye ayarlamak istersiniz?",
+      "setLargeImage": "Büyük resmi neye ayarlamak istersiniz?",
+      "setFooterImage": "Altbilgi görüntüsünü neye ayarlamak istersiniz?",
+      "channelToPost": "Bunu hangi kanalda yayınlamak istersiniz?",
+      "fieldName": "Bu alanın adı ne olmalıdır?",
+      "fieldValue": "Bu alanın değeri ne olmalıdır?",
+      "embedPosted": "Embed Gönderildi!"
+    }
+  },
+  "economy": {
+    "crime": {
+      "cooldown": "Şu anda suç işleyemezsiniz. Hala bekleme süresindesiniz.",
+      "crimeResponses": [
+        {
+          "text": "Bir ara sokakta bir kadını dövdün ve ",
+          "amount": "10"
+        },
+        {
+          "text": "Biggie peyniri üzerinde bir araba yolculuğu yaptın ve yaptın ",
+          "amount": "600"
+        },
+        {
+          "text": "Bir arabayı anahtarladın ve çaldın ",
+          "amount": "19"
+        },
+        {
+          "text": "Bir banka tuttun ve ",
+          "amount": "500"
+        },
+        {
+          "text": "Komşuların poarch'ına kaka yaptın ve ",
+          "amount": "1"
+        }
+      ]
+    },
+    "work": {
+      "cooldown": "Şu anda çalışamazsınız. Hala bekleme süresindesiniz.",
+      "workResponses": [
+        {
+          "text": "Birinin evini temizledin ve yaptın ",
+          "amount": "138"
+        },
+        {
+          "text": "Araba yıkamada çalıştın ve ",
+          "amount": "382"
+        },
+        {
+          "text": "Komşular için bir ızgarada kızarmış tavuk yaptın ve yaptın ",
+          "amount": "18"
+        },
+        {
+          "text": "Benzin istasyonu tuvaletlerini temizlediniz ve yaptınız ",
+          "amount": "15"
+        },
+        {
+          "text": "Bir duvardan boya kazıdın ve yaptın ",
+          "amount": "37"
+        },
+        {
+          "text": "6 saat boyunca pizza yapıyorsun ve yapıyorsun ",
+          "amount": "75"
+        },
+        {
+          "text": "Bulaşıkları yıkadınız ve yaptınız ",
+          "amount": "34"
+        },
+        {
+          "text": "Süt dağıtmak için ülke çapında sürdün ve ",
+          "amount": "390"
+        },
+        {
+          "text": "Benzin istasyonu raflarını yeniden stokladınız ve ",
+          "amount": "32"
+        },
+        {
+          "text": "Zemini paspasladınız ve yaptınız ",
+          "amount": "20"
+        },
+        {
+          "text": "Birine masaj yaptın ve yaptın ",
+          "amount": "42"
+        },
+        {
+          "text": "Jake Hamblin'le dalga geçtin ve ",
+          "amount": "25"
+        },
+        {
+          "text": "Bazı kodlar yazdın ve yaptın ",
+          "amount": "150"
+        },
+        {
+          "text": "Bir E-Spor turnuvasında oynadınız ve ",
+          "amount": "100"
+        },
+        {
+          "text": "Walmart'ta ödeme yaptınız ve yaptınız ",
+          "amount": "62"
+        },
+        {
+          "text": "Bir çim biçme makinesini bir araya getirdin ve yaptın ",
+          "amount": "250"
+        },
+        {
+          "text": "Bazılarının saçlarını kesip yaptın ",
+          "amount": "25"
+        },
+        {
+          "text": "Onun için bir çocuk ödevi yaptın ve yaptın ",
+          "amount": "67"
+        }
+      ]
+    },
+    "inventory": {
+      "emptyInventory": "Envanteriniz boş.",
+      "embedTitle": "Envanter",
+      "selectItem": "Kullanmak için envanterinizden bir ürün seçin.",
+      "items": "**Envanter Kalemleri:**",
+      "clickToUse": "Bu öğeyi kullanmak için tıklatın.",
+      "selectAction": "Kullanmak için bir öğe seçin."
+    },
+    "rob": {
+      "cooldown": "Şu anda birini soyamazsın. Hala bekleme süresindesiniz.",
+      "tooLittleMoney": "Bu kullanıcının soyulmak için çok az parası var.",
+      "robbed": "Soydun",
+      "for": "için",
+      "robbery": "Soygun",
+      "amount": "Miktar",
+      "from": "Kaynak"
+    }
+  },
+  "games": {
+    "yourLink": "İşte bağlantınız!"
+  },
+  "giveaways": {
+    "enter": "Girmek için tıklayın!",
+    "end": "Son",
+    "reroll": "Yeniden Rulo",
+    "posted": "**Hediye yayınlandı!**",
+    "embedTitle": "Yeni Hediye!",
+    "embedPrize": "**Ödül:**",
+    "embedWinners": "**Kazananlar:**",
+    "embedTimeLimit": "**Zaman Sınırı:**"
+  },
+  "guilds": {
+    "leaveGuild": "Loncadan ayrıl",
+    "embedTitle": "Loncalar Listesi",
+    "embedGuildName": "**○ Teşkilat Adı:**",
+    "embedGuildId": "**○ Teşkilat Kimliği:**",
+    "embedGuildMembers": "**○ Teşkilat Üyeleri:**",
+    "embedGuildOwnerTag": "**○ Teşkilat Sahibi Etiketi:**",
+    "embedGuildOwnerId": "**○ Teşkilat Sahibi Kimliği:**"
+  },
+  "help": {
+    "selectAction": "Bir kategori seçin.",
+    "embedTitle": "Yardım Menüsü",
+    "defaultEmbedDesc": "Dark Bot'a hoş geldiniz! Tüm komutlarımı görüntülemek ve ne yapılması gerektiğini görmek için bu menüyü kullanın! Özelleştirme oldukça kolay olmalı!",
+    "user": "🧑 Kullanıcı Komutları",
+    "userDesc": "Bu botun sunduğu kullanıcı komutlarını görüntüleyin.",
+    "economy": "🏦 Ekonomi Komutları",
+    "economyDesc": "Bu botun sunduğu ekonomi komutlarını görüntüleyin.",
+    "music": "💿 Müzik Komutları",
+    "musicDesc": "Bu botun sunduğu müzik komutlarını görüntüleyin.",
+    "utility": "🧰 Yardımcı Program Komutları",
+    "utilityDesc": "Bu botun sunduğu yardımcı program komutlarını görüntüleyin.",
+    "moderation": "👮 Moderasyon Komutları",
+    "moderationDesc": "Bu botun sunduğu moderasyon komutlarını görüntüleyin.",
+    "settings": "🔧 Ayarlar Komutları",
+    "settingsDesc": "Bu botun sunduğu ayar komutlarını görüntüleyin.",
+    "owner": "👑 Sahip Komutları",
+    "ownerDesc": "Bu botun sunduğu (lonca) sahibi komutlarını görüntüleyin.",
+    "credits": "📜 Kredi",
+    "creditsDesc": "Bu botun kredilerini görüntüleyin.",
+    "individualCommands": {
+      "embedTitle": "Komut Yardımı",
+      "name": "**İsim:**",
+      "desc": "**Açıklama:**",
+      "type": "**Türü:**",
+      "slash": "eğik çizgi"
+    }
+  },
+  "hug": {
+    "hasJustHugged": "az önce sarıldı"
+  },
+  "leveling": {
+    "disabled": "Bu sunucu 'seviyelendirme' özelliğini kullanmıyor.",
+    "unknownUser": "Bilinmeyen Kullanıcı (Solda)",
+    "lvl": "**Lvl:**",
+    "xp": "**XP:**",
+    "embedTitle": "Sohbet Lider Panosu",
+    "requestedBy": "Talep eden:",
+    "levelCommand": {
+      "embedTitle": "Kullanıcıların Mevcut Seviyesi:",
+      "currentXp": "**Mevcut XP:**",
+      "currentLevel": "**Mevcut Seviye:**",
+      "noLevelData": "Bu kullanıcının bu loncada seviyesi yok."
+    },
+    "levelUp": "Daha yeni seviye atladınız!",
+    "newLevel": "Yeni seviye:"
+  },
+  "logging": {
+    "actionLogs": "Eylem Günlükleri",
+    "enforcer": "Enforcer",
+    "userId": "Kullanıcı Kimliği",
+    "userTag": "Kullanıcı Etiketi",
+    "reason": "Sebep",
+    "time": "Saat",
+    "timestamp": "Zaman damgası",
+    "channel": "Kanal",
+    "command": "Komut",
+    "options": "Seçenekler",
+    "noOptions": "Hiçbir seçenek sunulmadı.",
+    "types": {
+      "userBanned": "Kullanıcı Yasaklandı",
+      "userOfflineBanned": "Kullanıcı Çevrimdışı Yasaklandı",
+      "userKicked": "Kullanıcı Tekmelendi",
+      "userMuted": "Kullanıcı Sessiz",
+      "autoUnmute": "Otomatik Sesi Aç",
+      "command": "Girilen Komut",
+      "caseDeleted": "Kasa Silindi",
+      "userUnbanned": "Kullanıcı Yasaklanmamış",
+      "userUnmuted": "Kullanıcı Sesi Açılmadı",
+      "userWarned": "Kullanıcı Uyarısı",
+      "filterSystem": "Filtre Sistemi",
+      "blacklistedTerm": "Kara Listeye Alınmış Terim",
+      "levelUp": "Seviye Atlama",
+      "newLevel": "Yeni Seviye"
+    },
+    "buttons": {
+      "addChannel": "Kanal Ekle"
+    },
+    "commandEmbed": {
+      "embedTitle": "Günlük Kanalları",
+      "type": "**○ Günlük Türü:**",
+      "channel": "**○ Günlük Kanalı:**",
+      "noChannel": "Henüz kanal yok..."
+    }
+  },
+  "music": {
+    "loopIsNow": "Döngü şimdi",
+    "noSongsPlaying": "Şu anda çalan şarkı yok.",
+    "searching": "Araştırıcı...",
+    "buttons": {
+      "pause": "⏸️ Duraklat",
+      "play": "▶️ Oynamak",
+      "skip": "⏭️ Atlamak",
+      "stop": "⏹️ Durmak",
+      "shuffle": "🔀 Karıştırmak"
+    },
+    "musicCmd": {
+      "embedTitle": "Şu Anda Oynanıyor",
+      "name": "Ad",
+      "duration": "Süre",
+      "requestor": "Isteyici",
+      "views": "Görünümler"
+    }
+  },
+  "marriage": {
+    "command": {
+      "selectAction": "Bir evlilik eylemi seçin.",
+      "send": "💌 İstek Gönder",
+      "sendDesc": "Biriyle evlenmek istersen.",
+      "accept": "💍 Bir Teklifi Kabul Et",
+      "acceptDesc": "Birisi senden onlarla evlenmeni mi istedi? Gerçekten?",
+      "deny": "😭 Bir Teklifi Reddetme",
+      "denyDesc": "Bunu tıklarsanız korkunç bir insansınız...",
+      "divorce": "⚖️ Boşanın",
+      "divorceDesc": "Çocukları kim alıyor? Çünkü o ben olmayacağım.",
+      "embedTitle": "Evlilik Sistemi",
+      "embedDesc": "Evlilik sistemini görüntüleyin ve değişiklikler yapın!"
+    }
+  },
+  "massrole": {
+    "begin": "'Massrole şimdi başlıyor...'",
+    "failed": "'Massrole başarısız oldu...'",
+    "missing": "**Eksik İzinler!**"
+  },
+  "meme": {
+    "grabbing": "Sana bir mem kapmak...",
+    "hereYaGo": "İşte başlıyorsun!"
+  },
+  "mute": {
+    "already": "Bu kullanıcının sesi zaten kapalı.",
+    "not": "Bu kullanıcının sesi kapatılmaz."
+  },
+  "offlineBan": {
+    "success": "Başarıyla yasaklandı"
+  },
+  "payments": {
+    "notify": "Bu seçeneği seçtiyseniz bize bildirin.",
+    "payment": "Ödeme",
+    "pleasePay": "Lütfen ödeyin",
+    "location": "Yukarıdaki ödeme yöntemlerinden __one__ için.",
+    "otherOption": "Diğer Seçenek"
+  },
+  "permissions": {
+    "addPermission": "İzin Ekle",
+    "embedTitle": "İzinler Menüsü",
+    "type": "**○ Perm Tipi:**",
+    "role": "**○ Rol Kimliği:**",
+    "noPermsYet": "Henüz perms yok..."
+  },
+  "ping": {
+    "message": "🏓 Gecikme süresi:"
+  },
+  "pingPrevention": {
+    "selectAction": "Bir ping önleme eylemi seçin.",
+    "addPingPrev": "📫 Ping Önleme Ekle",
+    "addPingPrevDesc": "Ping önleme işleminizi ayarlayın.",
+    "removePingPrev": "❌ Ping Önlemeyi Kaldır",
+    "removePingPrevDesc": "Ping önleme işleminizi kaldırın.",
+    "embedTitle": "Ping Önleme Menüsü",
+    "embedDesc": "Ping önleme durumunuzu yönetin!"
+  },
+  "poll": {
+    "posted": "**Anket Yayınlandı!**"
+  },
+  "punishments": {
+    "noHistory": "Bu kullanıcının ceza geçmişi yok!",
+    "embedTitle": "Vaka Bilgileri"
+  },
+  "purge": {
+    "msgDeleted": "Mesajlar Silindi!",
+    "error": "**Mesaj Silme Hatası!**",
+    "reason": "Yalnızca 14 güne kadar olan mesajları silebilirim..."
+  },
+  "queue": {
+    "clearQueue": "Kuyruğu Temizle",
+    "embedTitle": "Sıraya Alınmış Şarkılar",
+    "noSongsQueued": "Kuyrukta şarkı yok."
+  },
+  "restart": {
+    "restarting": "İstemci Yeniden Başlatma",
+    "restartingDesc": "**İstemciyi yeniden başlatma...**",
+    "success": "İstemci Yeniden Başlatma Başarılı",
+    "successDesc": "**İstemci başarıyla yeniden başlatıldı!**",
+    "failed": "İstemci Yeniden Başlatma Başarısız Oldu",
+    "private": "**Lütfen özel mesajlarınızı kontrol edin!**",
+    "failed2": "**İstemci yeniden başlatılamadı...**"
+  },
+  "reviews": {
+    "reply": "Cevap bırak",
+    "newReview": "Yeni yorum",
+    "posted": "Yorumunuz yayınlandı."
+  },
+  "selfroles": {
+    "addMenu": "Menü Ekle",
+    "roleManager": "Rol Yöneticisi",
+    "postPanel": "Post Paneli",
+    "embedTitle": "Self Role Menüleri",
+    "menuName": "**○ Menü Adı:**",
+    "noMenus": "Henüz menü yok..."
+  },
+  "server": {
+    "serverInfo": "Sunucu Bilgisi",
+    "name": "Ad",
+    "id": "Kimliği",
+    "owner": "Sahip",
+    "members": "Üyeler",
+    "users": "Kullanıcı",
+    "bots": "Bot",
+    "date": "Oluşturulma Tarihi",
+    "requestedBy": "Talep eden:"
+  },
+  "settings": {
+    "selectAction": "Bir ayar seçeneği belirleyin.",
+    "base": "📕 Temel Modüller",
+    "baseDesc": "Bu loncanın temel modüllerini değiştir.",
+    "security": "📘 Güvenlik Modülleri",
+    "securityDesc": "Bu lonca için güvenlik modüllerini değiştir.",
+    "fun": "📙 Eğlenceli Modüller",
+    "funDesc": "Bu lonca için eğlenceli modülleri değiştir.",
+    "embedTitle": "Ayarlar Menüsü",
+    "embedDesc": "Ayarlar menüsünü görüntüleyin ve değişiklik yapın!"
+  },
+  "shop": {
+    "empty": "Dükkan boş.",
+    "shop": "Dükkân",
+    "select": "Satın almak için mağazadan bir ürün seçin.",
+    "shopItems": "**Mağaza Ürünleri:**",
+    "click": "Bu öğeyi satın almak için tıklayın.",
+    "selectAction": "Satın almak için bir öğe seçin."
+  },
+  "snipe": {
+    "noMessage": "Bu kanalda keskin nişancı olacak hiçbir mesaj yok!",
+    "messageFrom": "Mesaj",
+    "snipedBy": "Keskin nişancı"
+  },
+  "sticky": {
+    "selectAction": "Yapışkan bir ileti eylemi seçin.",
+    "add": "🍯 Yapışkan Ekle",
+    "addDesc": "Veritabanına yapışkan bir ileti ekleyin.",
+    "remove": "❌ Yapışkanlığı Kaldır",
+    "removeDesc": "Yapışkan bir iletiyi veritabanından kaldırın.",
+    "embedTitle": "Yapışkan Mesaj Menüsü",
+    "embedDesc": "Yapışkan mesajları veritabanına / veritabanına ekleyin / kaldırın!"
+  },
+  "suggestion": {
+    "recieved": "**Öneri Alındı!**",
+    "embedTitle": "Yeni Öneri!",
+    "noChan": "Bu lonca henüz öneri günlüğü oluşturmadı."
+  },
+  "tickets": {
+    "noTickets": "Bu loncada henüz herhangi bir bilet kategorisi ayarlanmamıştır.",
+    "embedTitle": "Bilet Kategorileri",
+    "embedDesc": "İşte bu lonca için bilet kategorileri. Bu kategorideki bir bileti açmak için birini seçin.",
+    "selectAction": "Bir bilet kategorisi seçin."
+  },
+  "ticketbuttons": {
+    "close": "🔒 Bileti Kapat",
+    "rename": "✏️ Bileti Yeniden Adlandır",
+    "add": "📥 Kullanıcı Ekle",
+    "remove": "📤 Kullanıcıyı Kaldır",
+    "claim": "🤝 Talep Bileti",
+    "claimedBy": "🤝 Talep eden:",
+    "message": "Bazı kullanışlı bilet düğmeleri.",
+    "onlyInTicket": "Bu sadece bir bilet kanalında yapılabilir."
+  },
+  "ticketpanels": {
+    "addPanel": "Panel Ekle",
+    "post": "Kanala gönder",
+    "embedTitle": "Bilet Panelleri",
+    "panelName": "**○ Panel Adı:**",
+    "panelDesc": "**○ Panel Açıklaması:**",
+    "noPanels": "Henüz panel yok..."
+  },
+  "timer": {
+    "set": "Zamanlayıcı Seti!",
+    "up": "Zamanlayıcı Kadar!",
+    "remind": "Size hatırlatacağım",
+    "to": "Hedef",
+    "timer": "Saat",
+    "time": "**Saat: **",
+    "note": "**Not: **",
+    "ended": "**Zamanlayıcı Sona Erdi**"
+  },
+  "tos": {
+    "agree": "Kabul Ediyorum",
+    "tos": "Hizmet Şartları",
+    "confirm": "Lütfen **[Hizmet Şartları] 'nı kabul ettiğinizi onaylayın**",
+    "confirm2": "** \n'Katılıyorum' yazan aşağıdaki mavi düğmeye basarak."
+  },
+  "user": {
+    "info": "Kullanıcı Bilgileri",
+    "tag": "Gün",
+    "id": "Kimliği",
+    "bot": "Bot",
+    "cases": "Durumda",
+    "level": "Sohbet Seviyesi",
+    "joined": "Discord'a katıldı",
+    "requestedBy": "Talep eden:"
+  },
+  "volume": {
+    "changed": "Birim Değiştirildi"
+  },
+  "globalButtons": {
+    "controls": "Denetim:",
+    "options": "Seçenekler:",
+    "settings": "Ayarlar:",
+    "tools": "Araçları:",
+    "toggle": "Geçiş:",
+    "delete": "Seçilenleri Sil",
+    "disabled": "Sakat",
+    "enabled": "Etkin",
+    "back": "Geri",
+    "next": "Önümüzdeki",
+    "deleteSelected": "Seçilenleri Sil",
+    "closed": "Kapalı",
+    "open": "Açık",
+    "home": "🏠 Eve Gidin",
+    "accept": "Almak",
+    "deny": "Reddetmek",
+    "message": "İleti",
+    "embed": "Katıştır",
+    "card": "Kart"
+  },
+  "commands": {
+    "eightBall": {
+      "name": "8 top",
+      "description": "Tanrı ile konuş.",
+      "options": [
+        {
+          "name": "soru",
+          "description": "Topa sorulacak 🎱 soru.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "afk": {
+      "name": "afk",
+      "description": "AFK durumunuzu değiştirin."
+    },
+    "applicationmenu": {
+      "name": "uygulama menüsü",
+      "description": "Bu lonca uygulamalarını yönetin."
+    },
+    "apply": {
+      "name": "uygulamak",
+      "description": "Açık bir başvuru formu doldurun."
+    },
+    "ascii": {
+      "name": "ASCII",
+      "description": "Ascii metni oluşturun.",
+      "options": [
+        {
+          "name": "Metin",
+          "description": "Metin, ascii'ye dönüştürülecek.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "avatar": {
+      "name": "avatar",
+      "description": "Bir kullanıcı avatarı edinin.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Avatarını almak için kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "balance": {
+      "name": "denge",
+      "description": "Hesap bakiyenizi görüntüleyin."
+    },
+    "ban": {
+      "name": "yasaklamak",
+      "description": "Birini loncadan yasakla.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Bu loncadan yasaklanacak kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        },
+        {
+          "name": "sebep",
+          "description": "Kullanıcıyı yasaklamanın nedeni.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "birthdays": {
+      "name": "Doğum günü",
+      "description": "Doğum günleri panelini açın."
+    },
+    "case": {
+      "name": "kap",
+      "description": "Servis talebi bilgilerini görüntüleme.",
+      "options": [
+        {
+          "name": "case_id",
+          "description": "Görüntülenecek servis talebi kimliği.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        }
+      ]
+    },
+    "clientmenu": {
+      "name": "istemci menüsü",
+      "description": "Bu lonca istemcilerini yönetin."
+    },
+    "clients": {
+      "name": "Istemci",
+      "description": "Bu lonca istemcilerini görüntüleyin."
+    },
+    "credits": {
+      "name": "Kredi",
+      "description": "Bu botun kredilerini görüntüleyin!"
+    },
+    "crime": {
+      "name": "suç",
+      "description": "Bir suç işlemek."
+    },
+    "ddos": {
+      "name": "ddos",
+      "description": "DDOS saldırısı 😉 gönderin !",
+      "options": [
+        {
+          "name": "hedef",
+          "description": "Kullanıcı \"saldıracak\".",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "dice": {
+      "name": "Diyor",
+      "description": "Zarları yuvarla."
+    },
+    "dm": {
+      "name": "Dm",
+      "description": "Bir kullanıcıya bot olarak özel olarak mesaj gönderin.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Mesaj gönderilecek kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        },
+        {
+          "name": "İleti",
+          "description": "Onlara gönderilecek mesaj.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "embed": {
+      "name": "Katıştır",
+      "description": "Botun bir şeyler söylemesini sağlayın.",
+      "options": [
+        {
+          "name": "kanal",
+          "description": "Yerleştirmenin gönderileceği kanal.",
+          "required": "doğru",
+          "type": "KANAL"
+        },
+        {
+          "name": "İleti",
+          "description": "Yerleştirmede söylenecek mesaj.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "embedbuilder": {
+      "name": "embedbuilder",
+      "description": "Etkileşimli ileti ekleme oluşturucuyu açın."
+    },
+    "games": {
+      "name": "Oyunlar",
+      "description": "Ses kanalınızda oynamak için bir oyun seçin.",
+      "options": [
+        {
+          "name": "oyun",
+          "description": "Oynamak için bir oyun seçin.",
+          "required": "doğru",
+          "type": "DİZGİ",
+          "choices": [
+            {
+              "name": "Poker",
+              "value": "poker"
+            },
+            {
+              "name": "Youtube'da T",
+              "value": "youtube"
+            },
+            {
+              "name": "Satranç",
+              "value": "satranç"
+            },
+            {
+              "name": "Ihanet",
+              "value": "Ihanet"
+            },
+            {
+              "name": "Balıkçılık",
+              "value": "balıkçılık"
+            },
+            {
+              "name": "Çılgın 8'ler",
+              "value": "Sekiz"
+            },
+            {
+              "name": "Dama",
+              "value": "Dama"
+            },
+            {
+              "name": "Mektup Döşemesi",
+              "value": "mektup karosu"
+            },
+            {
+              "name": "Word Atıştırmalık",
+              "value": "wordsnack"
+            },
+            {
+              "name": "Doodle Ekibi",
+              "value": "doodlecrew"
+            },
+            {
+              "name": "Büyü Dökümü",
+              "value": "büyü kastı"
+            },
+            {
+              "name": "Çizim Kafaları",
+              "value": "Çizim Kafaları"
+            }
+          ]
+        }
+      ]
+    },
+    "giveaway": {
+      "name": "Giveaway",
+      "description": "Bir hediye oluşturun.",
+      "options": [
+        {
+          "name": "kanal",
+          "description": "Hediyeyi koyacağınız kanal.",
+          "required": "doğru",
+          "type": "KANAL"
+        },
+        {
+          "name": "color_hex",
+          "description": "Eşantiyon için renk HEX. (Ör: #FFFFFF)",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "ödül",
+          "description": "Vermek istediğiniz şey.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "time_limit",
+          "description": "Eşantiyonun ne kadar sürmesi gerektiği.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "Kazanan",
+          "description": "Çekilişin kaç kazananı olmalı.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        }
+      ]
+    },
+    "guilds": {
+      "name": "Filo",
+      "description": "Bu botun içinde bulunduğu loncalara bakın."
+    },
+    "help": {
+      "name": "Yardım",
+      "description": "Bot hakkındaki tüm komutları ve bilgileri görüntüleyin!",
+      "options": [
+        {
+          "name": "komut",
+          "description": "Belirli bir komutla ilgili bilgileri görüntüleme.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "hug": {
+      "name": "sarılmak",
+      "description": "Bir kullanıcıya sarıl.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcı sarılacak.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "inventory": {
+      "name": "envanter",
+      "description": "Kullanıcı envanterinizi görüntüleyin."
+    },
+    "kick": {
+      "name": "tekmelemek",
+      "description": "Bu loncadan birini kov.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcı bu loncadan kovulacak.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        },
+        {
+          "name": "sebep",
+          "description": "Kullanıcıyı tekmelemenin nedeni.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "leaderboard": {
+      "name": "liderlik tablosu",
+      "description": "Bu sunucuların sohbet düzeyindeki lider panosunu görüntüleyin."
+    },
+    "level": {
+      "name": "düzey",
+      "description": "Kullanıcı düzeyini görüntüleme.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcının düzeyini görüntüleyeceği",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "logging": {
+      "name": "günlük tutmak",
+      "description": "Bu lonca için günlük ayarlarını değiştirin."
+    },
+    "loop": {
+      "name": "döngü",
+      "description": "Şarkı döngüsünü değiştirin."
+    },
+    "marriage": {
+      "name": "evlilik",
+      "description": "Evlilik sistemini ❤️ görüntüleyin !"
+    },
+    "massrole": {
+      "name": "massrole",
+      "description": "Bu sunucudaki her üyeye bir rol verin.",
+      "options": [
+        {
+          "name": "rol",
+          "description": "Her üyeye verilecek rol.",
+          "required": "doğru",
+          "type": "ROL"
+        }
+      ]
+    },
+    "meme": {
+      "name": "Aynı",
+      "description": "Bir mem alın!"
+    },
+    "music": {
+      "name": "müzik",
+      "description": "Müzik kontrollerine erişin.",
+      "options": [
+        {
+          "name": "play_song",
+          "description": "Çalınacak şarkı.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "mute": {
+      "name": "dilsiz",
+      "description": "Loncadaki birini sessize al.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcı bu loncadan sessize alır.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        },
+        {
+          "name": "Saat",
+          "description": "Onları ne kadar süreyle sessize almak istediğiniz. (Ör: 15m = 15 dakika)",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "sebep",
+          "description": "Kullanıcının sesini kapatmanın nedeni.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "offlineban": {
+      "name": "offlineban",
+      "description": "Loncada olmayan birini yasakla.",
+      "options": [
+        {
+          "name": "user_id",
+          "description": "Yasaklanacak kullanıcının kullanıcı kimliği.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "sebep",
+          "description": "Kullanıcıyı yasaklama nedeni.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "pay": {
+      "name": "ödemek",
+      "description": "Bir kullanıcıdan hizmet şartlarınızı kabul etmesini isteyin.",
+      "options": [
+        {
+          "name": "miktar",
+          "description": "Lütfen kullanıcının ödemesi gereken tutarı ve para birimini belirtin.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "permissions": {
+      "name": "izinler",
+      "description": "Bu lonca izinlerini değiştirin."
+    },
+    "ping": {
+      "name": "Ping",
+      "description": "Basit bir ping komutu."
+    },
+    "pingprev": {
+      "name": "pingprev",
+      "description": "ping önleme durumunuzu yönetin."
+    },
+    "play": {
+      "name": "oynamak",
+      "description": "Biraz müzik çal ⏯️ .",
+      "options": [
+        {
+          "name": "şarkı",
+          "description": "Çalınacak şarkı.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "poll": {
+      "name": "Anket",
+      "description": "Bir anket oluşturun.",
+      "options": [
+        {
+          "name": "soru",
+          "description": "Anketin sorusu.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_1",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_2",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_3",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_4",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_5",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_6",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_7",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_8",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_9",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "option_10",
+          "description": "Anket için bir seçenek.",
+          "required": "yanlış",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "punishments": {
+      "name": "Ceza",
+      "description": "Kullanıcı servis talebi geçmişini görüntüleme.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcının servis talebi geçmişini görüntüleyeceği.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "purge": {
+      "name": "tasfiye",
+      "description": "Bir kanaldaki mesajları toplu olarak silme.",
+      "options": [
+        {
+          "name": "miktar",
+          "description": "Temizlenecek mesajların sayısı.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        }
+      ]
+    },
+    "queue": {
+      "name": "sıra",
+      "description": "Müzik kuyruğunu görüntüleyin."
+    },
+    "removecase": {
+      "name": "kılıfı çıkarın",
+      "description": "Servis talebini veritabanından kaldırın.",
+      "options": [
+        {
+          "name": "case_id",
+          "description": "Kaldırılacak servis talebi kimliği.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        }
+      ]
+    },
+    "restart": {
+      "name": "Yeni -den başlatın",
+      "description": "Botu yeniden başlatın."
+    },
+    "review": {
+      "name": "eleştiri",
+      "description": "Müşteri olarak bir yorum yazın.",
+      "options": [
+        {
+          "name": "hizmet",
+          "description": "Ne satın aldınız / satın aldınız.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "derecelendirme",
+          "description": "Ürünü 5 üzerinden derecelendirdiğiniz şey.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        },
+        {
+          "name": "İleti",
+          "description": "Yorumunuzla birlikte bir mesaj bırakın.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "rob": {
+      "name": "soymak",
+      "description": "Bir kullanıcıyı soyma.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Soyulacak kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "say": {
+      "name": "söylemek",
+      "description": "Botun bir şeyler söylemesini sağlayın.",
+      "options": [
+        {
+          "name": "kanal",
+          "description": "Mesajın gönderileceği kanal.",
+          "required": "doğru",
+          "type": "KANAL"
+        },
+        {
+          "name": "İleti",
+          "description": "Söylenecek mesaj.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "selfroles": {
+      "name": "öz roller",
+      "description": "Bu lonca için kendi kendine roller oluşturun."
+    },
+    "server": {
+      "name": "sunucu",
+      "description": "Bu sunucu bilgilerini görüntüleyin."
+    },
+    "settings": {
+      "name": "Ayarlar",
+      "description": "Bu lonca ayarlarını değiştirin."
+    },
+    "shop": {
+      "name": "dükkân",
+      "description": "Mağazayı görüntüleyin veya bir satın alma işlemi yapın."
+    },
+    "snipe": {
+      "name": "keskin nişancı",
+      "description": "Bu kanalda son silinen iletiyi alın."
+    },
+    "sticky": {
+      "name": "yapışkan",
+      "description": "Yapışkan mesajlar ekleyin veya kaldırın."
+    },
+    "suggest": {
+      "name": "önermek",
+      "description": "Bir öneri bırakın.",
+      "options": [
+        {
+          "name": "öneri",
+          "description": "Önerdiğiniz şey.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "ticket": {
+      "name": "bilet",
+      "description": "Bir bilet oluşturun."
+    },
+    "ticketbuttons": {
+      "name": "bilet düğmeleri",
+      "description": "Kullanışlı bilet düğmelerini görüntüleyin."
+    },
+    "ticketpanels": {
+      "name": "biletpaneller",
+      "description": "Bu lonca için bilet panelleri kurun."
+    },
+    "timer": {
+      "name": "Saat",
+      "description": "Bir zamanlayıcı ayarlayın.",
+      "options": [
+        {
+          "name": "Saat",
+          "description": "Zamanlayıcının sönme süresi. (Ör: 1s = 1 saat, 1m = 1 dakika, 5s = 5 saniye)",
+          "required": "doğru",
+          "type": "DİZGİ"
+        },
+        {
+          "name": "sebep",
+          "description": "Bot size neyi hatırlatmalı?",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "tos": {
+      "name": "O",
+      "description": "Bir kullanıcıdan hizmet şartlarınızı kabul etmesini isteyin.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Hizmet Şartlarınızı kabul etmesini istemek istediğiniz kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "unban": {
+      "name": "yasağı kaldır",
+      "description": "Birinin bu loncadaki yasağını kaldırın.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Bu loncanın yasağını kaldırmak için kullanıcı kimliği.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "unmute": {
+      "name": "sesi aç",
+      "description": "Loncadaki birinin sesini açın.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcının bu loncadan sesini açması.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "user": {
+      "name": "kullanıcı",
+      "description": "Kullanıcı bilgilerini görüntüleme.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Görüntülenecek kullanıcı.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        }
+      ]
+    },
+    "volume": {
+      "name": "hacim",
+      "description": "Müzik ses yüksekliğini değiştirin.",
+      "options": [
+        {
+          "name": "değer",
+          "description": "Çalınacak şarkı.",
+          "required": "doğru",
+          "type": "TAM SAYI"
+        }
+      ]
+    },
+    "warn": {
+      "name": "uyarmak",
+      "description": "Bu loncadaki bir kullanıcıyı uyar.",
+      "options": [
+        {
+          "name": "kullanıcı",
+          "description": "Kullanıcıyı uyarmak.",
+          "required": "doğru",
+          "type": "KULLANICI"
+        },
+        {
+          "name": "sebep",
+          "description": "Kullanıcıyı uyarma nedeni.",
+          "required": "doğru",
+          "type": "DİZGİ"
+        }
+      ]
+    },
+    "wink": {
+      "name": "göz kırpmak",
+      "description": "Birine göz kırpma gifi gönderin."
+    },
+    "work": {
+      "name": "iş",
+      "description": "İşe git."
+    }
+  },
+  "events": {
+    "actionLogs": "Eylem Günlükleri",
+    "actionBy": "Eyleme Geçenler",
+    "someone": "biri",
+    "guilds": {
+      "join": "📥 Lonca Katıldı!",
+      "leave": "📤 Lonca Ayrıldı!",
+      "name": "**○ Adı:**",
+      "id": "**○ Kimlik:**"
+    },
+    "updated": {
+      "before": "Değişikliklerden Önce",
+      "after": "Değişikliklerden Sonra",
+      "name": "Ad",
+      "user": "Kullanıcı",
+      "type": "Tür",
+      "id": "Kimliği",
+      "created": "Oluşturulan",
+      "color": "Renk",
+      "hoisted": "Kaldırılmış",
+      "position": "Konum",
+      "mentionable": "Bahsedilebilir"
+    },
+    "channels": {
+      "created": "Kanal Oluşturuldu",
+      "deleted": "Kanal Silindi",
+      "updated": "Kanal Güncellendi",
+      "id": "Kanal Kimliği",
+      "name": "Kanal Adı"
+    },
+    "members": {
+      "left": "sunucudan ayrıldı!",
+      "leftEmbedTitle": "Güle güle Kullanıcı!",
+      "accountAge": "Hesap Yaşı",
+      "members": "Üyeler",
+      "users": "Kullanıcı",
+      "sorry": "Pardon",
+      "lockdown": "şu anda karantina altında! Birkaç saat içinde tekrar katılmayı deneyin veya neler olup bittiğini görmek için harici olarak bir yöneticiyle iletişime geçin!\n\nSahibi, sunucu kilidini devre dışı bırakmayı unutmuş olabilir, bunun günlüğe kaydedilmesine bakılmaksızın ve sunucunun yakında tekrar açılacağından eminim.",
+      "lockdownMode": "Sunucu kilitleme modunda!",
+      "lockdownTitle": "🔒 Sunucu Kilidi!",
+      "lockdownRemoval": "Kilitleme Kaldırma!",
+      "reason": "Sebep",
+      "action": "Eylem",
+      "user": "Kullanıcı",
+      "kicked": "Tekme",
+      "sl": "Sunucu Kilidi!",
+      "altDetected": "Alt Hesap Algılandı!",
+      "removalTitle": "Çıkarıldınız!",
+      "removal1": "Şuradan kaldırıldınız:",
+      "removal2": "çünkü hesabınız loncaların hesap yaş gereksinimlerini karşılamıyor.",
+      "join": "sunucuya katıldı!",
+      "joinEmbedTitle": "Hoş Geldiniz Kullanıcı!"
+    },
+    "messages": {
+      "deleted": "Mesaj Silindi",
+      "channel": "Kanal",
+      "content": "Mesaj İçeriği",
+      "noContent": "İçerik Yok",
+      "updated": "Mesaj güncellendi",
+      "noAfk": "artık bu loncada AFK olarak işaretlenmiyorsunuz.",
+      "isAfk": "şu anda AFK...",
+      "pingedBy": "Pinged tarafından",
+      "pingPrev": "❤️ Ping Önleme Sistemi",
+      "mail": "📫 Postanız var!",
+      "pleaseDont": "Lütfen bana ping atma, tıpkı senin gibi bir hayatım var :]"
+    },
+    "roles": {
+      "created": "Oluşturulan Rol",
+      "deleted": "Rol Silindi",
+      "updated": "Rol Güncellendi",
+      "id": "Rol Kimliği",
+      "name": "Rol Adı",
+      "actionedBy": "Eyleme Geçenler"
+    },
+    "voice": {
+      "has": "vardır",
+      "was": "idi",
+      "unavailable": "Kullanılamaz",
+      "update": "Ses Durumu Güncellemesi",
+      "server": "sunucu",
+      "left": "Sol",
+      "joined": "Katıldı",
+      "moved": "taşındığı yer",
+      "to": "Hedef",
+      "deafened": "sağır",
+      "undeafened": "sağır olmayanlar",
+      "muted": "Sessiz",
+      "unmuted": "sessize alınmamış",
+      "stopped": "videolarını durdurdu",
+      "started": "videolarına başladılar",
+      "stream": "akışa başladı",
+      "stopstream": "akışı durdurdu"
+    }
+  },
+  "components": {
+    "agreeTos": {
+      "notasked": "Hizmet Şartları'nı kabul etmeniz istenmiyor",
+      "notasked2": "isteniyor",
+      "agreed": "Kabul",
+      "hasAgreed": "Hizmet Şartları'nı kabul etmiştir"
+    },
+    "appAccept": {
+      "button": "Tarafından kabul edildi",
+      "err": "Bu uygulamayı bulamadım.",
+      "embedTitle": "✅ Başvuru Kabul Edildi",
+      "app": "**Uygulama:**",
+      "message": "**Mesajınız:**"
+    },
+    "appDeny": {
+      "denied": "Reddeden",
+      "unable": "Bu uygulamayı bulamadım.",
+      "title": "❌ Başvuru Reddedildi",
+      "app": "**Uygulama:**",
+      "message": "**Mesajınız:**"
+    },
+    "appMenuAdd": {
+      "title": "Uygulama Oluştur!",
+      "name": "Uygulama Adı",
+      "here": "Uygulama adını buraya girin.",
+      "am": "Kabul Edilen Mesaj",
+      "dm": "Reddedilen Mesaj",
+      "aam": "Bir kullanıcının kabul edilmesi durumunda alması gereken mesajı buraya girin.",
+      "ddm": "Bir kullanıcının reddedilmesi durumunda alması gereken mesajı buraya girin."
+    },
+    "appMenuBack": {
+      "title": "Uygulama Menüsü",
+      "name": "○ İsim:",
+      "noapps": "Henüz başvuru yok..."
+    },
+    "appMenuCreate": {
+      "created": "Uygulama Oluşturuldu!"
+    },
+    "appMenuDelete": {
+      "deleted": "Uygulama Silindi!"
+    },
+    "appMenuGoHome": {
+      "title": "Uygulama Menüsü",
+      "name": "○ İsim:",
+      "noapps": "Henüz başvuru yok...",
+      "questions": "Soru",
+      "createform": "Form Oluştur"
+    },
+    "appMenuQuestions": {
+      "title": "Soru Düzenleyici",
+      "add": "Soru Ekle",
+      "app": "○ Uygulama:",
+      "question": "○ Soru:",
+      "noQuestion": "Henüz soru oluşturulmadı."
+    },
+    "appMenuQuestionsAdd": {
+      "added": "Soru Eklendi!",
+      "invalid": "Geçersiz Uygulama.",
+      "input": "Lütfen uygulamaya eklemek istediğiniz soruyu girin.",
+      "cancel": "Iptal.",
+      "error": "Soru eklenirken hata oluştu. Lütfen tekrar deneyin, sorularınıza emoji eklemediğinizden emin olun."
+    },
+    "appMenuQuestionsDelete": {
+      "deleted": "Soru Silindi!",
+      "unable": "Bu soruyu veritabanında bulamadım."
+    },
+    "appSelect": {
+      "noQuestions": "Bu uygulama henüz oluşturulmuş herhangi bir soru yok.",
+      "pleaseAnswer": "Lütfen aşağıdaki soruları elinizden gelenin en iyisini yaparak cevaplayın.",
+      "started": "Uygulama DM'lerde başladı.",
+      "cancel": "Iptal.",
+      "date": "Gönderim Tarihi",
+      "submitted": "Başvuru Gönderildi!",
+      "failed": "**Uygulama Başarısız Oldu.**\nLütfen DM'lerinizin gizli olmadığından emin olun.",
+      "q": "Q",
+      "a": "A"
+    },
+    "backingDeposit": {
+      "noInput": "Lütfen bankaya yatırmak istediğiniz tutarı girin.",
+      "notValid": "Lütfen geçerli bir numara girin.",
+      "notValid2": "**Lütfen geçerli bir numara giriniz.**\nLütfen tekrar deneyin...",
+      "notEnough": "**Bu, bakiyenizde sahip olduğunuzdan daha fazlasıdır.**\nLütfen tekrar deneyin...",
+      "deposited": "**Yatırılan ",
+      "deposited1": " bankaya.**",
+      "logAuthor": " - Para Yatırma",
+      "amount": "Miktar"
+    },
+    "bankingTransfer": {
+      "user": "Lütfen bu para birimini transfer etmek istediğiniz kullanıcıya bildirin.",
+      "aUser": "Lütfen bu kullanıcıya aktarmak istediğiniz tutarı belirtin.",
+      "valUser": "Lütfen geçerli bir kullanıcı girin.",
+      "valNumber": "Lütfen geçerli bir numara girin.",
+      "valNumber1": "**Lütfen geçerli bir numara giriniz.**\nLütfen tekrar deneyin...",
+      "notEnough": "**Bu, bakiyenizde sahip olduğunuzdan daha fazlasıdır.**\nLütfen tekrar deneyin...",
+      "Done": " Aktarıldı!**",
+      "logAuthor": " - Transfer",
+      "reciever": "Alıcı"
+    },
+    "bankingWithdraw": {
+      "iAmount": "Lütfen bankadan çekmek istediğiniz tutarı girin.",
+      "number": "Lütfen geçerli bir numara girin.",
+      "valNumber": "**Lütfen geçerli bir numara giriniz.**\nLütfen tekrar deneyin...",
+      "notEnough": "**Bu, bankanızda sahip olduğunuzdan daha fazladır.**\nLütfen tekrar deneyin...",
+      "Withdrew": "**Geri çekildi ",
+      "Withdrew1": " arkadan.**",
+      "logAuthor": " - Geri çekildi"
+    },
+    "birthdayAdd": {
+      "already": "Bu loncada doğum günü için çoktan kayıt yaptırdın.",
+      "date": "Lütfen doğum tarihinizi belirtin.\n**Not:** Şu şekilde biçimlendirilmelidir: 'AA-GG-YYYY' aksi takdirde **çalışmaz**.",
+      "cancel": "Iptal.",
+      "added": "**Doğum Günü Eklendi!**"
+    },
+    "birthdayRemove": {
+      "noBday": "Bu loncaya doğum günü kaydı yaptırmadın.",
+      "removed": "**Doğum Günü Kaldırıldı!**"
+    },
+    "birthdatSystem": {
+      "title": "🥳 Doğum günün kutlu olsun!",
+      "its": "Bu",
+      "bday": "Bugün doğum günü! Onlara mutlu yıllar dileyin ve kutlayalım!\n\n**Tarih:**"
+    },
+    "clientAdd": {
+      "user": "Lütfen müşteri olarak eklemek istediğiniz kullanıcıyı belirtin.",
+      "iUser": "Geçersiz Kullanıcı.\nLütfen müşteri olarak eklemek istediğiniz kullanıcıyı belirtin.",
+      "already": "Bu kullanıcı zaten kayıtlı bir istemcidir.",
+      "added": "📥 İstemci Eklendi",
+      "done": "müşteri olarak 'eklenmiştir'.",
+      "add": "**İstemci Eklendi!**"
+    },
+    "clientRemove": {
+      "noClients": "Bu loncanın kayıtlı müşterisi yok.",
+      "mention": "Lütfen kaldırmak istediğiniz bir müşteriden bahsedin.",
+      "iClient": "Geçersiz Kullanıcı.\nLütfen kaldırmak istediğiniz istemciden bahsedin.",
+      "notR": "Bu kullanıcı kayıtlı bir müşteri değil.",
+      "removed": "📥 İstemci Kaldırıldı",
+      "dsec": "müşteri olarak 'kaldırıldı'.",
+      "done": "**İstemci Kaldırıldı!**"
+    },
+    "forceLeaveGuild": {
+      "left": "Sol Lonca"
+    },
+    "giveawayEnd": {
+      "end": "Çekiliş sona eriyor, lütfen bekleyin!",
+      "notCreator": "Bu hediyenin yaratıcısı siz değilsiniz!\nTarafından oluşturulmuştur:",
+      "ended": "Bu hediye çoktan sona erdi.",
+      "notCreator1": "Bu hediye çoktan sona erdi!\nTarafından oluşturulmuştur:",
+      "noExist": "Bu hediye veritabanında yok..."
+    },
+    "giveawayEnter": {
+      "enter": "çekilişe girdi! Artık",
+      "entries": "Giriş!",
+      "already": "Zaten girdiniz! Şu anda",
+      "notActive": "Bu hediye artık aktif değil."
+    },
+    "giveawayRefresh": {
+      "for": "Eşantiyon",
+      "with": "ile",
+      "finish": "kazananlar, botun yeniden başlatılması nedeniyle zamanlayıcıyı sıfırladı!"
+    },
+    "giveawayReroll": {
+      "wait": "Yeniden Yuvarlanma, lütfen bekleyin!",
+      "consoleNumber": "Bir eşantiyon kazananı sayısı bir sayı değildir...",
+      "title": "Hediye Yeniden Yuvarlandı!",
+      "prize": "**Bilgi**\nÖdül:",
+      "winners": "Kazanan:",
+      "time": "Zaman Sınırı:",
+      "winners2": "**Kazananlar**",
+      "footer": "Eşantiyon: ",
+      "endError": "HEDIYE BITIŞ HATASI: ",
+      "uNot": "Bu hediyeyi siz yaratmadınız.",
+      "wait1": "Yeniden yuvarlanmak için çekilişin bitmesini beklemeniz gerekir!",
+      "find": "Bu hediyeyi veritabanında bulamadık."
+    },
+    "helpPageSelect": {
+      "title": " Yardım Menüsü",
+      "footer": "İle üretilmiştir",
+      "by": "tarafından"
+    },
+    "inventorySelect": {
+      "noItems": "Envanterinizde herhangi bir ürün yok.",
+      "used": "**1** kullanmıştır",
+      "logAuthor": " - Kullanılmış Eşya",
+      "field1": "Madde"
+    },
+    "loggingSelect": {
+      "selectPlaceHolder": "Günlük kanalı türünü seçin.",
+      "options": {
+        "welcome": {
+          "label": "👋 Hoş Geldiniz Mesajları",
+          "desc": "Hoş geldiniz iletileri için bir günlük kanalı ayarlayın."
+        },
+        "leave": {
+          "label": "👋 Mesaj Bırakma",
+          "desc": "İzin mesajları için bir günlük kanalı ayarlayın."
+        },
+        "member": {
+          "label": "🔢 Üye Sayısı",
+          "desc": "Üye sayısı kanalını ayarlayın."
+        },
+        "user": {
+          "label": "🔢 Kullanıcı Sayısı",
+          "desc": "Kullanıcı sayısı kanalını ayarlayın."
+        },
+        "channel": {
+          "label": "🎒 Kanal Günlükleri",
+          "desc": "Kanal değişiklikleri için bir günlük kanalı ayarlayın."
+        },
+        "role": {
+          "label": "🎭 Rol Günlükleri",
+          "desc": "Moderasyon günlükleri için bir günlük kanalı ayarlama"
+        },
+        "mod": {
+          "label": "🔨 Moderasyon Günlükleri",
+          "desc": "Moderasyon günlükleri için bir günlük kanalı ayarlama"
+        },
+        "ticket": {
+          "label": "🎟️ Bilet Günlükleri",
+          "desc": "Bilet günlükleri için bir günlük kanalı ayarlama"
+        },
+        "message": {
+          "label": "(M)️ Mesaj Günlükleri",
+          "desc": "İleti günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "command": {
+          "label": "🖨️ Komut Günlükleri",
+          "desc": "Komut günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "voice": {
+          "label": "📢 Ses Kayıtları",
+          "desc": "Ses günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "alt": {
+          "label": "👻 Alt Önleme Günlükleri",
+          "desc": "Alt önleme günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "server": {
+          "label": "🔒 Sunucu Günlük Günlükleri",
+          "desc": "Sunucu kilidi günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "filter": {
+          "label": "❌ Filtre Günlükleri",
+          "desc": "Filtre günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "client": {
+          "label": "💰 İstemci Günlükleri",
+          "desc": "İstemciler için bir günlük kanalı ayarlayın."
+        },
+        "review": {
+          "label": "⭐ Günlükleri İnceleme",
+          "desc": "İncelemeler için bir günlük kanalı ayarlayın."
+        },
+        "suggestion": {
+          "label": "📥 Öneri Günlükleri",
+          "desc": "Öneriler için bir günlük kanalı ayarlayın."
+        },
+        "birthday": {
+          "label": "🎉 Doğum Günü Günlükleri",
+          "desc": "Doğum günü mesajları için bir günlük kanalı ayarlayın."
+        },
+        "application": {
+          "label": "📜 Uygulama Günlükleri",
+          "desc": "Uygulama günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "economy": {
+          "label": "🏦 Ekonomi Günlükleri"
+        },
+        "eco": {
+          "label": "📈 Seviye Atlama Günlükleri",
+          "desc": "Seviye atlama günlükleri için bir günlük kanalı ayarlayın."
+        },
+        "other": {
+          "label": "❓ Diğer Günlükler",
+          "desc": "Diğer günlükler için bir günlük kanalı ayarlayın."
+        }
+      }
+    },
+    "loggingBack": {
+      "title": "Günlük Kanalları",
+      "type": "**○ Günlük Türü:**",
+      "nochans": "Henüz kanal yok...",
+      "chan": "**○ Günlük Kanalı:**"
+    },
+    "loggingDelete": {
+      "content": "**Günlük Kanalı Silindi**"
+    },
+    "loggingHome": {
+      "buttons": {
+        "addChan": "Kanal Ekle",
+        "deleted": "Seçilenleri Sil"
+      },
+      "title": "Günlük Kanalları",
+      "type": "**○ Günlük Türü:**",
+      "nochans": "Henüz kanal yok...",
+      "chan": "**○ Günlük Kanalı:**"
+    },
+    "loggingNext": {
+      "title": "Günlük Kanalları",
+      "type": "**○ Günlük Türü:**",
+      "nochans": "Henüz kanal yok...",
+      "chan": "**○ Günlük Kanalı:**"
+    },
+    "loggingSelectB": {
+      "provide": "Lütfen bu günlüklerin gidebileceği bir kanal sağlayın.",
+      "cancel": "Iptal.",
+      "invalid": "**Geçersiz kanal sağlandı, yeniden deneyin.**",
+      "created": "**Günlük Kanalı Oluşturuldu!**\n**Türü:**",
+      "channel": "**Kanal:**"
+    },
+    "marriageAcceptProposal": {
+      "already": "Zaten evlisin.",
+      "desc1": "Lütfen isteği kabul etmek istediğiniz kullanıcıyı belirtin.",
+      "cancel": "Iptal.",
+      "self": "Kendinizle evlenebilirsiniz.",
+      "never": "Bu kullanıcı sizinle evlenmek istemedi...",
+      "title": "💘 Tebrikler!",
+      "desc": "Evlilik talebiniz",
+      "married": "Artık evlisiniz"
+    },
+    "marriageDenyProposal": {
+      "already": "Zaten evlisin.",
+      "desc": "Lütfen isteği reddetmek istediğiniz kullanıcıyı belirtin.",
+      "cancel": "Iptal.",
+      "deny": "Kendinizi inkar edemezsiniz.",
+      "never": "Bu kullanıcı sizinle evlenmek istemedi...",
+      "title": "😭 Üzgünüz!",
+      "desc1": "Marriade talebiniz şu kişi tarafından reddedildi:",
+      "denied": "Bu kullanıcının evlilik talebini reddettiniz."
+    },
+    "marriageDivorce": {
+      "title": "⚖️ Size hizmet edildi!",
+      "desc": "Eşiniz,",
+      "divorced": ", az önce boşandı. Hiçbir şey bilmiyoruz, biz sadece teslimat hizmetiyiz 👀 .",
+      "not": "Şu anda evli değilsiniz.",
+      "no": "Artık evli değilsiniz."
+    },
+    "marriageSelect": {
+      "place": "Bir seçenek belirleyin",
+      "buttons": {
+        "request": {
+          "label": "💌 İstek gönder",
+          "desc": "Biriyle evlenmek istersen."
+        },
+        "accept": {
+          "label": "💍 Bir teklifi kabul et",
+          "desc": "Birisi senden onlarla evlenmeni mi istedi? Gerçekten?"
+        },
+        "deny": {
+          "label": "😭 Bir Teklifi Reddetme",
+          "desc": "Bunu tıklarsanız korkunç bir insansınız..."
+        },
+        "divorce": {
+          "label": "⚖️ Boşanın",
+          "desc": "Çocukları kim alıyor? Çünkü o ben olmayacağım."
+        }
+      }
+    },
+    "marriageSendRequest": {
+      "already": "Zaten evlisin.",
+      "desc": "**Kiminle evlenmek istersin?**\nLütfen onlardan bahsetmek için '@' sembolünü kullanın.",
+      "cancel": "Iptal.",
+      "self": "Kendinizle evlenemezsiniz.",
+      "bot": "Bir botla evlenemezsin, NOKTA.",
+      "title": "💌 Evlilik Talebi",
+      "desc1": "SİZİNLE evlenmek istedi!\n\nBu isteğe yanıt vermek için,",
+      "desc12": "veya bu loncadaki başka bir kanala başvurun ve isteği yönetmek için '/ evlilik' çalıştırın.",
+      "person": "O kişi zaten evli!",
+      "sent": "**Evlilik Talebi Gönderildi.**\nSüresi dolmadan önce evlilik talebinizi kabul etmek için 2 dakikaları olacaktır.",
+      "expired": "Gönderilen evlilik talebi",
+      "expired2": "süresi doldu.\nİçinde 🌊 bol miktarda 🐟 var!"
+    },
+    "marriageSystem": {
+      "con1": "Evlilik",
+      "con2": " bekleyen evlilik talepleri kaldırıldı."
+    },
+    "musicPause": {
+      "vc": "Bir ses kanalında olmalısınız.",
+      "paused": "Müzik Duraklatıldı - "
+    },
+    "musicPlay": {
+      "vc": "Bir ses kanalında olmalısınız.",
+      "resumed": "Müzik Devam Etti - "
+    },
+    "musicQueueClear": {
+      "vc": "Bir ses kanalında olmalısınız.",
+      "buttons": {
+        "label": "Kuyruk Temizlendi"
+      },
+      "cleared": "Müzik Temizlendi - "
+    },
+    "musicShuffle": {
+      "vc": "Bir ses kanalında olmalısınız.",
+      "shuffled": "Kuyruk Karışık - "
+    },
+    "musicSkip": {
+      "vc": "Bir ses kanalında olmalısınız.",
+      "noSong": "Bu sunucuda müzik çalmıyor.",
+      "noSongQueue": "Kuyrukta atlamak için başka şarkı yok.",
+      "skipped": "Müzik Atlandı - "
+    },
+    "musicStop": {
+      "buttons": {
+        "status": {
+          "label": "Durum:"
+        },
+        "music": {
+          "label": "Müzik Durduruldu"
+        },
+        "stopped": {
+          "label": "Durdurucu:"
+        }
+      },
+      "vc": "Bir ses kanalında olmalısınız."
+    },
+    "musicSystem": {
+      "buttons": {
+        "pause": {
+          "label": "Duraklat"
+        },
+        "play": {
+          "label": "Oynamak"
+        },
+        "skip": {
+          "label": "Atlamak"
+        },
+        "stop": {
+          "label": "Durmak"
+        },
+        "shuffle": {
+          "label": "Karıştırmak"
+        }
+      },
+      "error": "Bir hatayla karşılaşıldı...",
+      "playSong": {
+        "playing": "Şarkı Çalma",
+        "name": "Ad",
+        "duration": "Süre",
+        "requestor": "Isteyici",
+        "views": "Görünümler: "
+      },
+      "addSong": {
+        "updated": "⏰ Kuyruk Güncellendi",
+        "name": "Ad",
+        "duration": "Süre",
+        "requestor": "Isteyici",
+        "views": "Görünümler: "
+      },
+      "finish": {
+        "empty": "Kuyruk boş.",
+        "no": "Artık sırada şarkı yok."
+      },
+      "searchNoResult": {
+        "error": "Hatası 404",
+        "noResults": "Şunun için sonuç bulunamadı:"
+      },
+      "searchResult": {
+        "search": "Arama Sonuçları",
+        "choose": "**Aşağıdan bir seçenek belirleyin**",
+        "else": "Başka bir şey girin veya cance için 60 saniye bekleyin"
+      },
+      "iAnswer": {
+        "invalid": "Geçersiz Cevap",
+        "provided": "Arama için geçersiz yanıt verildi."
+      }
+    },
+    "nextGuilds": {
+      "buttons": {
+        "leave": "Loncadan ayrıl"
+      },
+      "title": "Loncalar Listesi",
+      "guildName": "**○ Teşkilat Adı:**",
+      "guildId": "**○ Teşkilat Kimliği:**",
+      "guildMembers": "**○ Teşkilat Üyeleri:**",
+      "guildOwnerTag": "**○ Teşkilat Sahibi Etiketi:**",
+      "guildOwnerId": "**○ Teşkilat Sahibi Kimliği:**"
+    },
+    "permsAdd": {
+      "place": "Eklenecek izin türünü seçin.",
+      "options": {
+        "admin": {
+          "label": "🗝️ Yönetici",
+          "desc": "Bir yönetim rolü ekleyin (TEHLİKE)."
+        },
+        "mod": {
+          "label": "👮 ♂️ Sunucu",
+          "desc": "Moderatör rolü ekleyin."
+        },
+        "filter": {
+          "label": "❌ Filtre",
+          "desc": "Bir filtre atlama rolü ekleyin."
+        },
+        "info": {
+          "label": "🔎 Bilgi",
+          "desc": "Bilgi görüntüleme rolü ekleyin."
+        },
+        "roles": {
+          "label": "🎭 Öz Roller",
+          "desc": "Kendi kendine rol yöneticisi rolü ekleyin."
+        },
+        "sticky": {
+          "label": "🍯 Yapışkan Mesajlar",
+          "desc": "Yapışkan ileti yöneticileri rolü ekleyin."
+        },
+        "giveaway": {
+          "label": "🎉 Hediye Yöneticileri",
+          "desc": "Bir hediye yöneticileri rolü ekleyin."
+        },
+        "client": {
+          "label": "💰 Müşteri Yöneticileri",
+          "desc": "Müşteri yöneticileri rolü ekleyin."
+        },
+        "ticket": {
+          "label": "🎟️ Bilet Desteği",
+          "desc": "Bir bilet destek personeli rolü ekleyin."
+        },
+        "apps": {
+          "label": "📜 Aplikasyonlar",
+          "desc": "Uygulama yöneticileri rolü ekleyin."
+        },
+        "customers": {
+          "label": "🛍️ Müşteri",
+          "desc": "Bir müşteri rolü ekleyin."
+        },
+        "pingPrev": {
+          "label": "🔕 Ping Önleme",
+          "desc": "Bir ping önleme yöneticisi ve atlama rolü ekleyin."
+        }
+      }
+    },
+    "permsBack": {
+      "title": "İzinler Menüsü",
+      "type": "**○ Perm Tipi:**",
+      "no": "Henüz perms yok...",
+      "role": "**○ Rol Kimliği:**"
+    },
+    "permsDelete": {
+      "content": "**İzin Silindi**"
+    },
+    "permsHome": {
+      "buttons": {
+        "add": "İzin Ekle",
+        "delete": "Seçilenleri Sil"
+      },
+      "title": "İzinler Menüsü",
+      "type": "**○ Perm Tipi:**",
+      "no": "Henüz perms yok...",
+      "role": "**○ Rol Kimliği:**"
+    },
+    "permsNext": {
+      "title": "İzinler Menüsü",
+      "type": "**○ Perm Tipi:**",
+      "no": "Henüz perms yok...",
+      "role": "**○ Rol Kimliği:**"
+    },
+    "permsSelect": {
+      "provide": "Lütfen bu izin için atanacak/eklenecek bir rol sağlayın.",
+      "cancel": "İptal",
+      "Cancelled": "Iptal.",
+      "invalid": "**Geçersiz rol sağlandı, yeniden deneyin.**",
+      "created": "**İzin Oluşturuldu!**",
+      "type": "**Türü:**",
+      "role": "**Rol:**"
+    },
+    "pingPreventionAdd": {
+      "already": "Bu loncada zaten bir ping önleme ayarladınız.",
+      "color": "Lütfen ping önleme gömmeniz için bir **renk onaltılığı** tanımlayın.",
+      "cancel": "Iptal.",
+      "provide": "**Lütfen gömme için bir resim sağlayın.**\nBağlantı \".png\", \".jpg\", \".webp\" vb. ile bitmelidir.\nAtlamak için 'atla' yazın.",
+      "added": "**Ping Önleme Eklendi!**"
+    },
+    "pingPreventionRemove": {
+      "no": "Bu loncada ping önleme kaydınız yok.",
+      "removed": "**Ping Önleme Kaldırıldı!**"
+    },
+    "punishBack": {
+      "title": "Vaka Bilgileri",
+      "field1": "Vaka Kimliği:",
+      "field2": "Kasa Tipi:",
+      "field3": "Enforcer:",
+      "field4": "Kullanıcı:",
+      "field5": "Sebep:",
+      "field6": "Zaman damgası:"
+    },
+    "punishNext": {
+      "title": "Vaka Bilgileri",
+      "field1": "Vaka Kimliği:",
+      "field2": "Kasa Tipi:",
+      "field3": "Enforcer:",
+      "field4": "Kullanıcı:",
+      "field5": "Sebep:",
+      "field6": "Zaman damgası:"
+    },
+    "reviewReply": {
+      "cancel": "Iptal.",
+      "field": "Personelden Cevap",
+      "added": "**İnceleme Eklendi!**"
+    },
+    "selfRolesAdd": {
+      "provide": "Lütfen bu kendi kendine roller paneli için bir ad girin.",
+      "cancel": "Iptal.",
+      "created": "**Self Roles Menüsü Oluşturuldu!**"
+    },
+    "selfRolesBack": {
+      "title": "Self Role Menüleri",
+      "desc": "**○ Menü Adı:**",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesDelete": {
+      "unable": "Bu Kimlikle bir self role menüsü bulamadım.",
+      "deleted": "**Kendi Kendine Roller Menüsü Silindi!**"
+    },
+    "selfRolesGoHome": {
+      "addMenu": "Menü Ekle",
+      "delete": "Seçilenleri Sil",
+      "roleManager": "Rol Yöneticisi",
+      "postPanel": "Post Paneli",
+      "title": "Self Role Menüleri",
+      "desc": "**○ Menü Adı:**",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesManager": {
+      "addRole": "Rol Ekle",
+      "delete": "Seçilenleri Sil",
+      "no": "Bu lonca için rol menüleri yok.",
+      "title": "Self Role Menüleri",
+      "menuName": "**○ Menü Adı:**",
+      "roleName": "**○ Rol Adı:**",
+      "roleId": "**○ Rol Kimliği:**",
+      "noRoles": "Henüz rol yok...",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesManagerAdd": {
+      "provide": "Lütfen panele eklemek için bir rol belirtin.",
+      "cancel": "Iptal.",
+      "provide2": "Lütfen geçerli bir rol belirtin.",
+      "created": "**Öz Rol Yaratıldı!**"
+    },
+    "selfRolesManagerBack": {
+      "no": "Bu lonca için rol menüleri yok.",
+      "title": "Self Role Menüleri",
+      "menuName": "**○ Menü Adı:**",
+      "roleName": "**○ Rol Adı:**",
+      "roleId": "**○ Rol Kimliği:**",
+      "noRoles": "Henüz rol yok...",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesManagerDelete": {
+      "unable": "O panelde bir öz rol bulamadım.",
+      "deleted": "**Kendi Rolü Silindi!**"
+    },
+    "selfRolesManagerNext": {
+      "no": "Bu lonca için rol menüleri yok.",
+      "title": "Self Role Menüleri",
+      "menuName": "**○ Menü Adı:**",
+      "roleName": "**○ Rol Adı:**",
+      "roleId": "**○ Rol Kimliği:**",
+      "noRoles": "Henüz rol yok...",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesNext": {
+      "title": "Self Role Menüleri",
+      "desc": "**○ Menü Adı:**",
+      "noMenus": "Henüz menü yok..."
+    },
+    "selfRolesPost": {
+      "unable": "Seçilen paneli bulamadım.",
+      "unable2": "Bu panelde herhangi bir kişisel rolü finanse edemedim.",
+      "desc": "Rollerinize eklemek veya rollerinizden kaldırmak için bir rol seçin.",
+      "place": "Bir rol seçin.",
+      "provide": "Lütfen paneli göndermek için bir kanal sağlayın.",
+      "cancel": "Iptal.",
+      "valid": "Lütfen paneli göndermek için geçerli bir kanal sağlayın.",
+      "posted": "**Panel Yayınlandı!**"
+    },
+    "settingsBaseAutorole": {
+      "backRole": "Geri Rol",
+      "nextRole": "Sonraki Rol",
+      "toggle": "Geçiş:",
+      "enable": "Etkin",
+      "disable": "Sakat",
+      "addRole": "Rol Ekle",
+      "removeRole": "Rolü Kaldır",
+      "no": "Şu anda otomatik rol bulunmamaktadır.",
+      "title": "Otomatik Rol Sistemi",
+      "role": "**Rol:**",
+      "verification": "**Doğrulama?**"
+    },
+    "settingsBaseAutoroleAdd": {
+      "mention": "Lütfen rolden bahsedin veya eklenecek bir rol Kimliği sağlayın.",
+      "q": "Katıldıklarında veya doğruladıklarında bu rolün verilmesini ister misiniz?\n\n**1.** Katıldıklarında rol verin\n**2.** Doğruladıklarında rol verin",
+      "cancel": "Iptal.",
+      "provide": "Lütfen geçerli bir rol belirtin. \n'İŞLEM İPTAL EDİLDİ'",
+      "provide1": "Lütfen geçerli bir seçenek sunun. \n'İŞLEM İPTAL EDİLDİ'",
+      "added": "**Otomatik rol eklendi!**"
+    },
+    "settingsBaseAutoroleBack": {
+      "no": "Şu anda otomatik rol bulunmamaktadır.",
+      "title": "Otomatik Rol Sistemi",
+      "role": "**Rol:**",
+      "noRoles": "Şu anda otomatik rol bulunmamaktadır.",
+      "verification": "**Doğrulama?**"
+    },
+    "settingsBaseAutoroleDelete": {
+      "no": "Bu lonca için yapılmış otomatik roller yoktur.",
+      "removed": "**Otomatik rol Kaldırıldı**"
+    },
+    "settingsBaseAutoroleNext": {
+      "no": "Şu anda otomatik rol bulunmamaktadır.",
+      "title": "Otomatik Rol Sistemi",
+      "role": "**Rol:**",
+      "noRoles": "Şu anda otomatik rol bulunmamaktadır.",
+      "verification": "**Doğrulama?**"
+    },
+    "settingsBaseCashappUpdate": {
+      "provide": "Lütfen bu ödeme yöntemi için yeni bir bağlantı sağlayın.\nDevre dışı bırakmak için 'false' yazın.",
+      "cancel": "Iptal.",
+      "updated": "**Ödeme Bağlantısı Güncellendi**"
+    },
+    "settingsBaseCustomUpdate": {
+      "provide": "Lütfen bu ödeme yöntemi için yeni bir bağlantı sağlayın.\nDevre dışı bırakmak için 'false' yazın.",
+      "cancel": "Iptal.",
+      "updated": "**Ödeme Bağlantısı Güncellendi**"
+    },
+    "settingsBaseGeneralSettings": {
+      "options": "Seçenekler:",
+      "updateTheme": "Tema rengini güncelleme",
+      "updateMuted": "Sessiz Rolü Güncelleştirme",
+      "updateTos": "Hizmet Koşullarını Güncelle Bağlantısı",
+      "maxTickets": "Max Biletleri",
+      "payment": "Ödeme:",
+      "paypal": "PayPal",
+      "cashapp": "Nakit Uygulaması",
+      "customLink": "Özel Bağlantı",
+      "imageUrls": "Resim URL'leri:",
+      "card": "Katılma/Ayrılma Kartı"
+    },
+    "settingsBaseLeave": {
+      "options": "Seçenekler:",
+      "message": "İleti",
+      "embed": "Katıştır",
+      "card": "Kart"
+    },
+    "settingsBaseMaxTickets": {
+      "provide": "Lütfen bir kullanıcının aynı anda açabileceği maksimum bilet sayısını belirtin.",
+      "cancel": "Iptal.",
+      "valid": "Lütfen bir **VALID** numarası girin.",
+      "updated": "Max Biletleri Güncellendi"
+    },
+    "settingsBaseMuteRoleUpdate": {
+      "mention": "Lütfen sessize alındıklarında kullanıcılara vermek istediğiniz rolü belirtin.",
+      "cancelled": "Iptal.",
+      "valid": "Lütfen geçerli bir sessiz rolü sağlayın.",
+      "updated": "**Sessiz Rolü Güncellendi**"
+    },
+    "settingsBasePanelVerifyPost": {
+      "provide": "Lütfen paneli göndermek için bir kanal sağlayın.",
+      "cancelled": "Iptal.",
+      "valid": "Lütfen geçerli bir kanal sağlayın.",
+      "verify": "Doğrulamak",
+      "verification": "Doğrulama",
+      "please": "Lütfen bu mesajın altındaki **düğmesine** basarak kendinizi doğrulayın. Bu, * kuralları okuduğunuzu ve kabul ettiğinizi * ve aynı zamanda bir insan olduğunuzu doğrulayacaktır.",
+      "posted": "**Doğrulama Paneli Yayınlandı**"
+    },
+    "settingsBasePaypalUpdate": {
+      "new": "Lütfen bu ödeme yöntemi için yeni bir bağlantı sağlayın.\nDevre dışı bırakmak için 'false' yazın.",
+      "cancelled": "Iptal.",
+      "set": "**Ödeme Bağlantısı Güncellendi**"
+    },
+    "settingsBaseSelect": {
+      "ERROR": "Bu panel herhangi bir dil özelliğini aktif olarak kullanmaz."
+    },
+    "settingsBaseThemeColorUpdate": {
+      "provide": "Lütfen botun tema rengi olarak kullanması için yeni bir **__COLOR HEX__** sağlayın.\n**Ör:** '#FFFFFF'\n\nRenk Seçici: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Lütfen geçerli bir **__COLOR HEX__** sağlayın.\n**Ör:** '#FFFFFF'\n\nRenk Seçici: <https://htmlcolorcodes.com/color-picker/>",
+      "cancelled": "Iptal.",
+      "updated": "**Tema Rengi Güncellendi**"
+    },
+    "settingsBaseToggleAutorole": {
+      "add": "Rol Ekle",
+      "remove": "Rolü Kaldır",
+      "next": "Sonraki Rol",
+      "back": "Geri Rol"
+    },
+    "settingsBaseToggleCaptcha": {
+      "verification": "Doğrulama",
+      "captcha": "Captcha Adası",
+      "post": "Panel Yayınlama"
+    },
+    "settingsBaseToggleVerify": {
+      "buttons": {
+        "verify": "Doğrulama",
+        "captcha": "Captcha Adası",
+        "post": "Panel Yayınlama"
+      }
+    },
+    "settingsBaseToSUpdate": {
+      "please": "Lütfen güncelleştirmek için yeni bir Hizmet Şartları bağlantısı sağlayın.",
+      "cancelled": "Iptal.",
+      "valid": "Lütfen geçerli bir Hizmet Şartları bağlantısı ekleyin.\nŞununla başlamalıdır: \"http://\"",
+      "updated": "**ToS Bağlantısı Güncellendi**"
+    },
+    "settingsBaseVerification": {
+      "buttons": {
+        "verify": "Doğrulama",
+        "captcha": "Captcha Adası",
+        "post": "Panel Yayınlama"
+      }
+    },
+    "settingsBaseWelcomeCardUpdate": {
+      "please": "**Lütfen kartın arka plan URL'si için bir resim bağlantısı sağlayın.**\n\"Uyarı:\" Resim bağlantısı \".png\", \".jpg\", \".webp\" vb. ile bitmelidir.",
+      "cancelled": "Iptal.",
+      "updated": "**Karşılama Kartı Güncellendi**"
+    },
+    "settingsFunAutoReact": {
+      "next": "Sonraki Sayfa",
+      "back": "Arka Sayfa",
+      "add": "Yanıt Ekle",
+      "title": "Otomatik Reaksiyonlar",
+      "channel": "**Kanal:**",
+      "no": "Mevcut Otomatik Reaksiyon Yok...",
+      "response": "**Yanıt:**",
+      "emoji": "Emoji ayarlanmadı..."
+    },
+    "settingsFunAutoreactAdd": {
+      "please": "Lütfen botun tepkiler için dinlemesi gereken kanalı sağlayın.",
+      "cancelled": "Iptal.",
+      "provide": "Lütfen botun bu kanalda bir mesaj duyduğunda şimdi ne tepki vermesi gerektiğini belirtin.\n**Not:** emojiyi ':monkey_face:' gibi bir kod bloğuna koymalısınız.",
+      "valid": "Lütfen geçerli bir kanal sağlayın.",
+      "added": "**Otomatik Reaksiyon Eklendi**"
+    },
+    "settingsFunAutoreactBack": {
+      "title": "Otomatik Reaksiyonlar",
+      "channel": "**Kanal:**",
+      "no": "Mevcut Otomatik Reaksiyon Yok...",
+      "response": "**Yanıt:**",
+      "emoji": "Emoji ayarlanmadı..."
+    },
+    "settingsFunAutoreactDelete": {
+      "no": "Bu lonca için belirlenmiş otomatik tepkiler yoktur.",
+      "deleted": "**Otomatik Reaksiyon Silindi**"
+    },
+    "settingsFunAutoreactNext": {
+      "title": "Otomatik Reaksiyonlar",
+      "channel": "**Kanal:**",
+      "no": "Mevcut Otomatik Reaksiyon Yok...",
+      "response": "**Yanıt:**",
+      "emoji": "Emoji ayarlanmadı..."
+    },
+    "settingsFunAutoRespond": {
+      "back": "Arka Sayfa",
+      "next": "Sonraki Sayfa",
+      "add": "Yanıt Ekle",
+      "title": "Otomatik Yanıtlar",
+      "detect": "**Algılama:**",
+      "no": "Geçerli Otomatik Yanıt Yok...",
+      "response": "**Yanıt:**",
+      "none": "Hiçbiri ayarlanmadı..."
+    },
+    "settingsFunAutorespondAdd": {
+      "please": "Lütfen yanıt vermeden önce botun dinlemesi gereken kelimeleri sağlayın.",
+      "cancelled": "Iptal.",
+      "provide": "Lütfen botun bu içeriği içeren bir mesaj duyduğunda şimdi ne ile yanıt vermesi gerektiğini belirtin.",
+      "added": "**Otomatik Yanıt Eklendi**"
+    },
+    "settingsFunAutorespondBack": {
+      "title": "Otomatik Yanıtlar",
+      "detect": "**Algılama:**",
+      "no": "Geçerli Otomatik Yanıt Yok...",
+      "response": "**Yanıt:**",
+      "none": "Hiçbiri ayarlanmadı..."
+    },
+    "settingsFunAutorespondDelete": {
+      "no": "Bu lonca için ayarlanmış otomatik yanıt yok.",
+      "deleted": "**Otomatik Yanıt Silindi**"
+    },
+    "settingsFunAutorespondNext": {
+      "title": "Otomatik Yanıtlar",
+      "detect": "**Algılama:**",
+      "no": "Geçerli Otomatik Yanıt Yok...",
+      "response": "**Yanıt:**",
+      "none": "Hiçbiri ayarlanmadı..."
+    },
+    "settingsFunBirthdays": {
+      "clear": "Doğum Günü Verilerini Temizle",
+      "cleared": "Doğum Günü Verileri Temizlendi"
+    },
+    "settingsFunClearLevelData": {
+      "clear": "İzinli Temizle",
+      "cleared": "Seviye Verileri Temizlendi",
+      "level": "Seviye Sistemi"
+    },
+    "settingsFunEconomy": {
+      "back": "Arka Öğe",
+      "next": "Sonraki Öğe",
+      "add": "Mağaza Öğesi Ekle",
+      "currency": "Para birimi",
+      "clear": "Tüm Verileri Temizle",
+      "cleared": "Tüm Veriler Temizlendi",
+      "cooldowns": "Bekleme Süreleri:",
+      "work": "İş",
+      "crime": "Suç",
+      "rob": "Soymak",
+      "economy": "Ekonomi Ayarları",
+      "currency2": "**Para birimi:**",
+      "shop": "**Mağaza Ürün Bilgileri:**",
+      "id": "**○ Kimlik:**",
+      "no": "Mevcut mağaza ürünleri yok...",
+      "name": "**○ Adı:**",
+      "price": "**○ Fiyat:**"
+    },
+    "settingsFunEconomyWork": {
+      "text": "Bu loncada tüm kullanıcılar için 2 saatlik çalışma bekleme süresi sıfırlandı."
+    },
+    "settingsFunEconomyAdd": {
+      "p": "Lütfen ürünün adını girin.",
+      "c": "Iptal.",
+      "price": "Lütfen bu ürün için bir fiyat belirtin.\n**Ör:** '10'",
+      "price1": "Lütfen geçerli bir fiyat belirtin.\n**Ör:** '10'",
+      "added": "'**Mağaza Öğesi Eklendi**",
+      "title": " - Oluşturulan Öğe",
+      "item": "Madde",
+      "Price": "Fiyat"
+    },
+    "settingsFunEconomyCrime": {
+      "a": "Bu loncada tüm kullanıcılar için 2 saatlik suç bekleme süresi sıfırlandı."
+    },
+    "settingsFunEconomyCurrency": {
+      "a": "Lütfen bu loncanın para birimini girin.\n**Not:** Bunu ':moneybag:' gibi kod bloğu biçiminde sağlamalısınız.",
+      "c": "Iptal.",
+      "u": "**Para Birimi Güncellendi!**"
+    },
+    "settingsFunEconomyDelete": {
+      "a": "Bu loncada dükkan eşyası yok.",
+      "d": "**Mağaza Öğesi Silindi**",
+      "title": "Silinmiş Öğe",
+      "i": "Madde"
+    },
+    "settingsFunEconomyRob": {
+      "a": "Bu loncada tüm kullanıcılar için 2 saatlik rob bekleme süresi sıfırlandı."
+    },
+    "settingsFunLevelSystem": {
+      "c": "Seviye Verilerini Temizle",
+      "l": "Seviye Sistemi",
+      "cL": "İzinli Temizle"
+    },
+    "settingsFunToggleLevelKick": {
+      "a": "🏠 Eve Gidin",
+      "b": "Geçiş:",
+      "c": "Ayarlar:",
+      "d": "Seviye Verilerini Temizle",
+      "e": "Seviye Sistemi",
+      "f": "İzinli Temizle"
+    },
+    "settingsFunToggleLevelSystem": {
+      "a": "🏠 Eve Gidin",
+      "b": "Geçiş:",
+      "c": "Ayarlar:",
+      "d": "Seviye Verilerini Temizle",
+      "e": "Seviye Sistemi",
+      "f": "İzinli Temizle"
+    },
+    "settingsSecurityAltPrevention": {
+      "a": "Geçiş:",
+      "b": "Alt Önleme",
+      "c": "Hesap Yaşı"
+    },
+    "settingsSecurityAltPrevTime": {
+      "a": "Lütfen minimum yeni bir hesap yaşı girin.\nÖr: 30d = 30 gün.",
+      "b": "Iptal.",
+      "c": "**Hesap Yaşı Güncellendi**"
+    },
+    "settingsSecurityFilter": {
+      "a": "Denetim:",
+      "b": "Arka Sayfa",
+      "c": "Sonraki Sayfa",
+      "d": "Seçenekler:",
+      "e": "Filtre Ekle",
+      "f": "Seçilenleri Sil",
+      "g": "Güvenlik Filtresi",
+      "h": "**İçerik:**",
+      "i": "Akım Filtresi Yok..."
+    },
+    "settingsSecuirtyFilterAdd": {
+      "a": "Lütfen kara listeye almak istediğiniz kelimeyi/bağlantıyı sağlayın.",
+      "b": "Iptal.",
+      "c": "**Filtre Eklendi**"
+    },
+    "settingsSecurityFilterBack": {
+      "a": "Güvenlik Filtresi",
+      "b": "**İçerik:**",
+      "c": "Akım Filtresi Yok..."
+    },
+    "settingsSecurityFilterDelete": {
+      "a": "Bu lonca için ayarlanmış filtre yok.",
+      "b": "Bu filtre mevcut değil.",
+      "c": "**Filtre Silindi**"
+    },
+    "settingsSecurityFilterNext": {
+      "a": "Güvenlik Filtresi",
+      "b": "**İçerik:**",
+      "c": "Akım Filtresi Yok..."
+    },
+    "settingsSecuritySelect": {
+      "a": "🏠 Eve Gidin:"
+    },
+    "settingsSecurityServerLockdown": {
+      "a": "Geçiş:",
+      "b": "Etkin",
+      "c": "Sakat"
+    },
+    "settingsSecurityToggleAltPrev": {
+      "a": "🏠 Eve Gidin",
+      "b": "Geçiş:",
+      "c": "Alt Önleme",
+      "d": "Hesap Yaşı"
+    },
+    "settingsSecurityToggleLockdown": {
+      "a": "🏠 Eve Gidin",
+      "b": "Geçiş:",
+      "c": "Sunucu Kilidi",
+      "d": "Sunucu Kilidi Değiştirildi!",
+      "e": "Kullanıcı:",
+      "f": "Toggled:",
+      "g": "Sunucu Kilidi"
+    },
+    "settingsSelect": {
+      "a": "🏠 Eve Gidin",
+      "b": "👓 Genel Ayarlar",
+      "c": "🟢 Karşılama Modülü",
+      "d": "🔴 Modülden Ayrıl",
+      "e": "🗝️ Doğrulama",
+      "f": "👋 Otomatik rol",
+      "g": "👻 Alt Önleme",
+      "h": "🔒 Sunucu Kilidi",
+      "i": "❌ Filtre Sistemi",
+      "j": "📊 Seviye Sistemi",
+      "k": "🎉 Doğum günü",
+      "l": "💰 Ekonomi",
+      "m": "🎯 Otomatik Tepki",
+      "n": "🦜 Otomatik Yanıt",
+      "o": "Bu loncanın genel ayarlarını değiştir.',",
+      "p": "Bu lonca için karşılama modülünü değiştirin.",
+      "q": "Bu lonca için izin modülünü değiştirin.",
+      "r": "Bu lonca için doğrulama modülünü değiştir.",
+      "s": "Bu lonca için otomatik rol modülünü değiştir.",
+      "t": "Alt önleme sistemini değiştirin.",
+      "u": "Sunucu kilitleme modunu değiştirin.",
+      "v": "Filtre sistemini değiştirin.",
+      "w": "Bu loncanın seviye sistemini değiştir.",
+      "x": "Bu lonca için doğum günü modülünü değiştir.",
+      "y": "Bu lonca için ekonomi modülünü değiştirin.",
+      "z": "Bu lonca için otomatik tepki modülünü değiştir.",
+      "aa": "Bu lonca için otomatik yanıt modülünü değiştir.",
+      "ab": "Bir temel ayarlar seçeneği belirleyin.",
+      "ac": "Bir güvenlik ayarları seçeneği belirleyin.",
+      "ad": "Bir eğlence ayarları seçeneği belirleyin."
+    },
+    "shopSelect": {
+      "a": "Bu ürün dükkanda değil.",
+      "b": "Bu öğeyi satın almak için yeterli paranız yok.",
+      "c": "satın aldıysa **1**",
+      "d": "Satın Alınan Ürün",
+      "e": "Madde",
+      "f": "Fiyat",
+      "g": "Dükkanda hiç ürün yok."
+    },
+    "stickyAdd": {
+      "a": "Iptal.",
+      "b": "Bu kanalın zaten yapışkan bir mesajı var.\nLütfen tekrar deneyin.",
+      "c": "Lütfen yapışkan mesajın ne demesi gerektiğini girin.",
+      "d": "Lütfen geçerli bir kanal sağlayın.",
+      "e": "**Yapışkan Mesaj Oluşturuldu!**"
+    },
+    "stickyRemove": {
+      "a": "Bu loncada yapışkan mesajlar yok.",
+      "b": "Lütfen yapışkan mesajın kaldırılacağı kanalı tanımlayın.",
+      "c": "Iptal.",
+      "d": "Lütfen geçerli bir kanal sağlayın.",
+      "e": "**Yapışkan Mesaj Kaldırıldı!**",
+      "f": "Bu kanalın yapışkan bir mesajı yok.\nLütfen tekrar deneyin."
+    },
+    "ticketAdd": {
+      "a": "Lütfen bu bilet paneli için bir ad girin",
+      "b": "Iptal.",
+      "c": "Lütfen bu bilet paneli için bir açıklama sağlayın.",
+      "d": "Lütfen biletlerin gideceği bir 'Kimlik' kategorisi sağlayın.",
+      "e": "**Panel Oluşturuldu!**"
+    },
+    "ticketAddUser": {
+      "a": "Bu komutu yalnızca bir bilet kanalında kullanabilirsiniz!",
+      "b": "Lütfen bilete eklemek istediğiniz kullanıcıyı belirtin.",
+      "c": "Iptal.",
+      "d": "Lütfen bu bilete eklemek için geçerli bir kullanıcı sağlayın.",
+      "e": "bu bilete eklenmiştir."
+    },
+    "ticketBack": {
+      "a": "Bilet Panelleri",
+      "b": "**○ Panel Adı:**",
+      "c": "Henüz panel yok...",
+      "d": "**○ Panel Açıklaması:**",
+      "e": "Yok"
+    },
+    "ticketClaim": {
+      "a": "Bu sadece bir bilet kanalının içinde yapılabilir.",
+      "b": "🔒 Bileti Kapat",
+      "c": "✏️ Bileti Yeniden Adlandır",
+      "d": "📥 Kullanıcı Ekle",
+      "e": "📤 Kullanıcıyı Kaldır",
+      "f": "🤝 Talep eden:",
+      "g": "İddia:"
+    },
+    "ticketClose": {
+      "a": "Bu sadece bir bilet kanalında yapılabilir.",
+      "b": "Panel Bulunamadı.",
+      "c": "Kategori bulunamadı...",
+      "d": "Bilet başarıyla kapandı! (Lütfen bekleyiniz)",
+      "e": "Bilinmeyen",
+      "f": "Bilet Kapalı",
+      "g": "Bilet Kimliği",
+      "h": "Kapanış Üyesi",
+      "i": "Biletlerdeki Üyeler",
+      "j": "Panel"
+    },
+    "ticketDelete": {
+      "a": "Bu lonca için yapılmış bilet kategorileri yoktur.",
+      "b": "**Kategori Kaldırıldı**"
+    },
+    "ticketNext": {
+      "a": "Bilet Panelleri",
+      "b": "**○ Panel Adı:**",
+      "c": "Henüz panel yok...",
+      "d": "**○ Panel Açıklaması:**",
+      "e": "Yok"
+    },
+    "ticketPanelPost": {
+      "a": "Bu loncada henüz herhangi bir bilet kategorisi ayarlanmamıştır.",
+      "b": "Bilet Kategorileri",
+      "c": "İşte bu lonca için bilet kategorileri. Bu kategorideki bir bileti açmak için birini seçin.",
+      "d": "Bilet Sistemi",
+      "e": "Bir bilet kategorisi seçin.",
+      "f": "Iptal",
+      "g": "Lütfen geçerli bir kanal sağlayın.",
+      "h": "**Bilet Paneli Yayınlandı!**",
+      "i": "Lütfen paneli göndermek için bir kanal sağlayın."
+    },
+    "ticketremove": {
+      "a": "Bu komutu yalnızca bir bilet kanalında kullanabilirsiniz!',",
+      "b": "Lütfen biletten çıkarmak istediğiniz kullanıcıyı belirtin.",
+      "c": "Iptal.",
+      "d": "Lütfen bu biletten kaldırmak için geçerli bir kullanıcı sağlayın.",
+      "e": "**${member.user.tag}** bu biletten kaldırıldı."
+    },
+    "ticketrename": {
+      "a": "Bu komutu yalnızca bir bilet kanalında kullanabilirsiniz!",
+      "b": "Lütfen biletin ayarlanması gereken adı belirtin.",
+      "c": "Iptal.",
+      "d": "**Bilet Yeniden Adlandırıldı!**"
+    },
+    "ticketselect": {
+      "catna": "Bu bilet kategorisi mevcut değil.",
+      "content1": "Yalnızca **",
+      "content2": "bilet(ler)** aynı anda açıktır.",
+      "notpset": "Henüz bilet destek permaları ayarlanmamıştır.",
+      "nocreate": "**Bu bileti oluşturamadım.**",
+      "closetick": "🔒 Bileti Kapat",
+      "opened1": "**Açan:**",
+      "opened2": "Lütfen bu mesajı aşağıda bu bileti açma nedeninizi açıklamaya başlayın.",
+      "opener": "**Açan:** '${interaction.user.tag}'\n\nLütfen bu mesajı aşağıda bu bileti açma nedeninizi açıklamaya başlayın.",
+      "success": "Yeni biletiniz ",
+      "title": "Bilet Sistemi"
+    },
+    "verifyButton": {
+      "humanVerify": "İnsan Doğrulaması",
+      "desc1": "Lütfen insan olduğunuzu doğrulamak için aşağıdaki captcha'yı yazın.",
+      "content1": "Lütfen doğrudan mesajlarınızı (DM) kontrol edin.",
+      "noleft": "Denemeleriniz bitti, lütfen sunucuda yeniden doğrulayın.",
+      "left1": "Yanlış, ",
+      "left2": " deneme(ler) ayrıldı.",
+      "youverifed": "Doğrulandınız!",
+      "dmsna": "DM'leriniz şu anda özel olarak ayarlanmıştır, lütfen bunları etkinleştirin, böylece size insan doğrulama testimizi DM gönderebilirim."
+    }
+  }
+}
