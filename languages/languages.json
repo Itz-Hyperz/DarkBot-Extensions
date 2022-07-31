@@ -1,0 +1,32 @@
+[
+    {
+        "label": "English",
+        "description": "English.",
+        "value": "english"
+    },
+    {
+        "label": "Spanish",
+        "description": "Espanol.",
+        "value": "spanish"
+    },
+    {
+        "label": "German",
+        "description": "Deutsch.",
+        "value": "german"
+    },
+    {
+        "label": "Polish",
+        "description": "Polski.",
+        "value": "polish"
+    },
+    {
+        "label": "Korean",
+        "description": "한국인.",
+        "value": "korean"
+    },
+    {
+        "label": "Danish",
+        "description": "Denmarkian.",
+        "value": "danish"
+    }
+]
