@@ -28,7 +28,7 @@ module.exports = async function(client, con, app) {
     app.use(passport.session());
     app.use(express.static('public'));
     app.use('/assets', express.static(__dirname + 'public/assets'))
-    app.set('views', './views');
+    app.set('views', `${__dirname + '/views'}`);
     app.set('view engine', 'ejs');
     
     // Passport Setup
