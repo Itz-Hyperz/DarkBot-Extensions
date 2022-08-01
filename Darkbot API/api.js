@@ -1,5 +1,5 @@
 // You will likely need to install all of these:
-// npm i passport passport-discord-faxes multer body-parser express-session
+// npm i passport passport-discord-faxes multer body-parser express-session ejs
 const passport = require('passport');
 const DiscordStrategy = require('passport-discord-faxes').Strategy;
 const multer = require('multer');
