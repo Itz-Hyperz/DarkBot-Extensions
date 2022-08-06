@@ -15,6 +15,7 @@ exports.run = async function(client, con, interaction, data, language) {
             };
         });
         if(granted == 0) return interaction.reply({ content: language.missingPermissions, ephemeral: true }).catch(function(e) { if(client?.config?.debugmode) console.log(e) });
+            await interaction.reply({ content: "**Generating invoice...**", ephemeral: true }).catch(e => {});
             let user = await interaction.options.getString('userid');
             let title = await interaction.options.getString('title');
             let price = await interaction.options.getString('price');
@@ -31,7 +32,7 @@ exports.run = async function(client, con, interaction, data, language) {
             let embed = new client.discord.MessageEmbed()
             .setColor(data.themecolor || '#FFFFFF')
             .setDescription(`${genInvoice.data || 'Successfully generated invoice.'}`)
-            await interaction.reply({ embeds: [embed], ephemeral: true }).catch(e => {});
+            await interaction.editReply({ content: "**Invoice generated!**", embeds: [embed], ephemeral: true }).catch(e => {});
     });
 };
 
