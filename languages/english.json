@@ -1743,7 +1743,7 @@
 
 
             "server": {
-              "label": "🔒 Server Logs",
+              "label": "🔒 Server Lock Logs",
               "desc": "Set a logging channel for server lock logs."
             },
 
