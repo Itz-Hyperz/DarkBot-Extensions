@@ -1591,7 +1591,7 @@
       "noBday": "Vous n’avez pas enregistré d’anniversaire dans cette guilde.",
       "removed": "**Anniversaire supprimé!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Bon anniversaire!",
       "its": "C’est",
       "bday": "Anniversaire aujourd’hui! Souhaitons-leur un joyeux anniversaire et célébrons!\n\n**Date:**"
@@ -1711,7 +1711,7 @@
           "desc": "Définissez un canal de journalisation pour les journaux de prévention alt."
         },
         "server": {
-          "label": "🔒 Journaux des journaux du serveur",
+          "label": "🔒 Journaux du serveur",
           "desc": "Définissez un canal de journalisation pour les journaux de verrouillage du serveur."
         },
         "filter": {
@@ -1739,7 +1739,8 @@
           "desc": "Définissez un canal de journalisation pour les journaux d’application."
         },
         "economy": {
-          "label": "🏦 Journaux économiques"
+          "label": "🏦 Journaux économiques",
+          "desc": "Définissez un canal de journalisation pour les journaux économiques."
         },
         "eco": {
           "label": "📈 Journaux de niveau supérieur",
@@ -1990,7 +1991,7 @@
           "desc": "Ajoutez un rôle de personnel d’assistance aux tickets."
         },
         "apps": {
-          "label": "📜 Applicatios",
+          "label": "📜 Applications",
           "desc": "Ajoutez un rôle de gestionnaire d’applications."
         },
         "customers": {
@@ -2159,7 +2160,8 @@
       "no": "Il n’existe actuellement aucun rôle automatique.",
       "title": "Système de rôle automatique",
       "role": "**Rôle:**",
-      "verification": "**Vérification?**"
+      "verification": "**Vérification?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Veuillez mentionner le rôle ou fournir un ID de rôle à ajouter.",

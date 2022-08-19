@@ -1599,7 +1599,7 @@
           "removed": "**Birthday Removed!**"
         },
 
-        "birthdatSystem": {
+        "birthdaySystem": {
           "title": "🥳 Happy Birthday!",
           "its": "It's",
           "bday": "Birthday today! Wish them a happy birthday and let's celebrate!\n\n**Date:**"
@@ -1743,7 +1743,7 @@
 
 
             "server": {
-              "label": "🔒 Server Log Logs",
+              "label": "🔒 Server Logs",
               "desc": "Set a logging channel for server lock logs."
             },
 
@@ -1778,7 +1778,8 @@
             },
 
             "economy": {
-              "label": "🏦 Economy Logs"
+              "label": "🏦 Economy Logs",
+              "desc": "Set a logging channel for economy logs."
             },
 
             "eco": {
@@ -2049,7 +2050,7 @@
               "desc": "Add a ticket support staff role."
             },
             "apps": {
-              "label": "📜 Applicatios",
+              "label": "📜 Applications",
               "desc": "Add an application managers role."
             },
             "customers": {
@@ -2218,7 +2219,8 @@
           "no": "There are currently no auto roles.",
           "title": "Auto Role System",
           "role": "**Role:**",
-          "verification": "**Verification?**"
+          "verification": "**Verification?**",
+          "desc": ""
         },
         "settingsBaseAutoroleAdd": {
           "mention": "Please mention the role or provide a role Id to add.",

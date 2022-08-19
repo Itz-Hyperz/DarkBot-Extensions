@@ -1591,7 +1591,7 @@
       "noBday": "Nie zarejestrowałeś urodzin w tej gildii.",
       "removed": "**Urodziny usunięte!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Wszystkiego najlepszego z okazji urodzin!",
       "its": "To jest",
       "bday": "Urodziny już dziś! Życzmy im wszystkiego najlepszego z okazji urodzin i świętujmy!\n\n**Data:**"
@@ -1711,7 +1711,7 @@
           "desc": "Ustaw kanał rejestrowania dla dzienników ochrony przed altami."
         },
         "server": {
-          "label": "🔒 Dzienniki dziennika serwera",
+          "label": "🔒 Logi serwera",
           "desc": "Ustaw kanał rejestrowania dla dzienników blokady serwera."
         },
         "filter": {
@@ -1739,7 +1739,8 @@
           "desc": "Ustaw kanał rejestrowania dla dzienników aplikacji."
         },
         "economy": {
-          "label": "🏦 Dzienniki ekonomiczne"
+          "label": "🏦 Dzienniki ekonomiczne",
+          "desc": "Ustaw kanał rejestrowania dla dzienników ekonomicznych."
         },
         "eco": {
           "label": "📈 Dzienniki level-up",
@@ -1990,7 +1991,7 @@
           "desc": "Dodaj rolę personelu obsługi zgłoszeń."
         },
         "apps": {
-          "label": "📜 Aplikacje",
+          "label": "📜 Aplikacji",
           "desc": "Dodaj rolę menedżerów aplikacji."
         },
         "customers": {
@@ -2159,7 +2160,8 @@
       "no": "Obecnie nie ma ról automatycznych.",
       "title": "Automatyczny system ról",
       "role": "**Rola:**",
-      "verification": "**Weryfikacja?**"
+      "verification": "**Weryfikacja?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Podaj rolę lub podaj identyfikator roli do dodania.",

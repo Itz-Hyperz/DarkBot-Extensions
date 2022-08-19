@@ -1,6 +1,6 @@
 {
   "selectALanguage": "Vælg et sprog nedenfor!",
-  "noPermissions": "Der er endnu ingen tilladelsesopsætning til dette guild!",
+  "noPermissions": "Der er endnu ingen tilladelser til denne guild!",
   "missingPermissions": "Du har ikke de nødvendige tilladelser til at bruge denne kommando!",
   "noVoiceChannel": "Du skal være i en stemmekanal for at bruge dette.",
   "onlyGuildOwner": "Kun guildejeren kan køre denne kommando.",
@@ -11,12 +11,12 @@
   "no": "Nej",
   "true": "sand",
   "false": "falsk",
-  "eightBallCommand": "**Magic 🎱 Ball siger:** ",
+  "eightBallCommand": "** Magic 🎱 Ball siger:** ",
   "eightBallResponses": [
-    "Det er helt sikkert.",
+    "Det er sikkert.",
     "Det er bestemt sådan.",
     "Uden tvivl.",
-    "Ja afgjort.",
+    "Ja helt sikkert.",
     "Som jeg ser det, ja.",
     "Ja.",
     "Svar uklart, prøv igen.",
@@ -28,8 +28,8 @@
     "Outlook ikke så godt.",
     "Meget tvivlsomt."
   ],
-  "afkNoLonger": "Du er ikke længere markeret AFK.",
-  "nowMarkedAFK": "Du er nu markeret AFK.",
+  "afkNoLonger": "Du er ikke længere mærket AFK.",
+  "nowMarkedAFK": "Du er nu mærket AFK.",
   "applicationMenu": {
     "questions": "Spørgsmål",
     "embedTitle": "Menuen Ansøgning",
@@ -38,7 +38,7 @@
     "createForm": "Opret formular"
   },
   "apply": {
-    "noAppsFound": "Der blev ikke fundet nogen ansøgninger til dette laug.",
+    "noAppsFound": "Der blev ikke fundet nogen ansøgninger til denne guild.",
     "clickToApply": "Klik for at ansøge om denne ansøgning.",
     "selectApp": "Vælg et program.",
     "embedTitle": "Programmer",
@@ -49,7 +49,7 @@
     "deposit": "Depositum",
     "withdraw": "Trække",
     "transfer": "Overførsel",
-    "bankingInfo": "Oplysninger om bankvirksomhed",
+    "bankingInfo": "Bankoplysninger",
     "wallet": "**Tegnebog:**",
     "bank": "**Bank:**"
   },
@@ -64,7 +64,7 @@
   },
   "cases": {
     "doesNotExist": "findes ikke i tilfældet Id-liste!",
-    "embedTitle": "Oplysninger om sagen",
+    "embedTitle": "Sagsoplysning",
     "caseId": "Sags-id",
     "caseType": "Sagstype",
     "caseUser": "Bruger"
@@ -73,18 +73,18 @@
     "selectAction": "Vælg en klienthandling.",
     "addClient": "📥 Tilføj klient",
     "addClientDescription": "Føj en klient til denne guilds klientdatabase.",
-    "removeClient": "📤 Fjern klienten",
-    "removeClientDescription": "Fjern en klient fra denne guilds-klientdatabase.",
-    "embedTitle": "Klient menu",
+    "removeClient": "📤 Fjern klient",
+    "removeClientDescription": "Fjern en klient fra denne guilds klientdatabase.",
+    "embedTitle": "Klient Menu",
     "embedDescription": "Tilføj/fjern klienter til/fra databasen!",
-    "noClients": "Dette guild har endnu ingen kunder.",
+    "noClients": "Denne guild har ingen kunder endnu.",
     "clients": "Klienter"
   },
   "ddos": {
     "NOTICE": "Dette er en falsk vittighedskommando!!!!",
-    "sending": "Afsendelse af angreb til",
-    "successful": "DDOS-angreb med succes ;)",
-    "lag": "Bruger får forsinkelse?",
+    "sending": "Sender angreb til",
+    "successful": "DDOS-angreb vellykket ;)",
+    "lag": "Bruger bliver forsinket?",
     "no": "Nej?",
     "failure": "Jeg kan ikke ddos folk :("
   },
@@ -102,64 +102,64 @@
   "dm": {
     "embedTitle": "📫 Du har fået mail!",
     "messageSent": "**Besked sendt!**",
-    "messageSentFailed": "**Afsendelse af besked mislykkedes!**",
+    "messageSentFailed": "** Besked send mislykkedes!**",
     "dmsOff": "De har sandsynligvis deres DM'er indstillet til private."
   },
   "embed": {
     "notice": "Meddelelse fra",
-    "posted": "**Integrer bogført!**"
+    "posted": "** Embed indsendt!**"
   },
   "embedBuilder": {
     "embedTitle": "Integrer Builder",
-    "embedDescription": "Velkommen til den interaktive integreringsgenerator. Brug knapperne nedenfor til at opbygge indlejringen, efter klik på indlæg!",
+    "embedDescription": "Velkommen til den interaktive integreringsbygger. Brug knapperne nedenfor til at opbygge indlejringen, efter klik på indlæg!",
     "buttons": {
       "authorText": "Forfatter Tekst",
       "titleText": "Titel Tekst",
-      "titleURL": "URL-adresse til titel",
+      "titleURL": "Url-adresse til titel",
       "descriptionText": "Beskrivelse Tekst",
-      "footerText": "Sidefod tekst",
+      "footerText": "Tekst til sidefod",
       "authorImage": "Forfatter Billede",
       "thumbnailImage": "Miniaturebillede",
       "largeImage": "Stort billede",
-      "footerImage": "Sidefod billede",
+      "footerImage": "Billede af sidefod",
       "embedColor": "Integrer farve",
-      "embedFields": "Integrer felter",
+      "embedFields": "Integrere felter",
       "addTimestamp": "Tilføj tidsstempel",
       "channelToPost": "Kanal til opslag",
-      "postEmbed": "Slå integreringen op",
+      "postEmbed": "Sende integreringen",
       "fieldName": "Feltets navn",
       "fieldValue": "Feltværdi",
-      "fieldInline": "Indbygget felt",
+      "fieldInline": "Felt indbygget",
       "goBack": "Gå tilbage",
       "newField": "Nyt felt"
     },
     "responses": {
       "setAuthorText": "Hvad vil du indstille forfatterteksten til?",
       "setTitleText": "Hvad vil du indstille titelteksten til?",
-      "setTitleURL": "Hvad vil du indstille titlens URL til?",
+      "setTitleURL": "Hvad vil du indstille titel-URL'en til?",
       "setDescriptionText": "Hvad vil du indstille beskrivelsen til?",
       "setFooterText": "Hvad vil du indstille sidefodsteksten til?",
-      "setAuthorImage": "Hvad vil du gerne indstille forfatterbilledet til?",
+      "setAuthorImage": "Hvad vil du indstille forfatterbilledet til?",
       "setColor": "Hvilken farve vil du indstille indlejringen til?",
       "setThumbnailImage": "Hvad vil du indstille miniaturebilledet til?",
-      "setLargeImage": "Hvad vil du gerne indstille det store billede til?",
+      "setLargeImage": "Hvad vil du indstille det store billede til?",
       "setFooterImage": "Hvad vil du gerne indstille sidefodsbilledet til?",
       "channelToPost": "Hvilken kanal vil du gerne sende dette til?",
       "fieldName": "Hvad skal navnet på dette felt være?",
       "fieldValue": "Hvad skal værdien af dette felt være?",
-      "embedPosted": "Integrer bogført!"
+      "embedPosted": "Integrer indsendt!"
     }
   },
   "economy": {
     "crime": {
-      "cooldown": "Du kan ikke begå en forbrydelse lige nu. Du er stadig ved nedkøling.",
+      "cooldown": "Du kan ikke begå en forbrydelse lige nu. Du er stadig på nedkøling.",
       "crimeResponses": [
         {
-          "text": "Du slog en kvinde i en gyde og fik ",
+          "text": "Du tævede en kvinde i en gyde og fik ",
           "amount": "10"
         },
         {
-          "text": "Du lavede en drive-by på biggieost og lavede ",
+          "text": "Du gjorde en drive-by på biggie ost og lavet ",
           "amount": "600"
         },
         {
@@ -171,13 +171,13 @@
           "amount": "500"
         },
         {
-          "text": "Du pooped på naboerne poarch og fik ",
+          "text": "Du pooped på naboer poarch og fik ",
           "amount": "1"
         }
       ]
     },
     "work": {
-      "cooldown": "Du kan ikke arbejde lige nu. Du er stadig ved nedkøling.",
+      "cooldown": "Du kan ikke arbejde lige nu. Du er stadig på nedkøling.",
       "workResponses": [
         {
           "text": "Du rensede nogens hus og lavede ",
@@ -192,7 +192,7 @@
           "amount": "18"
         },
         {
-          "text": "Du rensede tankstationens toiletter og lavede ",
+          "text": "Du rensede tankstationen toiletter og lavede ",
           "amount": "15"
         },
         {
@@ -200,7 +200,7 @@
           "amount": "37"
         },
         {
-          "text": "Du laver pizzaer i 6 timer og laver ",
+          "text": "Du laver pizzaer i 6 timer og lavet ",
           "amount": "75"
         },
         {
@@ -212,7 +212,7 @@
           "amount": "390"
         },
         {
-          "text": "Du genopfyldte tankstationshylderne og lavede ",
+          "text": "Du genopfyldte tankstationens hylder og lavede ",
           "amount": "32"
         },
         {
@@ -244,11 +244,11 @@
           "amount": "250"
         },
         {
-          "text": "Du klipper nogens hår og laver ",
+          "text": "Du klippede noget hår og lavede ",
           "amount": "25"
         },
         {
-          "text": "Du lavede en børnelektier for ham og lavede ",
+          "text": "Du lavede en lektie til ham og lavede en børnework ",
           "amount": "67"
         }
       ]
@@ -256,13 +256,13 @@
     "inventory": {
       "emptyInventory": "Din beholdning er tom.",
       "embedTitle": "Lager",
-      "selectItem": "Vælg en vare fra din lagerbeholdning for at bruge den.",
+      "selectItem": "Vælg en vare fra din beholdning for at bruge den.",
       "items": "**Lagervarer:**",
       "clickToUse": "Klik for at bruge dette element.",
       "selectAction": "Vælg et element for at bruge det."
     },
     "rob": {
-      "cooldown": "Du kan ikke nogen lige nu. Du er stadig ved nedkøling.",
+      "cooldown": "Du kan ikke nogen lige nu. Du er stadig på nedkøling.",
       "tooLittleMoney": "Denne bruger har for få penge til at blive røvet.",
       "robbed": "Du har røvet",
       "for": "for",
@@ -279,18 +279,18 @@
     "end": "Ende",
     "reroll": "Rul igen",
     "posted": "**Giveaway er blevet sendt!**",
-    "embedTitle": "Ny Giveaway!",
+    "embedTitle": "Ny giveaway!",
     "embedPrize": "**Præmie:**",
     "embedWinners": "**Vindere:**",
     "embedTimeLimit": "**Tidsbegrænsning:**"
   },
   "guilds": {
-    "leaveGuild": "Forlad Guild",
-    "embedTitle": "Laugsliste",
-    "embedGuildName": "**○ Laugsnavn:**",
+    "leaveGuild": "Forlad Lauget",
+    "embedTitle": "Laugs liste",
+    "embedGuildName": "**○ Laugets navn:**",
     "embedGuildId": "**○ Guild Id:**",
     "embedGuildMembers": "**○ Laugsmedlemmer:**",
-    "embedGuildOwnerTag": "**○ Guild Owner Tag:**",
+    "embedGuildOwnerTag": "**○ Guild Ejer Tag:**",
     "embedGuildOwnerId": "**○ Guild Ejer Id:**"
   },
   "help": {
@@ -298,23 +298,23 @@
     "embedTitle": "Menuen Hjælp",
     "defaultEmbedDesc": "Velkommen til Dark Bot! Brug denne menu til at se alle mine kommandoer og se, hvad der er at gøre! Tilpasning skal være ret let!",
     "user": "🧑 Bruger kommandoer",
-    "userDesc": "Se de brugerkommandoer, denne bot har at tilbyde.",
+    "userDesc": "Se de brugerkommandoer, som denne bot har at tilbyde.",
     "economy": "🏦 Økonomi kommandoer",
     "economyDesc": "Se de økonomikommandoer, denne bot har at tilbyde.",
     "music": "💿 Musik kommandoer",
     "musicDesc": "Se de musikkommandoer, denne bot har at tilbyde.",
-    "utility": "🧰 Hjælpekommandoer",
+    "utility": "🧰 Hjælpeprogrammer",
     "utilityDesc": "Se de hjælpekommandoer, denne bot har at tilbyde.",
     "moderation": "👮 Kommandoer til moderering",
     "moderationDesc": "Se de modereringskommandoer, som denne bot har at tilbyde.",
-    "settings": "🔧 Kommandoer til indstillinger",
+    "settings": "🔧 Indstillinger Kommandoer",
     "settingsDesc": "Se de indstillingskommandoer, som denne bot har at tilbyde.",
     "owner": "👑 Ejer kommandoer",
     "ownerDesc": "Se de (guild) ejerkommandoer, som denne bot har at tilbyde.",
     "credits": "📜 Kreditter",
     "creditsDesc": "Se kreditterne for denne bot.",
     "individualCommands": {
-      "embedTitle": "Hjælp til kommando",
+      "embedTitle": "Kommando Hjælp",
       "name": "**Navn:**",
       "desc": "**Beskrivelse:**",
       "type": "**Type:**",
@@ -329,29 +329,29 @@
     "unknownUser": "Ukendt bruger (venstre)",
     "lvl": "**Lvl:**",
     "xp": "**XP:**",
-    "embedTitle": "Chat-rangliste",
-    "requestedBy": "Anmodet om af",
+    "embedTitle": "Chat Leaderboard",
+    "requestedBy": "Anmodet af",
     "levelCommand": {
       "embedTitle": "Brugere nuværende niveau:",
-      "currentXp": "**Nuværende XP:**",
+      "currentXp": "** Nuværende XP:**",
       "currentLevel": "**Nuværende niveau:**",
       "noLevelData": "Denne bruger har intet niveau i denne guild."
     },
-    "levelUp": "Du har lige nivelleret op!",
+    "levelUp": "Du er lige kommet op i niveau!",
     "newLevel": "Nyt niveau:"
   },
   "logging": {
     "actionLogs": "Handlingslogfiler",
     "enforcer": "Håndhæver",
     "userId": "Bruger-id",
-    "userTag": "Bruger tag",
+    "userTag": "Bruger-tag",
     "reason": "Årsag",
     "time": "Tidspunkt",
     "timestamp": "Tidsstempel",
     "channel": "Kanal",
     "command": "Kommando",
     "options": "Indstillinger",
-    "noOptions": "Ingen muligheder forudsat.",
+    "noOptions": "Ingen muligheder.",
     "types": {
       "userBanned": "Bruger forbudt",
       "userOfflineBanned": "Bruger offline forbudt",
@@ -360,10 +360,10 @@
       "autoUnmute": "Slå automatisk lyden til",
       "command": "Kommando indtastet",
       "caseDeleted": "Sagen udgår",
-      "userUnbanned": "Bruger ikke-forbudt",
-      "userUnmuted": "Bruger uden lyd",
+      "userUnbanned": "Bruger ikke forbudt",
+      "userUnmuted": "Bruger, der ikke er slået fra",
       "userWarned": "Bruger advaret",
-      "filterSystem": "Filter System",
+      "filterSystem": "Filtrer system",
       "blacklistedTerm": "Sortlistet udtryk",
       "levelUp": "Niveau op",
       "newLevel": "Nyt niveau"
@@ -372,15 +372,15 @@
       "addChannel": "Tilføj kanal"
     },
     "commandEmbed": {
-      "embedTitle": "Logføring af kanaler",
-      "type": "**○ Logtype:**",
-      "channel": "**○ Log kanal:**",
-      "noChannel": "Ingen kanaler endnu. . ."
+      "embedTitle": "Logning af kanaler",
+      "type": "**○ Log type:**",
+      "channel": "**○ Log Kanal:**",
+      "noChannel": "Ingen kanaler endnu..."
     }
   },
   "music": {
-    "loopIsNow": "Loop er nu",
-    "noSongsPlaying": "Der er ingen sange, der afspilles i øjeblikket.",
+    "loopIsNow": "Løkke er nu",
+    "noSongsPlaying": "Der afspilles ingen sange i øjeblikket.",
     "searching": "Søgning...",
     "buttons": {
       "pause": "⏸️ Pause",
@@ -405,20 +405,20 @@
       "accept": "💍 Accepter et forslag",
       "acceptDesc": "Nogen bad dig om at gifte dig med dem? Virkelig?",
       "deny": "😭 Afvis et forslag",
-      "denyDesc": "Du er en forfærdelig person, hvis du klikker på dette ...",
-      "divorce": "⚖️ Få en skilsmisse",
+      "denyDesc": "Du er en forfærdelig person, hvis du klikker på dette...",
+      "divorce": "⚖️ Bliv skilt",
       "divorceDesc": "Hvem tager børnene? For det bliver ikke mig.",
       "embedTitle": "Ægteskabssystem",
       "embedDesc": "Se ægteskabssystemet og foretag ændringer!"
     }
   },
   "massrole": {
-    "begin": "'Massrole igangsættes nu ...'",
-    "failed": "'Massrole mislykkedes...'",
+    "begin": "'Massrole indleder nu ...'",
+    "failed": "'Massrole mislykkedes ...'",
     "missing": "**Manglende tilladelser!**"
   },
   "meme": {
-    "grabbing": "Griber dig et meme ...",
+    "grabbing": "Grib dig et meme ...",
     "hereYaGo": "Værsgo!"
   },
   "mute": {
@@ -440,18 +440,18 @@
     "embedTitle": "Menuen Tilladelser",
     "type": "**○ Perm Type:**",
     "role": "**○ Rolle-id:**",
-    "noPermsYet": "Ingen frynse- og boligsen endnu..."
+    "noPermsYet": "Ingen perms endnu. . ."
   },
   "ping": {
-    "message": "🏓 Ventetid er:"
+    "message": "🏓 Latens er:"
   },
   "pingPrevention": {
     "selectAction": "Vælg en ping-forebyggelseshandling.",
     "addPingPrev": "📫 Tilføj Ping-forebyggelse",
-    "addPingPrevDesc": "Konfigurer din ping-forebyggelse.",
+    "addPingPrevDesc": "Konfigurer din pingforebyggelse.",
     "removePingPrev": "❌ Fjern Ping-forebyggelse",
     "removePingPrevDesc": "Fjern din ping-forebyggelse.",
-    "embedTitle": "Ping Forebyggelse Menu",
+    "embedTitle": "Menuen Ping-forebyggelse",
     "embedDesc": "Administrer din ping-forebyggelsesstatus!"
   },
   "poll": {
@@ -459,11 +459,11 @@
   },
   "punishments": {
     "noHistory": "Denne bruger har ingen historie med straffe!",
-    "embedTitle": "Oplysninger om sagen"
+    "embedTitle": "Sagsoplysning"
   },
   "purge": {
     "msgDeleted": "Beskeder slettet!",
-    "error": "**Fejl ved sletning af meddelelser!**",
+    "error": "** Fejl ved sletning af meddelelser!**",
     "reason": "Jeg kan kun slette beskeder op til 14 dage gamle..."
   },
   "queue": {
@@ -472,11 +472,11 @@
     "noSongsQueued": "Der er ingen sange i køen."
   },
   "restart": {
-    "restarting": "Genstart af klient",
+    "restarting": "Klient genstart",
     "restartingDesc": "**Genstart af klienten...**",
-    "success": "Genstart af klienten lykkedes",
+    "success": "Klient genstart vellykket",
     "successDesc": "**Klienten er blevet genstartet!**",
-    "failed": "Genstart af klienten mislykkedes",
+    "failed": "Genstart af klient mislykkedes",
     "private": "**Tjek venligst dine private beskeder!**",
     "failed2": "**Genstart af klienten mislykkedes...**"
   },
@@ -487,65 +487,65 @@
   },
   "selfroles": {
     "addMenu": "Tilføj menu",
-    "roleManager": "Rolleadministrator",
-    "postPanel": "Indlægspanel",
-    "embedTitle": "Menuer til selvrolle",
+    "roleManager": "Rolle manager",
+    "postPanel": "Indlæg Panel",
+    "embedTitle": "Selvrolle menuer",
     "menuName": "**○ Menunavn:**",
     "noMenus": "Ingen menuer endnu. . ."
   },
   "server": {
-    "serverInfo": "Oplysninger om serveren",
+    "serverInfo": "Server Info",
     "name": "Navn",
     "id": "Id",
     "owner": "Ejer",
     "members": "Medlemmer",
     "users": "Brugere",
     "bots": "Bots",
-    "date": "Oprettelsesdato",
-    "requestedBy": "Anmodet om af"
+    "date": "Dato for oprettelse",
+    "requestedBy": "Anmodet af"
   },
   "settings": {
-    "selectAction": "Vælg en indstillingsindstilling.",
+    "selectAction": "Vælg en indstillingsmulighed.",
     "base": "📕 Basismoduler",
-    "baseDesc": "Ændre basismodulerne for dette laug.",
+    "baseDesc": "Skift basismodulerne til denne guild.",
     "security": "📘 Sikkerhedsmoduler",
-    "securityDesc": "Ændre sikkerhedsmoduler til dette laug.",
+    "securityDesc": "Skift sikkerhedsmoduler til denne guild.",
     "fun": "📙 Sjove moduler",
-    "funDesc": "Skift sjove moduler til dette guild.",
+    "funDesc": "Skift sjove moduler til denne guild.",
     "embedTitle": "Menuen Indstillinger",
-    "embedDesc": "Se indstillingsmenuen, og foretag ændringer!"
+    "embedDesc": "Se indstillingsmenuen og foretag ændringer!"
   },
   "shop": {
     "empty": "Butikken er tom.",
     "shop": "Butik",
-    "select": "Vælg en vare fra butikken for at købe den.",
-    "shopItems": "**Køb varer:**",
+    "select": "Vælg en vare i butikken for at købe den.",
+    "shopItems": "** Køb varer:**",
     "click": "Klik for at købe denne vare.",
     "selectAction": "Vælg en vare for at købe den."
   },
   "snipe": {
-    "noMessage": "Der er ingen meddelelser at snigskytte i denne kanal!",
-    "messageFrom": "Besked fra",
-    "snipedBy": "Sniped af"
+    "noMessage": "Der er ingen beskeder at klippe i denne kanal!",
+    "messageFrom": "Meddelelse fra",
+    "snipedBy": "Klippet af"
   },
   "sticky": {
-    "selectAction": "Vælg en klæbrig meddelelseshandling.",
-    "add": "🍯 Tilføj klæbrig",
+    "selectAction": "Vælg en sticky message-handling.",
+    "add": "🍯 Tilføj Sticky",
     "addDesc": "Føj en klæbrig besked til databasen.",
-    "remove": "❌ Fjern klæbrig",
+    "remove": "❌ Fjern Sticky",
     "removeDesc": "Fjern en klæbrig besked fra databasen.",
-    "embedTitle": "Klæbrig beskedmenu",
-    "embedDesc": "Tilføj/fjern klæbrige beskeder til/fra databasen!"
+    "embedTitle": "Menuen Sticky Message",
+    "embedDesc": "Tilføj / fjern sticky messages til/fra databasen!"
   },
   "suggestion": {
     "recieved": "**Forslag modtaget!**",
     "embedTitle": "Nyt forslag!",
-    "noChan": "Dette laug har endnu ikke oprettet forslagslogning."
+    "noChan": "Dette laug har ikke oprettet forslagslogning endnu."
   },
   "tickets": {
-    "noTickets": "Dette guild har ikke oprettet nogen billetkategorier endnu.",
-    "embedTitle": "Billet kategorier",
-    "embedDesc": "Her er billetkategorierne til dette laug. Vælg en for at åbne en billet i den kategori.",
+    "noTickets": "Denne guild har ikke oprettet nogen billetkategorier endnu.",
+    "embedTitle": "Billet Kategorier",
+    "embedDesc": "Her er billetkategorierne for denne guild. Vælg en for at åbne en billet i den kategori.",
     "selectAction": "Vælg en billetkategori."
   },
   "ticketbuttons": {
@@ -561,26 +561,26 @@
   "ticketpanels": {
     "addPanel": "Tilføj panel",
     "post": "Send til kanal",
-    "embedTitle": "Billetpaneler",
+    "embedTitle": "Billet paneler",
     "panelName": "**○ Panelets navn:**",
-    "panelDesc": "**○ Panel beskrivelse:**",
+    "panelDesc": "**○ Panel Beskrivelse:**",
     "noPanels": "Ingen paneler endnu..."
   },
   "timer": {
-    "set": "Timer indstillet!",
+    "set": "Timer sæt!",
     "up": "Timer op!",
-    "remind": "Jeg vil minde dig om det i",
+    "remind": "Jeg vil minde dig om i",
     "to": "til",
     "timer": "Timer",
-    "time": "**Tid: **",
+    "time": "**Tidspunkt: **",
     "note": "**Bemærk: **",
     "ended": "**Timer afsluttet**"
   },
   "tos": {
     "agree": "Jeg er enig",
-    "tos": "Vilkår for brug",
-    "confirm": "Bekræft**, at du accepterer **[Servicevilkår]",
-    "confirm2": "** \nved at trykke på den blå knap nedenfor, hvor der står 'Jeg er enig'."
+    "tos": "Servicevilkår",
+    "confirm": "Bekræft venligst ** at du accepterer **[Servicevilkår]",
+    "confirm2": "** \nved at trykke på den blå knap nedenfor, der siger 'Jeg er enig'."
   },
   "user": {
     "info": "Brugeroplysninger",
@@ -590,10 +590,10 @@
     "cases": "Tilfælde",
     "level": "Chat niveau",
     "joined": "Sluttede sig til Discord",
-    "requestedBy": "Anmodet om af"
+    "requestedBy": "Anmodet af"
   },
   "volume": {
-    "changed": "Lydstyrken er ændret"
+    "changed": "Volumen ændret"
   },
   "globalButtons": {
     "controls": "Kontrol:",
@@ -601,12 +601,12 @@
     "settings": "Indstillinger:",
     "tools": "Værktøjer:",
     "toggle": "Skifte:",
-    "delete": "Slet valgt",
+    "delete": "Slet markeret",
     "disabled": "Handicappet",
     "enabled": "Aktiveret",
     "back": "Ryg",
     "next": "Næste",
-    "deleteSelected": "Slet valgt",
+    "deleteSelected": "Slet markeret",
     "closed": "Lukket",
     "open": "Åben",
     "home": "🏠 Gå hjem",
@@ -623,7 +623,7 @@
       "options": [
         {
           "name": "spørgsmål",
-          "description": "Spørgsmålet at stille bolden 🎱.",
+          "description": "Spørgsmålet om at stille bolden 🎱.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -634,7 +634,7 @@
       "description": "Skift din AFK-status."
     },
     "applicationmenu": {
-      "name": "ansøgning menu",
+      "name": "ansøgningmenu",
       "description": "Administrer disse guilds applikationer."
     },
     "apply": {
@@ -647,7 +647,7 @@
       "options": [
         {
           "name": "Tekst",
-          "description": "Teksten konverteres til ascii.",
+          "description": "Teksten, der skal konverteres til ascii.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -659,7 +659,7 @@
       "options": [
         {
           "name": "bruger",
-          "description": "Brugeren til at få avataren af.",
+          "description": "Brugeren for at få avataren af.",
           "required": "sand",
           "type": "BRUGER"
         }
@@ -671,7 +671,7 @@
     },
     "ban": {
       "name": "forbud",
-      "description": "Forbyd nogen fra lauget.",
+      "description": "Forbyd nogen fra guilden.",
       "options": [
         {
           "name": "bruger",
@@ -689,11 +689,11 @@
     },
     "birthdays": {
       "name": "Fødselsdage",
-      "description": "Åbn fødselsdagspanelet."
+      "description": "Åbn panelet fødselsdage."
     },
     "case": {
       "name": "tilfælde",
-      "description": "Få vist oplysninger om en sag.",
+      "description": "Se oplysninger om en sag.",
       "options": [
         {
           "name": "case_id",
@@ -733,11 +733,11 @@
     },
     "dice": {
       "name": "Siger",
-      "description": "Rul terningerne."
+      "description": "Kast terningerne."
     },
     "dm": {
       "name": "Dm",
-      "description": "Send en privat besked til en bruger som bot.",
+      "description": "Send en privat besked til en bruger som botten.",
       "options": [
         {
           "name": "bruger",
@@ -747,7 +747,7 @@
         },
         {
           "name": "budskab",
-          "description": "Beskeden til at sende dem.",
+          "description": "Beskeden om at sende dem.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -759,13 +759,13 @@
       "options": [
         {
           "name": "kanal",
-          "description": "Den kanal, som integreringen skal bogføres på.",
+          "description": "Den kanal, der skal sendes indlejringen til.",
           "required": "sand",
           "type": "KANAL"
         },
         {
           "name": "budskab",
-          "description": "Budskabet at sige i indlejringen.",
+          "description": "Meddelelsen om at sige i indlejringen.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -773,7 +773,7 @@
     },
     "embedbuilder": {
       "name": "embedbuilder",
-      "description": "Åbn den interaktive formular til integrering af meddelelser."
+      "description": "Åbn den interaktive meddelelsesintegrationsbygger."
     },
     "games": {
       "name": "Spil",
@@ -781,7 +781,7 @@
       "options": [
         {
           "name": "spil",
-          "description": "Vælg et spil, der skal spilles.",
+          "description": "Vælg et spil, du vil spille.",
           "required": "sand",
           "type": "STRENG",
           "choices": [
@@ -791,7 +791,7 @@
             },
             {
               "name": "Youtube",
-              "value": "youtube"
+              "value": "Youtube"
             },
             {
               "name": "Skak",
@@ -815,11 +815,11 @@
             },
             {
               "name": "Bogstav flise",
-              "value": "lettertile"
+              "value": "brevtil"
             },
             {
               "name": "Ord Snack",
-              "value": "ordnack"
+              "value": "wordsnack"
             },
             {
               "name": "Doodle besætning",
@@ -830,8 +830,8 @@
               "value": "trylleformular"
             },
             {
-              "name": "Skitsehoveder",
-              "value": "Skitsehoveder"
+              "name": "Skitse hoveder",
+              "value": "Skitse hoveder"
             }
           ]
         }
@@ -861,13 +861,13 @@
         },
         {
           "name": "time_limit",
-          "description": "Hvor længe gaven skal vare.",
+          "description": "Hvor længe giveaway skal vare.",
           "required": "sand",
           "type": "STRENG"
         },
         {
           "name": "Vindere",
-          "description": "Hvor mange vindere giveaway skal have.",
+          "description": "Hvor mange vindere giveawayen skal have.",
           "required": "sand",
           "type": "HELTAL"
         }
@@ -879,11 +879,11 @@
     },
     "help": {
       "name": "Hjælp",
-      "description": "Se alle kommandoer og oplysninger om botten!",
+      "description": "Se alle kommandoer og info om botten!",
       "options": [
         {
           "name": "kommando",
-          "description": "Se oplysninger om en bestemt kommando.",
+          "description": "Få vist oplysninger om en bestemt kommando.",
           "required": "falsk",
           "type": "STRENG"
         }
@@ -907,7 +907,7 @@
     },
     "kick": {
       "name": "sparke",
-      "description": "Spark nogen fra dette laug.",
+      "description": "Spark nogen fra denne guild.",
       "options": [
         {
           "name": "bruger",
@@ -925,15 +925,15 @@
     },
     "leaderboard": {
       "name": "rangliste",
-      "description": "Se denne server chat niveau leaderboard."
+      "description": "Se denne servers chat niveau leaderboard."
     },
     "level": {
       "name": "niveau",
-      "description": "Se et brugerniveau.",
+      "description": "Få vist et brugerniveau.",
       "options": [
         {
           "name": "bruger",
-          "description": "Brugeren til at se niveauet for",
+          "description": "Brugeren for at se niveauet for",
           "required": "sand",
           "type": "BRUGER"
         }
@@ -949,11 +949,11 @@
     },
     "marriage": {
       "name": "ægteskab",
-      "description": "Se ægteskabssystemet ❤️ !"
+      "description": "Se ægteskabssystemet ❤️!"
     },
     "massrole": {
-      "name": "massole",
-      "description": "Giv hvert medlem på denne server en rolle.",
+      "name": "Massrole",
+      "description": "Giv hvert medlem i denne server en rolle.",
       "options": [
         {
           "name": "rolle",
@@ -973,7 +973,7 @@
       "options": [
         {
           "name": "play_song",
-          "description": "Sangen, der skal afspilles.",
+          "description": "Sangen, der skal spilles.",
           "required": "falsk",
           "type": "STRENG"
         }
@@ -981,11 +981,11 @@
     },
     "mute": {
       "name": "stum",
-      "description": "Slå lyden fra for nogen i lauget.",
+      "description": "Slå nogen i lauget fra.",
       "options": [
         {
           "name": "bruger",
-          "description": "Brugeren til at slå lyden fra fra denne guild.",
+          "description": "Brugeren skal slå lyden fra fra denne guild.",
           "required": "sand",
           "type": "BRUGER"
         },
@@ -997,19 +997,19 @@
         },
         {
           "name": "årsag",
-          "description": "Årsagen til at slå lyden fra for brugeren.",
+          "description": "Årsagen til at dæmpe brugeren.",
           "required": "sand",
           "type": "STRENG"
         }
       ]
     },
     "offlineban": {
-      "name": "offlineban",
-      "description": "Forbyd nogen, der ikke er i lauget.",
+      "name": "Offlineban",
+      "description": "Forbyd nogen, der ikke er i guilden.",
       "options": [
         {
           "name": "user_id",
-          "description": "Bruger-id'et for den bruger, der skal forbydes.",
+          "description": "Brugerens bruger-id, der skal forbydes.",
           "required": "sand",
           "type": "STRENG"
         },
@@ -1042,8 +1042,8 @@
       "description": "En simpel ping-kommando."
     },
     "pingprev": {
-      "name": "pingprev",
-      "description": "Administrer din ping-forebyggelsesstatus."
+      "name": "Pingprev",
+      "description": "Administrer din pingforebyggelsesstatus."
     },
     "play": {
       "name": "spille",
@@ -1051,7 +1051,7 @@
       "options": [
         {
           "name": "sang",
-          "description": "Sangen, der skal afspilles.",
+          "description": "Sangen, der skal spilles.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -1059,7 +1059,7 @@
     },
     "poll": {
       "name": "Meningsmåling",
-      "description": "Opret en meningsmåling.",
+      "description": "Opret en afstemning.",
       "options": [
         {
           "name": "spørgsmål",
@@ -1131,11 +1131,11 @@
     },
     "punishments": {
       "name": "Straffe",
-      "description": "Se en brugersagshistorik.",
+      "description": "Få vist en brugers sagshistorik.",
       "options": [
         {
           "name": "bruger",
-          "description": "Den bruger, der skal se sagshistorikken for.",
+          "description": "Brugeren til at se sagshistorikken for.",
           "required": "sand",
           "type": "BRUGER"
         }
@@ -1143,11 +1143,11 @@
     },
     "purge": {
       "name": "udrensning",
-      "description": "Masseslet beskeder i en kanal.",
+      "description": "Masseslet meddelelser i en kanal.",
       "options": [
         {
           "name": "beløb",
-          "description": "Antallet af meddelelser, der skal renses.",
+          "description": "Antallet af beskeder, der skal renses.",
           "required": "sand",
           "type": "HELTAL"
         }
@@ -1158,12 +1158,12 @@
       "description": "Se musikkøen."
     },
     "removecase": {
-      "name": "removecase",
+      "name": "fjern sag",
       "description": "Fjern en sag fra databasen.",
       "options": [
         {
           "name": "case_id",
-          "description": "Sags-id'et, der skal fjernes.",
+          "description": "Sagen Id at fjerne.",
           "required": "sand",
           "type": "HELTAL"
         }
@@ -1179,19 +1179,19 @@
       "options": [
         {
           "name": "tjeneste",
-          "description": "Hvad du købte / købte.",
+          "description": "Hvad du har købt / købt.",
           "required": "sand",
           "type": "STRENG"
         },
         {
           "name": "Rating",
-          "description": "Hvad du bedømmer produktet ud af 5.",
+          "description": "Hvad du vurderer produktet ud af 5.",
           "required": "sand",
           "type": "HELTAL"
         },
         {
           "name": "budskab",
-          "description": "Efterlad en besked sammen med din anmeldelse.",
+          "description": "Efterlad en besked med din anmeldelse.",
           "required": "sand",
           "type": "STRENG"
         }
@@ -1215,7 +1215,7 @@
       "options": [
         {
           "name": "kanal",
-          "description": "Den kanal, du vil sende beskeden til.",
+          "description": "Den kanal, meddelelsen skal sendes til.",
           "required": "sand",
           "type": "KANAL"
         },
@@ -1228,8 +1228,8 @@
       ]
     },
     "selfroles": {
-      "name": "selvroroler",
-      "description": "Opret selvroller til dette guild."
+      "name": "selvrolles",
+      "description": "Opret selvroller for denne guild."
     },
     "server": {
       "name": "server",
@@ -1245,11 +1245,11 @@
     },
     "snipe": {
       "name": "dobbeltbekkasin",
-      "description": "Hent den sidst slettede besked i denne kanal."
+      "description": "Hent den sidst slettede meddelelse i denne kanal."
     },
     "sticky": {
       "name": "klæbrig",
-      "description": "Tilføj eller fjern klæbrige beskeder."
+      "description": "Tilføj eller fjern sticky messages."
     },
     "suggest": {
       "name": "foreslå",
@@ -1273,7 +1273,7 @@
     },
     "ticketpanels": {
       "name": "billetpaneler",
-      "description": "Opret billetpaneler til dette guild."
+      "description": "Opret billetpaneler til denne guild."
     },
     "timer": {
       "name": "Timer",
@@ -1281,7 +1281,7 @@
       "options": [
         {
           "name": "Tidspunkt",
-          "description": "Tidshenvisningen til at gå i gang. (Eks: 1 time = 1 time, 1m = 1 minut, 5s = 5 sekunder)",
+          "description": "Tiden for timeren at slukke. (Eks: 1h = 1 time, 1m = 1 minut, 5s = 5 sekunder)",
           "required": "sand",
           "type": "STRENG"
         },
@@ -1306,24 +1306,24 @@
       ]
     },
     "unban": {
-      "name": "unban",
-      "description": "Fjern forbuddet mod nogen fra dette laug.",
+      "name": "fjerne forbud",
+      "description": "Fjern forbud mod nogen fra denne guild.",
       "options": [
         {
           "name": "bruger",
-          "description": "Bruger-id'et for at unban fra dette guild.",
+          "description": "Bruger-id'et skal fjernes fra denne guild.",
           "required": "sand",
           "type": "STRENG"
         }
       ]
     },
     "unmute": {
-      "name": "Slå lyden til",
-      "description": "Slå lyden til for en person i lauget.",
+      "name": "slå lyden til",
+      "description": "Slå lyden til for nogen i lauget.",
       "options": [
         {
           "name": "bruger",
-          "description": "Brugeren til at slå lyden til fra denne guild.",
+          "description": "Brugeren skal slå lyden til fra denne guild.",
           "required": "sand",
           "type": "BRUGER"
         }
@@ -1331,11 +1331,11 @@
     },
     "user": {
       "name": "bruger",
-      "description": "Få vist oplysninger om en bruger.",
+      "description": "Se oplysninger om brugere.",
       "options": [
         {
           "name": "bruger",
-          "description": "Den bruger, der skal vises.",
+          "description": "Brugeren, der skal vises.",
           "required": "sand",
           "type": "BRUGER"
         }
@@ -1343,11 +1343,11 @@
     },
     "volume": {
       "name": "lydstyrke",
-      "description": "Skift lydstyrken på musikken.",
+      "description": "Skift musiklydstyrke.",
       "options": [
         {
           "name": "værdi",
-          "description": "Sangen, der skal afspilles.",
+          "description": "Sangen, der skal spilles.",
           "required": "sand",
           "type": "HELTAL"
         }
@@ -1355,7 +1355,7 @@
     },
     "warn": {
       "name": "advare",
-      "description": "Advar en bruger i dette laug.",
+      "description": "Advar en bruger i denne guild.",
       "options": [
         {
           "name": "bruger",
@@ -1385,8 +1385,8 @@
     "actionBy": "Handlet af",
     "someone": "nogen",
     "guilds": {
-      "join": "📥 Guild tilmeldte sig!",
-      "leave": "📤 Lauget gik!",
+      "join": "📥 Guild tilmeldt!",
+      "leave": "📤 Guild venstre!",
       "name": "**○ Navn:**",
       "id": "**○ Id:**"
     },
@@ -1401,23 +1401,23 @@
       "color": "Farve",
       "hoisted": "Hejst",
       "position": "Position",
-      "mentionable": "Nævnes"
+      "mentionable": "Kan nævnes"
     },
     "channels": {
       "created": "Kanal oprettet",
       "deleted": "Kanal slettet",
       "updated": "Kanal opdateret",
       "id": "Kanal-id",
-      "name": "Kanalnavn"
+      "name": "Kanalens navn"
     },
     "members": {
       "left": "har forladt serveren!",
       "leftEmbedTitle": "Farvel bruger!",
-      "accountAge": "Konto Alder",
+      "accountAge": "Kontoens alder",
       "members": "Medlemmer",
       "users": "Brugere",
       "sorry": "Beklager",
-      "lockdown": "er i øjeblikket under lockdown! Prøv at deltage igen om et par timer, eller kontakt en administrator eksternt for at se, hvad der sker!\n\nDet er muligt, at ejeren bare glemte at deaktivere serverlås, uanset om dette er blevet logget, og jeg er sikker på, at serveren snart vil være åben igen.",
+      "lockdown": "er i øjeblikket under lockdown! Prøv at deltage igen om et par timer, eller kontakt en administrator eksternt for at se, hvad der sker!\n\nDet er muligt, at ejeren lige har glemt at deaktivere serverlås, uanset at dette er blevet logget, og jeg er sikker på, at serveren snart vil være åben igen.",
       "lockdownMode": "Serveren er i lockdown-tilstand!",
       "lockdownTitle": "🔒 Server Lockdown!",
       "lockdownRemoval": "Fjernelse af lockdown!",
@@ -1431,18 +1431,18 @@
       "removal1": "Du er blevet fjernet fra",
       "removal2": "da din konto ikke opfylder alderskravene til guilds-kontoen.",
       "join": "har tilsluttet sig serveren!",
-      "joinEmbedTitle": "Velkommen Bruger!"
+      "joinEmbedTitle": "Velkommen bruger!"
     },
     "messages": {
       "deleted": "Meddelelse slettet",
       "channel": "Kanal",
-      "content": "Meddelelsens indhold",
+      "content": "Meddelelsesindhold",
       "noContent": "Intet indhold",
       "updated": "Meddelelse opdateret",
-      "noAfk": "du er ikke længere mærket AFK i dette laug.",
+      "noAfk": "du er ikke længere mærket AFK i denne guild.",
       "isAfk": "er i øjeblikket AFK...",
       "pingedBy": "Pinget af",
-      "pingPrev": "❤️ Ping forebyggelsessystem",
+      "pingPrev": "❤️ Ping-forebyggelsessystem",
       "mail": "📫 Du har fået mail!",
       "pleaseDont": "Vær venlig ikke at pinge mig, jeg har et liv, ligesom dig :]"
     },
@@ -1451,7 +1451,7 @@
       "deleted": "Rolle slettet",
       "updated": "Rolle opdateret",
       "id": "Rolle-id",
-      "name": "Navn på rolle",
+      "name": "Rolle navn",
       "actionedBy": "Handlet af"
     },
     "voice": {
@@ -1464,14 +1464,14 @@
       "joined": "Sluttede",
       "moved": "flyttet fra",
       "to": "til",
-      "deafened": "døv",
-      "undeafened": "udøv",
+      "deafened": "døvet",
+      "undeafened": "øredøv",
       "muted": "Dæmpet",
       "unmuted": "ikke-dæmpet",
       "stopped": "stoppede deres video",
       "started": "startede deres video",
       "stream": "begyndte at streame",
-      "stopstream": "stoppede streaming"
+      "stopstream": "stoppede med at streame"
     }
   },
   "components": {
@@ -1499,10 +1499,10 @@
       "title": "Opret applikation!",
       "name": "Applikationens navn",
       "here": "Indtast applikationsnavnet her.",
-      "am": "Accepteret besked",
-      "dm": "Afvist besked",
-      "aam": "Indtast den besked, en bruger skal modtage, hvis de bliver accepteret her.",
-      "ddm": "Indtast den besked, en bruger skal modtage, hvis de bliver nægtet her."
+      "am": "Accepteret meddelelse",
+      "dm": "Nægtet besked",
+      "aam": "Indtast den besked, som en bruger skal modtage, hvis de bliver accepteret her.",
+      "ddm": "Indtast den besked, som en bruger skal modtage, hvis de bliver nægtet her."
     },
     "appMenuBack": {
       "title": "Menuen Ansøgning",
@@ -1523,7 +1523,7 @@
       "createform": "Opret formular"
     },
     "appMenuQuestions": {
-      "title": "Redaktør af spørgsmål",
+      "title": "Spørgsmål Redaktør",
       "add": "Tilføj spørgsmål",
       "app": "○ App:",
       "question": "○ Spørgsmål:",
@@ -1532,9 +1532,9 @@
     "appMenuQuestionsAdd": {
       "added": "Spørgsmål tilføjet!",
       "invalid": "Ugyldig ansøgning.",
-      "input": "Indtast det spørgsmål, du vil føje til applikationen.",
+      "input": "Indtast det spørgsmål, du vil tilføje til applikationen.",
       "cancel": "Aflyst.",
-      "error": "Fejl ved tilføjelse af spørgsmål. Prøv igen, sørg for at du ikke inkluderer emojis i dine spørgsmål."
+      "error": "Fejl ved tilføjelse af spørgsmål. Prøv igen, sørg for, at du ikke inkluderer emojis i dine spørgsmål."
     },
     "appMenuQuestionsDelete": {
       "deleted": "Spørgsmål slettet!",
@@ -1545,79 +1545,79 @@
       "pleaseAnswer": "Besvar venligst følgende spørgsmål efter bedste evne.",
       "started": "Ansøgning startede i DM'er.",
       "cancel": "Aflyst.",
-      "date": "Dato for indsendelse",
+      "date": "Dato indsendt",
       "submitted": "Ansøgning indsendt!",
-      "failed": "**Programmet mislykkedes.**\nSørg for, at dine DM'er ikke er privaterede.",
+      "failed": "**Ansøgning mislykkedes.**\nSørg for, at dine DM'er ikke er privated.",
       "q": "Q",
       "a": "En"
     },
     "backingDeposit": {
-      "noInput": "Indtast venligst et beløb, du ønsker at indbetale i banken.",
+      "noInput": "Indtast et beløb, du ønsker at indbetale i banken.",
       "notValid": "Indtast et gyldigt nummer.",
-      "notValid2": "**Indtast venligst et gyldigt nummer.**\nPrøv igen...",
-      "notEnough": "**Det er mere, end du har i din balance.**\nPrøv igen...",
+      "notValid2": "**Indtast et gyldigt nummer.**\nPrøv igen...",
+      "notEnough": "**Det er mere, end du har i din saldo.**\nPrøv igen...",
       "deposited": "**Deponeret ",
       "deposited1": " ind i banken.**",
       "logAuthor": " - Indbetaling",
       "amount": "Beløb"
     },
     "bankingTransfer": {
-      "user": "Angiv venligst den bruger, du ønsker at overføre denne valuta til.",
+      "user": "Angiv den bruger, du ønsker at overføre denne valuta til.",
       "aUser": "Angiv det beløb, du ønsker at overføre til denne bruger.",
       "valUser": "Indtast en gyldig bruger.",
       "valNumber": "Indtast et gyldigt nummer.",
-      "valNumber1": "**Indtast venligst et gyldigt nummer.**\nPrøv igen...",
-      "notEnough": "**Det er mere, end du har i din balance.**\nPrøv igen...",
+      "valNumber1": "**Indtast et gyldigt nummer.**\nPrøv igen...",
+      "notEnough": "**Det er mere, end du har i din saldo.**\nPrøv igen...",
       "Done": " Overført!**",
       "logAuthor": " - Overførsel",
       "reciever": "Reciever"
     },
     "bankingWithdraw": {
-      "iAmount": "Indtast venligst et beløb, du ønsker at hæve fra banken.",
+      "iAmount": "Indtast et beløb, du ønsker at hæve fra banken.",
       "number": "Indtast et gyldigt nummer.",
-      "valNumber": "**Indtast venligst et gyldigt nummer.**\nPrøv igen...",
+      "valNumber": "**Indtast et gyldigt nummer.**\nPrøv igen...",
       "notEnough": "**Det er mere, end du har i din bank.**\nPrøv igen...",
       "Withdrew": "**Trak sig tilbage ",
       "Withdrew1": " bagfra.**",
       "logAuthor": " - Trak sig tilbage"
     },
     "birthdayAdd": {
-      "already": "Du har allerede registreret en fødselsdag i dette laug.",
-      "date": "Angiv venligst din fødselsdato.\n**Bemærk:** Det skal formateres sådan: 'MM-DD-YYYY', ellers fungerer det **ikke**.",
+      "already": "Du har allerede registreret en fødselsdag i denne guild.",
+      "date": "Angiv venligst din fødselsdato.\n** Bemærk: ** Det skal formateres sådan: 'MM-DD-ÅÅÅÅ' ellers fungerer det ** ikke **.",
       "cancel": "Aflyst.",
       "added": "**Fødselsdag tilføjet!**"
     },
     "birthdayRemove": {
-      "noBday": "Du har ikke registreret en fødselsdag i dette laug.",
-      "removed": "**Fødselsdag fjernet!**"
+      "noBday": "Du har ikke registreret en fødselsdag i denne guild.",
+      "removed": "** Fødselsdag fjernet!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Tillykke med fødselsdagen!",
       "its": "Det er",
-      "bday": "Fødselsdag i dag! Ønsker dem tillykke med fødselsdagen, og lad os fejre!\n\n**Dato:**"
+      "bday": "Fødselsdag i dag! Ønsk dem tillykke med fødselsdagen, og lad os fejre det!\n\n**Dato:**"
     },
     "clientAdd": {
-      "user": "Nævn venligst den bruger, du ønsker at tilføje som klient.",
-      "iUser": "Ugyldig bruger.\nNævn venligst den bruger, du ønsker at tilføje som klient.",
+      "user": "Angiv den bruger, du ønsker at tilføje som klient.",
+      "iUser": "Ugyldig bruger.\nAngiv den bruger, du ønsker at tilføje som klient.",
       "already": "Denne bruger er allerede en registreret klient.",
       "added": "📥 Klient tilføjet",
       "done": "er blevet 'tilføjet' som klient.",
-      "add": "**Klient tilføjet!**"
+      "add": "** Klient tilføjet!**"
     },
     "clientRemove": {
       "noClients": "Denne guild har ingen registrerede kunder.",
-      "mention": "Nævn venligst en klient, du ønsker at fjerne.",
-      "iClient": "Ugyldig bruger.\nNævn venligst den klient, du ønsker at fjerne.",
+      "mention": "Angiv en klient, du ønsker at fjerne.",
+      "iClient": "Ugyldig bruger.\nAngiv den klient, du ønsker at fjerne.",
       "notR": "Denne bruger er ikke en registreret klient.",
       "removed": "📥 Klient fjernet",
       "dsec": "blev 'fjernet' som klient.",
-      "done": "**Klienten er fjernet!**"
+      "done": "** Klient fjernet!**"
     },
     "forceLeaveGuild": {
-      "left": "Venstre Laug"
+      "left": "Venstre gilde"
     },
     "giveawayEnd": {
-      "end": "Afslutning af giveaway, vent venligst!",
+      "end": "Afslutning giveaway, vent venligst!",
       "notCreator": "Du er ikke skaberen af denne giveaway!\nDet blev oprettet af:",
       "ended": "Denne giveaway er allerede afsluttet.",
       "notCreator1": "Denne giveaway er allerede afsluttet!\nDet blev oprettet af:",
@@ -1630,12 +1630,12 @@
       "notActive": "Denne giveaway er ikke længere aktiv."
     },
     "giveawayRefresh": {
-      "for": "Giveaway til",
+      "for": "Giveaway for",
       "with": "med",
-      "finish": "vinderne har fået nulstillet timeren på grund af botgenstart!"
+      "finish": "vinderne har fået nulstillet timeren på grund af genstart af botten!"
     },
     "giveawayReroll": {
-      "wait": "Rullende igen, vent venligst!",
+      "wait": "Re-Rolling, vent venligst!",
       "consoleNumber": "En giveaways winnters tæller er ikke et tal ...",
       "title": "Giveaway rullet igen!",
       "prize": "**Oplysninger**\nPræmie:",
@@ -1643,9 +1643,9 @@
       "time": "Tidsbegrænsning:",
       "winners2": "**Vindere**",
       "footer": "Giveaway af: ",
-      "endError": "FEJL VED GIVEAWAY-AFSLUTNING: ",
+      "endError": "GIVEAWAY AFSLUTNING FEJL: ",
       "uNot": "Du skabte ikke denne giveaway.",
-      "wait1": "Du skal vente på, at giveaway er færdig for at rulle igen!",
+      "wait1": "Du skal vente på, at giveawayen er færdig for at rulle igen!",
       "find": "Vi kunne ikke finde denne giveaway i databasen."
     },
     "helpPageSelect": {
@@ -1654,7 +1654,7 @@
       "by": "ved"
     },
     "inventorySelect": {
-      "noItems": "Du har ingen varer i din beholdning.",
+      "noItems": "Du har ingen varer på din beholdning.",
       "used": "har brugt **1**",
       "logAuthor": " - Brugt vare",
       "field1": "Vare"
@@ -1664,39 +1664,39 @@
       "options": {
         "welcome": {
           "label": "👋 Velkomstbeskeder",
-          "desc": "Indstil en logføringskanal til velkomstbeskeder."
+          "desc": "Angiv en logføringskanal til velkomstbeskeder."
         },
         "leave": {
           "label": "👋 Efterlad beskeder",
-          "desc": "Indstil en logføringskanal til efterlad beskeder."
+          "desc": "Indstil en logføringskanal til orlovsbeskeder."
         },
         "member": {
           "label": "🔢 Antal medlemmer",
-          "desc": "Indstil kanal til antal medlemmer."
+          "desc": "Indstil kanalen for antal medlemmer."
         },
         "user": {
           "label": "🔢 Antal brugere",
-          "desc": "Indstil kanal til optælling af brugere."
+          "desc": "Indstil brugeroptællingskanalen."
         },
         "channel": {
-          "label": "🎒 Kanallogfiler",
+          "label": "🎒 Kanal logfiler",
           "desc": "Angiv en logføringskanal for kanalændringer."
         },
         "role": {
-          "label": "🎭 Rollelogfiler",
-          "desc": "Indstil en logføringskanal til modereringslogfiler"
+          "label": "🎭 Rolle logfiler",
+          "desc": "Angive en logføringskanal til modereringslogfiler"
         },
         "mod": {
           "label": "🔨 Modereringslogfiler",
-          "desc": "Indstil en logføringskanal til modereringslogfiler"
+          "desc": "Angive en logføringskanal til modereringslogfiler"
         },
         "ticket": {
-          "label": "🎟️ Billetlogfiler",
+          "label": "🎟️ Billet logfiler",
           "desc": "Indstil en logføringskanal til billetlogfiler"
         },
         "message": {
           "label": "(M-meddelelseslogfiler)️",
-          "desc": "Indstil en logføringskanal til meddelelseslogfiler."
+          "desc": "Angiv en logføringskanal til meddelelseslogfiler."
         },
         "command": {
           "label": "🖨️ Kommandologfiler",
@@ -1707,39 +1707,40 @@
           "desc": "Indstil en logføringskanal til stemmelogfiler."
         },
         "alt": {
-          "label": "👻 Logfiler til forebyggelse af alt",
+          "label": "👻 Alt-forebyggelseslogfiler",
           "desc": "Indstil en logføringskanal til alt-forebyggelseslogfiler."
         },
         "server": {
-          "label": "🔒 Logfiler for serverlogfiler",
+          "label": "🔒 Server logfiler",
           "desc": "Indstil en logføringskanal til serverlåslogfiler."
         },
         "filter": {
-          "label": "❌ Filter logfiler",
-          "desc": "Angiv en logføringskanal til filterlogfiler."
+          "label": "❌ Filtrer logfiler",
+          "desc": "Angiv en logføringskanal for filterlogfiler."
         },
         "client": {
-          "label": "💰 Klientlogfiler",
+          "label": "💰 Klient logfiler",
           "desc": "Angiv en logføringskanal for klienter."
         },
         "review": {
           "label": "⭐ Gennemgå logfiler",
-          "desc": "Indstil en logføringskanal til anmeldelser."
+          "desc": "Angiv en logføringskanal til anmeldelser."
         },
         "suggestion": {
-          "label": "📥 Forslag logfiler",
+          "label": "📥 Logfiler over forslag",
           "desc": "Angiv en logføringskanal for forslag."
         },
         "birthday": {
-          "label": "🎉 Fødselsdag logfiler",
+          "label": "🎉 Fødselsdag Logs",
           "desc": "Indstil en logføringskanal til fødselsdagsbeskeder."
         },
         "application": {
-          "label": "📜 Ansøgning logfiler",
-          "desc": "Indstil en logføringskanal til programlogfiler."
+          "label": "📜 Ansøgning Logfiler",
+          "desc": "Angiv en logføringskanal for programlogfiler."
         },
         "economy": {
-          "label": "🏦 Økonomi logfiler"
+          "label": "🏦 Økonomi logfiler",
+          "desc": "Angiv en logføringskanal til økonomilogfiler."
         },
         "eco": {
           "label": "📈 Niveau op logfiler",
@@ -1747,102 +1748,102 @@
         },
         "other": {
           "label": "❓ Andre logfiler",
-          "desc": "Indstil en logføringskanal for andre logfiler."
+          "desc": "Angiv en logføringskanal for andre logfiler."
         }
       }
     },
     "loggingBack": {
-      "title": "Logføring af kanaler",
-      "type": "**○ Logtype:**",
-      "nochans": "Ingen kanaler endnu. . .",
-      "chan": "**○ Log kanal:**"
+      "title": "Logning af kanaler",
+      "type": "**○ Log type:**",
+      "nochans": "Ingen kanaler endnu...",
+      "chan": "**○ Log Kanal:**"
     },
     "loggingDelete": {
-      "content": "**Logføring af kanal slettet**"
+      "content": "**Logningskanal slettet**"
     },
     "loggingHome": {
       "buttons": {
         "addChan": "Tilføj kanal",
-        "deleted": "Slet valgt"
+        "deleted": "Slet markeret"
       },
-      "title": "Logføring af kanaler",
-      "type": "**○ Logtype:**",
-      "nochans": "Ingen kanaler endnu. . .",
-      "chan": "**○ Log kanal:**"
+      "title": "Logning af kanaler",
+      "type": "**○ Log type:**",
+      "nochans": "Ingen kanaler endnu...",
+      "chan": "**○ Log Kanal:**"
     },
     "loggingNext": {
-      "title": "Logføring af kanaler",
-      "type": "**○ Logtype:**",
-      "nochans": "Ingen kanaler endnu. . .",
-      "chan": "**○ Log kanal:**"
+      "title": "Logning af kanaler",
+      "type": "**○ Log type:**",
+      "nochans": "Ingen kanaler endnu...",
+      "chan": "**○ Log Kanal:**"
     },
     "loggingSelectB": {
       "provide": "Angiv en kanal, som disse logfiler kan gå til.",
       "cancel": "Aflyst.",
-      "invalid": "**Ugyldig kanal leveret, Prøv igen.**",
-      "created": "**Logføring af kanal oprettet!**\n**Type:**",
+      "invalid": "**Ugyldig kanal angivet, prøv igen.**",
+      "created": "**Logningskanal oprettet!**\n**Type:**",
       "channel": "**Kanal:**"
     },
     "marriageAcceptProposal": {
       "already": "Du er allerede gift.",
-      "desc1": "Nævn venligst den bruger, som du ønsker at acceptere anmodningen fra.",
+      "desc1": "Angiv den bruger, som du ønsker at acceptere anmodningen fra.",
       "cancel": "Aflyst.",
       "self": "Du kan gifte dig med dig selv.",
-      "never": "Denne bruger anmodede aldrig om at gifte sig med dig ...",
+      "never": "Denne bruger anmodede aldrig om at gifte sig med dig...",
       "title": "💘 Tillykke!",
-      "desc": "Din anmodning om ægteskab er blevet accepteret af",
+      "desc": "Din ægteskabsanmodning er blevet accepteret af",
       "married": "Du er nu gift med"
     },
     "marriageDenyProposal": {
       "already": "Du er allerede gift.",
-      "desc": "Nævn venligst den bruger, som du ønsker at afvise anmodningen fra.",
+      "desc": "Angiv den bruger, som du ønsker at afvise anmodningen fra.",
       "cancel": "Aflyst.",
-      "deny": "Du kan ikke benægte dig selv.",
-      "never": "Denne bruger anmodede aldrig om at gifte sig med dig ...",
+      "deny": "Du kan ikke nægte dig selv.",
+      "never": "Denne bruger anmodede aldrig om at gifte sig med dig...",
       "title": "😭 Vi beklager!",
-      "desc1": "Din anmodning om marriade er blevet afvist af",
+      "desc1": "Din anmodning om ægteskab er blevet afvist af",
       "denied": "Du har afvist ægteskabsanmodningen fra den pågældende bruger."
     },
     "marriageDivorce": {
       "title": "⚖️ Du er blevet serveret!",
       "desc": "Din ægtefælle,",
-      "divorced": ", er lige blevet skilt fra dig. Vi ved intet, vi er bare leveringstjenesten 👀 .",
+      "divorced": ", er lige blevet skilt fra dig. Vi ved ingenting, vi er bare leveringstjenesten 👀 .",
       "not": "Du er i øjeblikket ikke gift.",
       "no": "Du er ikke længere gift."
     },
     "marriageSelect": {
-      "place": "Vælg en funktion",
+      "place": "Vælg en indstilling",
       "buttons": {
         "request": {
           "label": "💌 Send en anmodning",
           "desc": "Hvis du gerne vil gifte dig med nogen."
         },
         "accept": {
-          "label": "💍 Accepter et forslag",
+          "label": "💍 Acceptér et forslag",
           "desc": "Nogen bad dig om at gifte dig med dem? Virkelig?"
         },
         "deny": {
           "label": "😭 Afvis et forslag",
-          "desc": "Du er en forfærdelig person, hvis du klikker på dette ..."
+          "desc": "Du er en forfærdelig person, hvis du klikker på dette..."
         },
         "divorce": {
-          "label": "⚖️ Få en skilsmisse",
+          "label": "⚖️ Bliv skilt",
           "desc": "Hvem tager børnene? For det bliver ikke mig."
         }
       }
     },
     "marriageSendRequest": {
       "already": "Du er allerede gift.",
-      "desc": "**Hvem vil du gerne gifte dig med?**\nBrug symbolet '@' til at nævne dem.",
+      "desc": "**Hvem vil du gerne giftes med?**\nBrug symbolet '@' til at nævne dem.",
       "cancel": "Aflyst.",
       "self": "Du kan ikke gifte dig med dig selv.",
       "bot": "Du kan ikke gifte dig med en bot, PUNKTUM.",
       "title": "💌 Anmodning om ægteskab",
       "desc1": "har anmodet om at gifte sig med DIG!\n\nFor at svare på denne anmodning skal du gå over til",
-      "desc12": "eller enhver anden kanal i det pågældende laug og køre '/ægteskab' for at administrere anmodningen.",
+      "desc12": "eller en hvilken som helst anden kanal i det pågældende laug, og kør '/ægteskab' for at administrere anmodningen.",
       "person": "Den person er allerede gift!",
       "sent": "**Ægteskabsanmodning sendt.**\nDe har 2 minutter til at acceptere din ægteskabsanmodning, før den udløber.",
-      "expired": "Den ægteskabsanmodning, der blev sendt til",
+      "expired": "Ægteskabsanmodningen, der blev sendt til",
       "expired2": "er udløbet.\nDer er masser af 🐟 i 🌊 !"
     },
     "marriageSystem": {
@@ -1931,23 +1932,23 @@
       },
       "searchResult": {
         "search": "Søgeresultater",
-        "choose": "**Vælg en mulighed nedenunder**",
-        "else": "Indtast noget andet, eller vent 60 sekunder på cance"
+        "choose": "** Vælg en mulighed nedenunder **",
+        "else": "Indtast noget andet, eller vent 60 sekunder med at cance"
       },
       "iAnswer": {
         "invalid": "Ugyldigt svar",
-        "provided": "Ugyldigt svar angivet til søgning."
+        "provided": "Ugyldigt svar til søgning."
       }
     },
     "nextGuilds": {
       "buttons": {
-        "leave": "Forlad Guild"
+        "leave": "Forlad Lauget"
       },
-      "title": "Laugsliste",
-      "guildName": "**○ Laugsnavn:**",
+      "title": "Laugs liste",
+      "guildName": "**○ Laugets navn:**",
       "guildId": "**○ Guild Id:**",
       "guildMembers": "**○ Laugsmedlemmer:**",
-      "guildOwnerTag": "**○ Guild Owner Tag:**",
+      "guildOwnerTag": "**○ Guild Ejer Tag:**",
       "guildOwnerId": "**○ Guild Ejer Id:**"
     },
     "permsAdd": {
@@ -1955,7 +1956,7 @@
       "options": {
         "admin": {
           "label": "🗝️ Administrator",
-          "desc": "Tilføj en administrativ rolle (DANGEROUS)."
+          "desc": "Tilføj en administrativ rolle (FARLIG)."
         },
         "mod": {
           "label": "👮 ♂️ Præsentationsvært",
@@ -1963,7 +1964,7 @@
         },
         "filter": {
           "label": "❌ Filter",
-          "desc": "Tilføj en filteromgåelsesrolle."
+          "desc": "Tilføj en filteromløbsrolle."
         },
         "info": {
           "label": "🔎 Information",
@@ -1971,26 +1972,26 @@
         },
         "roles": {
           "label": "🎭 Selvroller",
-          "desc": "Tilføj en rolle som leder af selvroller."
+          "desc": "Tilføj en lederrolle for selvroller."
         },
         "sticky": {
           "label": "🍯 Klæbrige beskeder",
-          "desc": "Tilføj en klæbrig meddelelsesadministratorrolle."
+          "desc": "Tilføj en sticky message managers-rolle."
         },
         "giveaway": {
-          "label": "🎉 Giveaway Managers",
-          "desc": "Tilføj en giveaway managers-rolle."
+          "label": "🎉 Giveaway-ledere",
+          "desc": "Tilføj en giveaway managers rolle."
         },
         "client": {
-          "label": "💰 Kundechefer",
-          "desc": "Tilføj en rolle som kundeadministrator."
+          "label": "💰 Bygherrer",
+          "desc": "Tilføj en rolle som kundechef."
         },
         "ticket": {
           "label": "🎟️ Billet support",
           "desc": "Tilføj en rolle som billetsupportmedarbejder."
         },
         "apps": {
-          "label": "📜 Applicatios",
+          "label": "📜 Programmer",
           "desc": "Tilføj en rolle som programadministratorer."
         },
         "customers": {
@@ -1998,15 +1999,15 @@
           "desc": "Tilføj en kunderolle."
         },
         "pingPrev": {
-          "label": "🔕 Ping forebyggelse",
-          "desc": "Tilføj en ping-forebyggelse admin & bypass rolle."
+          "label": "🔕 Ping-forebyggelse",
+          "desc": "Tilføj en ping-forebyggelsesadministrator og bypass-rolle."
         }
       }
     },
     "permsBack": {
       "title": "Menuen Tilladelser",
       "type": "**○ Perm Type:**",
-      "no": "Ingen frynse- og boligsen endnu...",
+      "no": "Ingen perms endnu. . .",
       "role": "**○ Rolle-id:**"
     },
     "permsDelete": {
@@ -2015,52 +2016,52 @@
     "permsHome": {
       "buttons": {
         "add": "Tilføj tilladelse",
-        "delete": "Slet valgt"
+        "delete": "Slet markeret"
       },
       "title": "Menuen Tilladelser",
       "type": "**○ Perm Type:**",
-      "no": "Ingen frynse- og boligsen endnu...",
+      "no": "Ingen perms endnu. . .",
       "role": "**○ Rolle-id:**"
     },
     "permsNext": {
       "title": "Menuen Tilladelser",
       "type": "**○ Perm Type:**",
-      "no": "Ingen frynse- og boligsen endnu...",
+      "no": "Ingen perms endnu. . .",
       "role": "**○ Rolle-id:**"
     },
     "permsSelect": {
-      "provide": "Angiv en rolle, du vil tildele/tilføje for denne tilladelse.",
+      "provide": "Angiv en rolle, der skal tildeles/tilføjes for denne tilladelse.",
       "cancel": "aflyse",
       "Cancelled": "Aflyst.",
-      "invalid": "**Ugyldig rolle angivet, Prøv igen.**",
+      "invalid": "**Ugyldig rolle angivet, prøv igen.**",
       "created": "**Tilladelse oprettet!**",
       "type": "**Type:**",
       "role": "**Rolle:**"
     },
     "pingPreventionAdd": {
-      "already": "Du har allerede oprettet en pingforebyggelse i dette guild.",
-      "color": "Definer venligst en **farvehex** til din ping-forebyggelsesindlejring.",
+      "already": "Du har allerede oprettet en ping-forebyggelse i denne guild.",
+      "color": "Definer en ** farve hex ** til din ping-forebyggelsesindlejring.",
       "cancel": "Aflyst.",
-      "provide": "**Angiv et billede til indlejringen.**\nLinket skal ende på '.png', '.jpg', '.webp' osv.\nSkriv 'spring over' for at springe over.",
-      "added": "**Ping-forebyggelse tilføjet!**"
+      "provide": "**Angiv et billede til indlejringen.**\nLinket skal slutte på '.png', '.jpg', '.webp' osv.\nSkriv 'spring over' for at springe over.",
+      "added": "** Ping-forebyggelse tilføjet!**"
     },
     "pingPreventionRemove": {
-      "no": "Du har ingen ping-forebyggelsesoptegnelser i dette guild.",
-      "removed": "**Ping-forebyggelse fjernet!**"
+      "no": "Du har ingen ping-forebyggelsesposter i denne guild.",
+      "removed": "** Ping Forebyggelse fjernet!**"
     },
     "punishBack": {
-      "title": "Oplysninger om sagen",
+      "title": "Sagsoplysning",
       "field1": "Sags-id:",
-      "field2": "Sagstype:",
+      "field2": "Sagens type:",
       "field3": "Håndhæver:",
       "field4": "Bruger:",
       "field5": "Årsag:",
       "field6": "Tidsstempel:"
     },
     "punishNext": {
-      "title": "Oplysninger om sagen",
+      "title": "Sagsoplysning",
       "field1": "Sags-id:",
-      "field2": "Sagstype:",
+      "field2": "Sagens type:",
       "field3": "Håndhæver:",
       "field4": "Bruger:",
       "field5": "Årsag:",
@@ -2068,16 +2069,16 @@
     },
     "reviewReply": {
       "cancel": "Aflyst.",
-      "field": "Besvarelse fra personale",
-      "added": "**Anmeldelse tilføjet!**"
+      "field": "Svar fra personalet",
+      "added": "** Anmeldelse tilføjet!**"
     },
     "selfRolesAdd": {
-      "provide": "Angiv et navn til dette panel med selvroller.",
+      "provide": "Angiv et navn til dette selvrollepanel.",
       "cancel": "Aflyst.",
       "created": "**Menuen Selvroller oprettet!**"
     },
     "selfRolesBack": {
-      "title": "Menuer til selvrolle",
+      "title": "Selvrolle menuer",
       "desc": "**○ Menunavn:**",
       "noMenus": "Ingen menuer endnu. . ."
     },
@@ -2087,18 +2088,18 @@
     },
     "selfRolesGoHome": {
       "addMenu": "Tilføj menu",
-      "delete": "Slet valgt",
-      "roleManager": "Rolleadministrator",
-      "postPanel": "Indlægspanel",
-      "title": "Menuer til selvrolle",
+      "delete": "Slet markeret",
+      "roleManager": "Rolle manager",
+      "postPanel": "Indlæg Panel",
+      "title": "Selvrolle menuer",
       "desc": "**○ Menunavn:**",
       "noMenus": "Ingen menuer endnu. . ."
     },
     "selfRolesManager": {
       "addRole": "Tilføj rolle",
-      "delete": "Slet valgt",
-      "no": "Der er ingen rollemenuer til dette laug.",
-      "title": "Menuer til selvrolle",
+      "delete": "Slet markeret",
+      "no": "Der er ingen rollemenuer til denne guild.",
+      "title": "Selvrolle menuer",
       "menuName": "**○ Menunavn:**",
       "roleName": "**○ Rollenavn:**",
       "roleId": "**○ Rolle-id:**",
@@ -2106,14 +2107,14 @@
       "noMenus": "Ingen menuer endnu. . ."
     },
     "selfRolesManagerAdd": {
-      "provide": "Angiv en rolle, du vil føje til panelet.",
+      "provide": "Angiv en rolle, der kan føjes til panelet.",
       "cancel": "Aflyst.",
       "provide2": "Angiv en gyldig rolle.",
-      "created": "**Selvrolle skabt!**"
+      "created": "**Selvrolle oprettet!**"
     },
     "selfRolesManagerBack": {
-      "no": "Der er ingen rollemenuer til dette laug.",
-      "title": "Menuer til selvrolle",
+      "no": "Der er ingen rollemenuer til denne guild.",
+      "title": "Selvrolle menuer",
       "menuName": "**○ Menunavn:**",
       "roleName": "**○ Rollenavn:**",
       "roleId": "**○ Rolle-id:**",
@@ -2121,12 +2122,12 @@
       "noMenus": "Ingen menuer endnu. . ."
     },
     "selfRolesManagerDelete": {
-      "unable": "Jeg kunne ikke finde en selvrolle i det panel.",
+      "unable": "Jeg kunne ikke finde en selvrolle med det panel.",
       "deleted": "**Selvrolle slettet!**"
     },
     "selfRolesManagerNext": {
-      "no": "Der er ingen rollemenuer til dette laug.",
-      "title": "Menuer til selvrolle",
+      "no": "Der er ingen rollemenuer til denne guild.",
+      "title": "Selvrolle menuer",
       "menuName": "**○ Menunavn:**",
       "roleName": "**○ Rollenavn:**",
       "roleId": "**○ Rolle-id:**",
@@ -2134,13 +2135,13 @@
       "noMenus": "Ingen menuer endnu. . ."
     },
     "selfRolesNext": {
-      "title": "Menuer til selvrolle",
+      "title": "Selvrolle menuer",
       "desc": "**○ Menunavn:**",
       "noMenus": "Ingen menuer endnu. . ."
     },
     "selfRolesPost": {
       "unable": "Jeg kunne ikke finde det valgte panel.",
-      "unable2": "Jeg var ude af stand til at finansiere nogen selvroller i dette panel.",
+      "unable2": "Jeg var ikke i stand til at finansiere nogen selvroller i dette panel.",
       "desc": "Vælg en rolle for at tilføje eller fjerne den fra dine roller.",
       "place": "Vælg en rolle.",
       "provide": "Angiv en kanal til at sende panelet til.",
@@ -2159,11 +2160,12 @@
       "no": "Der er i øjeblikket ingen autoroller.",
       "title": "Automatisk rollesystem",
       "role": "**Rolle:**",
-      "verification": "**Verifikation?**"
+      "verification": "**Bekræftelse?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
-      "mention": "Nævn rollen, eller angiv et rolle-id, du kan tilføje.",
-      "q": "Vil du gerne have denne rolle givet, når de tiltræder, eller når de bekræfter?\n\n**1.** Giv rolle, når de tilmelder sig\n**2.** Giv rolle, når de bekræfter",
+      "mention": "Angiv rollen, eller angiv et rolle-id, der skal tilføjes.",
+      "q": "Vil du gerne have denne rolle givet, når de tilmelder sig, eller når de verificerer?\n\n**1.** Giv rolle, når de tilmelder sig\n**2.** Giv rolle, når de verificerer",
       "cancel": "Aflyst.",
       "provide": "Angiv en gyldig rolle. \n'PROCES ANNULLERET'",
       "provide1": "Angiv en gyldig mulighed. \n'PROCES ANNULLERET'",
@@ -2174,18 +2176,18 @@
       "title": "Automatisk rollesystem",
       "role": "**Rolle:**",
       "noRoles": "Der er i øjeblikket ingen autoroller.",
-      "verification": "**Verifikation?**"
+      "verification": "**Bekræftelse?**"
     },
     "settingsBaseAutoroleDelete": {
-      "no": "Der er ingen autoroler lavet til dette laug.",
-      "removed": "**Autorole fjernet**"
+      "no": "Der er ingen autoroles lavet til denne guild.",
+      "removed": "** Autorole fjernet **"
     },
     "settingsBaseAutoroleNext": {
       "no": "Der er i øjeblikket ingen autoroller.",
       "title": "Automatisk rollesystem",
       "role": "**Rolle:**",
       "noRoles": "Der er i øjeblikket ingen autoroller.",
-      "verification": "**Verifikation?**"
+      "verification": "**Bekræftelse?**"
     },
     "settingsBaseCashappUpdate": {
       "provide": "Angiv et nyt link til denne betalingsmetode.\nSkriv 'falsk' for at deaktivere det.",
@@ -2201,13 +2203,13 @@
       "options": "Indstillinger:",
       "updateTheme": "Opdater temafarve",
       "updateMuted": "Opdater slået rolle",
-      "updateTos": "Opdater Tos-linket",
-      "maxTickets": "Maks. billetter",
+      "updateTos": "Opdater toS-link",
+      "maxTickets": "Max billetter",
       "payment": "Betaling:",
       "paypal": "PayPal",
       "cashapp": "Kontant app",
       "customLink": "Brugerdefineret link",
-      "imageUrls": "Billedwebadresser:",
+      "imageUrls": "Webadresser til billeder:",
       "card": "Tilmeld dig/forlad kort"
     },
     "settingsBaseLeave": {
@@ -2217,16 +2219,16 @@
       "card": "Kort"
     },
     "settingsBaseMaxTickets": {
-      "provide": "Angiv venligst antallet af maksimale billetter, som en bruger kan have åbne ad gangen.",
+      "provide": "Angiv det maksimale antal billetter, som en bruger kan have åbent ad gangen.",
       "cancel": "Aflyst.",
-      "valid": "Angiv et **GYLDIGT** nummer.",
-      "updated": "Max Billetter Opdateret"
+      "valid": "Angiv et ** GYLDIGT ** nummer.",
+      "updated": "Max billetter opdateret"
     },
     "settingsBaseMuteRoleUpdate": {
-      "mention": "Nævn venligst den rolle, du ønsker at give brugerne, når de bliver slået fra.",
+      "mention": "Nævn den rolle, du ønsker at give brugerne, når de bliver slået fra.",
       "cancelled": "Aflyst.",
-      "valid": "Angiv en gyldig lydløs rolle.",
-      "updated": "**Slå lyden fra for rolle opdateret**"
+      "valid": "Angiv en gyldig mute-rolle.",
+      "updated": "**Mute-rolle opdateret**"
     },
     "settingsBasePanelVerifyPost": {
       "provide": "Angiv en kanal til at sende panelet til.",
@@ -2235,7 +2237,7 @@
       "verify": "Kontrolere",
       "verification": "Kontrol",
       "please": "Bekræft dig selv ved at trykke på **knappen** under denne meddelelse. Dette vil bekræfte, at du har *læst og accepteret reglerne*, samt at du er et menneske.",
-      "posted": "**Bekræftelsespanel slået op**"
+      "posted": "** Bekræftelsespanel indsendt **"
     },
     "settingsBasePaypalUpdate": {
       "new": "Angiv et nyt link til denne betalingsmetode.\nSkriv 'falsk' for at deaktivere det.",
@@ -2249,7 +2251,7 @@
       "provide": "Angiv en ny **__COLOR HEX__**, som botten kan bruge som temafarve.\n**Eks:** '#FFFFFF'\n\nFarvevælger: <https://htmlcolorcodes.com/color-picker/>",
       "valid": "Angiv en gyldig **__COLOR HEX__**.\n**Eks:** '#FFFFFF'\n\nFarvevælger: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "Aflyst.",
-      "updated": "**Temafarve opdateret**"
+      "updated": "** Temafarve opdateret **"
     },
     "settingsBaseToggleAutorole": {
       "add": "Tilføj rolle",
@@ -2273,7 +2275,7 @@
       "please": "Angiv et nyt ToS-link, du kan opdatere til.",
       "cancelled": "Aflyst.",
       "valid": "Medtag et gyldigt ToS-link.\nSkal begynde med: 'http://'",
-      "updated": "**ToS-link opdateret**"
+      "updated": "** Tos Link opdateret **"
     },
     "settingsBaseVerification": {
       "buttons": {
@@ -2283,9 +2285,9 @@
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "**Angiv et billedlink til kortets baggrunds-url.**\n'Bemærk:' Billedlinket skal ende på '.png', '.jpg', '.webp' osv.",
+      "please": "** Angiv et billedlink til kortets baggrundswebadresse.**\n'Bemærk:' Billedlinket skal slutte med '.png', '.jpg', '.webp' osv.",
       "cancelled": "Aflyst.",
-      "updated": "**Velkomstkort opdateret**"
+      "updated": "** Velkomstkort opdateret **"
     },
     "settingsFunAutoReact": {
       "next": "Næste side",
@@ -2293,34 +2295,34 @@
       "add": "Tilføj svar",
       "title": "Automatiske reaktioner",
       "channel": "**Kanal:**",
-      "no": "Ingen aktuelle automatiske reaktioner...",
+      "no": "Ingen aktuelle autoreaktioner...",
       "response": "**Svar:**",
-      "emoji": "Emoji ikke indstillet ..."
+      "emoji": "Emoji ikke indstillet..."
     },
     "settingsFunAutoreactAdd": {
       "please": "Angiv den kanal, som botten skal lytte til for reaktioner.",
       "cancelled": "Aflyst.",
-      "provide": "Angiv, hvad botten nu skal reagere med, når den hører en besked i den pågældende kanal.\n**Bemærk:** du skal sætte emojien i en kodeblok, som ':monkey_face:'",
+      "provide": "Angiv, hvad botten nu skal reagere med, når den hører en besked i den kanal.\n** Bemærk: ** du skal placere emojien i en kodeblok, som ': monkey_face:'",
       "valid": "Angiv en gyldig kanal.",
       "added": "**Automatisk reaktion tilføjet**"
     },
     "settingsFunAutoreactBack": {
       "title": "Automatiske reaktioner",
       "channel": "**Kanal:**",
-      "no": "Ingen aktuelle automatiske reaktioner...",
+      "no": "Ingen aktuelle autoreaktioner...",
       "response": "**Svar:**",
-      "emoji": "Emoji ikke indstillet ..."
+      "emoji": "Emoji ikke indstillet..."
     },
     "settingsFunAutoreactDelete": {
-      "no": "Der er ingen automatiske reaktioner indstillet til dette guild.",
-      "deleted": "**Automatisk reaktion slettet**"
+      "no": "Der er ingen automatiske reaktioner indstillet til denne guild.",
+      "deleted": "** Autoreaktion slettet **"
     },
     "settingsFunAutoreactNext": {
       "title": "Automatiske reaktioner",
       "channel": "**Kanal:**",
-      "no": "Ingen aktuelle automatiske reaktioner...",
+      "no": "Ingen aktuelle autoreaktioner...",
       "response": "**Svar:**",
-      "emoji": "Emoji ikke indstillet ..."
+      "emoji": "Emoji ikke indstillet..."
     },
     "settingsFunAutoRespond": {
       "back": "Bagside",
@@ -2328,86 +2330,86 @@
       "add": "Tilføj svar",
       "title": "Automatiske svar",
       "detect": "**Registrering:**",
-      "no": "Ingen aktuelle automatiske svar...",
+      "no": "Ingen aktuelle autosvar...",
       "response": "**Svar:**",
-      "none": "Ingen sæt. . ."
+      "none": "Ingen sæt..."
     },
     "settingsFunAutorespondAdd": {
       "please": "Angiv de ord, som botten skal lytte til, før du svarer.",
       "cancelled": "Aflyst.",
-      "provide": "Angiv, hvad botten nu skal svare med, når den hører en besked, der indeholder dette indhold.",
-      "added": "**Automatisk svar tilføjet**"
+      "provide": "Angiv, hvad botten nu skal svare med, når den hører en meddelelse, der indeholder dette indhold.",
+      "added": "**Autosvar tilføjet**"
     },
     "settingsFunAutorespondBack": {
       "title": "Automatiske svar",
       "detect": "**Registrering:**",
-      "no": "Ingen aktuelle automatiske svar...",
+      "no": "Ingen aktuelle autosvar...",
       "response": "**Svar:**",
-      "none": "Ingen sæt. . ."
+      "none": "Ingen sæt..."
     },
     "settingsFunAutorespondDelete": {
-      "no": "Der er ingen automatiske svar indstillet til dette guild.",
-      "deleted": "**Automatisk svar slettet**"
+      "no": "Der er ingen autosvar indstillet til denne guild.",
+      "deleted": "**Autosvar slettet**"
     },
     "settingsFunAutorespondNext": {
       "title": "Automatiske svar",
       "detect": "**Registrering:**",
-      "no": "Ingen aktuelle automatiske svar...",
+      "no": "Ingen aktuelle autosvar...",
       "response": "**Svar:**",
-      "none": "Ingen sæt. . ."
+      "none": "Ingen sæt..."
     },
     "settingsFunBirthdays": {
       "clear": "Ryd fødselsdagsdata",
       "cleared": "Fødselsdagsdata ryddet"
     },
     "settingsFunClearLevelData": {
-      "clear": "Ryd på orlov",
+      "clear": "Klar på orlov",
       "cleared": "Niveaudata ryddet",
       "level": "Niveau system"
     },
     "settingsFunEconomy": {
-      "back": "Tilbage element",
+      "back": "Tilbage vare",
       "next": "Næste punkt",
-      "add": "Tilføj Butiksvare",
+      "add": "Tilføj butiksvare",
       "currency": "Valuta",
       "clear": "Ryd alle data",
       "cleared": "Alle data ryddet",
-      "cooldowns": "Nedkølinger:",
+      "cooldowns": "Nedkøling:",
       "work": "Arbejde",
       "crime": "Forbrydelse",
-      "rob": "Poul",
-      "economy": "Indstillinger for økonomi",
+      "rob": "Røver",
+      "economy": "Økonomi Indstillinger",
       "currency2": "**Valuta:**",
-      "shop": "**Info om butiksartikel:**",
+      "shop": "** Køb vare info:**",
       "id": "**○ Id:**",
-      "no": "Ingen aktuelle butiksartikler. . .",
+      "no": "Ingen nuværende butiksartikler. . .",
       "name": "**○ Navn:**",
       "price": "**○ Pris:**"
     },
     "settingsFunEconomyWork": {
-      "text": "2 timers arbejdsnedkøling for alle brugere er blevet nulstillet i dette guild."
+      "text": "2 timers arbejdsnedkøling for alle brugere er blevet nulstillet i denne guild."
     },
     "settingsFunEconomyAdd": {
-      "p": "Angiv navnet på produktet.",
+      "p": "Angiv produktets navn.",
       "c": "Aflyst.",
-      "price": "Angiv venligst en pris for denne vare.\n**Eks:** '10'",
+      "price": "Angiv en pris for denne vare.\n**Eks:** '10'",
       "price1": "Angiv venligst en gyldig pris.\n**Eks:** '10'",
-      "added": "'**Butiksvare tilføjet**",
+      "added": "'**Shop vare tilføjet**",
       "title": " - Oprettet vare",
       "item": "Vare",
       "Price": "Pris"
     },
     "settingsFunEconomyCrime": {
-      "a": "2 timers kriminalitetsnedkøling for alle brugere er blevet nulstillet i denne guild."
+      "a": "2 timers kriminalitetskøling for alle brugere er blevet nulstillet i denne guild."
     },
     "settingsFunEconomyCurrency": {
-      "a": "Angiv venligst valutaen for dette laug.\n**Bemærk:** Du skal angive det i kodeblokform, som ':moneybag:'",
+      "a": "Angiv valutaen for denne guild.\n** Bemærk: ** Du skal angive det i kodeblokform, som ': moneybag:'",
       "c": "Aflyst.",
-      "u": "**Valuta opdateret!**"
+      "u": "** Valuta opdateret!**"
     },
     "settingsFunEconomyDelete": {
-      "a": "Der er ingen butiksartikler i dette laug.",
-      "d": "**Butiksvare slettet**",
+      "a": "Der er ingen butiksartikler i denne guild.",
+      "d": "** Butiksvare slettet **",
       "title": "Slettet element",
       "i": "Vare"
     },
@@ -2417,7 +2419,7 @@
     "settingsFunLevelSystem": {
       "c": "Ryd niveaudata",
       "l": "Niveau system",
-      "cL": "Ryd på orlov"
+      "cL": "Klar på orlov"
     },
     "settingsFunToggleLevelKick": {
       "a": "🏠 Gå hjem",
@@ -2425,7 +2427,7 @@
       "c": "Indstillinger:",
       "d": "Ryd niveaudata",
       "e": "Niveau system",
-      "f": "Ryd på orlov"
+      "f": "Klar på orlov"
     },
     "settingsFunToggleLevelSystem": {
       "a": "🏠 Gå hjem",
@@ -2433,17 +2435,17 @@
       "c": "Indstillinger:",
       "d": "Ryd niveaudata",
       "e": "Niveau system",
-      "f": "Ryd på orlov"
+      "f": "Klar på orlov"
     },
     "settingsSecurityAltPrevention": {
       "a": "Skifte:",
       "b": "Alt forebyggelse",
-      "c": "Konto Alder"
+      "c": "Kontoens alder"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "Angiv et nyt aldersminimum for kontoen.\nEks: 30d = 30 dage.",
+      "a": "Angiv en ny aldersalder for kontoen.\nEks: 30d = 30 dage.",
       "b": "Aflyst.",
-      "c": "**Kontoens alder opdateret**"
+      "c": "**Konto alder opdateret**"
     },
     "settingsSecurityFilter": {
       "a": "Kontrol:",
@@ -2451,15 +2453,15 @@
       "c": "Næste side",
       "d": "Indstillinger:",
       "e": "Tilføj filter",
-      "f": "Slet valgt",
+      "f": "Slet markeret",
       "g": "Sikkerhedsfilter",
       "h": "**Indhold:**",
       "i": "Ingen aktuelle filtre..."
     },
     "settingsSecuirtyFilterAdd": {
-      "a": "Angiv venligst det ord / link, du ønsker at sortliste.",
+      "a": "Angiv det ord/link, du ønsker at sortliste.",
       "b": "Aflyst.",
-      "c": "**Filter tilføjet**"
+      "c": "** Filter tilføjet **"
     },
     "settingsSecurityFilterBack": {
       "a": "Sikkerhedsfilter",
@@ -2488,48 +2490,48 @@
       "a": "🏠 Gå hjem",
       "b": "Skifte:",
       "c": "Alt forebyggelse",
-      "d": "Konto Alder"
+      "d": "Kontoens alder"
     },
     "settingsSecurityToggleLockdown": {
       "a": "🏠 Gå hjem",
       "b": "Skifte:",
-      "c": "Serverlås",
-      "d": "Serverlåsning slået til!",
+      "c": "Server Lås",
+      "d": "Server Lockdown skiftet!",
       "e": "Bruger:",
       "f": "Skiftes:",
-      "g": "Serverlås"
+      "g": "Server Lås"
     },
     "settingsSelect": {
       "a": "🏠 Gå hjem",
       "b": "👓 Generelle indstillinger",
-      "c": "🟢 Velkomstmodul",
+      "c": "🟢 Velkommen modul",
       "d": "🔴 Forlad modul",
       "e": "🗝️ Kontrol",
       "f": "👋 Autorole",
       "g": "👻 Alt forebyggelse",
       "h": "🔒 Server Lockdown",
-      "i": "❌ Filter system",
+      "i": "❌ Filtrer system",
       "j": "📊 Niveau system",
       "k": "🎉 Fødselsdage",
       "l": "💰 Økonomi",
       "m": "🎯 Automatisk reaktion",
       "n": "🦜 Automatisk svar",
       "o": "Ændre de generelle indstillinger for dette laug.«",
-      "p": "Alter velkomstmodul til dette laug.",
-      "q": "Skift orlovsmodul til dette laug.",
-      "r": "Skift verifikationsmodul til dette guild.",
-      "s": "Alter autorole modul til dette guild.",
+      "p": "Skift velkomstmodul til denne guild.",
+      "q": "Skift orlovsmodul til denne guild.",
+      "r": "Skift verifikationsmodul for denne guild.",
+      "s": "Skift autorole modul til denne guild.",
       "t": "Ændre alt-forebyggelsessystemet.",
       "u": "Skift serverlåsningstilstand.",
       "v": "Skift filtersystemet.",
-      "w": "Ændre niveausystemet for dette laug.",
-      "x": "Skift fødselsdagsmodul til dette laug.",
-      "y": "Ændre økonomimodul til dette laug.",
-      "z": "Skift auto react-modul til dette guild.",
-      "aa": "Skift auto respond-modul til denne guild.",
-      "ab": "Vælg en basisindstillingsindstilling.",
+      "w": "Ændre niveausystemet for denne guild.",
+      "x": "Skift fødselsdagsmodul til denne guild.",
+      "y": "Skift økonomimodul til denne guild.",
+      "z": "Skift automatisk reaktionsmodul til denne guild.",
+      "aa": "Skift autosvarmodul for denne guild.",
+      "ab": "Vælg en indstilling for basisindstillinger.",
       "ac": "Vælg en indstilling for sikkerhedsindstillinger.",
-      "ad": "Vælg en sjov indstillingsindstilling."
+      "ad": "Vælg en sjov indstillingsmulighed."
     },
     "shopSelect": {
       "a": "Den vare er ikke i butikken.",
@@ -2543,20 +2545,20 @@
     "stickyAdd": {
       "a": "Aflyst.",
       "b": "Denne kanal har allerede en klæbrig besked.\nPrøv igen.",
-      "c": "Indtast venligst, hvad den klæbrige besked skal sige.",
+      "c": "Indtast, hvad den klæbrige besked skal sige.",
       "d": "Angiv en gyldig kanal.",
-      "e": "**Klæbrig besked oprettet!**"
+      "e": "** Sticky Besked oprettet!**"
     },
     "stickyRemove": {
-      "a": "Der er ingen klæbrige budskaber i dette laug.",
-      "b": "Definer den kanal, du vil fjerne den klæbrige besked fra.",
+      "a": "Der er ingen klæbrige beskeder i denne guild.",
+      "b": "Definer den kanal, der skal fjernes den klæbrige besked fra.",
       "c": "Aflyst.",
       "d": "Angiv en gyldig kanal.",
-      "e": "**Klæbrig besked fjernet!**",
+      "e": "** Sticky Besked fjernet!**",
       "f": "Denne kanal har ikke en klæbrig besked.\nPrøv igen."
     },
     "ticketAdd": {
-      "a": "Angiv venligst et navn til dette billetpanel",
+      "a": "Angiv et navn til dette billetpanel",
       "b": "Aflyst.",
       "c": "Angiv en beskrivelse af dette billetpanel.",
       "d": "Angiv venligst en kategori 'Id' for billetter at gå til.",
@@ -2570,10 +2572,10 @@
       "e": "er blevet tilføjet til denne billet."
     },
     "ticketBack": {
-      "a": "Billetpaneler",
+      "a": "Billet paneler",
       "b": "**○ Panelets navn:**",
       "c": "Ingen paneler endnu...",
-      "d": "**○ Panel beskrivelse:**",
+      "d": "**○ Panel Beskrivelse:**",
       "e": "Nielsen"
     },
     "ticketClaim": {
@@ -2587,73 +2589,73 @@
     },
     "ticketClose": {
       "a": "Dette kan kun gøres i en billetkanal.",
-      "b": "Intet panel fundet.",
+      "b": "Der blev ikke fundet noget panel.",
       "c": "Ingen kategori fundet...",
-      "d": "Billetten er lukket! (Vent venligst)",
+      "d": "Billet med succes lukket! (Vent venligst)",
       "e": "Ukendt",
       "f": "Billet lukket",
       "g": "Billet-id",
       "h": "Afsluttende medlem",
-      "i": "Medlemmer i Ticket",
+      "i": "Medlemmer i Billet",
       "j": "Panelet"
     },
     "ticketDelete": {
-      "a": "Der er ingen billetkategorier lavet til dette laug.",
+      "a": "Der er ingen billetkategorier lavet til denne guild.",
       "b": "**Kategori fjernet**"
     },
     "ticketNext": {
-      "a": "Billetpaneler",
+      "a": "Billet paneler",
       "b": "**○ Panelets navn:**",
       "c": "Ingen paneler endnu...",
-      "d": "**○ Panel beskrivelse:**",
+      "d": "**○ Panel Beskrivelse:**",
       "e": "Nielsen"
     },
     "ticketPanelPost": {
-      "a": "Dette guild har ikke oprettet nogen billetkategorier endnu.",
-      "b": "Billet kategorier",
-      "c": "Her er billetkategorierne til dette laug. Vælg en for at åbne en billet i den kategori.",
+      "a": "Denne guild har ikke oprettet nogen billetkategorier endnu.",
+      "b": "Billet Kategorier",
+      "c": "Her er billetkategorierne for denne guild. Vælg en for at åbne en billet i den kategori.",
       "d": "Billetsystem",
       "e": "Vælg en billetkategori.",
       "f": "Aflyst",
       "g": "Angiv en gyldig kanal.",
-      "h": "**Billetpanel slået op!**",
+      "h": "**Billetpanel indsendt!**",
       "i": "Angiv en kanal til at sende panelet til."
     },
     "ticketremove": {
       "a": "Du kan kun bruge denne kommando i en billetkanal!',",
       "b": "Angiv venligst den bruger, du ønsker at fjerne fra billetten.",
       "c": "Aflyst.",
-      "d": "Angiv venligst en gyldig bruger til at fjerne fra denne billet.",
+      "d": "Angiv en gyldig bruger til at fjerne fra denne billet.",
       "e": "**${member.user.tag}** er blevet fjernet fra denne billet."
     },
     "ticketrename": {
       "a": "Du kan kun bruge denne kommando i en billetkanal!",
       "b": "Angiv venligst det navn, billetten skal indstilles til.",
       "c": "Aflyst.",
-      "d": "**Billet omdøbt!**"
+      "d": "** Billet omdøbt!**"
     },
     "ticketselect": {
       "catna": "Den billetkategori findes ikke.",
       "content1": "Du må kun have **",
-      "content2": "billet(e)** åben ad gangen.",
-      "notpset": "Der er endnu ikke oprettet nogen billetsupport-frynse- og anlægsser.",
+      "content2": "billet (er) ** åben ad gangen.",
+      "notpset": "Der er endnu ikke oprettet billetsupportperm.",
       "nocreate": "**Jeg kunne ikke oprette denne billet.**",
       "closetick": "🔒 Luk billet",
       "opened1": "**Åbnet af:**",
       "opened2": "Begynd at beskrive din grund til at åbne denne billet under denne meddelelse.",
       "opener": "**Åbnet af:** '${interaction.user.tag}'\n\nBegynd at beskrive din grund til at åbne denne billet under denne meddelelse.",
-      "success": "Din nye billet er blevet åbnet i ",
+      "success": "Din nye billet er åbnet i ",
       "title": "Billetsystem"
     },
     "verifyButton": {
       "humanVerify": "Menneskelig verifikation",
       "desc1": "Skriv følgende captcha nedenfor for at bekræfte, at du er menneske.",
       "content1": "Tjek venligst dine direkte beskeder (DM'er).",
-      "noleft": "Du er løbet tør for forsøg, skal du bekræfte igen på serveren.",
+      "noleft": "Du er løbet tør for forsøg, bekræft venligst igen på serveren.",
       "left1": "Forkert, du har ",
-      "left2": " forsøg(e) tilbage.",
+      "left2": " forsøg tilbage.",
       "youverifed": "Du er blevet verificeret!",
-      "dmsna": "Dine DM'er er i øjeblikket indstillet til private, aktiver dem venligst, så jeg kan DM dig vores menneskelige verifikationstest."
+      "dmsna": "Dine DM'er er i øjeblikket indstillet til private, vær venlig at aktivere dem, så jeg kan DM dig vores menneskelige verifikationstest."
     }
   }
 }

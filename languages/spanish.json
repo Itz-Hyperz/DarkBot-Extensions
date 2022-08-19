@@ -1591,7 +1591,7 @@
       "noBday": "No has registrado un cumpleaños en este gremio.",
       "removed": "**¡Cumpleaños eliminado!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 ¡Feliz cumpleaños!",
       "its": "Es",
       "bday": "¡Cumpleaños hoy! ¡Deseándoles un feliz cumpleaños y celebremos!\n\n**Fecha:**"
@@ -1711,7 +1711,7 @@
           "desc": "Establezca un canal de registro para los registros de prevención alternativa."
         },
         "server": {
-          "label": "🔒 Registros de registro del servidor",
+          "label": "🔒 Registros del servidor",
           "desc": "Establezca un canal de registro para los registros de bloqueo del servidor."
         },
         "filter": {
@@ -1739,7 +1739,8 @@
           "desc": "Establezca un canal de registro para los registros de la aplicación."
         },
         "economy": {
-          "label": "🏦 Registros económicos"
+          "label": "🏦 Registros económicos",
+          "desc": "Establezca un canal de registro para los registros económicos."
         },
         "eco": {
           "label": "📈 Registros de subir de nivel",
@@ -2159,7 +2160,8 @@
       "no": "Actualmente no hay roles automáticos.",
       "title": "Sistema de rol automático",
       "role": "**Rol:**",
-      "verification": "**¿Verificación?**"
+      "verification": "**¿Verificación?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Mencione el rol o proporcione un ID de rol para agregar.",

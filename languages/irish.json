@@ -1,53 +1,53 @@
 {
   "selectALanguage": "Roghnaigh teanga thíos!",
-  "noPermissions": "Níl aon socrú ceadanna ann don chiontacht seo fós!",
+  "noPermissions": "Níl aon chead socraithe don chuallacht seo go fóill!",
   "missingPermissions": "Níl na ceadanna riachtanacha agat chun an t-ordú seo a úsáid!",
   "noVoiceChannel": "Caithfidh tú a bheith i gcainéal gutha chun é seo a úsáid.",
-  "onlyGuildOwner": "Ní féidir ach leis an úinéir ciontach an t-ordú seo a rith.",
+  "onlyGuildOwner": "Ní féidir ach le húinéir na cuallachta an t-ordú seo a rith.",
   "cancel": "Cuir ar ceal",
-  "enabled": "cumasaithe",
-  "disabled": "faoi mhíchumas",
-  "yes": "Tá",
+  "enabled": "chumasaithe",
+  "disabled": "díchumasaithe",
+  "yes": "Uimh",
   "no": "Ní hea",
   "true": "fíor",
   "false": "bréagach",
   "eightBallCommand": "**Liathróid Draíochta 🎱 Deir:** ",
   "eightBallResponses": [
-    "Tá sé Cinnte.",
-    "Tá sé cinnte mar sin.",
-    "Gan dabht.",
+    "Tá sé cinnte.",
+    "Tá sé socraithe amhlaidh.",
+    "Gan amhras.",
     "Sea cinnte.",
-    "Mar a fheicim é, sea.",
-    "Is féidir.",
-    "Freagra hazy, bain triail eile as.",
-    "Níos fearr gan a insint duit anois.",
+    "Mar a fheicim é, tá.",
+    "Tá.",
+    "Reply hazy, bain triail as arís.",
+    "Ní fearr a rá leat anois.",
     "Ní féidir a thuar anois.",
     "Ná bí ag brath air.",
     "Is é mo fhreagra uimh.",
     "Deir mo chuid foinsí nach bhfuil.",
-    "Outlook nach bhfuil chomh maith.",
+    "Outlook ní chomh maith.",
     "An-amhrasach."
   ],
   "afkNoLonger": "Níl tú marcáilte AFK a thuilleadh.",
-  "nowMarkedAFK": "Tá tú marcáilte anois AFK.",
+  "nowMarkedAFK": "Tá tú marcáilte AFK anois.",
   "applicationMenu": {
     "questions": "Ceisteanna",
-    "embedTitle": "Roghchlár an Fheidhmchláir",
+    "embedTitle": "Application Menu",
     "embedName": "**○ Ainm:** ",
-    "noAppsYet": "Níl aon iarratais fós...",
+    "noAppsYet": "Níl aon iarratais fós ...",
     "createForm": "Cruthaigh Foirm"
   },
   "apply": {
-    "noAppsFound": "Níor aimsíodh aon iarratais ar an ciontacht seo.",
+    "noAppsFound": "Níl aon iarratais le fáil don chuallacht seo.",
     "clickToApply": "Cliceáil chun iarratas a dhéanamh ar an iarratas seo.",
-    "selectApp": "Roghnaigh feidhmchlár.",
+    "selectApp": "Roghnaigh iarratas.",
     "embedTitle": "Iarratais",
-    "embedDescription": "Roghnaigh feidhmchlár chun tosú á líonadh amach."
+    "embedDescription": "Roghnaigh iarratas chun tús a chur lena líonadh amach."
   },
   "avatar": "Avatar",
   "balance": {
     "deposit": "Taisce",
-    "withdraw": "Tarraing siar",
+    "withdraw": "Tarraingt siar",
     "transfer": "Aistriú",
     "bankingInfo": "Eolas Baincéireachta",
     "wallet": "**Sparán:**",
@@ -55,41 +55,41 @@
   },
   "birthdays": {
     "selectAction": "Roghnaigh gníomh lá breithe.",
-    "addBirthday": "👶 Cuir Breithlá Leis",
-    "addBirthdayDescription": "Cuir do bhreithlá leis an mbunachar sonraí.",
+    "addBirthday": "👶 Cuir Breithlá leis",
+    "addBirthdayDescription": "Cuir do lá breithe leis an mbunachar sonraí.",
     "removeBirthday": "❌ Bain Breithlá",
-    "removeBirthdayDescription": "Bain do bhreithlá ón mbunachar sonraí.",
-    "embedTitle": "Roghchlár Lá Breithe",
-    "embedDescription": "Cuir/Bain do bhreithlá leis/ ón mbunachar sonraí!"
+    "removeBirthdayDescription": "Bain do lá breithe den bhunachar sonraí.",
+    "embedTitle": "Roghchlár Breithlá",
+    "embedDescription": "Cuir/Bain do lá breithe le/ón mbunachar sonraí!"
   },
   "cases": {
-    "doesNotExist": "níl sé ann ar an liosta aitheantais!",
-    "embedTitle": "Eolas faoi Chásanna",
-    "caseId": "Cás Id",
+    "doesNotExist": "níl sé ann sa chás Id list!",
+    "embedTitle": "Eolas Cáis",
+    "caseId": "Id Cáis",
     "caseType": "Cineál Cáis",
     "caseUser": "Úsáideoir"
   },
   "clients": {
     "selectAction": "Roghnaigh gníomh cliant.",
-    "addClient": "📥 Cuir Cliant Leis",
+    "addClient": "📥 Cuir Cliant leis",
     "addClientDescription": "Cuir cliant leis an mbunachar sonraí cliant guilds seo.",
     "removeClient": "📤 Bain Cliant",
-    "removeClientDescription": "Bain cliant as bunachar sonraí cliant guilds seo.",
-    "embedTitle": "Roghchlár cliant",
-    "embedDescription": "Cuir / Bain cliaint leis / ón mbunachar sonraí!",
-    "noClients": "Níl aon chliaint ag an ciontacht seo fós.",
+    "removeClientDescription": "Bain cliant as an mbunachar sonraí cliant guilds seo.",
+    "embedTitle": "Roghchlár Cliant",
+    "embedDescription": "Cuir/Bain cliaint le/ón mbunachar sonraí!",
+    "noClients": "Níl aon chliaint ag an gcuallacht seo go fóill.",
     "clients": "Cliaint"
   },
   "ddos": {
-    "NOTICE": "Is ordú magadh bréige é seo!!!!",
+    "NOTICE": "Is ordú joke bréige é seo!!!!",
     "sending": "Ionsaí a sheoladh chuig",
-    "successful": "DDOS Ionsaí rathúil ;)",
-    "lag": "Úsáideoir ag éirí lag?",
+    "successful": "Ionsaí DDOS ;) Rathúil",
+    "lag": "Úsáideoir ag fáil lag?",
     "no": "Ní hea?",
-    "failure": "Ní féidir liom daoine a :("
+    "failure": "Ní féidir liom daoine a dhoirteadh :("
   },
   "dice": {
-    "landedOn": "**Thuirling ar:**",
+    "landedOn": "**Tháinig sé i dtír ar:**",
     "numbers": [
       "1",
       "2",
@@ -102,60 +102,60 @@
   "dm": {
     "embedTitle": "📫 Tá post agat!",
     "messageSent": "**Teachtaireacht Seolta!**",
-    "messageSentFailed": "**Theip ar sheoladh teachtaireachta!**",
-    "dmsOff": "Is dócha go bhfuil a gcuid DManna socraithe go príobháideach."
+    "messageSentFailed": "**Theip ar theachtaireacht a sheoladh!**",
+    "dmsOff": "Is dócha go bhfuil a gcuid DManna socraithe go príobháideach acu."
   },
   "embed": {
     "notice": "Fógra ó",
-    "posted": "**Leabaigh Postáilte!**"
+    "posted": "**Leabú postáilte!**"
   },
   "embedBuilder": {
-    "embedTitle": "Tógálaí Leabaithe",
-    "embedDescription": "Fáilte go dtí an tógálaí leabaithe idirghníomhach. Bain úsáid as na cnaipí thíos chun an leabú a thógáil, tar éis cliceáil ar an bpost!",
+    "embedTitle": "Tógálaí leabú",
+    "embedDescription": "Fáilte chuig an tógálaí idirghníomhach leabú. Úsáid na cnaipí thíos chun an leabú a thógáil, tar éis cliceáil post!",
     "buttons": {
       "authorText": "Údar Téacs",
       "titleText": "Teideal Téacs",
-      "titleURL": "TEIDEAL URL",
-      "descriptionText": "Téacs Cur Síos",
-      "footerText": "Téacs buntásc",
-      "authorImage": "Íomhá an Údair",
-      "thumbnailImage": "Íomhá Mionsamhlacha",
+      "titleURL": "Teideal URL",
+      "descriptionText": "Cur síos Téacs",
+      "footerText": "Téacs an Bhuntásc",
+      "authorImage": "Údar Íomhá",
+      "thumbnailImage": "Íomhá Thumbnail",
       "largeImage": "Íomhá Mhór",
-      "footerImage": "Íomhá an Bhuntásca",
-      "embedColor": "Leabaigh Dath",
-      "embedFields": "Réimsí leabaithe",
-      "addTimestamp": "Cuir Stampa Ama Leis",
-      "channelToPost": "Cainéal le postáil",
+      "footerImage": "Íomhá footer",
+      "embedColor": "Dath leabú",
+      "embedFields": "Réimsí Leabú",
+      "addTimestamp": "Cuir Stampa Ama leis",
+      "channelToPost": "Cainéal chun post",
       "postEmbed": "Post an leabú",
-      "fieldName": "Ainm Réimse",
-      "fieldValue": "Luach Réimse",
-      "fieldInline": "Réimse Inlíne",
+      "fieldName": "Ainm An Réimse",
+      "fieldValue": "Luach Allamuigh",
+      "fieldInline": "Inlíne Allamuigh",
       "goBack": "Téigh siar",
       "newField": "Réimse Nua"
     },
     "responses": {
-      "setAuthorText": "Cad ba mhaith leat téacs an údair a shocrú dó?",
-      "setTitleText": "Cad ba mhaith leat an téacs teidil a shocrú?",
+      "setAuthorText": "Cad ba mhaith leat téacs an údair a shocrú?",
+      "setTitleText": "Cad ba mhaith leat téacs an teidil a shocrú?",
       "setTitleURL": "Cad ba mhaith leat URL an teidil a shocrú?",
-      "setDescriptionText": "Cad ba mhaith leat an cur síos a shocrú dó?",
-      "setFooterText": "Cad ba mhaith leat téacs an bhuntásca a shocrú?",
+      "setDescriptionText": "Cad ba mhaith leat an cur síos a shocrú?",
+      "setFooterText": "Cad ba mhaith leat téacs na gcosán a shocrú?",
       "setAuthorImage": "Cad ba mhaith leat íomhá an údair a shocrú?",
-      "setColor": "Cén dath ar mhaith leat an leabú a shocrú dó?",
-      "setThumbnailImage": "Cad ba mhaith leat an íomhá mionsamhlacha a shocrú?",
+      "setColor": "Cén dath ar mhaith leat an leabú a shocrú?",
+      "setThumbnailImage": "Cad ba mhaith leat an íomhá mionsamhail a shocrú?",
       "setLargeImage": "Cad ba mhaith leat an íomhá mhór a shocrú?",
-      "setFooterImage": "Cad ba mhaith leat íomhá an bhuntásca a shocrú?",
-      "channelToPost": "Cén cainéal ar mhaith leat é seo a phostáil?",
-      "fieldName": "Cén t-ainm ba chóir a bheith ar an réimse seo?",
-      "fieldValue": "Cad ba cheart a bheith i luach an réimse seo?",
-      "embedPosted": "Leabú Postáilte!"
+      "setFooterImage": "Cad ba mhaith leat íomhá an bhuntásc a shocrú?",
+      "channelToPost": "Cén cainéal ar mhaith leat é seo a phostáil chuige?",
+      "fieldName": "Cén t-ainm ba cheart a bheith ar an réimse seo?",
+      "fieldValue": "Cén luach ba cheart a bheith ar an réimse seo?",
+      "embedPosted": "Leabú postáilte!"
     }
   },
   "economy": {
     "crime": {
-      "cooldown": "Ní féidir leat coir a dhéanamh faoi láthair. Tá tú fós ar fhuarú.",
+      "cooldown": "Ní féidir leat coir a dhéanamh anois. Tá tú fós ar cooldown.",
       "crimeResponses": [
         {
-          "text": "Bhuail tú suas bean i alley agus fuair ",
+          "text": "Bhuail tú suas bean in ailéar agus fuair ",
           "amount": "10"
         },
         {
@@ -163,24 +163,24 @@
           "amount": "600"
         },
         {
-          "text": "D'eochairigh tú carr agus ghoid tú ",
+          "text": "Eochair tú carr agus ghoid tú ",
           "amount": "19"
         },
         {
-          "text": "Bhí banc agat agus rinne tú ",
+          "text": "Choinnigh tú suas banc agus rinne tú ",
           "amount": "500"
         },
         {
-          "text": "Pooped tú ar na comharsana poarch agus fuair ",
+          "text": "Phreab tú ar na comharsana poarch agus fuair ",
           "amount": "1"
         }
       ]
     },
     "work": {
-      "cooldown": "Ní féidir leat oibriú faoi láthair. Tá tú fós ar fhuarú.",
+      "cooldown": "Ní féidir leat oibriú faoi láthair. Tá tú fós ar cooldown.",
       "workResponses": [
         {
-          "text": "Ghlan tú teach duine éigin agus rinne tú ",
+          "text": "Ghlan tú teach duine agus rinne tú ",
           "amount": "138"
         },
         {
@@ -188,7 +188,7 @@
           "amount": "382"
         },
         {
-          "text": "Friochta tú sicín ar ghreille do na comharsana agus rinne ",
+          "text": "Sicín friochta tú ar ghríl do na comharsana agus rinne ",
           "amount": "18"
         },
         {
@@ -196,11 +196,11 @@
           "amount": "15"
         },
         {
-          "text": "Scríob tú péint as balla agus rinne tú ",
+          "text": "Scríob tú péint de bhalla agus rinne tú ",
           "amount": "37"
         },
         {
-          "text": "Déanann tú píotsa ar feadh 6 uair an chloig agus rinne tú ",
+          "text": "Déanann tú pizzas ar feadh 6 uair an chloig agus rinne tú ",
           "amount": "75"
         },
         {
@@ -208,15 +208,15 @@
           "amount": "34"
         },
         {
-          "text": "Thiomáin tú ar fud na tíre chun bainne a sheachadadh agus rinne ",
+          "text": "Thiomáin tú ar fud na tíre chun bainne a sheachadadh agus a dhéanamh ",
           "amount": "390"
         },
         {
-          "text": "Rinne tú seilfeanna an stáisiúin gháis a athstocáil agus rinne tú ",
+          "text": "Rinne tú athstocáil ar sheilfeanna an stáisiúin gháis agus rinne tú ",
           "amount": "32"
         },
         {
-          "text": "Shleamhnaigh tú an t-urlár agus rinne tú ",
+          "text": "Thum tú an t-urlár agus rinne tú ",
           "amount": "20"
         },
         {
@@ -224,19 +224,19 @@
           "amount": "42"
         },
         {
-          "text": "Bhain tú sult as Jake Hamblin agus rinne tú ",
+          "text": "Rinne tú spraoi de Jake Hamblin agus rinne tú ",
           "amount": "25"
         },
         {
-          "text": "Scríobh tú roinnt cód agus rinne tú ",
+          "text": "Scríobh tú cód éigin agus rinne tú ",
           "amount": "150"
         },
         {
-          "text": "D'imir tú i gcomórtas R-Spóirt agus rinne tú ",
+          "text": "D'imir tú i gcomórtas E-Sports agus rinne tú ",
           "amount": "100"
         },
         {
-          "text": "D'oibrigh tú seiceáil ag walmart agus rinne ",
+          "text": "D'oibrigh tú seiceáil ag walmart agus rinne tú ",
           "amount": "62"
         },
         {
@@ -244,11 +244,11 @@
           "amount": "250"
         },
         {
-          "text": "Ghearr tú roinnt gruaige agus rinne tú ",
+          "text": "Gearrann tú gruaig somebodies agus rinne tú ",
           "amount": "25"
         },
         {
-          "text": "Rinne tú obair bhaile do pháistí dó agus rinne ",
+          "text": "Rinne tú obair bhaile páistí dó agus rinne tú ",
           "amount": "67"
         }
       ]
@@ -259,13 +259,13 @@
       "selectItem": "Roghnaigh mír ó d'fhardal chun é a úsáid.",
       "items": "**Míreanna Fardail:**",
       "clickToUse": "Cliceáil chun an mhír seo a úsáid.",
-      "selectAction": "Roghnaigh mír chun í a úsáid."
+      "selectAction": "Roghnaigh mír chun é a úsáid."
     },
     "rob": {
-      "cooldown": "Ní féidir leat duine a robáil anois. Tá tú fós ar fhuarú.",
-      "tooLittleMoney": "Níl mórán airgid ag an úsáideoir seo le robáil.",
-      "robbed": "Robáil tú",
-      "for": "le haghaidh",
+      "cooldown": "Ní féidir leat duine a robáil faoi láthair. Tá tú fós ar cooldown.",
+      "tooLittleMoney": "Is beag airgead atá le robáil ag an úsáideoir seo.",
+      "robbed": "Tá tú robáilte",
+      "for": "agus",
       "robbery": "Robáil",
       "amount": "Méid",
       "from": "Ó"
@@ -275,11 +275,11 @@
     "yourLink": "Seo do nasc!"
   },
   "giveaways": {
-    "enter": "Cliceáil chun dul isteach!",
-    "end": "Deireadh",
+    "enter": "Cliceáil chun iontráil!",
+    "end": "Críoch",
     "reroll": "Ath-Rolla",
-    "posted": "**Tá Giveaway curtha sa phost!**",
-    "embedTitle": "Giveaway Nua!",
+    "posted": "**Tá Giveaway postáilte!**",
+    "embedTitle": "Tabhairt Nua!",
     "embedPrize": "**Duais:**",
     "embedWinners": "**Buaiteoirí:**",
     "embedTimeLimit": "**Teorainn Ama:**"
@@ -287,20 +287,20 @@
   "guilds": {
     "leaveGuild": "Fág Guild",
     "embedTitle": "Liosta Guilds",
-    "embedGuildName": "**○ Ainm Guild:**",
+    "embedGuildName": "**○ Guild Ainm:**",
     "embedGuildId": "**○ Guild Id:**",
-    "embedGuildMembers": "**○ Comhaltaí Ciontacha:**",
-    "embedGuildOwnerTag": "** ○ Clib Úinéir Guild: **",
-    "embedGuildOwnerId": "** ○ Aitheantas Úinéir Guild: **"
+    "embedGuildMembers": "**○ Baill Guild:**",
+    "embedGuildOwnerTag": "**○ Guild Owner Tag:**",
+    "embedGuildOwnerId": "**○ Guild Owner Id:**"
   },
   "help": {
     "selectAction": "Roghnaigh catagóir.",
     "embedTitle": "Roghchlár Cabhrach",
-    "defaultEmbedDesc": "Fáilte go Bot Dorcha! Úsáid an roghchlár seo chun mo chuid orduithe go léir a fheiceáil agus a fheiceáil cad atá le déanamh! Ba chóir go mbeadh saincheaptha éasca go leor!",
+    "defaultEmbedDesc": "Fáilte go dtí Dark Bot! Bain úsáid as an roghchlár seo chun féachaint ar mo chuid orduithe go léir agus féachaint cad atá le déanamh! Ba chóir go mbeadh customization éasca go leor!",
     "user": "🧑 Orduithe Úsáideora",
     "userDesc": "Féach ar na horduithe úsáideora atá le tairiscint ag an bot seo.",
     "economy": "🏦 Orduithe Geilleagair",
-    "economyDesc": "Féach ar na horduithe geilleagair atá le tairiscint ag an bot seo.",
+    "economyDesc": "Féach ar orduithe an gheilleagair caithfidh an bot seo a thairiscint.",
     "music": "💿 Orduithe Ceoil",
     "musicDesc": "Féach ar na horduithe ceoil atá le tairiscint ag an bot seo.",
     "utility": "🧰 Orduithe Fóntais",
@@ -308,92 +308,92 @@
     "moderation": "👮 Orduithe Modhnóireachta",
     "moderationDesc": "Féach ar na horduithe modhnóireachta atá le tairiscint ag an bot seo.",
     "settings": "🔧 Orduithe Socruithe",
-    "settingsDesc": "Féach ar na horduithe socruithe atá le tairiscint ag an bot seo.",
-    "owner": "👑 Orduithe Úinéara",
-    "ownerDesc": "Féach ar na horduithe úinéir (guild) atá le tairiscint ag an bot seo.",
+    "settingsDesc": "Féach ar na socruithe orduithe atá le tairiscint ag an bot seo.",
+    "owner": "👑 Orduithe Úinéirí",
+    "ownerDesc": "Féach ar na húinéirí (guild) a ordaíonn an bot seo a thairiscint.",
     "credits": "📜 Creidmheasanna",
     "creditsDesc": "Féach ar chreidmheasanna an bot seo.",
     "individualCommands": {
       "embedTitle": "Cabhair Ordaithe",
-      "name": "**Ainm: **",
+      "name": "**Ainm:**",
       "desc": "**Cur síos:**",
-      "type": "**Cineál: **",
+      "type": "**Cineál:**",
       "slash": "slais"
     }
   },
   "hug": {
-    "hasJustHugged": "tá sé díreach tar éis barróg a chur"
+    "hasJustHugged": "tar éis barróg a thabhairt"
   },
   "leveling": {
-    "disabled": "Níl an ghné 'leibhéalta' á úsáid ag an bhfreastalaí seo.",
-    "unknownUser": "Úsáideoir Anaithnid (ar chlé)",
-    "lvl": "** Lvl:**",
+    "disabled": "Níl an ghné 'leibhéalta' in úsáid ag an bhfreastalaí seo.",
+    "unknownUser": "Úsáideoir Anaithnid (Clé)",
+    "lvl": "**Lvl:**",
     "xp": "**XP:**",
-    "embedTitle": "Clár Ceannais Comhrá",
+    "embedTitle": "Clár Ceannaire Comhrá",
     "requestedBy": "Iarrtha ag",
     "levelCommand": {
-      "embedTitle": "Leibhéal Reatha Úsáideoirí:",
-      "currentXp": "**Reatha XP:**",
-      "currentLevel": "**Leibhéal Reatha:**",
-      "noLevelData": "Níl aon leibhéal ag an úsáideoir sin sa chiontacht seo."
+      "embedTitle": "Leibhéal Reatha úsáideoirí:",
+      "currentXp": "**XP reatha:**",
+      "currentLevel": "**Leibhéal reatha:**",
+      "noLevelData": "Níl aon leibhéal ag an úsáideoir sin sa chuallacht seo."
     },
-    "levelUp": "Tá tú díreach tar éis leibhéalú suas!",
+    "levelUp": "Tá tú díreach leibhéalta suas!",
     "newLevel": "Leibhéal nua:"
   },
   "logging": {
     "actionLogs": "Logaí Gníomhaíochta",
     "enforcer": "Forfheidhmitheoir",
-    "userId": "Aitheantas úsáideora",
-    "userTag": "Clib Úsáideora",
+    "userId": "Id Úsáideora",
+    "userTag": "Tag Úsáideora",
     "reason": "Cúis",
     "time": "Am",
-    "timestamp": "Stampa Ama",
+    "timestamp": "Stampa ama",
     "channel": "Cainéal",
     "command": "Ordú",
     "options": "Roghanna",
-    "noOptions": "Níor cuireadh aon roghanna ar fáil.",
+    "noOptions": "Níl aon roghanna curtha ar fáil.",
     "types": {
-      "userBanned": "Cuireadh cosc ar an úsáideoir",
+      "userBanned": "Cosc ar Úsáideoir",
       "userOfflineBanned": "Cosc ar Úsáideoir As Líne",
-      "userKicked": "Úsáideoir Ciceáil",
-      "userMuted": "Úsáideoir Balbhaithe",
-      "autoUnmute": "Uath-Dhímhitigh",
-      "command": "Iontráilte an Ordaithe",
+      "userKicked": "Ciceáil Úsáideora",
+      "userMuted": "Úsáideoir Muted",
+      "autoUnmute": "Auto Unmute",
+      "command": "Ordú iontráilte",
       "caseDeleted": "Cás Scriosta",
-      "userUnbanned": "Gan chosc ar an úsáideoir",
-      "userUnmuted": "Úsáideoir GanMuted",
-      "userWarned": "Rabhadh úsáideora",
-      "filterSystem": "Córas Scagaire",
-      "blacklistedTerm": "Téarma ar an Liosta Dubh",
+      "userUnbanned": "Úsáideoir Gan Toirmeasc",
+      "userUnmuted": "Úsáideoir Unmuted",
+      "userWarned": "Rabhadh Úsáideora",
+      "filterSystem": "Córas scagaire",
+      "blacklistedTerm": "Téarma Liostaithe",
       "levelUp": "Leibhéal Suas",
       "newLevel": "Leibhéal Nua"
     },
     "buttons": {
-      "addChannel": "Cuir Cainéal Leis"
+      "addChannel": "Cuir Channel leis"
     },
     "commandEmbed": {
       "embedTitle": "Cainéil Logála",
-      "type": "** ○ Cineál Log: **",
-      "channel": "** ○ Cainéal Log:**",
-      "noChannel": "Gan cainéil fós ..."
+      "type": "**○ Log Cineál:**",
+      "channel": "**○ Log Channel:**",
+      "noChannel": "Gan aon chainéil fós ..."
     }
   },
   "music": {
-    "loopIsNow": "Tá lúb anois",
-    "noSongsPlaying": "Níl aon amhráin ag seinm faoi láthair.",
+    "loopIsNow": "Tá Lúb anois",
+    "noSongsPlaying": "Níl aon amhrán á gcasadh faoi láthair.",
     "searching": "Ag cuardach...",
     "buttons": {
       "pause": "⏸️ Sos",
-      "play": "▶️ Foghlaim trí mheán an t",
-      "skip": "⏭️ Léim",
-      "stop": "⏹️ Stop",
+      "play": "▶️ Imirt",
+      "skip": "⏭️ Scipeáil",
+      "stop": "⏹️ Stopann",
       "shuffle": "🔀 Suaitheadh"
     },
     "musicCmd": {
-      "embedTitle": "Ag Imirt faoi láthair",
-      "name": "Ainm",
-      "duration": "Fad ama",
-      "requestor": "Iarrthóir",
+      "embedTitle": "Ag imirt faoi láthair",
+      "name": "Fón",
+      "duration": "Ré",
+      "requestor": "Requestor",
       "views": "Amhairc"
     }
   },
@@ -402,45 +402,45 @@
       "selectAction": "Roghnaigh gníomh pósta.",
       "send": "💌 Seol iarratas",
       "sendDesc": "Más mian leat duine a phósadh.",
-      "accept": "💍 Glacadh le togra",
+      "accept": "💍 Glac le togra",
       "acceptDesc": "D'iarr duine éigin ort iad a phósadh? I ndáiríre?",
-      "deny": "😭 Diúltaigh Togra",
-      "denyDesc": "Is duine uafásach tú má chliceálann tú é seo ...",
+      "deny": "😭 Togra a Shéanadh",
+      "denyDesc": "Is duine uafásach tú má chliceálann tú air seo...",
       "divorce": "⚖️ Faigh Colscaradh",
-      "divorceDesc": "Cé atá ag glacadh na bpáistí? Cúis nach mise a bheidh ann.",
+      "divorceDesc": "Cé atá ag tógáil na páistí? Cúis nach mbeidh sé ag dul dom.",
       "embedTitle": "Córas Pósta",
       "embedDesc": "Féach ar an gcóras pósta agus déan athruithe!"
     }
   },
   "massrole": {
     "begin": "'Massrole anois ag tionscnamh...'",
-    "failed": "'Theip ar massrole...'",
+    "failed": "'Theip ar Massrole...'",
     "missing": "**Ceadanna ar Iarraidh!**"
   },
   "meme": {
-    "grabbing": "Ag breith ar meme ...",
-    "hereYaGo": "Seo ya téigh!"
+    "grabbing": "Grabbing ya meme...",
+    "hereYaGo": "Seo ya dul!"
   },
   "mute": {
     "already": "Tá an t-úsáideoir sin balbhaithe cheana féin.",
     "not": "Níl an t-úsáideoir sin balbhaithe."
   },
   "offlineBan": {
-    "success": "D'éirigh leis cosc a chur"
+    "success": "Cosc rathúil"
   },
   "payments": {
-    "notify": "Cuir in iúl dúinn má roghnaigh tú an rogha seo.",
+    "notify": "Cuir an rogha seo in iúl dúinn má roghnaigh tú an rogha seo.",
     "payment": "Íocaíocht",
     "pleasePay": "Íoc le do thoil",
-    "location": "chun __one__ na modhanna íocaíochta thuas.",
+    "location": "do __one__ de na modhanna íocaíochta thuas.",
     "otherOption": "Rogha Eile"
   },
   "permissions": {
-    "addPermission": "Cuir Cead Leis",
+    "addPermission": "Cuir cead leis",
     "embedTitle": "Roghchlár Ceadanna",
-    "type": "** ○ Cineál Perm: **",
+    "type": "**○ Cineál Perm:**",
     "role": "**○ Ról Id:**",
-    "noPermsYet": "Gan aon perms fós ..."
+    "noPermsYet": "Níl aon perms fós ..."
   },
   "ping": {
     "message": "🏓 Is é latency:"
@@ -451,68 +451,68 @@
     "addPingPrevDesc": "Cuir do chosc ping ar bun.",
     "removePingPrev": "❌ Bain Cosc Ping",
     "removePingPrevDesc": "Bain do chosc ping.",
-    "embedTitle": "Roghchlár Coiscthe Ping",
+    "embedTitle": "Roghchlár Cosc Ping",
     "embedDesc": "Bainistigh do stádas coiscthe ping!"
   },
   "poll": {
-    "posted": "**Poll Postáilte!**"
+    "posted": "**Vótaíocht postáilte!**"
   },
   "punishments": {
-    "noHistory": "Níl aon stair pionóis ag an úsáideoir seo!",
-    "embedTitle": "Eolas faoi Chásanna"
+    "noHistory": "Níl aon stair na bpionós ag an úsáideoir seo!",
+    "embedTitle": "Eolas Cáis"
   },
   "purge": {
     "msgDeleted": "Teachtaireachtaí Scriosta!",
-    "error": "** Earráid agus Teachtaireachtaí á Scriosadh!**",
-    "reason": "Ní féidir liom ach teachtaireachtaí suas le 14 lá d'aois a scriosadh..."
+    "error": "**Teachtaireachtaí Scriosadh Earráide!**",
+    "reason": "Ní féidir liom ach teachtaireachtaí a scriosadh suas le 14 lá d'aois ..."
   },
   "queue": {
-    "clearQueue": "Glan an Scuaine",
-    "embedTitle": "Amhráin Scuaine",
-    "noSongsQueued": "Níl aon amhráin sa scuaine."
+    "clearQueue": "Glan Scuaine",
+    "embedTitle": "Amhráin Chiúnaithe",
+    "noSongsQueued": "Níl aon amhrán sa scuaine."
   },
   "restart": {
     "restarting": "Atosú Cliant",
-    "restartingDesc": "**An cliant a atosú...**",
-    "success": "D'éirigh le Atosú an Chliaint",
-    "successDesc": "**Atosaíodh an cliant go rathúil!**",
-    "failed": "Theip ar Atosú cliant",
+    "restartingDesc": "**Ag atosú an chliaint...**",
+    "success": "Atosú Cliant Rathúil",
+    "successDesc": "**Tá an cliant atosaithe go rathúil!**",
+    "failed": "Theip ar Atosú Cliant",
     "private": "**Seiceáil do theachtaireachtaí príobháideacha le do thoil!**",
-    "failed2": "**Theip ar atosú an chliaint...**"
+    "failed2": "**Theip ar an gcliant a atosú...**"
   },
   "reviews": {
     "reply": "Fág freagra",
     "newReview": "Athbhreithniú nua ó",
-    "posted": "Tá d'athbhreithniú curtha sa phost."
+    "posted": "Tá do léirmheas curtha sa phost."
   },
   "selfroles": {
-    "addMenu": "Cuir Roghchlár Leis",
-    "roleManager": "Rólbhainisteoir",
+    "addMenu": "Cuir Menu leis",
+    "roleManager": "Bainisteoir Róil",
     "postPanel": "Painéal Poist",
-    "embedTitle": "Roghchláir Féin-Róil",
-    "menuName": "** ○ Ainm roghchláir: **",
-    "noMenus": "Gan biachláir fós ..."
+    "embedTitle": "Biachláir Féinróil",
+    "menuName": "**○ Ainm roghchláir:**",
+    "noMenus": "Níl aon bhiachláir fós ..."
   },
   "server": {
-    "serverInfo": "Eolas faoin fhreastalaí",
-    "name": "Ainm",
-    "id": "Aitheantas",
-    "owner": "Úinéir",
-    "members": "Comhaltaí",
+    "serverInfo": "Eolas freastalaí",
+    "name": "Fón",
+    "id": "Id",
+    "owner": "úinéir",
+    "members": "Baill",
     "users": "Úsáideoirí",
-    "bots": "Róbónna",
-    "date": "Dáta an Chruthaithe",
+    "bots": "Bataí",
+    "date": "Dáta cruthaithe",
     "requestedBy": "Iarrtha ag"
   },
   "settings": {
     "selectAction": "Roghnaigh rogha socruithe.",
-    "base": "📕 Bunmhodúil",
-    "baseDesc": "Athraigh na bunmhodúil don chiontacht seo.",
+    "base": "📕 Modúil Bonn",
+    "baseDesc": "Athraigh na bunmhodúil don chuallacht seo.",
     "security": "📘 Modúil Slándála",
-    "securityDesc": "Modúil slándála a athrú don chiontacht seo.",
+    "securityDesc": "Athraigh modúil slándála don chuallacht seo.",
     "fun": "📙 Modúil Spraoi",
-    "funDesc": "Athraigh modúil spraoi don chiontacht seo.",
-    "embedTitle": "Roghchlár Socruithe",
+    "funDesc": "Athraigh modúil spraíúla don chuallacht seo.",
+    "embedTitle": "Settings Menu",
     "embedDesc": "Féach ar an roghchlár socruithe agus déan athruithe!"
   },
   "shop": {
@@ -521,79 +521,79 @@
     "select": "Roghnaigh mír ón siopa chun é a cheannach.",
     "shopItems": "**Míreanna Siopa:**",
     "click": "Cliceáil chun an mhír seo a cheannach.",
-    "selectAction": "Roghnaigh mír chun í a cheannach."
+    "selectAction": "Roghnaigh mír chun é a cheannach."
   },
   "snipe": {
-    "noMessage": "Níl aon teachtaireachtaí le snipe sa chainéal seo!",
+    "noMessage": "Níl aon teachtaireachtaí le snipeáil sa chainéal seo!",
     "messageFrom": "Teachtaireacht ó",
     "snipedBy": "Sniped ag"
   },
   "sticky": {
     "selectAction": "Roghnaigh gníomh teachtaireachta greamaitheach.",
-    "add": "🍯 Cuir Greamaitheach leis",
+    "add": "🍯 Cuir Bata leis",
     "addDesc": "Cuir teachtaireacht ghreamaitheach leis an mbunachar sonraí.",
-    "remove": "❌ Bain Greamaitheach",
-    "removeDesc": "Bain teachtaireacht ghreamaitheach ón mbunachar sonraí.",
-    "embedTitle": "Roghchlár Teachtaireachta Greamaitheach",
-    "embedDesc": "Cuir/Bain teachtaireachtaí greamaitheacha leis / ón mbunachar sonraí!"
+    "remove": "❌ Bain Bata",
+    "removeDesc": "Bain teachtaireacht ghreamaitheach den bhunachar sonraí.",
+    "embedTitle": "Roghchlár Teachtaireachtaí Greamaitheacha",
+    "embedDesc": "Cuir/Bain teachtaireachtaí greamaitheacha le/ón mbunachar sonraí!"
   },
   "suggestion": {
-    "recieved": "**Moladh recieved!**",
+    "recieved": "**Moladh Recieved!**",
     "embedTitle": "Moladh Nua!",
-    "noChan": "Níl an guild seo tar éis logáil moladh a chur ar bun fós."
+    "noChan": "Níor bhunaigh an chuallacht seo logáil moltaí go fóill."
   },
   "tickets": {
-    "noTickets": "Níl aon chatagóirí ticéad curtha ar bun go fóill ag an ciontacht seo.",
-    "embedTitle": "Catagóirí Ticéad",
-    "embedDesc": "Seo iad na catagóirí ticéad don chiontacht seo. Roghnaigh ceann chun ticéad a oscailt sa chatagóir sin.",
+    "noTickets": "Níl aon chatagóirí ticéad curtha ar bun ag an gcuallacht seo go fóill.",
+    "embedTitle": "Catagóirí ticéad",
+    "embedDesc": "Seo catagóirí na dticéad don chuallacht seo. Roghnaigh ceann chun ticéad a oscailt sa chatagóir sin.",
     "selectAction": "Roghnaigh catagóir ticéad."
   },
   "ticketbuttons": {
     "close": "🔒 Dún Ticéad",
     "rename": "✏️ Athainmnigh Ticéad",
-    "add": "📥 Cuir Úsáideoir Leis",
+    "add": "📥 Cuir Úsáideoir leis",
     "remove": "📤 Bain Úsáideoir",
     "claim": "🤝 Ticéad Éilimh",
-    "claimedBy": "🤝 Arna éileamh ag",
-    "message": "Roinnt cnaipí úsáideacha ticéad.",
+    "claimedBy": "🤝 Éilithe ag",
+    "message": "Roinnt cnaipí ticéad úsáideacha.",
     "onlyInTicket": "Ní féidir é seo a dhéanamh ach i gcainéal ticéad."
   },
   "ticketpanels": {
-    "addPanel": "Cuir Painéal Leis",
-    "post": "Post go cainéal",
+    "addPanel": "Cuir Painéal leis",
+    "post": "Post chuig cainéal",
     "embedTitle": "Painéil Ticéad",
-    "panelName": "** ○ Ainm an Phainéil:**",
-    "panelDesc": "**○ Cur síos ar an bPainéal:**",
+    "panelName": "**○ Ainm an Phainéil:**",
+    "panelDesc": "**○ Cur síos ar an bpainéal:**",
     "noPanels": "Níl aon phainéil fós ..."
   },
   "timer": {
-    "set": "Socraigh lasc ama!",
-    "up": "Uaineadóir Suas!",
-    "remind": "Cuirfidh mé i gcuimhne duit i",
-    "to": "go dtí",
+    "set": "Timer Socraigh!",
+    "up": "Timer Suas!",
+    "remind": "Cuirfidh mé i gcuimhne duit",
+    "to": "aníos",
     "timer": "Uaireanta",
     "time": "**Am: **",
     "note": "**Nóta: **",
-    "ended": "**Tháinig deireadh leis an Uaineadóir**"
+    "ended": "**Timer Ended**"
   },
   "tos": {
     "agree": "Aontaím",
     "tos": "Téarmaí Seirbhíse",
-    "confirm": "Deimhnigh *** le do thoil go n-aontaíonn tú leis an **[Téarmaí Seirbhíse]",
+    "confirm": "Le do thoil **deimhnigh** go n-aontaíonn tú leis an **[Téarmaí Seirbhíse]",
     "confirm2": "** \ntríd an gcnaipe gorm thíos a bhrú a deir 'Aontaím'."
   },
   "user": {
-    "info": "Faisnéis Úsáideora",
+    "info": "Eolas Úsáideora",
     "tag": "Lá",
-    "id": "Aitheantas",
+    "id": "Id",
     "bot": "Bot",
     "cases": "Cásanna",
     "level": "Leibhéal Comhrá",
-    "joined": "Chuaigh sé isteach i Discord",
+    "joined": "Chuaigh sé le Discord",
     "requestedBy": "Iarrtha ag"
   },
   "volume": {
-    "changed": "Athraíodh an tImleabhar"
+    "changed": "Imleabhar Athraithe"
   },
   "globalButtons": {
     "controls": "Rialuithe:",
@@ -601,31 +601,31 @@
     "settings": "Socruithe:",
     "tools": "Uirlisí:",
     "toggle": "Scoránaigh:",
-    "delete": "Scrios Roghnaithe",
+    "delete": "Scrios roghnaithe",
     "disabled": "Díchumasaithe",
     "enabled": "Cumasaithe",
     "back": "Ar ais",
-    "next": "An chéad cheann eile",
-    "deleteSelected": "Scrios Roghnaithe",
+    "next": "Ar aghaidh",
+    "deleteSelected": "Scrios roghnaithe",
     "closed": "Dúnta",
-    "open": "Oscailte",
+    "open": "Oscail",
     "home": "🏠 Téigh abhaile",
-    "accept": "Glac leis",
-    "deny": "Diúltaigh",
+    "accept": "Glac",
+    "deny": "Séanadh",
     "message": "Teachtaireacht",
-    "embed": "Leabaigh",
+    "embed": "Leabú",
     "card": "Cárta"
   },
   "commands": {
     "eightBall": {
-      "name": "8ball",
-      "description": "Labhair le Dia.",
+      "name": "8 liathróid",
+      "description": "Labhair le dia.",
       "options": [
         {
           "name": "ceist",
-          "description": "An cheist a chur ar an 🎱 liathróid.",
+          "description": "An cheist le cur ar an 🎱 liathróid.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -634,12 +634,12 @@
       "description": "Scoránaigh do stádas AFK."
     },
     "applicationmenu": {
-      "name": "iarratas a dhéanamh ar",
-      "description": "Bainistigh na feidhmchláir ciontachta seo."
+      "name": "applicationmenu",
+      "description": "Bainistigh na hiarratais guilds seo."
     },
     "apply": {
       "name": "iarratas a dhéanamh",
-      "description": "Líon isteach feidhmchlár oscailte."
+      "description": "Líon isteach iarratas oscailte."
     },
     "ascii": {
       "name": "ascii",
@@ -647,9 +647,9 @@
       "options": [
         {
           "name": "téacs",
-          "description": "An téacs le tiontú go ascii.",
+          "description": "An téacs a thiontú go ascii.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -659,7 +659,7 @@
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir a fháil ar an avatar de.",
+          "description": "An t-úsáideoir chun avatar a fháil.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -670,53 +670,53 @@
       "description": "Féach ar iarmhéid do chuntais."
     },
     "ban": {
-      "name": "cosc a chur ar",
-      "description": "Cosc a chur ar dhuine ón ciontacht.",
+      "name": "cosc",
+      "description": "Cosc a chur ar dhuine ón gcuallacht.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun cosc a chur ar an ciontacht seo.",
+          "description": "An t-úsáideoir chun cosc a chur ar an gcuallacht seo.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         },
         {
           "name": "cúis",
-          "description": "An chúis atá leis an úsáideoir a thoirmeasc.",
+          "description": "An chúis le cosc a chur ar an úsáideoir.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "birthdays": {
       "name": "breithlaethanta",
-      "description": "Oscail an painéal lá breithe."
+      "description": "Oscail an painéal breithlaethanta."
     },
     "case": {
       "name": "cás",
-      "description": "Féach ar eolas faoi chásanna.",
+      "description": "Féach ar fhaisnéis faoi chásanna.",
       "options": [
         {
           "name": "case_id",
-          "description": "Id an cháis le hamharc air.",
+          "description": "Id an cháis le hamharc.",
           "required": "fíor",
           "type": "SLÁNUIMHIR"
         }
       ]
     },
     "clientmenu": {
-      "name": "cliantmenu",
-      "description": "Bainistigh na ciontachtaí seo."
+      "name": "clientmenu",
+      "description": "Bainistigh na cliaint guilds seo."
     },
     "clients": {
       "name": "cliaint",
-      "description": "Féach ar an gcliant ciontachta seo."
+      "description": "Féach ar na cliaint guilds seo."
     },
     "credits": {
       "name": "creidmheasanna",
       "description": "Féach ar na creidmheasanna don bot seo!"
     },
     "crime": {
-      "name": "coiriúlacht",
+      "name": "coireacht",
       "description": "Coir a dhéanamh."
     },
     "ddos": {
@@ -725,7 +725,7 @@
       "options": [
         {
           "name": "sprioc",
-          "description": "An t-úsáideoir chun \"ionsaí\".",
+          "description": "An t-úsáideoir a \"ionsaí\".",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -733,15 +733,15 @@
     },
     "dice": {
       "name": "Deir",
-      "description": "Rollaigh an dísle."
+      "description": "Rollaigh na dísle."
     },
     "dm": {
-      "name": "dm",
-      "description": "Teachtaireacht phríobháideach a chur chuig úsáideoir mar an bot.",
+      "name": "cartlann",
+      "description": "Teachtaireacht phríobháideach a thabhairt d'úsáideoir mar an bot.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun teachtaireacht a sheoladh.",
+          "description": "An t-úsáideoir chun teachtaireacht a thabhairt.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         },
@@ -749,7 +749,7 @@
           "name": "teachtaireacht",
           "description": "An teachtaireacht chun iad a sheoladh.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -765,15 +765,15 @@
         },
         {
           "name": "teachtaireacht",
-          "description": "An teachtaireacht a rá sa leabú.",
+          "description": "An teachtaireacht le rá sa leabú.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "embedbuilder": {
-      "name": "leabú",
-      "description": "Oscail an tógálaí leabaithe teachtaireachta idirghníomhach."
+      "name": "leabúbuilder",
+      "description": "Oscail an tógálaí idirghníomhach teachtaireachtaí leabú."
     },
     "games": {
       "name": "cluichí",
@@ -783,15 +783,15 @@
           "name": "cluiche",
           "description": "Roghnaigh cluiche le himirt.",
           "required": "fíor",
-          "type": "TEAGHRÁN",
+          "type": "SREANGÁN",
           "choices": [
             {
-              "name": "Poker",
-              "value": "poker"
+              "name": "pócair",
+              "value": "pócair"
             },
             {
-              "name": "Youtube",
-              "value": "youtube"
+              "name": "YouTube",
+              "value": "YouTube"
             },
             {
               "name": "Ficheall",
@@ -806,20 +806,20 @@
               "value": "iascaireacht"
             },
             {
-              "name": "Craicelach 8's",
-              "value": "ocht"
+              "name": "Craiceáilte 8",
+              "value": "ochtar"
             },
             {
               "name": "Seiceálaithe",
               "value": "seiceálaithe"
             },
             {
-              "name": "Tíl na Litreach",
-              "value": "leitir Ceanainn"
+              "name": "Litir Tíleanna",
+              "value": "leitir Tíl"
             },
             {
               "name": "Sneaiceanna Focal",
-              "value": "focailnack"
+              "value": "wordsnack"
             },
             {
               "name": "Criú Doodle",
@@ -838,7 +838,7 @@
       ]
     },
     "giveaway": {
-      "name": "a thabhairt",
+      "name": "tabhairt uaidh",
       "description": "Cruthaigh giveaway.",
       "options": [
         {
@@ -849,53 +849,53 @@
         },
         {
           "name": "color_hex",
-          "description": "An dath HEX don bhabhta. (Sean: #FFFFFF)",
+          "description": "An dath HEX don giveaway. (Sean: #FFFFFF)",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "duais",
-          "description": "Cad atá ar intinn agat a thabhairt ar shiúl.",
+          "description": "An rud atá ar intinn agat a thabhairt uait.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "time_limit",
-          "description": "Cá fhad ba chóir go mairfidh an giveaway.",
+          "description": "Cá fhad ba cheart go mairfeadh an tabhairt uaidh.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "buaiteoirí",
-          "description": "Cé mhéad buaiteoir ba chóir a bheith ag an mbrabhsáil.",
+          "description": "Cé mhéad buaiteoir ba cheart a bheith ag an giveaway.",
           "required": "fíor",
           "type": "SLÁNUIMHIR"
         }
       ]
     },
     "guilds": {
-      "name": "guilds",
-      "description": "Féach na ciontachtaí ina bhfuil an bot seo."
+      "name": "cuallachtaí",
+      "description": "Féach na guilds tá an bot seo istigh."
     },
     "help": {
-      "name": "cuideoidh siad",
-      "description": "Féach ar gach ordú agus faisnéis faoin bot!",
+      "name": "cabhair",
+      "description": "Féach ar gach ordú agus eolas faoin bot!",
       "options": [
         {
           "name": "ordú",
           "description": "Féach ar fhaisnéis faoi ordú ar leith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "hug": {
       "name": "barróg",
-      "description": "Barróg a chur ar úsáideoir.",
+      "description": "Barróg a thabhairt d'úsáideoir.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir barróg.",
+          "description": "An t-úsáideoir chun barróg a dhéanamh.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -907,25 +907,25 @@
     },
     "kick": {
       "name": "cic",
-      "description": "Ciceáil duine éigin ón ciontacht seo.",
+      "description": "Cuir tús le duine ón gcuallacht seo.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun ciceáil ón ciontacht seo.",
+          "description": "An t-úsáideoir a chiceáil ón gcuallacht seo.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         },
         {
           "name": "cúis",
-          "description": "An chúis atá leis an úsáideoir a chiceáil.",
+          "description": "An chúis leis an úsáideoir a chiceáil.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "leaderboard": {
-      "name": "clár ceannais",
-      "description": "Féach ar an gclár ceannais leibhéal comhrá freastalaithe seo."
+      "name": "clár ceannaire",
+      "description": "Féach ar na freastalaithe seo clár leader leibhéal comhrá."
     },
     "level": {
       "name": "leibhéal",
@@ -933,7 +933,7 @@
       "options": [
         {
           "name": "úsáideoir",
-          "description": "Féachann an t-úsáideoir ar leibhéal na",
+          "description": "An t-úsáideoir chun féachaint ar an leibhéal",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -941,25 +941,25 @@
     },
     "logging": {
       "name": "logáil",
-      "description": "Athraigh na socruithe logála don chiontacht seo."
+      "description": "Athraigh na socruithe logála don chuallacht seo."
     },
     "loop": {
       "name": "lúb",
-      "description": "Scoránaigh lúb an amhráin."
+      "description": "Scornaigh lúb an amhráin."
     },
     "marriage": {
       "name": "pósadh",
-      "description": "Féach ar an gcóras ❤️ pósta!"
+      "description": "Féach ar an gcóras ❤️ pósta !"
     },
     "massrole": {
-      "name": "maisiúchán",
+      "name": "massrole",
       "description": "Tabhair ról do gach ball sa fhreastalaí seo.",
       "options": [
         {
-          "name": "ról",
-          "description": "An ról a thabhairt do gach ball.",
+          "name": "an ról atá aige",
+          "description": "An ról le tabhairt do gach ball.",
           "required": "fíor",
-          "type": "RÓL"
+          "type": "AN RÓL"
         }
       ]
     },
@@ -975,70 +975,70 @@
           "name": "play_song",
           "description": "An t-amhrán le seinm.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "mute": {
-      "name": "balbhaigh",
-      "description": "Balbh duine éigin sa chiontacht.",
+      "name": "láibe",
+      "description": "Mute duine sa chuallacht.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir a balbhú ón ciontacht seo.",
+          "description": "An t-úsáideoir a láibeáil ón gcuallacht seo.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         },
         {
           "name": "am",
-          "description": "Cá fhad is mian leat iad a bhalbhú. (Ex: 15m = 15 nóiméad)",
+          "description": "Cá fhad is mian leat iad a láibiú. (Ex: 15m = 15 nóiméad)",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "cúis",
-          "description": "An chúis atá leis an úsáideoir a mhúchadh.",
+          "description": "An chúis atá leis an úsáideoir a mhúscailt.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "offlineban": {
-      "name": "as líne",
-      "description": "Cuir cosc ar dhuine nach bhfuil sa chiontacht.",
+      "name": "as líneban",
+      "description": "Cosc a chur ar dhuine nach bhfuil sa chuallacht.",
       "options": [
         {
           "name": "user_id",
-          "description": "Id úsáideora an úsáideora le cosc.",
+          "description": "Id úsáideora an úsáideora chun cosc a chur.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "cúis",
-          "description": "An chúis leis an úsáideoir a thoirmeasc.",
+          "description": "An chúis le cosc a chur ar an úsáideoir.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "pay": {
-      "name": "íocfaidh tú",
+      "name": "íoc",
       "description": "Iarr ar úsáideoir aontú le do théarmaí seirbhíse.",
       "options": [
         {
           "name": "méid",
-          "description": "Tabhair an méid agus an t-airgeadra ba cheart don úsáideoir a íoc.",
+          "description": "Tabhair an méid agus an t-airgeadra ba chóir don úsáideoir a íoc.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "permissions": {
       "name": "ceadanna",
-      "description": "Mionathraigh an guilds ceadanna."
+      "description": "Athraigh na ceadanna cuallachta seo."
     },
     "ping": {
-      "name": "ping",
+      "name": "clóscríobh",
       "description": "Ordú ping simplí."
     },
     "pingprev": {
@@ -1046,86 +1046,86 @@
       "description": "Bainistigh do stádas coiscthe ping."
     },
     "play": {
-      "name": "ag súgradh",
-      "description": "Seinn roinnt ceoil ⏯️.",
+      "name": "imirt",
+      "description": "Seinn roinnt ceoil ⏯️ .",
       "options": [
         {
           "name": "amhrán",
           "description": "An t-amhrán le seinm.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "poll": {
       "name": "vótaíocht",
-      "description": "Cruthaigh vótaíocht.",
+      "description": "Cruthaigh pobalbhreith.",
       "options": [
         {
           "name": "ceist",
-          "description": "Ceist na vótaíochta.",
+          "description": "Ceist na pobalbhreithe.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_1",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_2",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_3",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_4",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_5",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_6",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_7",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_8",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_9",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "option_10",
-          "description": "Rogha don vótaíocht.",
+          "description": "Rogha don phobalbhreith.",
           "required": "bréagach",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -1135,19 +1135,19 @@
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun stair cháis a fheiceáil.",
+          "description": "An t-úsáideoir chun féachaint ar stair na gcásanna.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
       ]
     },
     "purge": {
-      "name": "purge",
-      "description": "Scrios teachtaireachtaí i gcainéal.",
+      "name": "purgadóir",
+      "description": "Scrios bulc teachtaireachtaí i gcainéal.",
       "options": [
         {
           "name": "méid",
-          "description": "# na teachtaireachtaí le glanadh.",
+          "description": "An # de theachtaireachtaí a purge.",
           "required": "fíor",
           "type": "SLÁNUIMHIR"
         }
@@ -1158,8 +1158,8 @@
       "description": "Féach ar an scuaine ceoil."
     },
     "removecase": {
-      "name": "bain an t-adhlacthas",
-      "description": "Bain cás ón mbunachar sonraí.",
+      "name": "bain",
+      "description": "Bain cás den bhunachar sonraí.",
       "options": [
         {
           "name": "case_id",
@@ -1181,25 +1181,25 @@
           "name": "seirbhís",
           "description": "Cad a cheannaigh / a cheannaigh tú.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
-          "name": "rátáil",
+          "name": "rátála",
           "description": "Cad a mheasann tú an táirge as 5.",
           "required": "fíor",
           "type": "SLÁNUIMHIR"
         },
         {
           "name": "teachtaireacht",
-          "description": "Fág teachtaireacht le do léirmheas.",
+          "description": "Fág teachtaireacht le d'athbhreithniú.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "rob": {
-      "name": "robáil",
-      "description": "Robáil úsáideoir.",
+      "name": "rob",
+      "description": "Rob úsáideoir.",
       "options": [
         {
           "name": "úsáideoir",
@@ -1223,13 +1223,13 @@
           "name": "teachtaireacht",
           "description": "An teachtaireacht le rá.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "selfroles": {
-      "name": "féinróga",
-      "description": "Cuir féin-róil ar bun don chiontacht seo."
+      "name": "féinroles",
+      "description": "Féinróil a bhunú don chuallacht seo."
     },
     "server": {
       "name": "freastalaí",
@@ -1245,11 +1245,11 @@
     },
     "snipe": {
       "name": "snipe",
-      "description": "Faigh an teachtaireacht dheireanach scriosta sa chainéal seo."
+      "description": "Beir an teachtaireacht scriosta deireanach sa chainéal seo."
     },
     "sticky": {
       "name": "greamaitheach",
-      "description": "Cuir teachtaireachtaí greamaitheacha leis nó Bain iad."
+      "description": "Cuir nó Bain teachtaireachtaí greamaitheacha."
     },
     "suggest": {
       "name": "moladh",
@@ -1259,7 +1259,7 @@
           "name": "moladh",
           "description": "Cad atá á mholadh agat.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -1268,12 +1268,12 @@
       "description": "Cruthaigh ticéad."
     },
     "ticketbuttons": {
-      "name": "ticéad",
-      "description": "Féach ar chnaipí úsáideacha ticéad."
+      "name": "ticketbuttons",
+      "description": "Féach ar chnaipí ticéad úsáideacha."
     },
     "ticketpanels": {
-      "name": "ticéid",
-      "description": "Cuir painéil ticéad ar bun don chiontacht seo."
+      "name": "ticketpanels",
+      "description": "Cuir painéil ticéad ar bun don chuallacht seo."
     },
     "timer": {
       "name": "Uaireanta",
@@ -1281,20 +1281,20 @@
       "options": [
         {
           "name": "am",
-          "description": "An t-am don lasc ama imeacht. (Ex: 1h = 1 uair, 1m = 1 nóiméad, 5s = 5 shoicind)",
+          "description": "An t-am don lasc ama dul as. (Ex: 1h = 1 uair, 1m = 1 nóiméad, 5s = 5 soicind)",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         },
         {
           "name": "cúis",
-          "description": "Cad ba cheart don bot a mheabhrú duit?",
+          "description": "Cad ba chóir don bot a chur i gcuimhne duit?",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "tos": {
-      "name": "Go",
+      "name": "aon agóid.",
       "description": "Iarr ar úsáideoir aontú le do théarmaí seirbhíse.",
       "options": [
         {
@@ -1306,24 +1306,24 @@
       ]
     },
     "unban": {
-      "name": "díbhainséireacht",
-      "description": "Unban duine éigin as an guild.",
+      "name": "unban",
+      "description": "Unban duine ón gcuallacht seo.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "Id an úsáideora chun díbhe ón ciontacht seo.",
+          "description": "Id an úsáideora a unban ón gcuallacht seo.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
     "unmute": {
-      "name": "neamhdhíobháil",
-      "description": "Unmute duine éigin sa guild.",
+      "name": "unmute",
+      "description": "Unmute duine sa chuallacht.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun unmute ón ciontacht seo.",
+          "description": "An t-úsáideoir a unmute ón gcuallacht seo.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -1331,11 +1331,11 @@
     },
     "user": {
       "name": "úsáideoir",
-      "description": "Féach ar fhaisnéis úsáideora.",
+      "description": "Féach ar fhaisnéis d'úsáideoirí.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir le hamharc air.",
+          "description": "An t-úsáideoir le hamharc.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         }
@@ -1354,20 +1354,20 @@
       ]
     },
     "warn": {
-      "name": "rabhadh a thabhairt",
-      "description": "Tabhair rabhadh d'úsáideoir sa chiontacht seo.",
+      "name": "rabhadh",
+      "description": "Tabhair rabhadh d'úsáideoir sa chuallacht seo.",
       "options": [
         {
           "name": "úsáideoir",
-          "description": "An t-úsáideoir chun rabhadh a thabhairt.",
+          "description": "An t-úsáideoir le rabhadh a thabhairt.",
           "required": "fíor",
           "type": "ÚSÁIDEOIR"
         },
         {
           "name": "cúis",
-          "description": "An chúis le rabhadh a dhéanamh don úsáideoir.",
+          "description": "An chúis le rabhadh a thabhairt don úsáideoir.",
           "required": "fíor",
-          "type": "TEAGHRÁN"
+          "type": "SREANGÁN"
         }
       ]
     },
@@ -1383,91 +1383,91 @@
   "events": {
     "actionLogs": "Logaí Gníomhaíochta",
     "actionBy": "Gníomhaithe ag",
-    "someone": "duine éigin",
+    "someone": "duine",
     "guilds": {
-      "join": "📥 Tháinig Guild isteach!",
-      "leave": "📤 Guild Chlé!",
+      "join": "📥 Guild isteach!",
+      "leave": "📤 Guild Fágtha!",
       "name": "**○ Ainm:**",
-      "id": "**○ Id:**"
+      "id": "**○ id:**"
     },
     "updated": {
       "before": "Roimh Athruithe",
       "after": "Tar éis Athruithe",
-      "name": "Ainm",
+      "name": "Fón",
       "user": "Úsáideoir",
-      "type": "Cineál",
-      "id": "Aitheantas",
+      "type": "cineál",
+      "id": "Id",
       "created": "Cruthaithe",
       "color": "Dath",
-      "hoisted": "Ardaithe",
-      "position": "Seasamh",
-      "mentionable": "Luaigh"
+      "hoisted": "Crochta",
+      "position": "Post",
+      "mentionable": "Luaite"
     },
     "channels": {
-      "created": "Cruthaíodh Cainéal",
-      "deleted": "Scriosadh an Cainéal",
-      "updated": "Nuashonraithe Cainéal",
-      "id": "Aitheantas an Chainéil",
-      "name": "Ainm an Chainéil"
+      "created": "Cainéal Cruthaithe",
+      "deleted": "Channel Scriosta",
+      "updated": "Channel Nuashonraithe",
+      "id": "Id cainéil",
+      "name": "Ainm Channel"
     },
     "members": {
-      "left": "d'fhág sé an freastalaí!",
-      "leftEmbedTitle": "Úsáideoir Slán!",
+      "left": "tar éis an freastalaí a fhágáil!",
+      "leftEmbedTitle": "Slán leis an Úsáideoir!",
       "accountAge": "Aois an Chuntais",
-      "members": "Comhaltaí",
+      "members": "Baill",
       "users": "Úsáideoirí",
       "sorry": "Tá brón orm",
-      "lockdown": "faoi ghlas faoi láthair! Bain triail as a bheith páirteach ar ais i gceann cúpla uair an chloig nó déan teagmháil le riaracháin go seachtrach chun a bhfuil ar bun a fheiceáil!\n\nIs féidir go ndearna an t-úinéir dearmad glas an fhreastalaí a dhíchumasú, beag beann ar é seo a logáil agus táim cinnte go mbeidh an freastalaí oscailte arís go luath.",
-      "lockdownMode": "Tá an freastalaí i mód glasála!",
-      "lockdownTitle": "🔒 Glasáil Freastalaí!",
-      "lockdownRemoval": "Deireadh a chur le Glasáil!",
+      "lockdown": "faoi dhianghlasáil faoi láthair! Bain triail as teacht isteach ar ais i gceann cúpla uair an chloig nó déan teagmháil le riarachán go seachtrach chun a bhfuil ar bun a fheiceáil!\n\nIs féidir go ndearna an t-úinéir dearmad ach glas freastalaí a dhíchumasú, is cuma go bhfuil sé seo logáilte agus táim cinnte go mbeidh an freastalaí ar oscailt arís go luath.",
+      "lockdownMode": "Tá an freastalaí i mód dianghlasála!",
+      "lockdownTitle": "🔒 Dianghlasáil freastalaí!",
+      "lockdownRemoval": "Deireadh na Dianghlasála!",
       "reason": "Cúis",
-      "action": "gníomh",
+      "action": "Gníomh",
       "user": "Úsáideoir",
       "kicked": "Ciceáil",
-      "sl": "Glasáil Freastalaí!",
+      "sl": "Dianghlasáil freastalaí!",
       "altDetected": "Alt Cuntas Braite!",
-      "removalTitle": "Baineadh tú!",
+      "removalTitle": "Baineadh Díot!",
       "removal1": "Baineadh tú as",
-      "removal2": "toisc nach gcomhlíonann do chuntas riachtanais aoise an chuntais chiontachta.",
+      "removal2": "ós rud é nach gcomhlíonann do chuntas riachtanais aoise chuntas na gcuallachtaí.",
       "join": "tar éis dul isteach sa fhreastalaí!",
       "joinEmbedTitle": "Fáilte Úsáideoir!"
     },
     "messages": {
-      "deleted": "Scriosadh an Teachtaireacht",
+      "deleted": "Teachtaireacht Scriosta",
       "channel": "Cainéal",
       "content": "Ábhar Teachtaireachta",
-      "noContent": "Gan ábhar",
-      "updated": "Nuashonraíodh an Teachtaireacht",
-      "noAfk": "níl tú marcáilte AFK sa chiontacht seo a thuilleadh.",
-      "isAfk": "atá AFK faoi láthair ...",
+      "noContent": "Gan Ábhar",
+      "updated": "Teachtaireacht Nuashonraithe",
+      "noAfk": "níl tú marcáilte AFK sa chuallacht seo a thuilleadh.",
+      "isAfk": "faoi láthair tá AFK ...",
       "pingedBy": "Pinged ag",
       "pingPrev": "❤️ Córas Coiscthe Ping",
       "mail": "📫 Tá post agat!",
-      "pleaseDont": "Ná ping dom le do thoil, tá saol agam, díreach cosúil leatsa :]"
+      "pleaseDont": "Please do not ping me, tá saol agam, díreach cosúil leatsa :]"
     },
     "roles": {
       "created": "Ról Cruthaithe",
-      "deleted": "Scriosadh An Ról",
-      "updated": "Nuashonrú Ról",
-      "id": "Aitheantas Ról",
+      "deleted": "Ról Scriosta",
+      "updated": "Ról Nuashonraithe",
+      "id": "Id Ról",
       "name": "Ainm an Róil",
       "actionedBy": "Gníomhaithe ag"
     },
     "voice": {
-      "has": "a bhfuil",
-      "was": "a bhí",
+      "has": "tá",
+      "was": "bhí",
       "unavailable": "Níl sé ar fáil",
       "update": "Nuashonrú Stáit Gutha",
       "server": "freastalaí",
-      "left": "d'imigh siad",
-      "joined": "chuaigh sé isteach",
+      "left": "fágtha",
+      "joined": "isteach",
       "moved": "bhog sé ó",
-      "to": "go dtí",
+      "to": "aníos",
       "deafened": "bodhar",
-      "undeafened": "neamhbhodhar",
+      "undeafened": "gan bhodhrán",
       "muted": "balbhaithe",
-      "unmuted": "neamhbhalbh",
+      "unmuted": "neamh-bhalbh",
       "stopped": "stop siad a bhfíseán",
       "started": "chuir siad tús lena bhfíseán",
       "stream": "thosaigh sé ag sruthú",
@@ -1476,177 +1476,177 @@
   },
   "components": {
     "agreeTos": {
-      "notasked": "Ní iarrtar ort aontú leis an ToS",
-      "notasked2": "a iarrtar air/orthu",
-      "agreed": "Aontaíodh",
-      "hasAgreed": "d'aontaigh sé leis na Téarmaí Seirbhíse"
+      "notasked": "Níltear ag iarraidh ort aontú leis an ToS",
+      "notasked2": "á iarraidh",
+      "agreed": "Aontaithe",
+      "hasAgreed": "tar éis aontú leis na Téarmaí Seirbhíse"
     },
     "appAccept": {
-      "button": "Glactar leis ag",
+      "button": "Glactha ag",
       "err": "Ní raibh mé in ann an t-iarratas sin a aimsiú.",
-      "embedTitle": "✅ Glactar leis an iarratas",
+      "embedTitle": "✅ Iarratas a Nglactar leis",
       "app": "**Iarratas:**",
       "message": "**Teachtaireacht:**"
     },
     "appDeny": {
-      "denied": "Diúltaithe ag",
+      "denied": "Séanta ag",
       "unable": "Ní raibh mé in ann an t-iarratas sin a aimsiú.",
-      "title": "❌ Diúltaíodh d'Iarratas",
+      "title": "❌ Iarratas Séanta",
       "app": "**Iarratas:**",
       "message": "**Teachtaireacht:**"
     },
     "appMenuAdd": {
-      "title": "Cruthaigh Feidhmchlár!",
-      "name": "Ainm an Fheidhmchláir",
-      "here": "Iontráil ainm na bhfeidhmchlár anseo.",
-      "am": "Teachtaireacht a nGlactar Léi",
-      "dm": "Teachtaireacht Diúltaithe",
-      "aam": "Iontráil an teachtaireacht ba chóir d'úsáideoir a fháil má ghlactar leo anseo.",
-      "ddm": "Iontráil an teachtaireacht ba chóir d'úsáideoir a fháil má dhiúltaítear dóibh anseo."
+      "title": "Cruthaigh iarratas!",
+      "name": "Ainm an Iarratais",
+      "here": "Cuir isteach ainm na n-iarratas anseo.",
+      "am": "Teachtaireacht Glactha",
+      "dm": "Teachtaireacht Shéanta",
+      "aam": "Cuir isteach an teachtaireacht ba chóir d'úsáideoir a fháil má ghlactar leo anseo.",
+      "ddm": "Cuir isteach an teachtaireacht ba chóir d'úsáideoir a fháil má shéantar anseo iad."
     },
     "appMenuBack": {
-      "title": "Roghchlár an Fheidhmchláir",
+      "title": "Application Menu",
       "name": "○ Ainm:",
-      "noapps": "Níl aon iarratais fós..."
+      "noapps": "Níl aon iarratais fós ..."
     },
     "appMenuCreate": {
-      "created": "Cruthaithe Feidhmchlár!"
+      "created": "Iarratas Cruthaithe!"
     },
     "appMenuDelete": {
-      "deleted": "Scriosadh an Feidhmchlár!"
+      "deleted": "Iarratas Scriosta!"
     },
     "appMenuGoHome": {
-      "title": "Roghchlár an Fheidhmchláir",
+      "title": "Application Menu",
       "name": "○ Ainm:",
-      "noapps": "Níl aon iarratais fós...",
+      "noapps": "Níl aon iarratais fós ...",
       "questions": "Ceisteanna",
       "createform": "Cruthaigh Foirm"
     },
     "appMenuQuestions": {
       "title": "Eagarthóir Ceisteanna",
-      "add": "Cuir Ceist Leis",
-      "app": "○ Aip:",
+      "add": "Cuir Ceist leis",
+      "app": "○ App:",
       "question": "○ Ceist:",
-      "noQuestion": "Níor cruthaíodh aon cheisteanna go fóill."
+      "noQuestion": "Níor cruthaíodh aon cheisteanna fós."
     },
     "appMenuQuestionsAdd": {
-      "added": "Ceist Curtha leis!",
+      "added": "Ceist curtha leis!",
       "invalid": "Iarratas Neamhbhailí.",
-      "input": "Cuir isteach an cheist ar mhaith leat a chur leis an bhfeidhmchlár.",
+      "input": "Cuir an cheist ar mhaith leat a chur leis an iarratas.",
       "cancel": "Curtha ar ceal.",
-      "error": "Earráid agus ceist á cur. Bain triail eile as, déan cinnte nach gcuireann tú emojis san áireamh i do chuid ceisteanna."
+      "error": "Earráid ag cur ceiste leis. Bain triail as arís, déan cinnte nach gcuireann tú emojis san áireamh i do cheisteanna."
     },
     "appMenuQuestionsDelete": {
-      "deleted": "Scriosadh Ceist!",
-      "unable": "Ní raibh mé in ann an cheist sin a fháil sa bhunachar sonraí."
+      "deleted": "Ceist Scriosta!",
+      "unable": "Ní raibh mé in ann an cheist sin a aimsiú sa bhunachar sonraí."
     },
     "appSelect": {
-      "noQuestions": "Níl aon cheisteanna cruthaithe ag an bhfeidhmchlár seo fós.",
-      "pleaseAnswer": "Freagair na ceisteanna seo a leanas chomh chomhlean agus is féidir leat.",
-      "started": "Cuireadh tús leis an iarratas i DManna.",
+      "noQuestions": "Níl aon cheisteanna cruthaithe fós ag an iarratas seo.",
+      "pleaseAnswer": "Freagair na ceisteanna seo a leanas ar an gcuid is fearr de do chumas.",
+      "started": "Thosaigh an t-iarratas in DManna.",
       "cancel": "Curtha ar ceal.",
-      "date": "Dáta Tíolactha",
+      "date": "Dáta Curtha Isteach",
       "submitted": "Iarratas curtha isteach!",
-      "failed": "**Theip ar an iarratas.**\nCinntigh le do thoil nach bhfuil do DManna príobháideach.",
+      "failed": "**Theip ar an iarratas.**\nCinntigh le do thoil nach bhfuil do chuid DManna príobháideach.",
       "q": "Q",
       "a": "A"
     },
     "backingDeposit": {
-      "noInput": "Cuir isteach suim is mian leat a thaisceadh sa bhanc.",
-      "notValid": "Cuir isteach uimhir bhailí, le do thoil.",
-      "notValid2": "**Cuir isteach uimhir bhailí.**\nBain triail eile as...",
-      "notEnough": "** Is é sin níos mó ná mar atá agat i d'iarmhéid.**\nBain triail eile as...",
+      "noInput": "Cuir méid is mian leat a thaisceadh isteach sa bhanc.",
+      "notValid": "Cuir uimhir bhailí isteach.",
+      "notValid2": "**Cuir uimhir bhailí isteach.**\nBain triail as arís...",
+      "notEnough": "**Tá sé sin níos mó ná mar atá agat i do chothromaíocht.**\nBain triail as arís...",
       "deposited": "**Taiscthe ",
       "deposited1": " isteach sa bhanc.**",
       "logAuthor": " - Taisce",
       "amount": "Méid"
     },
     "bankingTransfer": {
-      "user": "Tabhair an t-úsáideoir ar mian leat an t-airgeadra seo a aistriú chuige.",
+      "user": "Tabhair don úsáideoir ar mian leat an t-airgeadra seo a aistriú chuig.",
       "aUser": "Tabhair an méid is mian leat a aistriú chuig an úsáideoir seo.",
-      "valUser": "Cuir isteach úsáideoir bailí, le do thoil.",
-      "valNumber": "Cuir isteach uimhir bhailí, le do thoil.",
-      "valNumber1": "**Cuir isteach uimhir bhailí.**\nBain triail eile as...",
-      "notEnough": "** Is é sin níos mó ná mar atá agat i d'iarmhéid.**\nBain triail eile as...",
+      "valUser": "Cuir úsáideoir bailí isteach.",
+      "valNumber": "Cuir uimhir bhailí isteach.",
+      "valNumber1": "**Cuir uimhir bhailí isteach.**\nBain triail as arís...",
+      "notEnough": "**Tá sé sin níos mó ná mar atá agat i do chothromaíocht.**\nBain triail as arís...",
       "Done": " Aistrithe!**",
       "logAuthor": " - Aistriú",
       "reciever": "Reciever"
     },
     "bankingWithdraw": {
-      "iAmount": "Cuir isteach suim is mian leat a tharraingt siar ón mbanc.",
-      "number": "Cuir isteach uimhir bhailí, le do thoil.",
-      "valNumber": "**Cuir isteach uimhir bhailí.**\nBain triail eile as...",
-      "notEnough": "** Tá sé sin níos mó ná mar atá agat i do bhanc.**\nBain triail eile as...",
-      "Withdrew": "**Tharraing sé siar ",
+      "iAmount": "Cuir méid is mian leat a tharraingt siar ón mbanc.",
+      "number": "Cuir uimhir bhailí isteach.",
+      "valNumber": "**Cuir uimhir bhailí isteach.**\nBain triail as arís...",
+      "notEnough": "**Tá níos mó ná mar atá agat i do bhanc.**\nBain triail as arís...",
+      "Withdrew": "**Tharraing siar ",
       "Withdrew1": " ón gcúl.**",
       "logAuthor": " - Tharraing sé siar"
     },
     "birthdayAdd": {
-      "already": "Tá lá breithe cláraithe agat cheana féin sa chiontacht seo.",
-      "date": "Luaigh do dháta breithe, le do thoil.\n**Nóta:** Caithfear é a fhormáidiú mar seo: 'MM-DD-YYYY' ar shlí eile ní oibreoidh sé **.'",
+      "already": "Tá breithlá cláraithe agat sa chuallacht seo cheana féin.",
+      "date": "Luaigh do dháta breithe le do thoil.\n**Nóta:** Ní mór é a fhormáidiú mar seo: 'MM-DD-YYYY' seachas sin ní oibreoidh sé **.",
       "cancel": "Curtha ar ceal.",
-      "added": "**Breithlá Curtha leis!**"
+      "added": "**Breithlá curtha leis!**"
     },
     "birthdayRemove": {
-      "noBday": "Níor chláraigh tú lá breithe sa chiontacht seo.",
+      "noBday": "Níor chláraigh tú breithlá sa chuallacht seo.",
       "removed": "**Breithlá Bainte!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Breithlá sona!",
       "its": "Tá sé",
-      "bday": "Breithlá inniu! Guímis lá breithe sona dóibh agus déanaimis ceiliúradh!\n\n**Dáta:**"
+      "bday": "Breithlá inniu! Guígí breithlá sona orthu agus déanaimis ceiliúradh!\n\n**Dáta:**"
     },
     "clientAdd": {
       "user": "Luaigh an t-úsáideoir is mian leat a chur leis mar chliant.",
       "iUser": "Úsáideoir Neamhbhailí.\nLuaigh an t-úsáideoir is mian leat a chur leis mar chliant.",
       "already": "Is cliant cláraithe é an t-úsáideoir sin cheana féin.",
-      "added": "📥 Chuir an Cliant",
-      "done": "curtha leis mar chliant.",
-      "add": "**Cliant Curtha leis!**"
+      "added": "📥 Cliant Curtha leis",
+      "done": "tá sé 'curtha leis' mar chliant.",
+      "add": "**Cliant curtha leis!**"
     },
     "clientRemove": {
-      "noClients": "Níl aon chliaint chláraithe ag an ciontacht seo.",
+      "noClients": "Níl aon chliaint chláraithe ag an gcuallacht seo.",
       "mention": "Luaigh cliant is mian leat a bhaint.",
       "iClient": "Úsáideoir Neamhbhailí.\nLuaigh an cliant is mian leat a bhaint.",
       "notR": "Ní cliant cláraithe é an t-úsáideoir sin.",
       "removed": "📥 Cliant Bainte",
-      "dsec": "a bhí 'bainte' mar chliant.",
+      "dsec": "bhí sé 'bainte' mar chliant.",
       "done": "**Cliant Bainte!**"
     },
     "forceLeaveGuild": {
-      "left": "Guild Chlé"
+      "left": "Cuallacht Chlé"
     },
     "giveawayEnd": {
-      "end": "Deireadh a chur le giveaway, fan le do thoil!",
-      "notCreator": "Ní tusa cruthaitheoir an bhrabhsaí seo!\nCruthaíodh é trí:",
-      "ended": "Tá deireadh leis an mbrabhsáil seo cheana féin.",
-      "notCreator1": "Tá deireadh leis an mbabhta bronntanas seo cheana féin!\nCruthaíodh é trí:",
-      "noExist": "Níl an deonbhán seo ann sa bhunachar sonraí ..."
+      "end": "Ending giveaway, fan le do thoil!",
+      "notCreator": "Ní tusa cruthaitheoir an giveaway seo!\nChruthaigh:",
+      "ended": "Tá deireadh leis an giveaway seo cheana féin.",
+      "notCreator1": "Tá deireadh leis an giveaway seo cheana féin!\nChruthaigh:",
+      "noExist": "Níl an giveaway seo ann sa bhunachar sonraí..."
     },
     "giveawayEnter": {
-      "enter": "tar éis dul isteach sa bhabhta! Tá",
+      "enter": "tar éis dul isteach sa giveaway! Tá anois",
       "entries": "iontrálacha!",
-      "already": "Tá tú tar éis dul isteach cheana féin! Tá",
-      "notActive": "Níl an deonú seo gníomhach a thuilleadh."
+      "already": "Tá tú tagtha isteach cheana féin! Tá",
+      "notActive": "Níl an giveaway seo gníomhach a thuilleadh."
     },
     "giveawayRefresh": {
-      "for": "Tabhair do",
-      "with": "le",
-      "finish": "bhí an t-athsheamladh lasc ama ag na buaiteoirí mar gheall ar atosú an bot!"
+      "for": "Tabhair amach do",
+      "with": "agus",
+      "finish": "bhí athshocrú an amadóra ag buaiteoirí mar gheall ar an bot ag atosú!"
     },
     "giveawayReroll": {
-      "wait": "Ath-Rolladh, fan le do thoil!",
-      "consoleNumber": "Ní uimhir é comhaireamh winnters giveaways ...",
-      "title": "Giveaway Ath-Rollta!",
-      "prize": "**Faisnéis**\nDuais:",
+      "wait": "Re-Rolling, fan le do thoil!",
+      "consoleNumber": "Ní uimhir é comhaireamh winnters giveaways...",
+      "title": "Giveaway ath-rollta!",
+      "prize": "**Eolas**\nDuais:",
       "winners": "Buaiteoirí:",
       "time": "Teorainn Ama:",
       "winners2": "**Buaiteoirí**",
-      "footer": "Tabhair do na daoine seo a leanas: ",
-      "endError": "EARRÁID DAR CRÍOCH: ",
-      "uNot": "Níor chruthaigh tú an giveaway seo.",
-      "wait1": "Ní mór duit fanacht go gcríochnóidh an deonaithe d'fhonn ath-rolladh!",
-      "find": "Ní raibh muid in ann an giveaway seo a fháil sa bhunachar sonraí."
+      "footer": "Tabhair amach ag: ",
+      "endError": "EARRÁID DAR CRÍOCH GIVEAWAY: ",
+      "uNot": "Níor chruthaigh tú an tabhairt seo.",
+      "wait1": "Caithfidh tú fanacht go gcríochnóidh an giveaway d'fhonn ath-rolladh!",
+      "find": "Ní raibh muid in ann an tabhairt seo a fháil sa bhunachar sonraí."
     },
     "helpPageSelect": {
       "title": " Roghchlár Cabhrach",
@@ -1654,159 +1654,160 @@
       "by": "ag"
     },
     "inventorySelect": {
-      "noItems": "Níl aon earraí agat i d'fhardal.",
-      "used": "a d'úsáid **1**",
+      "noItems": "Níl aon earraí i d'fhardal agat.",
+      "used": "tar éis úsáid **1**",
       "logAuthor": " - Mír Úsáidte",
-      "field1": "Mír"
+      "field1": "Ábhar"
     },
     "loggingSelect": {
       "selectPlaceHolder": "Roghnaigh an cineál cainéal logála.",
       "options": {
         "welcome": {
-          "label": "👋 Teachtaireachtaí Fáilte",
+          "label": "👋 Fáilte Teachtaireachtaí",
           "desc": "Socraigh cainéal logála le haghaidh teachtaireachtaí fáilte."
         },
         "leave": {
           "label": "👋 Fág Teachtaireachtaí",
-          "desc": "Socraigh cainéal logála chun teachtaireachtaí a fhágáil."
+          "desc": "Socraigh cainéal logála le haghaidh teachtaireachtaí saoire."
         },
         "member": {
-          "label": "🔢 Líon na gCall",
-          "desc": "Socraigh cainéal comhaireamh na mball."
+          "label": "🔢 Líon na mBall",
+          "desc": "Socraigh an cainéal comhaireamh ball."
         },
         "user": {
-          "label": "🔢 Líon na nÚsáideoir",
-          "desc": "Socraigh cainéal comhaireamh an úsáideora."
+          "label": "🔢 Líon úsáideoirí",
+          "desc": "Socraigh an cainéal comhaireamh úsáideora."
         },
         "channel": {
-          "label": "🎒 Logaí Cainéal",
-          "desc": "Socraigh cainéal logála le haghaidh athruithe cainéal."
+          "label": "🎒 Logaí Cainéil",
+          "desc": "Socraigh cainéal logála d'athruithe cainéil."
         },
         "role": {
           "label": "🎭 Logaí Ról",
-          "desc": "Socraigh cainéal logála le haghaidh logaí modhnóireachta"
+          "desc": "Socraigh cainéal logála do logaí modhnóireachta"
         },
         "mod": {
           "label": "🔨 Logaí Modhnóireachta",
-          "desc": "Socraigh cainéal logála le haghaidh logaí modhnóireachta"
+          "desc": "Socraigh cainéal logála do logaí modhnóireachta"
         },
         "ticket": {
           "label": "🎟️ Logaí Ticéad",
-          "desc": "Socraigh cainéal logála le haghaidh logaí ticéad"
+          "desc": "Socraigh cainéal logála do logaí ticéad"
         },
         "message": {
-          "label": "(Logaí Teachtaireachta M)️",
-          "desc": "Socraigh cainéal logála le haghaidh logaí teachtaireachta."
+          "label": "(M)️ Logaí Teachtaireachta",
+          "desc": "Socraigh cainéal logála do logaí teachtaireachta."
         },
         "command": {
           "label": "🖨️ Logaí Ordaithe",
-          "desc": "Socraigh cainéal logála le haghaidh logaí ordaithe."
+          "desc": "Socraigh cainéal logála do logaí ordaithe."
         },
         "voice": {
           "label": "📢 Logaí Gutha",
-          "desc": "Socraigh cainéal logála le haghaidh logaí gutha."
+          "desc": "Socraigh cainéal logála do logaí gutha."
         },
         "alt": {
-          "label": "👻 Logaí Coiscthe Alt",
-          "desc": "Socraigh cainéal logála le haghaidh logaí coiscthe alt."
+          "label": "👻 Alt Cosc Logs",
+          "desc": "Socraigh cainéal logála le haghaidh logaí cosc alt."
         },
         "server": {
-          "label": "🔒 Logchomhadanna Freastalaí",
-          "desc": "Socraigh cainéal logála le haghaidh logaí glasála freastalaí."
+          "label": "🔒 Logaí Freastalaí",
+          "desc": "Socraigh cainéal logála do logaí glasa freastalaí."
         },
         "filter": {
-          "label": "❌ Scagairí Logaí",
-          "desc": "Socraigh cainéal logála le haghaidh logaí scagaire."
+          "label": "❌ Logaí Scagaire",
+          "desc": "Socraigh cainéal logála do logaí scagaire."
         },
         "client": {
           "label": "💰 Logaí Cliant",
           "desc": "Socraigh cainéal logála do chliaint."
         },
         "review": {
-          "label": "⭐ Logaí Athbhreithnithe",
-          "desc": "Socraigh cainéal logála le haghaidh athbhreithnithe."
+          "label": "⭐ Athbhreithniú Logs",
+          "desc": "Socraigh cainéal logála d'athbhreithnithe."
         },
         "suggestion": {
-          "label": "📥 Logaí Moltaí",
-          "desc": "Socraigh cainéal logála le haghaidh moltaí."
+          "label": "📥 Logaí Molta",
+          "desc": "Socraigh cainéal logála do mholtaí."
         },
         "birthday": {
-          "label": "🎉 Logaí Lá Breithe",
-          "desc": "Socraigh cainéal logála le haghaidh teachtaireachtaí lá breithe."
+          "label": "🎉 Logaí Breithlá",
+          "desc": "Socraigh cainéal logála do theachtaireachtaí breithlae."
         },
         "application": {
           "label": "📜 Logaí Iarratais",
-          "desc": "Socraigh cainéal logála le haghaidh logaí feidhmchláir."
+          "desc": "Socraigh cainéal logála le haghaidh logaí iarratais."
         },
         "economy": {
-          "label": "🏦 Logaí Geilleagair"
+          "label": "🏦 Logaí Geilleagair",
+          "desc": "Socraigh cainéal logála do logaí geilleagair."
         },
         "eco": {
           "label": "📈 Logaí Leibhéal Suas",
-          "desc": "Socraigh cainéal logála le haghaidh logaí leibhéal suas."
+          "desc": "Socraigh cainéal logála do logaí leibhéal suas."
         },
         "other": {
           "label": "❓ Logaí Eile",
-          "desc": "Socraigh cainéal logála le haghaidh logaí eile."
+          "desc": "Socraigh cainéal logála do logaí eile."
         }
       }
     },
     "loggingBack": {
       "title": "Cainéil Logála",
-      "type": "** ○ Cineál Log: **",
-      "nochans": "Gan cainéil fós ...",
-      "chan": "** ○ Cainéal Log:**"
+      "type": "**○ Log Cineál:**",
+      "nochans": "Gan aon chainéil fós ...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingDelete": {
       "content": "**Cainéal Logála Scriosta**"
     },
     "loggingHome": {
       "buttons": {
-        "addChan": "Cuir Cainéal Leis",
-        "deleted": "Scrios Roghnaithe"
+        "addChan": "Cuir Channel leis",
+        "deleted": "Scrios roghnaithe"
       },
       "title": "Cainéil Logála",
-      "type": "** ○ Cineál Log: **",
-      "nochans": "Gan cainéil fós ...",
-      "chan": "** ○ Cainéal Log:**"
+      "type": "**○ Log Cineál:**",
+      "nochans": "Gan aon chainéil fós ...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingNext": {
       "title": "Cainéil Logála",
-      "type": "** ○ Cineál Log: **",
-      "nochans": "Gan cainéil fós ...",
-      "chan": "** ○ Cainéal Log:**"
+      "type": "**○ Log Cineál:**",
+      "nochans": "Gan aon chainéil fós ...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingSelectB": {
-      "provide": "Tabhair cainéal le do thoil chun na logaí seo a fháil.",
+      "provide": "Tabhair cainéal do na logaí seo le dul chuig.",
       "cancel": "Curtha ar ceal.",
-      "invalid": "**Cainéal neamhbhailí curtha ar fáil, bain triail eile as.**",
-      "created": "**Cainéal Logála Cruthaithe!**\n**Cineál: **",
+      "invalid": "**Cainéal Neamhbhailí curtha ar fáil, Bain triail as Arís.**",
+      "created": "**Cainéal Logála Cruthaithe!**\n**Cineál:**",
       "channel": "**Cainéal:**"
     },
     "marriageAcceptProposal": {
       "already": "Tá tú pósta cheana féin.",
-      "desc1": "Luaigh an t-úsáideoir ar mian leat glacadh leis an iarratas uaidh.",
+      "desc1": "Luaigh an t-úsáideoir ar mian leat glacadh leis an iarratas ó.",
       "cancel": "Curtha ar ceal.",
       "self": "Is féidir leat tú féin a phósadh.",
-      "never": "Níor iarr an t-úsáideoir sin riamh tú a phósadh...",
+      "never": "Níor iarr an t-úsáideoir sin riamh tú a phósadh ...",
       "title": "💘 Comhghairdeas!",
-      "desc": "Tá glactha le d'iarratas ar phósadh le",
-      "married": "Tá tú pósta anois le"
+      "desc": "Tá glactha le d'iarratas ar phósadh ag",
+      "married": "Tá tú pósta anois"
     },
     "marriageDenyProposal": {
       "already": "Tá tú pósta cheana féin.",
-      "desc": "Luaigh an t-úsáideoir ar mian leat an t-iarratas a dhiúltú uaidh.",
+      "desc": "Luaigh an t-úsáideoir ar mian leat an t-iarratas a shéanadh uaidh.",
       "cancel": "Curtha ar ceal.",
       "deny": "Ní féidir leat tú féin a shéanadh.",
-      "never": "Níor iarr an t-úsáideoir sin riamh tú a phósadh...",
+      "never": "Níor iarr an t-úsáideoir sin riamh tú a phósadh ...",
       "title": "😭 Tá brón orainn!",
-      "desc1": "Diúltaíodh d'iarratas marriade ag",
-      "denied": "Shéan tú an t-iarratas ar phósadh ón úsáideoir sin."
+      "desc1": "Tá d'iarratas marriade séanta ag",
+      "denied": "Shéan tú an t-iarratas pósta ón úsáideoir sin."
     },
     "marriageDivorce": {
-      "title": "⚖️ Freastalaíodh ort!",
+      "title": "⚖️ Tá tú seirbheáilte!",
       "desc": "Do chéile,",
-      "divorced": ", tá sé díreach colscartha leat. Níl a fhios againn rud ar bith, níl ionainn ach an tseirbhís 👀 seachadta.",
+      "divorced": ", tá sé díreach tar éis colscaradh a fháil uait. We know nothing, níl ionainn ach an tseirbhís 👀 seachadta .",
       "not": "Níl tú pósta faoi láthair.",
       "no": "Níl tú pósta a thuilleadh."
     },
@@ -1822,36 +1823,36 @@
           "desc": "D'iarr duine éigin ort iad a phósadh? I ndáiríre?"
         },
         "deny": {
-          "label": "😭 Diúltaigh Togra",
-          "desc": "Is duine uafásach tú má chliceálann tú é seo ..."
+          "label": "😭 Togra a Shéanadh",
+          "desc": "Is duine uafásach tú má chliceálann tú air seo..."
         },
         "divorce": {
           "label": "⚖️ Faigh Colscaradh",
-          "desc": "Cé atá ag glacadh na bpáistí? Cúis nach mise a bheidh ann."
+          "desc": "Cé atá ag tógáil na páistí? Cúis nach mbeidh sé ag dul dom."
         }
       }
     },
     "marriageSendRequest": {
       "already": "Tá tú pósta cheana féin.",
-      "desc": "**Cé ba mhaith leat pósadh?**\nBain úsáid as an tsiombail '@' chun iad a lua.",
+      "desc": "**Cé ar mhaith leat pósadh?**\nBain úsáid as an tsiombail '@' chun iad a lua.",
       "cancel": "Curtha ar ceal.",
       "self": "Ní féidir leat tú féin a phósadh.",
-      "bot": "Ní féidir leat bot a phósadh, TRÉIMHSE.",
+      "bot": "Ní féidir leat bot, TRÉIMHSE a phósadh.",
       "title": "💌 Iarratas ar Phósadh",
-      "desc1": "d'iarr mé TÚ a phósadh!\n\nChun freagra a thabhairt ar an iarratas seo, téigh anonn go",
-      "desc12": ", nó aon chainéal eile sa chiontacht sin, agus rith '/pósadh' chun an t-iarratas a bhainistiú.",
+      "desc1": "tar éis iarraidh TÚ a phósadh!\n\nChun freagra a thabhairt ar an iarratas seo, téigh anonn chuig",
+      "desc12": ", nó aon chainéal eile sa chuallacht sin, agus rith '/pósadh' chun an t-iarratas a bhainistiú.",
       "person": "Tá an duine sin pósta cheana féin!",
-      "sent": "**Iarratas ar Phósadh Seolta.**\nBeidh 2 nóiméad acu chun glacadh le d'iarratas ar phósadh sula rachaidh sé in éag.",
+      "sent": "**Iarratas ar Phósadh Seolta.**\nBeidh 2 nóiméad acu glacadh le d'iarratas ar phósadh sula rachaidh sé in éag.",
       "expired": "An t-iarratas ar phósadh a cuireadh chuig",
-      "expired2": "imithe in éag.\nTá neart 🐟 sa 🌊 !"
+      "expired2": "tar éis dul in éag.\nTá neart 🐟 sa 🌊 !"
     },
     "marriageSystem": {
       "con1": "pósadh",
-      "con2": " go dtí gur baineadh iarratais ar phósadh."
+      "con2": " ar feitheamh baineadh iarratais phósta."
     },
     "musicPause": {
       "vc": "Caithfidh tú a bheith i gcainéal gutha.",
-      "paused": "Ceol ar Sos - "
+      "paused": "Sos Ceoil - "
     },
     "musicPlay": {
       "vc": "Caithfidh tú a bheith i gcainéal gutha.",
@@ -1860,19 +1861,19 @@
     "musicQueueClear": {
       "vc": "Caithfidh tú a bheith i gcainéal gutha.",
       "buttons": {
-        "label": "Ciú Glanta"
+        "label": "Scuaine Glanta"
       },
-      "cleared": "Glanadh Ceoil - "
+      "cleared": "Ceol Glanta - "
     },
     "musicShuffle": {
       "vc": "Caithfidh tú a bheith i gcainéal gutha.",
-      "shuffled": "Scuaine Suaite - "
+      "shuffled": "Scuaine Suaitheadh - "
     },
     "musicSkip": {
       "vc": "Caithfidh tú a bheith i gcainéal gutha.",
-      "noSong": "Níl aon cheol ag seinm sa fhreastalaí seo.",
-      "noSongQueue": "Níl níos mó amhrán sa scuaine le scipeáil chiú.",
-      "skipped": "Ceol Scipeáilte - "
+      "noSong": "Níl ceol ar bith ag seinm sa fhreastalaí seo.",
+      "noSongQueue": "Níl níos mó amhrán sa scuaine le scipeáil chuige.",
+      "skipped": "Sciorr Ceoil - "
     },
     "musicStop": {
       "buttons": {
@@ -1880,7 +1881,7 @@
           "label": "Stádas:"
         },
         "music": {
-          "label": "Ceol Stoptha"
+          "label": "Stop ceol"
         },
         "stopped": {
           "label": "Stoptha ag:"
@@ -1894,49 +1895,49 @@
           "label": "Sos"
         },
         "play": {
-          "label": "Foghlaim trí mheán an t"
+          "label": "Imirt"
         },
         "skip": {
-          "label": "Léim"
+          "label": "Scipeáil"
         },
         "stop": {
-          "label": "Stop"
+          "label": "Stopann"
         },
         "shuffle": {
           "label": "Suaitheadh"
         }
       },
-      "error": "Tharla earráid...",
+      "error": "Bhí earráid ann...",
       "playSong": {
-        "playing": "Amhrán ag Seinm",
-        "name": "Ainm",
-        "duration": "Fad ama",
-        "requestor": "Iarrthóir",
+        "playing": "Amhrán Ag Seinm",
+        "name": "Fón",
+        "duration": "Ré",
+        "requestor": "Requestor",
         "views": "Amhairc: "
       },
       "addSong": {
-        "updated": "⏰ Scuaine Nuashonraithe",
-        "name": "Ainm",
-        "duration": "Fad ama",
-        "requestor": "Iarrthóir",
+        "updated": "⏰ Queue Updated",
+        "name": "Fón",
+        "duration": "Ré",
+        "requestor": "Requestor",
         "views": "Amhairc: "
       },
       "finish": {
-        "empty": "Ciú Folamh.",
-        "no": "Gan níos mó amhrán sa scuaine."
+        "empty": "Scuaine Folamh.",
+        "no": "Níl níos mó amhrán sa scuaine."
       },
       "searchNoResult": {
         "error": "Earráid 404",
-        "noResults": "Níor aimsíodh aon toradh le haghaidh"
+        "noResults": "Níl toradh ar bith le fáil"
       },
       "searchResult": {
         "search": "Torthaí Cuardaigh",
-        "choose": "** Roghnaigh rogha ó thíos**",
-        "else": "Cuir isteach aon rud eile nó fan 60 soicind chun cance"
+        "choose": "**Roghnaigh rogha ó thíos**",
+        "else": "Cuir isteach aon rud eile nó fan 60 soicind le cance"
       },
       "iAnswer": {
         "invalid": "Freagra Neamhbhailí",
-        "provided": "Freagra neamhbhailí curtha ar fáil le haghaidh cuardaigh."
+        "provided": "Freagra neamhbhailí dá bhforáiltear le cuardach."
       }
     },
     "nextGuilds": {
@@ -1944,25 +1945,25 @@
         "leave": "Fág Guild"
       },
       "title": "Liosta Guilds",
-      "guildName": "**○ Ainm Guild:**",
+      "guildName": "**○ Guild Ainm:**",
       "guildId": "**○ Guild Id:**",
-      "guildMembers": "**○ Comhaltaí Ciontacha:**",
-      "guildOwnerTag": "** ○ Clib Úinéir Guild: **",
-      "guildOwnerId": "** ○ Aitheantas Úinéir Guild: **"
+      "guildMembers": "**○ Baill Guild:**",
+      "guildOwnerTag": "**○ Guild Owner Tag:**",
+      "guildOwnerId": "**○ Guild Owner Id:**"
     },
     "permsAdd": {
-      "place": "Roghnaigh an cineál ceada le cur leis.",
+      "place": "Roghnaigh an cineál cead le cur leis.",
       "options": {
         "admin": {
           "label": "🗝️ Riarthóir",
-          "desc": "Cuir ról riaracháin (CSS) leis."
+          "desc": "Cuir ról riaracháin (CONTÚIRTEACH) leis."
         },
         "mod": {
           "label": "👮 ♂️ Láithreoir",
           "desc": "Cuir ról modhnóra leis."
         },
         "filter": {
-          "label": "❌ Scag",
+          "label": "❌ Scaip",
           "desc": "Cuir ról seachbhóthar scagaire leis."
         },
         "info": {
@@ -1970,43 +1971,43 @@
           "desc": "Cuir ról féachana faisnéise leis."
         },
         "roles": {
-          "label": "🎭 Róil Fhéin",
-          "desc": "Cuir ról bainistíochta féin-róil leis."
+          "label": "🎭 Féinróil",
+          "desc": "Cuir ról an bhainisteora féinróil leis."
         },
         "sticky": {
           "label": "🍯 Teachtaireachtaí Greamaitheacha",
-          "desc": "Cuir ról bainisteoirí teachtaireachta greamaitheach leis."
+          "desc": "Cuir ról bainisteoirí teachtaireachta greamaitheacha leis."
         },
         "giveaway": {
           "label": "🎉 Bainisteoirí Giveaway",
-          "desc": "Cuir ról bainisteoirí beir leat."
+          "desc": "Cuir ról bainisteoirí giveaway leis."
         },
         "client": {
-          "label": "💰 Bainisteoirí Cliaint",
+          "label": "💰 Bainisteoirí Cliant",
           "desc": "Cuir ról bainisteoirí cliant leis."
         },
         "ticket": {
-          "label": "🎟️ Tacaíocht Ticéad",
+          "label": "🎟️ Tacaíocht do Thicéad",
           "desc": "Cuir ról foirne tacaíochta ticéad leis."
         },
         "apps": {
-          "label": "📜 Applicatios",
-          "desc": "Cuir ról bainisteoirí feidhmchláir leis."
+          "label": "📜 Iarratais",
+          "desc": "Cuir ról bainisteoirí iarratais leis."
         },
         "customers": {
           "label": "🛍️ Custaiméirí",
-          "desc": "Cuir ról an chustaiméara leis."
+          "desc": "Cuir ról custaiméara leis."
         },
         "pingPrev": {
           "label": "🔕 Cosc Ping",
-          "desc": "Cuir admin cosc ping agus ról seachbhóthar leis."
+          "desc": "Cuir ról riaracháin &seachbhóthar coiscthe ping leis."
         }
       }
     },
     "permsBack": {
       "title": "Roghchlár Ceadanna",
-      "type": "** ○ Cineál Perm: **",
-      "no": "Gan aon perms fós ...",
+      "type": "**○ Cineál Perm:**",
+      "no": "Níl aon perms fós ...",
       "role": "**○ Ról Id:**"
     },
     "permsDelete": {
@@ -2014,139 +2015,139 @@
     },
     "permsHome": {
       "buttons": {
-        "add": "Cuir Cead Leis",
-        "delete": "Scrios Roghnaithe"
+        "add": "Cuir cead leis",
+        "delete": "Scrios roghnaithe"
       },
       "title": "Roghchlár Ceadanna",
-      "type": "** ○ Cineál Perm: **",
-      "no": "Gan aon perms fós ...",
+      "type": "**○ Cineál Perm:**",
+      "no": "Níl aon perms fós ...",
       "role": "**○ Ról Id:**"
     },
     "permsNext": {
       "title": "Roghchlár Ceadanna",
-      "type": "** ○ Cineál Perm: **",
-      "no": "Gan aon perms fós ...",
+      "type": "**○ Cineál Perm:**",
+      "no": "Níl aon perms fós ...",
       "role": "**○ Ról Id:**"
     },
     "permsSelect": {
       "provide": "Tabhair ról chun an cead seo a shannadh/a chur leis.",
       "cancel": "Cuir ar ceal",
       "Cancelled": "Curtha ar ceal.",
-      "invalid": "**Ról neamhbhailí curtha ar fáil, bain triail eile as.**",
+      "invalid": "**Ról Neamhbhailí curtha ar fáil, Bain triail as Arís.**",
       "created": "**Cead Cruthaithe!**",
-      "type": "**Cineál: **",
+      "type": "**Cineál:**",
       "role": "**Ról:**"
     },
     "pingPreventionAdd": {
-      "already": "Tá cosc ping curtha ar bun agat cheana féin sa chiontacht seo.",
-      "color": "Sainmhínigh le do thoil **dath heics** le haghaidh do chosc ping leabaithe.",
+      "already": "Tá cosc ping curtha ar bun agat sa chuallacht seo cheana féin.",
+      "color": "Sainmhínigh le do thoil **heicse dath** le haghaidh do leabú coiscthe ping.",
       "cancel": "Curtha ar ceal.",
-      "provide": "**Tabhair íomhá don leabú le do thoil.**\nCaithfidh deireadh a bheith leis an nasc in '.png', '.jpg', '.webp', srl.\nClóscríobh 'scipeáil' chun scipeáil.",
-      "added": "**Ping Cosc curtha leis!**"
+      "provide": "**Tabhair íomhá don leabú.**\nCaithfidh deireadh a bheith leis an nasc in '.png', '.jpg', '.webp', srl.\nClóscríobh 'scipeáil' chun scipeáil.",
+      "added": "**Cosc Ping curtha leis!**"
     },
     "pingPreventionRemove": {
-      "no": "Níl aon taifid coiscthe ping agat sa chiontacht seo.",
-      "removed": "**Ping Cosc bainte!**"
+      "no": "Níl aon taifid coiscthe ping agat sa chuallacht seo.",
+      "removed": "**Cosc Ping Bainte!**"
     },
     "punishBack": {
-      "title": "Eolas faoi Chásanna",
-      "field1": "Cás-Aitheantas:",
+      "title": "Eolas Cáis",
+      "field1": "Id Cáis:",
       "field2": "Cineál Cáis:",
       "field3": "Forfheidhmitheoir:",
       "field4": "Úsáideoir:",
       "field5": "Cúis:",
-      "field6": "Stampa Ama:"
+      "field6": "Stampa ama:"
     },
     "punishNext": {
-      "title": "Eolas faoi Chásanna",
-      "field1": "Cás-Aitheantas:",
+      "title": "Eolas Cáis",
+      "field1": "Id Cáis:",
       "field2": "Cineál Cáis:",
       "field3": "Forfheidhmitheoir:",
       "field4": "Úsáideoir:",
       "field5": "Cúis:",
-      "field6": "Stampa Ama:"
+      "field6": "Stampa ama:"
     },
     "reviewReply": {
       "cancel": "Curtha ar ceal.",
-      "field": "Freagra ón bhFoireann",
-      "added": "**Athbhreithniú Curtha leis!**"
+      "field": "Freagra Ón bhFoireann",
+      "added": "**Athbhreithniú curtha leis!**"
     },
     "selfRolesAdd": {
-      "provide": "Tabhair ainm don phainéal féin-róil seo.",
+      "provide": "Tabhair ainm don phainéal féinróil seo.",
       "cancel": "Curtha ar ceal.",
-      "created": "** Roghchlár Róil Féin Cruthaithe!**"
+      "created": "**Roghchlár Féinróil Cruthaithe!**"
     },
     "selfRolesBack": {
-      "title": "Roghchláir Féin-Róil",
-      "desc": "** ○ Ainm roghchláir: **",
-      "noMenus": "Gan biachláir fós ..."
+      "title": "Biachláir Féinróil",
+      "desc": "**○ Ainm roghchláir:**",
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesDelete": {
-      "unable": "Ní raibh mé in ann roghchlár féin-róil a fháil leis an Id sin.",
-      "deleted": "** Roghchlár Róil Féin Scriosta!**"
+      "unable": "Ní raibh mé in ann roghchlár féinróil a aimsiú leis an Id sin.",
+      "deleted": "**Roghchlár Féinróil Scriosta!**"
     },
     "selfRolesGoHome": {
-      "addMenu": "Cuir Roghchlár Leis",
-      "delete": "Scrios Roghnaithe",
-      "roleManager": "Rólbhainisteoir",
+      "addMenu": "Cuir Menu leis",
+      "delete": "Scrios roghnaithe",
+      "roleManager": "Bainisteoir Róil",
       "postPanel": "Painéal Poist",
-      "title": "Roghchláir Féin-Róil",
-      "desc": "** ○ Ainm roghchláir: **",
-      "noMenus": "Gan biachláir fós ..."
+      "title": "Biachláir Féinróil",
+      "desc": "**○ Ainm roghchláir:**",
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesManager": {
-      "addRole": "Cuir Ról Leis",
-      "delete": "Scrios Roghnaithe",
-      "no": "Níl aon ról-bhiachláir ann don chiontacht seo.",
-      "title": "Roghchláir Féin-Róil",
-      "menuName": "** ○ Ainm roghchláir: **",
-      "roleName": "**○ Ainm an Róil:**",
+      "addRole": "Cuir Ról leis",
+      "delete": "Scrios roghnaithe",
+      "no": "Níl aon bhiachláir róil ann don chuallacht seo.",
+      "title": "Biachláir Féinróil",
+      "menuName": "**○ Ainm roghchláir:**",
+      "roleName": "**○ Rólainm:**",
       "roleId": "**○ Ról Id:**",
       "noRoles": "Níl aon róil fós ...",
-      "noMenus": "Gan biachláir fós ..."
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesManagerAdd": {
       "provide": "Tabhair ról le cur leis an bpainéal.",
       "cancel": "Curtha ar ceal.",
-      "provide2": "Tabhair ról bailí le do thoil.",
-      "created": "**Féin-Ról Cruthaithe!**"
+      "provide2": "Tabhair ról bailí, le do thoil.",
+      "created": "**Féinról Cruthaithe!**"
     },
     "selfRolesManagerBack": {
-      "no": "Níl aon ról-bhiachláir ann don chiontacht seo.",
-      "title": "Roghchláir Féin-Róil",
-      "menuName": "** ○ Ainm roghchláir: **",
-      "roleName": "**○ Ainm an Róil:**",
+      "no": "Níl aon bhiachláir róil ann don chuallacht seo.",
+      "title": "Biachláir Féinróil",
+      "menuName": "**○ Ainm roghchláir:**",
+      "roleName": "**○ Rólainm:**",
       "roleId": "**○ Ról Id:**",
       "noRoles": "Níl aon róil fós ...",
-      "noMenus": "Gan biachláir fós ..."
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesManagerDelete": {
-      "unable": "Ní raibh mé in ann féinról a fháil leis an bpainéal sin.",
-      "deleted": "**Féin-Ról Scriosta!**"
+      "unable": "Ní raibh mé in ann ról féin a fháil leis an bpainéal sin.",
+      "deleted": "**Féinról Scriosta!**"
     },
     "selfRolesManagerNext": {
-      "no": "Níl aon ról-bhiachláir ann don chiontacht seo.",
-      "title": "Roghchláir Féin-Róil",
-      "menuName": "** ○ Ainm roghchláir: **",
-      "roleName": "**○ Ainm an Róil:**",
+      "no": "Níl aon bhiachláir róil ann don chuallacht seo.",
+      "title": "Biachláir Féinróil",
+      "menuName": "**○ Ainm roghchláir:**",
+      "roleName": "**○ Rólainm:**",
       "roleId": "**○ Ról Id:**",
       "noRoles": "Níl aon róil fós ...",
-      "noMenus": "Gan biachláir fós ..."
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesNext": {
-      "title": "Roghchláir Féin-Róil",
-      "desc": "** ○ Ainm roghchláir: **",
-      "noMenus": "Gan biachláir fós ..."
+      "title": "Biachláir Féinróil",
+      "desc": "**○ Ainm roghchláir:**",
+      "noMenus": "Níl aon bhiachláir fós ..."
     },
     "selfRolesPost": {
       "unable": "Ní raibh mé in ann an painéal roghnaithe a aimsiú.",
-      "unable2": "Ní raibh mé in ann aon róil féin a mhaoiniú sa phainéal seo.",
+      "unable2": "Ní raibh mé in ann aon ról féin a mhaoiniú sa phainéal seo.",
       "desc": "Roghnaigh ról chun é a chur leis nó a bhaint de do róil.",
       "place": "Roghnaigh ról.",
-      "provide": "Tabhair cainéal le do thoil chun an painéal a phostáil chuig.",
+      "provide": "Cuir cainéal ar fáil chun an painéal a phostáil chuig.",
       "cancel": "Curtha ar ceal.",
-      "valid": "Tabhair cainéal bailí le do thoil chun an painéal a phostáil chuig.",
-      "posted": "**Painéal Postáilte!**"
+      "valid": "Tabhair cainéal bailí chun an painéal a phostáil chuig.",
+      "posted": "**Painéal postáilte!**"
     },
     "settingsBaseAutorole": {
       "backRole": "Ról Cúil",
@@ -2154,35 +2155,36 @@
       "toggle": "Scoránaigh:",
       "enable": "Cumasaithe",
       "disable": "Díchumasaithe",
-      "addRole": "Cuir Ról Leis",
+      "addRole": "Cuir Ról leis",
       "removeRole": "Bain Ról",
       "no": "Níl aon róil uathoibríoch ann faoi láthair.",
-      "title": "Córas Róil Uathoibríoch",
+      "title": "Córas Ról Auto",
       "role": "**Ról:**",
-      "verification": "**Fíorú?**"
+      "verification": "**Fíorú?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
-      "mention": "Luaigh an ról le do thoil nó tabhair Id róil le cur leis.",
-      "q": "Ar mhaith leat go dtabharfaí an ról seo nuair a thagann siad isteach, nó cathain a fhíoróidh siad?\n\n**1.** Tabhair ról nuair a théann siad isteach\n**2.** Tabhair ról nuair a fhíoróidh siad",
+      "mention": "Luaigh an ról nó tabhair aitheantas róil le cur leis.",
+      "q": "Ar mhaith leat go dtabharfaí an ról seo nuair a théann siad isteach, nó nuair a dheimhníonn siad?\n\n**1.** Tabhair ról nuair a théann siad isteach\n**2.** Tabhair ról nuair a dheimhníonn siad",
       "cancel": "Curtha ar ceal.",
-      "provide": "Tabhair ról bailí le do thoil. \n'PRÓISEAS CURTHA AR CEAL'",
-      "provide1": "Tabhair rogha bhailí le do thoil. \n'PRÓISEAS CURTHA AR CEAL'",
-      "added": "**Uathríomhaire Curtha leis!**"
+      "provide": "Tabhair ról bailí, le do thoil. \n'PRÓISEAS CURTHA AR CEAL'",
+      "provide1": "Tabhair rogha bhailí. \n'PRÓISEAS CURTHA AR CEAL'",
+      "added": "**Autorole curtha leis!**"
     },
     "settingsBaseAutoroleBack": {
       "no": "Níl aon róil uathoibríoch ann faoi láthair.",
-      "title": "Córas Róil Uathoibríoch",
+      "title": "Córas Ról Auto",
       "role": "**Ról:**",
       "noRoles": "Níl aon róil uathoibríoch ann faoi láthair.",
       "verification": "**Fíorú?**"
     },
     "settingsBaseAutoroleDelete": {
-      "no": "Níl aon autoroles déanta don chiontacht seo.",
-      "removed": "**Uathríomhaire Bainte**"
+      "no": "Níl aon autoroles déanta don chuallacht seo.",
+      "removed": "**Autorole Bainte**"
     },
     "settingsBaseAutoroleNext": {
       "no": "Níl aon róil uathoibríoch ann faoi láthair.",
-      "title": "Córas Róil Uathoibríoch",
+      "title": "Córas Ról Auto",
       "role": "**Ról:**",
       "noRoles": "Níl aon róil uathoibríoch ann faoi láthair.",
       "verification": "**Fíorú?**"
@@ -2190,69 +2192,69 @@
     "settingsBaseCashappUpdate": {
       "provide": "Tabhair nasc nua don mhodh íocaíochta seo.\nClóscríobh 'bréagach' chun é a dhíchumasú.",
       "cancel": "Curtha ar ceal.",
-      "updated": "** Nasc Íocaíochta Nuashonraithe**"
+      "updated": "**Nasc Íocaíochta Nuashonraithe**"
     },
     "settingsBaseCustomUpdate": {
       "provide": "Tabhair nasc nua don mhodh íocaíochta seo.\nClóscríobh 'bréagach' chun é a dhíchumasú.",
       "cancel": "Curtha ar ceal.",
-      "updated": "** Nasc Íocaíochta Nuashonraithe**"
+      "updated": "**Nasc Íocaíochta Nuashonraithe**"
     },
     "settingsBaseGeneralSettings": {
       "options": "Roghanna:",
-      "updateTheme": "Nuashonraigh Dath an Téama",
-      "updateMuted": "Nuashonrú Ról Balbhaithe",
-      "updateTos": "Nuashonraigh Nasc Tos",
+      "updateTheme": "Dath Téama a Nuashonrú",
+      "updateMuted": "Ról Muted Nuashonraithe",
+      "updateTos": "Nasc nuashonraithe",
       "maxTickets": "Ticéid Max",
       "payment": "Íocaíocht:",
       "paypal": "PayPal",
-      "cashapp": "Aip Airgid Thirim",
+      "cashapp": "Aip Airgid",
       "customLink": "Nasc Saincheaptha",
-      "imageUrls": "URLanna íomhá:",
-      "card": "Cárta Bí/Fág"
+      "imageUrls": "URLanna Íomhá:",
+      "card": "Bí páirteach/Cárta Saoire"
     },
     "settingsBaseLeave": {
       "options": "Roghanna:",
       "message": "Teachtaireacht",
-      "embed": "Leabaigh",
+      "embed": "Leabú",
       "card": "Cárta"
     },
     "settingsBaseMaxTickets": {
-      "provide": "Tabhair líon na dticéad uasta is féidir le húsáideoir a oscailt ag an am.",
+      "provide": "Tabhair líon na dticéad uasta is féidir le húsáideoir a bheith oscailte ag an am.",
       "cancel": "Curtha ar ceal.",
-      "valid": "Tabhair uimhir **VALID*** le do thoil.",
-      "updated": "Uas-Ticéid Nuashonraithe"
+      "valid": "Cuir uimhir **VALID** ar fáil.",
+      "updated": "Max Ticéid Nuashonraithe"
     },
     "settingsBaseMuteRoleUpdate": {
       "mention": "Luaigh an ról is mian leat a thabhairt d'úsáideoirí nuair a bhíonn siad balbhaithe.",
       "cancelled": "Curtha ar ceal.",
-      "valid": "Tabhair ról balbh bailí le do thoil.",
-      "updated": "**Ról Balbh Nuashonraithe**"
+      "valid": "Tabhair ról bailí láibe.",
+      "updated": "**Ról Mute Nuashonraithe**"
     },
     "settingsBasePanelVerifyPost": {
-      "provide": "Tabhair cainéal le do thoil chun an painéal a phostáil chuig.",
+      "provide": "Cuir cainéal ar fáil chun an painéal a phostáil chuig.",
       "cancelled": "Curtha ar ceal.",
-      "valid": "Tabhair cainéal bailí le do thoil.",
+      "valid": "Cuir cainéal bailí ar fáil.",
       "verify": "Fíoraigh",
       "verification": "Fíorú",
-      "please": "Fíoraigh tú féin le do thoil trí bhrú ar an gcnaipe *** faoi bhun na teachtaireachta seo. Deimhneoidh sé seo go bhfuil na rialacha *léite agus glactha agat*, chomh maith gur duine thú.",
-      "posted": "**Painéal Fíoraithe Postáilte**"
+      "please": "Fíoraigh tú féin, le do thoil, tríd an **cnaipe** a bhrú faoi bhun na teachtaireachta seo. Deimhneoidh sé seo go bhfuil *léite agus glactha agat leis na rialacha *, chomh maith gur duine thú.",
+      "posted": "**Painéal fíoraithe postáilte**"
     },
     "settingsBasePaypalUpdate": {
       "new": "Tabhair nasc nua don mhodh íocaíochta seo.\nClóscríobh 'bréagach' chun é a dhíchumasú.",
       "cancelled": "Curtha ar ceal.",
-      "set": "** Nasc Íocaíochta Nuashonraithe**"
+      "set": "**Nasc Íocaíochta Nuashonraithe**"
     },
     "settingsBaseSelect": {
       "ERROR": "Ní úsáideann an painéal seo aon ghnéithe teanga go gníomhach."
     },
     "settingsBaseThemeColorUpdate": {
-      "provide": "Tabhair **__COLOR HEX__** nua le húsáid mar dhath téama.\n**Ex:** '#FFFFFF'\n\nRoghnóir Dathanna: <https://htmlcolorcodes.com/color-picker/>",
-      "valid": "Tabhair **__COLOR HEX__**bailí le do thoil.\n**Ex:** '#FFFFFF'\n\nRoghnóir Dathanna: <https://htmlcolorcodes.com/color-picker/>",
+      "provide": "Cuir **__COLOR HEX__** nua ar fáil don bot le húsáid mar dhath téama.\n**Ex:** '#FFFFFF'\n\nRoghnóir Dath: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Cuir **__COLOR HEX__** bailí ar fáil.\n**Ex:** '#FFFFFF'\n\nRoghnóir Dath: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "Curtha ar ceal.",
-      "updated": "** Dath téama Nuashonraithe**"
+      "updated": "**Dath Téama Nuashonraithe**"
     },
     "settingsBaseToggleAutorole": {
-      "add": "Cuir Ról Leis",
+      "add": "Cuir Ról leis",
       "remove": "Bain Ról",
       "next": "An Chéad Ról Eile",
       "back": "Ról Cúil"
@@ -2260,221 +2262,221 @@
     "settingsBaseToggleCaptcha": {
       "verification": "Fíorú",
       "captcha": "Captcha",
-      "post": "Post A Painéal"
+      "post": "Post painéal"
     },
     "settingsBaseToggleVerify": {
       "buttons": {
         "verify": "Fíorú",
         "captcha": "Captcha",
-        "post": "Post A Painéal"
+        "post": "Post painéal"
       }
     },
     "settingsBaseToSUpdate": {
-      "please": "Tabhair nasc nua ToS le nuashonrú air.",
+      "please": "Tabhair nasc nua ToS chun nuashonrú a dhéanamh air.",
       "cancelled": "Curtha ar ceal.",
-      "valid": "Cuir nasc bailí ToS san áireamh.\nNí mór tús a chur le: 'http://'",
-      "updated": "**Nasc Tos Nuashonraithe **"
+      "valid": "Cuir nasc bailí ToS san áireamh.\nNí mór tosú le: 'http://'",
+      "updated": "**ToS Link Nuashonraithe**"
     },
     "settingsBaseVerification": {
       "buttons": {
         "verify": "Fíorú",
         "captcha": "Captcha",
-        "post": "Post A Painéal"
+        "post": "Post painéal"
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "**Tabhair nasc íomhá do url cúlra an chárta.**\n'Fógra:' Caithfidh deireadh a bheith leis an nasc íomhá i '.png', '.jpg', '.webp', srl.",
+      "please": "**Cuir nasc íomhá ar fáil don url cúlra cárta.**\n'Fógra:' Caithfidh deireadh a bheith leis an nasc íomhá in '.png', '.jpg', '.webp', srl.",
       "cancelled": "Curtha ar ceal.",
       "updated": "**Cárta Fáilte Nuashonraithe**"
     },
     "settingsFunAutoReact": {
-      "next": "An chéad leathanach eile",
+      "next": "An Chéad Leathanach Eile",
       "back": "Leathanach Cúil",
-      "add": "Cuir Freagra Leis",
-      "title": "Frithghníomhartha Uathoibríoch",
+      "add": "Cuir Freagra leis",
+      "title": "Imoibrithe Uathoibríoch",
       "channel": "**Cainéal:**",
-      "no": "Gan Aon Fhrithghníomhartha Auto Reatha ...",
+      "no": "Gan Aon Imoibrithe Auto Reatha ...",
       "response": "**Freagra:**",
-      "emoji": "Emoji gan socrú..."
+      "emoji": "Emoji nach leagtar..."
     },
     "settingsFunAutoreactAdd": {
-      "please": "Tabhair an cainéal ar chóir don bot éisteacht leis le haghaidh frithghníomhartha.",
+      "please": "Tabhair an cainéal ba chóir don bot éisteacht le frithghníomhartha.",
       "cancelled": "Curtha ar ceal.",
-      "provide": "Tabhair an méid ba cheart don bot freagairt dó anois nuair a chloiseann sé teachtaireacht sa chainéal sin.\n**Tabhair faoi deara:** caithfidh tú an emoji a chur i mbloc cód, cosúil le ':monkey_face:'",
-      "valid": "Tabhair cainéal bailí le do thoil.",
-      "added": "** Cuireadh Imoibriú Uathoibríoch leis**"
+      "provide": "Tabhair an méid ba cheart don bot freagairt anois nuair a chloiseann sé teachtaireacht sa chainéal sin.\n**Nóta:** ní mór duit an emoji a chur i mbloc cód, cosúil le ':monkey_face:'",
+      "valid": "Cuir cainéal bailí ar fáil.",
+      "added": "**Imoibriú uathoibríoch curtha leis**"
     },
     "settingsFunAutoreactBack": {
-      "title": "Frithghníomhartha Uathoibríoch",
+      "title": "Imoibrithe Uathoibríoch",
       "channel": "**Cainéal:**",
-      "no": "Gan Aon Fhrithghníomhartha Auto Reatha ...",
+      "no": "Gan Aon Imoibrithe Auto Reatha ...",
       "response": "**Freagra:**",
-      "emoji": "Emoji gan socrú..."
+      "emoji": "Emoji nach leagtar..."
     },
     "settingsFunAutoreactDelete": {
-      "no": "Níl aon fhrithghníomhartha uathoibríoch socraithe don chiontacht seo.",
-      "deleted": "** Frithghníomh Uathoibríoch Scriosta **"
+      "no": "Níl aon imoibrithe uathoibríocha leagtha síos don chuallacht seo.",
+      "deleted": "**Imoibriú Uathoibríoch Scriosta**"
     },
     "settingsFunAutoreactNext": {
-      "title": "Frithghníomhartha Uathoibríoch",
+      "title": "Imoibrithe Uathoibríoch",
       "channel": "**Cainéal:**",
-      "no": "Gan Aon Fhrithghníomhartha Auto Reatha ...",
+      "no": "Gan Aon Imoibrithe Auto Reatha ...",
       "response": "**Freagra:**",
-      "emoji": "Emoji gan socrú..."
+      "emoji": "Emoji nach leagtar..."
     },
     "settingsFunAutoRespond": {
       "back": "Leathanach Cúil",
-      "next": "An chéad leathanach eile",
-      "add": "Cuir Freagra Leis",
-      "title": "Freagraí Uathoibríoch",
+      "next": "An Chéad Leathanach Eile",
+      "add": "Cuir Freagra leis",
+      "title": "Freagraí Auto",
       "detect": "**Brath:**",
-      "no": "Gan Aon Fhreagraí Auto Reatha...",
+      "no": "Gan aon Fhreagraí Auto Reatha...",
       "response": "**Freagra:**",
-      "none": "Níl aon tacar..."
+      "none": "Níl aon sraith..."
     },
     "settingsFunAutorespondAdd": {
-      "please": "Tabhair na focail ar chóir don bot éisteacht leo sula bhfreagraíonn tú.",
+      "please": "Tabhair na focail ba chóir don bot éisteacht leo sula bhfreagraíonn tú.",
       "cancelled": "Curtha ar ceal.",
-      "provide": "Tabhair an méid ba cheart don bot freagra a thabhairt air anois nuair a chloiseann sé teachtaireacht ina bhfuil an t-ábhar sin.",
-      "added": "** Freagra Uathoibríoch Curtha leis**"
+      "provide": "Tabhair an méid ba cheart don bot freagra a thabhairt anois nuair a chloiseann sé teachtaireacht ina bhfuil an t-ábhar sin.",
+      "added": "**Freagra Auto curtha leis**"
     },
     "settingsFunAutorespondBack": {
-      "title": "Freagraí Uathoibríoch",
+      "title": "Freagraí Auto",
       "detect": "**Brath:**",
-      "no": "Gan Aon Fhreagraí Auto Reatha...",
+      "no": "Gan aon Fhreagraí Auto Reatha...",
       "response": "**Freagra:**",
-      "none": "Níl aon tacar..."
+      "none": "Níl aon sraith..."
     },
     "settingsFunAutorespondDelete": {
-      "no": "Níl aon fhreagraí uathoibríoch socraithe don chiontacht seo.",
-      "deleted": "** Freagra Uathoibríoch Scriosta**"
+      "no": "Níl aon fhreagraí uathoibríocha leagtha síos don chuallacht seo.",
+      "deleted": "**Freagra Auto Scriosta**"
     },
     "settingsFunAutorespondNext": {
-      "title": "Freagraí Uathoibríoch",
+      "title": "Freagraí Auto",
       "detect": "**Brath:**",
-      "no": "Gan Aon Fhreagraí Auto Reatha...",
+      "no": "Gan aon Fhreagraí Auto Reatha...",
       "response": "**Freagra:**",
-      "none": "Níl aon tacar..."
+      "none": "Níl aon sraith..."
     },
     "settingsFunBirthdays": {
-      "clear": "Glan Sonraí Breithlaethanta",
-      "cleared": "Sonraí Lá Breithe Glanta"
+      "clear": "Sonraí Breithlá Soiléir",
+      "cleared": "Sonraí Breithlae Glanta"
     },
     "settingsFunClearLevelData": {
-      "clear": "Glan ar Shaoire",
+      "clear": "Glan ar Saoire",
       "cleared": "Sonraí Leibhéal Glanta",
       "level": "Córas Leibhéal"
     },
     "settingsFunEconomy": {
-      "back": "Mír Chúl",
+      "back": "Mír Ar Ais",
       "next": "An Chéad Mhír Eile",
-      "add": "Cuir Mír Siopa Leis",
+      "add": "Cuir Mír an tSiopa leis",
       "currency": "Airgeadra",
-      "clear": "Glan na Sonraí go léir",
-      "cleared": "Glanadh na Sonraí go léir",
-      "cooldowns": "Fuarú:",
+      "clear": "Glan na Sonraí Go Léir",
+      "cleared": "Gach Sonraí Glanta",
+      "cooldowns": "Cúil an Dúin:",
       "work": "Obair",
-      "crime": "Coiriúlacht",
+      "crime": "Coireacht",
       "rob": "Rob",
       "economy": "Socruithe Geilleagair",
       "currency2": "**Airgeadra:**",
-      "shop": "**Eolas faoi Mhír siopa:**",
-      "id": "**○ Id:**",
+      "shop": "**Eolas Mír an tSiopa:**",
+      "id": "**○ id:**",
       "no": "Níl aon earraí siopa reatha...",
       "name": "**○ Ainm:**",
       "price": "**○ Praghas:**"
     },
     "settingsFunEconomyWork": {
-      "text": "Athshocraíodh fuarú oibre 2 uair an chloig do gach úsáideoir sa chiontacht seo."
+      "text": "Tá fuarú oibre 2 uair an chloig do gach úsáideoir athshocraithe sa chuallacht seo."
     },
     "settingsFunEconomyAdd": {
-      "p": "Tabhair ainm an táirge le do thoil.",
+      "p": "Tabhair ainm an táirge.",
       "c": "Curtha ar ceal.",
-      "price": "Tabhair praghas ar an mír seo le do thoil.\n**Ex:** '10'",
-      "price1": "Tabhair praghas bailí le do thoil.\n**Ex:** '10'",
-      "added": "'**Mír Siopa Curtha leis**",
-      "title": " - Mír Chruthaithe",
-      "item": "Mír",
+      "price": "Tabhair praghas don mhír seo.\n**Sean:** '10'",
+      "price1": "Tabhair praghas bailí.\n**Sean:** '10'",
+      "added": "'**Mír an tSiopa curtha leis**",
+      "title": " - Mír Cruthaithe",
+      "item": "Ábhar",
       "Price": "Praghas"
     },
     "settingsFunEconomyCrime": {
-      "a": "Athshocraíodh fuarú coireachta 2 uair an chloig do gach úsáideoir sa chiontacht seo."
+      "a": "Tá fuarú coireachta 2 uair an chloig do gach úsáideoir athshocraithe sa chuallacht seo."
     },
     "settingsFunEconomyCurrency": {
-      "a": "Tabhair an t-airgeadra don chiontacht seo le do thoil.\n**Nóta:** Caithfidh tú é a sholáthar i bhfoirm bloc cód, cosúil le ':mála airgid:'",
+      "a": "Tabhair an t-airgeadra don chuallacht seo.\n**Nóta:** Ní mór duit é a sholáthar i bhfoirm bloc cód, cosúil le ':moneybag:'",
       "c": "Curtha ar ceal.",
       "u": "**Airgeadra Nuashonraithe!**"
     },
     "settingsFunEconomyDelete": {
-      "a": "Níl aon earraí siopa sa chiontacht seo.",
-      "d": "**Scriosadh Mír Siopa**",
+      "a": "Níl aon earraí siopa sa chuallacht seo.",
+      "d": "**Mír an tSiopa Scriosta**",
       "title": "Mír Scriosta",
-      "i": "Mír"
+      "i": "Ábhar"
     },
     "settingsFunEconomyRob": {
-      "a": "Athshocraíodh fuarú robála 2 uair an chloig do gach úsáideoir sa chiontacht seo."
+      "a": "Tá fuarú rob 2 uair an chloig do gach úsáideoir athshocraithe sa chuallacht seo."
     },
     "settingsFunLevelSystem": {
-      "c": "Sonraí Ar Leibhéal Glan",
+      "c": "Sonraí Leibhéal Soiléir",
       "l": "Córas Leibhéal",
-      "cL": "Glan ar Shaoire"
+      "cL": "Glan ar Saoire"
     },
     "settingsFunToggleLevelKick": {
       "a": "🏠 Téigh abhaile",
       "b": "Scoránaigh:",
       "c": "Socruithe:",
-      "d": "Sonraí Ar Leibhéal Glan",
+      "d": "Sonraí Leibhéal Soiléir",
       "e": "Córas Leibhéal",
-      "f": "Glan ar Shaoire"
+      "f": "Glan ar Saoire"
     },
     "settingsFunToggleLevelSystem": {
       "a": "🏠 Téigh abhaile",
       "b": "Scoránaigh:",
       "c": "Socruithe:",
-      "d": "Sonraí Ar Leibhéal Glan",
+      "d": "Sonraí Leibhéal Soiléir",
       "e": "Córas Leibhéal",
-      "f": "Glan ar Shaoire"
+      "f": "Glan ar Saoire"
     },
     "settingsSecurityAltPrevention": {
       "a": "Scoránaigh:",
-      "b": "Cosc ar Alt",
+      "b": "Cosc Alt",
       "c": "Aois an Chuntais"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "Tabhair íosmhéid aoise cuntais nua le do thoil.\nEx: 30d = 30 lá.",
+      "a": "Tabhair íosmhéid aoise cuntais nua, le do thoil.\nEx: 30d = 30 lá.",
       "b": "Curtha ar ceal.",
-      "c": "** Aois an Chuntais Nuashonraithe**"
+      "c": "**Aois an Chuntais Nuashonraithe**"
     },
     "settingsSecurityFilter": {
       "a": "Rialuithe:",
       "b": "Leathanach Cúil",
-      "c": "An chéad leathanach eile",
+      "c": "An Chéad Leathanach Eile",
       "d": "Roghanna:",
-      "e": "Cuir Scagaire Leis",
-      "f": "Scrios Roghnaithe",
+      "e": "Cuir Scagaire leis",
+      "f": "Scrios roghnaithe",
       "g": "Scagaire Slándála",
       "h": "**Ábhar:**",
-      "i": "Gan Scagairí Reatha..."
+      "i": "Gan Aon Scagairí Reatha..."
     },
     "settingsSecuirtyFilterAdd": {
-      "a": "Tabhair an focal/ nasc is mian leat a dhúliosta.",
+      "a": "Tabhair an focal/nasc is mian leat a liostáil.",
       "b": "Curtha ar ceal.",
       "c": "**Scagaire curtha leis**"
     },
     "settingsSecurityFilterBack": {
       "a": "Scagaire Slándála",
       "b": "**Ábhar:**",
-      "c": "Gan Scagairí Reatha..."
+      "c": "Gan Aon Scagairí Reatha..."
     },
     "settingsSecurityFilterDelete": {
-      "a": "Níl aon scagairí socraithe don chiontacht seo.",
+      "a": "Níl aon scagairí leagtha síos don chuallacht seo.",
       "b": "Níl an scagaire sin ann.",
       "c": "**Scagaire Scriosta**"
     },
     "settingsSecurityFilterNext": {
       "a": "Scagaire Slándála",
       "b": "**Ábhar:**",
-      "c": "Gan Scagairí Reatha..."
+      "c": "Gan Aon Scagairí Reatha..."
     },
     "settingsSecuritySelect": {
       "a": "🏠 Téigh abhaile:"
@@ -2487,79 +2489,79 @@
     "settingsSecurityToggleAltPrev": {
       "a": "🏠 Téigh abhaile",
       "b": "Scoránaigh:",
-      "c": "Cosc ar Alt",
+      "c": "Cosc Alt",
       "d": "Aois an Chuntais"
     },
     "settingsSecurityToggleLockdown": {
       "a": "🏠 Téigh abhaile",
       "b": "Scoránaigh:",
-      "c": "Glas Freastalaí",
-      "d": "Scoránaigh Glasáil Freastalaí!",
+      "c": "Glas freastalaí",
+      "d": "Dianghlasáil Freastalaí Scornaithe!",
       "e": "Úsáideoir:",
       "f": "Scoránaigh:",
-      "g": "Glas Freastalaí"
+      "g": "Glas freastalaí"
     },
     "settingsSelect": {
       "a": "🏠 Téigh abhaile",
       "b": "👓 Socruithe Ginearálta",
-      "c": "🟢 Modúl Fáilte",
-      "d": "🔴 Fág Modúl",
+      "c": "🟢 Fáilte Modúl",
+      "d": "🔴 Fág modúl",
       "e": "🗝️ Fíorú",
-      "f": "👋 Uathroghnú",
-      "g": "👻 Cosc ar Alt",
-      "h": "🔒 Glasáil Freastalaí",
-      "i": "❌ Córas Scagaire",
+      "f": "👋 Autorole",
+      "g": "👻 Cosc Alt",
+      "h": "🔒 Dianghlasáil freastalaí",
+      "i": "❌ Córas scagaire",
       "j": "📊 Córas Leibhéal",
       "k": "🎉 Breithlaethanta",
-      "l": "💰 An Geilleagar",
-      "m": "🎯 Uathoibriú",
-      "n": "🦜 Freagair go huathoibríoch",
-      "o": "Athraigh na socruithe ginearálta don chiontacht seo.\",",
-      "p": "Athraigh modúl fáilte don chiontacht seo.",
-      "q": "Athraigh modúl saoire don chiontacht seo.",
-      "r": "Athraigh modúl fíoraithe don chiontacht seo.",
-      "s": "Athraigh modúl autorole don chiontacht seo.",
+      "l": "💰 An geilleagar",
+      "m": "🎯 Auto React",
+      "n": "🦜 Freagra Auto",
+      "o": "Athraigh na socruithe ginearálta don chuallacht seo.',",
+      "p": "Athraigh modúl fáilte don chuallacht seo.",
+      "q": "Athraigh modúl saoire don chuallacht seo.",
+      "r": "Athraigh modúl fíoraithe don chuallacht seo.",
+      "s": "Athraigh modúl autorole don chuallacht seo.",
       "t": "Athraigh an córas coiscthe alt.",
-      "u": "Athraigh mód dianghlasála an fhreastalaí.",
+      "u": "Athraigh modh dianghlasála freastalaí.",
       "v": "Athraigh an córas scagaire.",
-      "w": "Athraigh an córas leibhéal don chiontacht seo.",
-      "x": "Athraigh modúl lá breithe don chiontacht seo.",
-      "y": "Athraigh modúl geilleagair don chiontacht seo.",
-      "z": "Athraigh modúl imoibriú uathoibríoch don chiontacht seo.",
-      "aa": "Athraigh modúl freagartha uathoibríoch don chiontacht seo.",
-      "ab": "Roghnaigh rogha bunsocruithe.",
+      "w": "Athraigh an córas leibhéal don chuallacht seo.",
+      "x": "Athraigh modúl lá breithe don chuallacht seo.",
+      "y": "Athraigh modúl geilleagair don chuallacht seo.",
+      "z": "Athraigh modúl auto react don chuallacht seo.",
+      "aa": "Athraigh modúl freagartha uathoibríoch don chuallacht seo.",
+      "ab": "Roghnaigh rogha socruithe bonn.",
       "ac": "Roghnaigh rogha socruithe slándála.",
-      "ad": "Roghnaigh rogha socruithe spraoi."
+      "ad": "Roghnaigh rogha socruithe spraíúla."
     },
     "shopSelect": {
       "a": "Níl an mhír sin sa siopa.",
-      "b": "Níl go leor airgid agat chun an earra sin a cheannach.",
-      "c": "cheannaigh sé **1**",
+      "b": "Níl go leor airgid agat chun an mhír sin a cheannach.",
+      "c": "cheannaigh **1**",
       "d": "Mír Cheannaithe",
-      "e": "Mír",
+      "e": "Ábhar",
       "f": "Praghas",
       "g": "Níl aon earraí sa siopa."
     },
     "stickyAdd": {
       "a": "Curtha ar ceal.",
-      "b": "Tá teachtaireacht ghreamaitheach ag an gcainéal seo cheana féin.\nBain triail eile as.",
-      "c": "Iontráil an méid ba cheart a rá leis an teachtaireacht ghreamaitheach.",
-      "d": "Tabhair cainéal bailí le do thoil.",
-      "e": "**Teachtaireacht Ghreamaitheach Cruthaithe!**"
+      "b": "Tá teachtaireacht ghreamaitheach ag an gcainéal seo cheana féin.\nBain triail as arís.",
+      "c": "Cuir isteach an méid ba chóir don teachtaireacht ghreamaitheach a rá.",
+      "d": "Cuir cainéal bailí ar fáil.",
+      "e": "**Teachtaireacht greamaitheach Cruthaithe!**"
     },
     "stickyRemove": {
-      "a": "Níl aon teachtaireachtaí greamaitheacha sa chiontacht seo.",
-      "b": "Sainigh an cainéal le do thoil chun an teachtaireacht ghreamaitheach a bhaint de.",
+      "a": "Níl aon teachtaireachtaí greamaitheacha sa chuallacht seo.",
+      "b": "Sainmhínigh an cainéal chun an teachtaireacht ghreamaitheach a bhaint as.",
       "c": "Curtha ar ceal.",
-      "d": "Tabhair cainéal bailí le do thoil.",
-      "e": "**Teachtaireacht Ghreamaitheach Bainte!**",
-      "f": "Níl teachtaireacht ghreamaitheach ag an gcainéal seo.\nBain triail eile as."
+      "d": "Cuir cainéal bailí ar fáil.",
+      "e": "**Teachtaireacht greamaitheach Bainte!**",
+      "f": "Níl teachtaireacht ghreamaitheach ag an gcainéal seo.\nBain triail as arís."
     },
     "ticketAdd": {
       "a": "Tabhair ainm don phainéal ticéad seo",
       "b": "Curtha ar ceal.",
-      "c": "Tabhair cur síos don phainéal ticéad seo, le do thoil.",
-      "d": "Tabhair catagóir 'Id' le haghaidh ticéid le dul chiú.",
+      "c": "Tabhair cur síos don phainéal ticéad seo.",
+      "d": "Tabhair catagóir 'Id' do thicéid le dul chuig.",
       "e": "**Painéal Cruthaithe!**"
     },
     "ticketAddUser": {
@@ -2567,93 +2569,93 @@
       "b": "Tabhair an t-úsáideoir is mian leat a chur leis an ticéad.",
       "c": "Curtha ar ceal.",
       "d": "Tabhair úsáideoir bailí le cur leis an ticéad seo.",
-      "e": "cuireadh leis an ticéad seo."
+      "e": "curtha leis an ticéad seo."
     },
     "ticketBack": {
       "a": "Painéil Ticéad",
-      "b": "** ○ Ainm an Phainéil:**",
+      "b": "**○ Ainm an Phainéil:**",
       "c": "Níl aon phainéil fós ...",
-      "d": "**○ Cur síos ar an bPainéal:**",
+      "d": "**○ Cur síos ar an bpainéal:**",
       "e": "N/B"
     },
     "ticketClaim": {
       "a": "Ní féidir é seo a dhéanamh ach taobh istigh de chainéal ticéad.",
       "b": "🔒 Dún Ticéad",
       "c": "✏️ Athainmnigh Ticéad",
-      "d": "📥 Cuir Úsáideoir Leis",
+      "d": "📥 Cuir Úsáideoir leis",
       "e": "📤 Bain Úsáideoir",
-      "f": "🤝 Arna éileamh ag",
-      "g": "Arna éileamh ag:"
+      "f": "🤝 Éilithe ag",
+      "g": "Éilithe ag:"
     },
     "ticketClose": {
       "a": "Ní féidir é seo a dhéanamh ach i gcainéal ticéad.",
       "b": "Níor aimsíodh aon phainéal.",
-      "c": "Níor aimsíodh aon chatagóir...",
-      "d": "D'éirigh leis an ticéad dúnta! (Fan le do thoil)",
-      "e": "Anaithnid",
+      "c": "Níl aon chatagóir le fáil...",
+      "d": "Ticéad dúnta go rathúil! (Fan le do thoil)",
+      "e": "Ní fios",
       "f": "Ticéad Dúnta",
-      "g": "Aitheantas an Ticéid",
+      "g": "Id ticéad",
       "h": "Ball Deiridh",
       "i": "Baill i dTicéad",
       "j": "Painéal"
     },
     "ticketDelete": {
-      "a": "Níl aon chatagóirí ticéad déanta don chiontacht seo.",
+      "a": "Níl aon chatagóirí ticéad déanta don chuallacht seo.",
       "b": "**Catagóir Bainte**"
     },
     "ticketNext": {
       "a": "Painéil Ticéad",
-      "b": "** ○ Ainm an Phainéil:**",
+      "b": "**○ Ainm an Phainéil:**",
       "c": "Níl aon phainéil fós ...",
-      "d": "**○ Cur síos ar an bPainéal:**",
+      "d": "**○ Cur síos ar an bpainéal:**",
       "e": "N/B"
     },
     "ticketPanelPost": {
-      "a": "Níl aon chatagóirí ticéad curtha ar bun go fóill ag an ciontacht seo.",
-      "b": "Catagóirí Ticéad",
-      "c": "Seo iad na catagóirí ticéad don chiontacht seo. Roghnaigh ceann chun ticéad a oscailt sa chatagóir sin.",
-      "d": "Córas Ticéad",
+      "a": "Níl aon chatagóirí ticéad curtha ar bun ag an gcuallacht seo go fóill.",
+      "b": "Catagóirí ticéad",
+      "c": "Seo catagóirí na dticéad don chuallacht seo. Roghnaigh ceann chun ticéad a oscailt sa chatagóir sin.",
+      "d": "Córas ticéad",
       "e": "Roghnaigh catagóir ticéad.",
-      "f": "Cealaithe",
-      "g": "Tabhair cainéal bailí le do thoil.",
-      "h": "**Painéal Ticéad Postáilte!**",
-      "i": "Tabhair cainéal le do thoil chun an painéal a phostáil chuig."
+      "f": "Curtha ar ceal",
+      "g": "Cuir cainéal bailí ar fáil.",
+      "h": "**Painéal ticéad postáilte!**",
+      "i": "Cuir cainéal ar fáil chun an painéal a phostáil chuig."
     },
     "ticketremove": {
       "a": "Ní féidir leat an t-ordú seo a úsáid ach i gcainéal ticéad!',",
       "b": "Tabhair an t-úsáideoir is mian leat a bhaint den ticéad.",
       "c": "Curtha ar ceal.",
-      "d": "Tabhair úsáideoir bailí le bain den ticéad seo.",
-      "e": "**${member.user.tag}** Baineadh den ticéad seo é."
+      "d": "Tabhair úsáideoir bailí le baint as an ticéad seo.",
+      "e": "**${member.user.tag}** bainte den ticéad seo."
     },
     "ticketrename": {
       "a": "Ní féidir leat an t-ordú seo a úsáid ach i gcainéal ticéad!",
-      "b": "Tabhair an t-ainm ba chóir an ticéad a shocrú dó.",
+      "b": "Tabhair an t-ainm ba chóir an ticéad a shocrú.",
       "c": "Curtha ar ceal.",
       "d": "**Ticéad Athainmnithe!**"
     },
     "ticketselect": {
       "catna": "Níl an chatagóir ticéad sin ann.",
-      "content1": "Ní fhéadfaidh ach ** a bheith agat",
-      "content2": "ticéad(í)** ar oscailt ag an am.",
-      "notpset": "Níl aon perms tacaíochta ticéad curtha ar bun fós.",
+      "content1": "B'fhéidir nach bhfuil agat ach **",
+      "content2": "ticéad(í)** oscailte ag an am.",
+      "notpset": "Níl aon perms tacaíochta ticéad curtha ar bun go fóill.",
       "nocreate": "**Ní raibh mé in ann an ticéad seo a chruthú.**",
       "closetick": "🔒 Dún Ticéad",
       "opened1": "**Oscailte ag:**",
-      "opened2": "Tosaigh ag cur síos ar do chúis leis an ticéad seo a oscailt faoi bhun na teachtaireachta seo.",
-      "opener": "**Oscailte ag:** '${interaction.user.tag}'\n\nTosaigh ag cur síos ar do chúis leis an ticéad seo a oscailt faoi bhun na teachtaireachta seo.",
+      "opened2": "Tosaigh ag cur síos ar an gcúis atá agat leis an ticéad seo a oscailt faoi bhun na teachtaireachta seo.",
+      "opener": "**Oscailte ag:** '${interaction.user.tag}'\n\nTosaigh ag cur síos ar an gcúis atá agat leis an ticéad seo a oscailt faoi bhun na teachtaireachta seo.",
       "success": "Osclaíodh do thicéad nua i ",
-      "title": "Córas Ticéad"
+      "title": "Córas ticéad"
     },
     "verifyButton": {
-      "humanVerify": "Fíorú Daonna",
-      "desc1": "Clóscríobh an captcha thíos le do thoil chun a fhíorú gur duine daonna tú.",
-      "content1": "Seiceáil do theachtaireachtaí díreacha (DManna).",
-      "noleft": "Rith tú as iarrachtaí, ath-fhíorú sa fhreastalaí le do thoil.",
+      "humanVerify": "Fíorú an Duine",
+      "desc1": "Clóscríobh an captcha seo a leanas thíos chun tú a fhíorú gur duine thú.",
+      "content1": "Seiceáil do theachtaireachtaí díreacha (DManna) le do thoil.",
+      "noleft": "You have run out of attempts, athdhearbhaigh tú sa fhreastalaí le do thoil.",
       "left1": "Mícheart, tá ",
       "left2": " iarracht(í) fágtha.",
-      "youverifed": "Fíoraíodh tú!",
-      "dmsna": "Tá do DManna socraithe go príobháideach faoi láthair, cumasaigh iad le do thoil ionas gur féidir liom ár dtástáil fíoraithe daonna a DM duit."
+      "youverifed": "Tá tú fíoraithe!",
+      "dmsna": "Tá do DManna socraithe go príobháideach faoi láthair, cuir ar a gcumas iad ionas go bhféadfaidh mé DM a dhéanamh duit ár dtástáil fíorúcháin daonna."
     }
   }
 }

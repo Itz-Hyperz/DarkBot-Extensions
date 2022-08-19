@@ -1591,7 +1591,7 @@
       "noBday": "Bu loncaya doğum günü kaydı yaptırmadın.",
       "removed": "**Doğum Günü Kaldırıldı!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Doğum günün kutlu olsun!",
       "its": "Bu",
       "bday": "Bugün doğum günü! Onlara mutlu yıllar dileyin ve kutlayalım!\n\n**Tarih:**"
@@ -1711,7 +1711,7 @@
           "desc": "Alt önleme günlükleri için bir günlük kanalı ayarlayın."
         },
         "server": {
-          "label": "🔒 Sunucu Günlük Günlükleri",
+          "label": "🔒 Sunucu Günlükleri",
           "desc": "Sunucu kilidi günlükleri için bir günlük kanalı ayarlayın."
         },
         "filter": {
@@ -1739,7 +1739,8 @@
           "desc": "Uygulama günlükleri için bir günlük kanalı ayarlayın."
         },
         "economy": {
-          "label": "🏦 Ekonomi Günlükleri"
+          "label": "🏦 Ekonomi Günlükleri",
+          "desc": "Ekonomi günlükleri için bir günlük kanalı ayarlayın."
         },
         "eco": {
           "label": "📈 Seviye Atlama Günlükleri",
@@ -1990,7 +1991,7 @@
           "desc": "Bir bilet destek personeli rolü ekleyin."
         },
         "apps": {
-          "label": "📜 Aplikasyonlar",
+          "label": "📜 Uygulama",
           "desc": "Uygulama yöneticileri rolü ekleyin."
         },
         "customers": {
@@ -2159,7 +2160,8 @@
       "no": "Şu anda otomatik rol bulunmamaktadır.",
       "title": "Otomatik Rol Sistemi",
       "role": "**Rol:**",
-      "verification": "**Doğrulama?**"
+      "verification": "**Doğrulama?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Lütfen rolden bahsedin veya eklenecek bir rol Kimliği sağlayın.",

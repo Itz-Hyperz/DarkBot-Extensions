@@ -1591,7 +1591,7 @@
       "noBday": "Ihr habt noch keinen Geburtstag in dieser Gilde angemeldet.",
       "removed": "**Geburtstag entfernt!**"
     },
-    "birthdatSystem": {
+    "birthdaySystem": {
       "title": "🥳 Alles Gute zum Geburtstag!!",
       "its": "Es ist",
       "bday": "Heute Geburtstag! Wünschen Sie ihnen alles Gute zum Geburtstag und lassen Sie uns feiern!\n\n**Datum:**"
@@ -1711,7 +1711,7 @@
           "desc": "Legen Sie einen Protokollierungskanal für Alt-Prevention-Protokolle fest."
         },
         "server": {
-          "label": "🔒 Serverprotokollprotokolle",
+          "label": "🔒 Serverprotokolle",
           "desc": "Legen Sie einen Protokollierungskanal für Serversperrprotokolle fest."
         },
         "filter": {
@@ -1739,7 +1739,8 @@
           "desc": "Legen Sie einen Protokollierungskanal für Anwendungsprotokolle fest."
         },
         "economy": {
-          "label": "🏦 Economy-Protokolle"
+          "label": "🏦 Economy-Protokolle",
+          "desc": "Legen Sie einen Protokollierungskanal für Economy-Protokolle fest."
         },
         "eco": {
           "label": "📈 Level-Up-Protokolle",
@@ -1990,7 +1991,7 @@
           "desc": "Fügen Sie eine Ticket-Support-Mitarbeiterrolle hinzu."
         },
         "apps": {
-          "label": "📜 Anwendungen",
+          "label": "📜 Anträge",
           "desc": "Fügen Sie eine Anwendungs-Manager-Rolle hinzu."
         },
         "customers": {
@@ -2159,7 +2160,8 @@
       "no": "Derzeit gibt es keine automatischen Rollen.",
       "title": "Automatisches Rollensystem",
       "role": "**Rolle:**",
-      "verification": "**Verifizierung?**"
+      "verification": "**Verifizierung?**",
+      "desc": ""
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Bitte erwähnen Sie die Rolle oder geben Sie eine hinzuzufügende Rollen-ID an.",
