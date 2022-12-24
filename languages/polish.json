@@ -1,8 +1,8 @@
 {
   "selectALanguage": "Wybierz język poniżej!",
   "noPermissions": "Nie ma jeszcze żadnych uprawnień dla tej gildii!",
-  "missingPermissions": "Nie masz wymaganych uprawnień do korzystania z tego polecenia!",
-  "noVoiceChannel": "Musisz być w kanale głosowym, aby z niego korzystać.",
+  "missingPermissions": "Nie masz wymaganych uprawnień, aby użyć tego polecenia!",
+  "noVoiceChannel": "Aby z tego korzystać, musisz mieć kanał głosowy.",
   "onlyGuildOwner": "Tylko właściciel gildii może uruchomić to polecenie.",
   "cancel": "Anuluj",
   "enabled": "Włączone",
@@ -11,30 +11,41 @@
   "no": "Nie",
   "true": "prawdziwy",
   "false": "fałszywy",
-  "eightBallCommand": "**Magic 🎱 Ball Says:** ",
+  "privatevcreset": "** Wszystkie prywatne VC w tej gildii zarejestrowane na ciebie zostały usunięte.**",
+  "vcManager": "Prywatny menedżer głosu",
+  "vcDesc": "Poniżej będziesz mógł zarządzać swoim prywatnym kanałem głosowym.",
+  "vcCloseChannel": "Zamknij kanał",
+  "vcAddMember": "Dodaj członka",
+  "vcRemoveMember": "Usuń członka",
+  "vcAddMemberText": "Podaj nazwę użytkownika, którą chcesz dodać do swojego kanału.",
+  "vcRemoveMemberText": "Podaj identyfikator użytkownika, który chcesz usunąć z kanału.",
+  "vcNoChannel": "Ten kanał nie istnieje w bazie danych.",
+  "vcAddSuccess": "**Dodano użytkownika**",
+  "vcRemoveSuccess": "**Użytkownik usunięty**",
+  "eightBallCommand": "**Magic 🎱 Ball mówi:** ",
   "eightBallResponses": [
-    "To pewne.",
-    "Zdecydowanie tak jest.",
-    "Bez wątpienia.",
+    "To jest pewne.",
     "Zdecydowanie tak.",
+    "Bez wątpienia.",
+    "Tak, zdecydowanie.",
     "Moim zdaniem tak.",
     "Tak.",
     "Odpowiedz mgliście, spróbuj ponownie.",
-    "Lepiej nie mów ci teraz.",
-    "Nie mogę teraz przewidzieć.",
+    "Lepiej nie mówić ci teraz.",
+    "Nie można teraz przewidzieć.",
     "Nie licz na to.",
     "Moja odpowiedź brzmi: nie.",
     "Moje źródła mówią, że nie.",
-    "Perspektywa nie tak dobra.",
+    "Perspektywy nie tak dobre.",
     "Bardzo wątpliwe."
   ],
-  "afkNoLonger": "Nie jesteś już oznaczony AFK.",
+  "afkNoLonger": "Nie jesteś już oznaczony jako AFK.",
   "nowMarkedAFK": "Jesteś teraz oznaczony AFK.",
   "applicationMenu": {
     "questions": "Pytania",
     "embedTitle": "Menu aplikacji",
     "embedName": "**○ Imię i nazwisko:** ",
-    "noAppsYet": "Brak aplikacji jeszcze...",
+    "noAppsYet": "Brak aplikacji...",
     "createForm": "Utwórz formularz"
   },
   "apply": {
@@ -42,7 +53,7 @@
     "clickToApply": "Kliknij, aby złożyć wniosek o tę aplikację.",
     "selectApp": "Wybierz aplikację.",
     "embedTitle": "Aplikacji",
-    "embedDescription": "Wybierz aplikację, aby rozpocząć jej wypełnianie."
+    "embedDescription": "Wybierz wniosek, aby rozpocząć jego wypełnianie."
   },
   "avatar": "Awatar",
   "balance": {
@@ -56,17 +67,17 @@
   "birthdays": {
     "selectAction": "Wybierz akcję urodzinową.",
     "addBirthday": "👶 Dodaj urodziny",
-    "addBirthdayDescription": "Dodaj swoją datę urodzenia do bazy danych.",
+    "addBirthdayDescription": "Dodaj swoje urodziny do bazy danych.",
     "removeBirthday": "❌ Usuń urodziny",
     "removeBirthdayDescription": "Usuń datę urodzenia z bazy danych.",
     "embedTitle": "Menu urodzinowe",
-    "embedDescription": "Dodaj/Usuń swoje urodziny do/z bazy danych!"
+    "embedDescription": "Dodaj/usuń swoje urodziny do/z bazy danych!"
   },
   "cases": {
-    "doesNotExist": "nie istnieje na liście identyfikatorów przypadków!",
+    "doesNotExist": "nie istnieje w przypadku Id lista!",
     "embedTitle": "Informacje o sprawie",
     "caseId": "Identyfikator sprawy",
-    "caseType": "Typ sprawy",
+    "caseType": "Typ obudowy",
     "caseUser": "Użytkownik"
   },
   "clients": {
@@ -83,10 +94,10 @@
   "ddos": {
     "NOTICE": "To jest fałszywe polecenie żartu!!!!",
     "sending": "Wysyłanie ataku do",
-    "successful": ";) ataku DDoS",
-    "lag": "Użytkownik ma opóźnienia?",
+    "successful": "Atak DDoS Sukces ;)",
+    "lag": "Użytkownik ma opóźnienie?",
     "no": "Nie?",
-    "failure": "Nie mogę :("
+    "failure": "Nie mogę :( ludzi"
   },
   "dice": {
     "landedOn": "**Wylądował na:**",
@@ -103,22 +114,22 @@
     "embedTitle": "📫 Masz pocztę!",
     "messageSent": "**Wiadomość wysłana!**",
     "messageSentFailed": "**Wysyłanie wiadomości nie powiodło się!**",
-    "dmsOff": "Prawdopodobnie mają swoje DM ustawione jako prywatne."
+    "dmsOff": "Prawdopodobnie mają swoje DM ustawione na prywatne."
   },
   "embed": {
-    "notice": "Powiadomienie od",
-    "posted": "**Osadź wysłane!**"
+    "notice": "Zawiadomienie od",
+    "posted": "**Embed opublikowane!**"
   },
   "embedBuilder": {
-    "embedTitle": "Konstruktor osadzania",
-    "embedDescription": "Witamy w interaktywnym narzędziu do osadzania. Użyj poniższych przycisków, aby zbudować osadzanie, po kliknięciu postu!",
+    "embedTitle": "Kreator osadzania",
+    "embedDescription": "Witamy w interaktywnym kreatorze osadzania. Użyj przycisków poniżej, aby zbudować osadzenie, po kliknięciu opublikuj!",
     "buttons": {
       "authorText": "Tekst autora",
       "titleText": "Tekst tytułu",
-      "titleURL": "Tytułowy adres URL",
-      "descriptionText": "Opis Tekst",
+      "titleURL": "Adres URL tytułu",
+      "descriptionText": "Tekst opisu",
       "footerText": "Tekst stopki",
-      "authorImage": "Obraz autora",
+      "authorImage": "Zdjęcie autora",
       "thumbnailImage": "Miniaturę",
       "largeImage": "Duży obraz",
       "footerImage": "Obraz stopki",
@@ -126,7 +137,7 @@
       "embedFields": "Osadzanie pól",
       "addTimestamp": "Dodaj sygnaturę czasową",
       "channelToPost": "Kanał do opublikowania",
-      "postEmbed": "Opublikuj osadzenie",
+      "postEmbed": "Publikowanie osadzania",
       "fieldName": "Nazwa pola",
       "fieldValue": "Wartość pola",
       "fieldInline": "Pole w wierszu",
@@ -136,30 +147,30 @@
     "responses": {
       "setAuthorText": "Na co chcesz ustawić tekst autora?",
       "setTitleText": "Na co chcesz ustawić tekst tytułu?",
-      "setTitleURL": "Na co chcesz ustawić tytułowy adres URL?",
+      "setTitleURL": "Na co chcesz ustawić adres URL tytułu?",
       "setDescriptionText": "Na co chcesz ustawić opis?",
-      "setFooterText": "Na co chcesz ustawić tekst stopki?",
+      "setFooterText": "Do czego chcesz ustawić tekst stopki?",
       "setAuthorImage": "Na co chcesz ustawić obraz autora?",
-      "setColor": "Na jaki kolor chcesz ustawić osadzanie?",
-      "setThumbnailImage": "Na co chcesz ustawić miniaturę?",
+      "setColor": "Jaki kolor chcesz ustawić osadzanie?",
+      "setThumbnailImage": "Do czego chcesz ustawić obraz miniatury?",
       "setLargeImage": "Na co chcesz ustawić duży obraz?",
-      "setFooterImage": "Na co chcesz ustawić obraz stopki?",
+      "setFooterImage": "Do czego chcesz ustawić obraz stopki?",
       "channelToPost": "Na jakim kanale chcesz to opublikować?",
-      "fieldName": "Jak powinno nazywać się to pole?",
+      "fieldName": "Jak powinno się nazywać to pole?",
       "fieldValue": "Jaka powinna być wartość tego pola?",
-      "embedPosted": "Osadź wysłane!"
+      "embedPosted": "Embed opublikowane!"
     }
   },
   "economy": {
     "crime": {
-      "cooldown": "Nie możesz teraz popełnić przestępstwa. Nadal jesteś na cooldownie.",
+      "cooldown": "Nie możesz teraz popełnić przestępstwa. Nadal trwa czas odnowienia.",
       "crimeResponses": [
         {
-          "text": "Pobiłeś kobietę w zaułku i dostałeś ",
+          "text": "Pobiłeś kobietę w alejce i dostałeś ",
           "amount": "10"
         },
         {
-          "text": "Zrobiłeś przejażdżkę na biggie ser i zrobiłeś ",
+          "text": "Zrobiłeś przejażdżkę na serze biggie i zrobiłeś ",
           "amount": "600"
         },
         {
@@ -167,28 +178,28 @@
           "amount": "19"
         },
         {
-          "text": "Podniosłeś bank i zrobiłeś ",
+          "text": "Podniosłeś bank i zarobiłeś ",
           "amount": "500"
         },
         {
-          "text": "Zrobiłeś kupę na sąsiadach i dostałeś ",
+          "text": "Zrobiłeś kupę na sąsiedzkim poarch i dostałeś ",
           "amount": "1"
         }
       ]
     },
     "work": {
-      "cooldown": "Nie możesz teraz pracować. Nadal jesteś na cooldownie.",
+      "cooldown": "Nie możesz teraz pracować. Nadal trwa czas odnowienia.",
       "workResponses": [
         {
           "text": "Posprzątałeś czyjś dom i zrobiłeś ",
           "amount": "138"
         },
         {
-          "text": "Pracowałeś na myjni i robiłeś ",
+          "text": "Pracowałeś w myjni i zrobiłeś ",
           "amount": "382"
         },
         {
-          "text": "Smażyłeś kurczaka na grillu dla sąsiadów i zrobiłeś ",
+          "text": "Smażyłeś kurczaka na grillu dla sąsiadów i robiłeś ",
           "amount": "18"
         },
         {
@@ -216,7 +227,7 @@
           "amount": "32"
         },
         {
-          "text": "Zmyłeś podłogę i zrobiłeś ",
+          "text": "Wytarłeś podłogę i zrobiłeś ",
           "amount": "20"
         },
         {
@@ -224,15 +235,15 @@
           "amount": "42"
         },
         {
-          "text": "Naśmiewałeś się z Jake'a Hamblina i robiłeś ",
+          "text": "Naśmiewałeś się z Jake'a Hamblina i zrobiłeś ",
           "amount": "25"
         },
         {
-          "text": "Napisałeś jakiś kod i zrobiłeś ",
+          "text": "Napisałeś trochę kodu i zrobiłeś ",
           "amount": "150"
         },
         {
-          "text": "Grałeś w turnieju e-sportowym i zrobiłeś ",
+          "text": "Grałeś w turnieju e-sportowym i osiągnąłeś ",
           "amount": "100"
         },
         {
@@ -240,11 +251,11 @@
           "amount": "62"
         },
         {
-          "text": "Składasz kosiarkę i robisz ",
+          "text": "Złożyłeś kosiarkę i zrobiłeś ",
           "amount": "250"
         },
         {
-          "text": "Obcinałeś komuś włosy i robiłeś ",
+          "text": "Obcięłaś komuś włosy i zrobiłaś ",
           "amount": "25"
         },
         {
@@ -254,17 +265,17 @@
       ]
     },
     "inventory": {
-      "emptyInventory": "Twoje zapasy są puste.",
+      "emptyInventory": "Twój inwentarz jest pusty.",
       "embedTitle": "Inwentaryzacja",
-      "selectItem": "Wybierz przedmiot z ekwipunku, aby go użyć.",
-      "items": "**Pozycje inwentarzowe:**",
+      "selectItem": "Wybierz przedmiot z asortymentu, aby go użyć.",
+      "items": "**Pozycje magazynowe:**",
       "clickToUse": "Kliknij, aby użyć tego elementu.",
-      "selectAction": "Wybierz element, aby go użyć."
+      "selectAction": "Wybierz element, którego chcesz użyć."
     },
     "rob": {
-      "cooldown": "Nie możesz teraz kogoś obrabować. Nadal jesteś na cooldownie.",
+      "cooldown": "Nie możesz teraz kogoś okraść. Nadal trwa czas odnowienia.",
       "tooLittleMoney": "Ten użytkownik ma zbyt mało pieniędzy, aby zostać okradzionym.",
-      "robbed": "Okradziłeś",
+      "robbed": "Okradłeś",
       "for": "dla",
       "robbery": "Rabunek",
       "amount": "Kwota",
@@ -272,41 +283,41 @@
     }
   },
   "games": {
-    "yourLink": "Oto Twój link!"
+    "yourLink": "Oto twój link!"
   },
   "giveaways": {
     "enter": "Kliknij, aby wejść!",
     "end": "Koniec",
     "reroll": "Ponowne rolowanie",
     "posted": "**Giveaway został opublikowany!**",
-    "embedTitle": "Nowy Giveaway!",
+    "embedTitle": "Nowy prezent!",
     "embedPrize": "**Nagroda:**",
-    "embedWinners": "**Zwycięzcy:**",
-    "embedTimeLimit": "**Limit czasu:**"
+    "embedWinners": "**Zwycięzców:**",
+    "embedTimeLimit": "**Termin:**"
   },
   "guilds": {
-    "leaveGuild": "Opuść gildię",
+    "leaveGuild": "Opuść Gildię",
     "embedTitle": "Lista gildii",
     "embedGuildName": "**○ Nazwa gildii:**",
     "embedGuildId": "**○ Identyfikator gildii:**",
-    "embedGuildMembers": "**○ Członkowie Gildii:**",
+    "embedGuildMembers": "**○ Członkowie gildii:**",
     "embedGuildOwnerTag": "**○ Tag właściciela gildii:**",
     "embedGuildOwnerId": "**○ Identyfikator właściciela gildii:**"
   },
   "help": {
     "selectAction": "Wybierz kategorię.",
     "embedTitle": "Menu Pomoc",
-    "defaultEmbedDesc": "Witamy w Dark Bot! Użyj tego menu, aby wyświetlić wszystkie moje polecenia i zobaczyć, co jest do zrobienia! Dostosowywanie powinno być dość łatwe!",
+    "defaultEmbedDesc": "Witamy w Dark Bot! Użyj tego menu, aby wyświetlić wszystkie moje polecenia i zobaczyć, co jest do zrobienia! Personalizacja powinna być dość łatwa!",
     "user": "🧑 Polecenia użytkownika",
-    "userDesc": "Wyświetl polecenia użytkownika, które ten bot ma do zaoferowania.",
+    "userDesc": "Zobacz polecenia użytkownika, które ten bot ma do zaoferowania.",
     "economy": "🏦 Polecenia ekonomiczne",
     "economyDesc": "Zobacz polecenia ekonomiczne, które ten bot ma do zaoferowania.",
     "music": "💿 Polecenia muzyczne",
-    "musicDesc": "Zobacz polecenia muzyczne, które ten bot ma do zaoferowania.",
-    "utility": "🧰 Polecenia narzędzia",
-    "utilityDesc": "Zobacz polecenia narzędziowe, które ten bot ma do zaoferowania.",
+    "musicDesc": "Zobacz polecenia muzyczne, które ma do zaoferowania ten bot.",
+    "utility": "🧰 Polecenia narzędziowe",
+    "utilityDesc": "Zobacz polecenia narzędziowe, które ma do zaoferowania ten bot.",
     "moderation": "👮 Polecenia moderacji",
-    "moderationDesc": "Zobacz polecenia moderacji, które ten bot ma do zaoferowania.",
+    "moderationDesc": "Zobacz polecenia moderacji, które ma do zaoferowania ten bot.",
     "settings": "🔧 Polecenia ustawień",
     "settingsDesc": "Wyświetl polecenia ustawień, które ten bot ma do zaoferowania.",
     "owner": "👑 Polecenia właściciela",
@@ -314,8 +325,8 @@
     "credits": "📜 Kredyty",
     "creditsDesc": "Zobacz kredyty tego bota.",
     "individualCommands": {
-      "embedTitle": "Pomoc poleceń",
-      "name": "**Imię i nazwisko:**",
+      "embedTitle": "Pomoc polecenia",
+      "name": "**Nazwa:**",
       "desc": "**Opis:**",
       "type": "**Typ:**",
       "slash": "ukośnik"
@@ -329,11 +340,11 @@
     "unknownUser": "Nieznany użytkownik (po lewej)",
     "lvl": "**Lvl:**",
     "xp": "**XP:**",
-    "embedTitle": "Tablica wyników czatu",
+    "embedTitle": "Ranking czatu",
     "requestedBy": "Na żądanie",
     "levelCommand": {
       "embedTitle": "Aktualny poziom użytkowników:",
-      "currentXp": "**Aktualny XP:**",
+      "currentXp": "**Aktualne XP:**",
       "currentLevel": "**Aktualny poziom:**",
       "noLevelData": "Ten użytkownik nie ma poziomu w tej gildii."
     },
@@ -344,28 +355,28 @@
     "actionLogs": "Dzienniki akcji",
     "enforcer": "Enforcer",
     "userId": "Identyfikator użytkownika",
-    "userTag": "Tag użytkownika",
+    "userTag": "Znacznik użytkownika",
     "reason": "Powód",
     "time": "Godzina",
     "timestamp": "Sygnatury czasowej",
     "channel": "Kanał",
     "command": "Polecenie",
     "options": "Opcje",
-    "noOptions": "Brak opcji.",
+    "noOptions": "Brak dostępnych opcji.",
     "types": {
-      "userBanned": "Użytkownik zablokowany",
-      "userOfflineBanned": "Użytkownik offline zablokowany",
-      "userKicked": "Użytkownik",
+      "userBanned": "Użytkownik zbanowany",
+      "userOfflineBanned": "Użytkownik Offline Zablokowany",
+      "userKicked": "Użytkownik wyrzucony",
       "userMuted": "Wyciszony użytkownik",
       "autoUnmute": "Automatyczne wyłączanie wyciszenia",
       "command": "Wprowadzono polecenie",
       "caseDeleted": "Sprawa usunięta",
-      "userUnbanned": "Użytkownik odblokowany",
-      "userUnmuted": "Użytkownik niewyciszony",
+      "userUnbanned": "Użytkownik Unban",
+      "userUnmuted": "Użytkownik wyłączony z wyciszenia",
       "userWarned": "Ostrzeżenie użytkownika",
       "filterSystem": "System filtrów",
-      "blacklistedTerm": "Termin na czarnej liście",
-      "levelUp": "Awans na wyższy poziom",
+      "blacklistedTerm": "Termin umieszczony na czarnej liście",
+      "levelUp": "Awans",
       "newLevel": "Nowy poziom"
     },
     "buttons": {
@@ -374,13 +385,13 @@
     "commandEmbed": {
       "embedTitle": "Rejestrowanie kanałów",
       "type": "**○ Typ dziennika:**",
-      "channel": "**○ Kanał dziennika:**",
-      "noChannel": "Brak kanałów jeszcze..."
+      "channel": "**○ Log Channel:**",
+      "noChannel": "Brak kanałów..."
     }
   },
   "music": {
     "loopIsNow": "Pętla jest teraz",
-    "noSongsPlaying": "Nie ma aktualnie odtwarzanych utworów.",
+    "noSongsPlaying": "Obecnie nie są odtwarzane żadne utwory.",
     "searching": "Wyszukiwanie...",
     "buttons": {
       "pause": "⏸️ Pauza",
@@ -390,7 +401,7 @@
       "shuffle": "🔀 Tasować"
     },
     "musicCmd": {
-      "embedTitle": "Aktualnie odtwarzane",
+      "embedTitle": "Obecnie odtwarzane",
       "name": "Nazwa",
       "duration": "Czas trwania",
       "requestor": "Żądającego",
@@ -399,26 +410,26 @@
   },
   "marriage": {
     "command": {
-      "selectAction": "Wybierz akt małżeństwa.",
+      "selectAction": "Wybierz działanie małżeńskie.",
       "send": "💌 Wyślij zapytanie",
-      "sendDesc": "Jeśli chcesz się z kimś ożenić.",
+      "sendDesc": "Jeśli chcesz kogoś poślubić.",
       "accept": "💍 Zaakceptuj propozycję",
       "acceptDesc": "Ktoś poprosił cię o rękę? Naprawdę?",
       "deny": "😭 Odrzuć propozycję",
       "denyDesc": "Jesteś okropną osobą, jeśli klikniesz to...",
-      "divorce": "⚖️ Weź rozwód",
+      "divorce": "⚖️ Uzyskaj rozwód",
       "divorceDesc": "Kto zabiera dzieci? Bo to nie będę ja.",
       "embedTitle": "System małżeński",
-      "embedDesc": "Zobacz system małżeństwa i wprowadź zmiany!"
+      "embedDesc": "Zobacz system małżeński i wprowadź zmiany!"
     }
   },
   "massrole": {
     "begin": "\"Massrole teraz inicjuje...\"",
-    "failed": "\"Massrole zawiódł...\"",
+    "failed": "\"Massrole nie powiodło się...\"",
     "missing": "**Brakujące uprawnienia!**"
   },
   "meme": {
-    "grabbing": "Chwytając cię mem...",
+    "grabbing": "Chwytając mem...",
     "hereYaGo": "Proszę bardzo!"
   },
   "mute": {
@@ -426,36 +437,36 @@
     "not": "Ten użytkownik nie jest wyciszony."
   },
   "offlineBan": {
-    "success": "Pomyślnie zbanowany"
+    "success": "Skutecznie zbanowany"
   },
   "payments": {
     "notify": "Powiadom nas, jeśli wybrałeś tę opcję.",
     "payment": "Płatność",
     "pleasePay": "Proszę zapłacić",
-    "location": "__one__ z powyższych metod płatności.",
+    "location": "__one__ powyższych metod płatności.",
     "otherOption": "Inna opcja"
   },
   "permissions": {
     "addPermission": "Dodaj uprawnienie",
     "embedTitle": "Menu Uprawnienia",
-    "type": "**○ Typ permu:**",
+    "type": "**○ Typ trwałej ondulacji:**",
     "role": "**○ Identyfikator roli:**",
-    "noPermsYet": "Nie ma jeszcze trwałej ondulacji..."
+    "noPermsYet": "Na razie bez trwałej ondulacji..."
   },
   "ping": {
     "message": "🏓 Opóźnienie wynosi:"
   },
   "pingPrevention": {
-    "selectAction": "Wybierz akcję zapobiegania pingom.",
-    "addPingPrev": "📫 Dodaj funkcję ochrony przed pingami",
-    "addPingPrevDesc": "Skonfiguruj funkcję zapobiegania pingom.",
-    "removePingPrev": "❌ Usuń funkcję Ping Prevention",
-    "removePingPrevDesc": "Usuń zapobieganie pingom.",
-    "embedTitle": "Menu zapobiegania pingom",
+    "selectAction": "Wybierz akcję zapobiegania pingowi.",
+    "addPingPrev": "📫 Dodaj zapobieganie pingom",
+    "addPingPrevDesc": "Skonfiguruj funkcję zapobiegania pingowi.",
+    "removePingPrev": "❌ Usuń zapobieganie pingom",
+    "removePingPrevDesc": "Usuń funkcję zapobiegania pingowi.",
+    "embedTitle": "Menu zapobiegania pingowi",
     "embedDesc": "Zarządzaj statusem zapobiegania pingom!"
   },
   "poll": {
-    "posted": "**Ankieta wysłana!**"
+    "posted": "**Ankieta opublikowana!**"
   },
   "punishments": {
     "noHistory": "Ten użytkownik nie ma historii kar!",
@@ -463,35 +474,35 @@
   },
   "purge": {
     "msgDeleted": "Wiadomości usunięte!",
-    "error": "**Błąd podczas usuwania wiadomości!**",
-    "reason": "Mogę usuwać tylko wiadomości sprzed 14 dni..."
+    "error": "**Błąd usuwania wiadomości!**",
+    "reason": "Mogę usuwać tylko wiadomości sprzed maksymalnie 14 dni..."
   },
   "queue": {
     "clearQueue": "Wyczyść kolejkę",
     "embedTitle": "Utwory w kolejce",
-    "noSongsQueued": "W kolejce nie ma żadnych utworów."
+    "noSongsQueued": "W kolejce nie ma piosenek."
   },
   "restart": {
     "restarting": "Ponowne uruchamianie klienta",
-    "restartingDesc": "**Ponowne uruchamianie klienta...**",
+    "restartingDesc": "**Ponowne uruchomienie klienta...**",
     "success": "Ponowne uruchomienie klienta powiodło się",
-    "successDesc": "**Klient został pomyślnie ponownie uruchomiony!**",
+    "successDesc": "**Klient został pomyślnie zrestartowany!**",
     "failed": "Ponowne uruchomienie klienta nie powiodło się",
-    "private": "**Sprawdź swoje prywatne wiadomości!**",
+    "private": "**Proszę sprawdzić swoje prywatne wiadomości!**",
     "failed2": "**Ponowne uruchomienie klienta nie powiodło się...**"
   },
   "reviews": {
     "reply": "Odpowiedz",
-    "newReview": "Nowa recenzja z",
+    "newReview": "Nowa recenzja od",
     "posted": "Twoja opinia została opublikowana."
   },
   "selfroles": {
     "addMenu": "Dodaj menu",
     "roleManager": "Menedżer ról",
-    "postPanel": "Post Panel",
+    "postPanel": "Panel postów",
     "embedTitle": "Menu ról własnych",
     "menuName": "**○ Nazwa menu:**",
-    "noMenus": "Brak menu jeszcze..."
+    "noMenus": "Brak menu..."
   },
   "server": {
     "serverInfo": "Informacje o serwerze",
@@ -506,46 +517,46 @@
   },
   "settings": {
     "selectAction": "Wybierz opcję ustawień.",
-    "base": "📕 Moduły bazowe",
+    "base": "📕 Moduły podstawowe",
     "baseDesc": "Zmień podstawowe moduły dla tej gildii.",
-    "security": "📘 Moduły zabezpieczeń",
+    "security": "📘 Moduły bezpieczeństwa",
     "securityDesc": "Zmień moduły bezpieczeństwa dla tej gildii.",
     "fun": "📙 Zabawne moduły",
-    "funDesc": "Zmień zabawne moduły dla tej gildii.",
-    "embedTitle": "Menu Ustawienia",
-    "embedDesc": "Zobacz menu ustawień i wprowadź zmiany!"
+    "funDesc": "Zmień moduły zabawy dla tej gildii.",
+    "embedTitle": "Menu ustawień",
+    "embedDesc": "Wyświetl menu ustawień i wprowadź zmiany!"
   },
   "shop": {
     "empty": "Sklep jest pusty.",
     "shop": "Sklep",
     "select": "Wybierz przedmiot ze sklepu, aby go kupić.",
-    "shopItems": "**Przedmioty w sklepie:**",
+    "shopItems": "**Kupuj przedmioty:**",
     "click": "Kliknij, aby kupić ten przedmiot.",
     "selectAction": "Wybierz przedmiot, aby go kupić."
   },
   "snipe": {
-    "noMessage": "Na tym kanale nie ma żadnych wiadomości do snajperowania!",
+    "noMessage": "Na tym kanale nie ma żadnych wiadomości do snajpera!",
     "messageFrom": "Wiadomość od",
-    "snipedBy": "Sniped przez"
+    "snipedBy": "Snajper przez"
   },
   "sticky": {
-    "selectAction": "Wybierz akcję z przyklejoną wiadomością.",
-    "add": "🍯 Dodaj Lepki",
-    "addDesc": "Dodaj przyklejoną wiadomość do bazy danych.",
-    "remove": "❌ Usuń Sticky",
-    "removeDesc": "Usuń przyklejoną wiadomość z bazy danych.",
-    "embedTitle": "Menu lepkich wiadomości",
-    "embedDesc": "Dodaj/Usuń lepkie wiadomości do/z bazy danych!"
+    "selectAction": "Wybierz akcję Lepka wiadomość.",
+    "add": "🍯 Dodaj Przyklejony",
+    "addDesc": "Dodaj komunikat programu Sticky do bazy danych.",
+    "remove": "❌ Usuń lepki",
+    "removeDesc": "Usuń wiadomość samoprzylepną z bazy danych.",
+    "embedTitle": "Sticky Message Menu",
+    "embedDesc": "Dodaj/Usuń przyklejone wiadomości do/z bazy danych!"
   },
   "suggestion": {
     "recieved": "**Sugestia otrzymana!**",
-    "embedTitle": "Nowa sugestia!",
-    "noChan": "Ta gildia nie skonfigurowała jeszcze logowania sugestii."
+    "embedTitle": "Nowa propozycja!",
+    "noChan": "Ta gildia nie skonfigurowała jeszcze rejestrowania sugestii."
   },
   "tickets": {
     "noTickets": "Ta gildia nie ma jeszcze skonfigurowanych żadnych kategorii biletów.",
     "embedTitle": "Kategorie biletów",
-    "embedDesc": "Oto kategorie biletów dla tej gildii. Wybierz jeden, aby otworzyć bilet w tej kategorii.",
+    "embedDesc": "Oto kategorie biletów dla tej gildii. Wybierz jedną z nich, aby otworzyć bilet w tej kategorii.",
     "selectAction": "Wybierz kategorię biletu."
   },
   "ticketbuttons": {
@@ -564,22 +575,22 @@
     "embedTitle": "Panele biletowe",
     "panelName": "**○ Nazwa panelu:**",
     "panelDesc": "**○ Opis panelu:**",
-    "noPanels": "Brak paneli jeszcze..."
+    "noPanels": "Na razie nie ma paneli..."
   },
   "timer": {
-    "set": "Zestaw timerów!",
-    "up": "Timer Up!",
+    "set": "Zestaw timera!",
+    "up": "Zegar w górę!",
     "remind": "Przypomnę w",
     "to": "do",
     "timer": "Godzin",
-    "time": "**Czas: **",
-    "note": "**Uwaga: **",
+    "time": "**Godzina:**",
+    "note": "**Nuta:**",
     "ended": "**Timer zakończony**"
   },
   "tos": {
     "agree": "Zgadzam się",
     "tos": "Warunki korzystania z usługi",
-    "confirm": "Proszę **potwierdzić** że zgadzasz się na **[Warunki korzystania z usługi]",
+    "confirm": "Proszę **potwierdzić**, że zgadzasz się na **[Warunki korzystania z usługi]",
     "confirm2": "** \nnaciskając niebieski przycisk poniżej z napisem \"Zgadzam się\"."
   },
   "user": {
@@ -618,24 +629,24 @@
   },
   "commands": {
     "eightBall": {
-      "name": "8ball",
+      "name": "8piłka",
       "description": "Porozmawiaj z Bogiem.",
       "options": [
         {
           "name": "pytanie",
-          "description": "Pytanie, które należy zadać 🎱 piłce.",
+          "description": "Pytanie do zadawania 🎱 piłce.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
       ]
     },
     "afk": {
-      "name": "afk",
+      "name": "AFK",
       "description": "Przełącz swój status AFK."
     },
     "applicationmenu": {
-      "name": "applicationmenu",
-      "description": "Zarządzaj aplikacjami tej gildii."
+      "name": "applicationmenu,",
+      "description": "Zarządzaj aplikacjami gildii."
     },
     "apply": {
       "name": "zastosować",
@@ -647,7 +658,7 @@
       "options": [
         {
           "name": "Tekst",
-          "description": "Tekst do konwersji na ascii.",
+          "description": "Tekst do przekonwertowania na ascii.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -655,11 +666,11 @@
     },
     "avatar": {
       "name": "awatar",
-      "description": "Uzyskaj awatar użytkownika.",
+      "description": "Pobierz awatar użytkownika.",
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik, aby uzyskać awatar.",
+          "description": "Użytkownik, aby uzyskać awatara.",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         }
@@ -667,7 +678,7 @@
     },
     "balance": {
       "name": "saldo",
-      "description": "Wyświetl saldo konta."
+      "description": "Wyświetlanie salda konta."
     },
     "ban": {
       "name": "ban",
@@ -675,13 +686,13 @@
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik do bana z tej gildii.",
+          "description": "Użytkownik do banowania z tej gildii.",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         },
         {
           "name": "powód",
-          "description": "Powód zablokowania użytkownika.",
+          "description": "Powód zbanowania użytkownika.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -693,11 +704,11 @@
     },
     "case": {
       "name": "przypadek",
-      "description": "Wyświetlanie informacji o sprawach.",
+      "description": "Wyświetl informacje o sprawach.",
       "options": [
         {
           "name": "case_id",
-          "description": "Identyfikator sprawy do wyświetlenia.",
+          "description": "Identyfikator sprawy do obejrzenia.",
           "required": "prawdziwy",
           "type": "LICZBA CAŁKOWITA"
         }
@@ -705,11 +716,11 @@
     },
     "clientmenu": {
       "name": "clientmenu",
-      "description": "Zarządzaj klientami tej gildii."
+      "description": "Zarządzaj klientami gildii."
     },
     "clients": {
       "name": "Klientów",
-      "description": "Zobacz klientów tej gildii."
+      "description": "Zobacz to klienci gildii."
     },
     "credits": {
       "name": "Kredyty",
@@ -720,7 +731,7 @@
       "description": "Popełnić przestępstwo."
     },
     "ddos": {
-      "name": "ddos",
+      "name": "DDoS",
       "description": "Wyślij atak 😉 DDoS!",
       "options": [
         {
@@ -759,13 +770,13 @@
       "options": [
         {
           "name": "kanał",
-          "description": "Kanał, na którym chcesz opublikować osadzenie.",
+          "description": "Kanał, w którym ma zostać opublikowane osadzenie.",
           "required": "prawdziwy",
           "type": "KANAŁ"
         },
         {
           "name": "Komunikat",
-          "description": "Wiadomość do powiedzenia w osadzaniu.",
+          "description": "Wiadomość do powiedzenia w osadzeniu.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -773,7 +784,7 @@
     },
     "embedbuilder": {
       "name": "embedbuilder",
-      "description": "Otwórz interaktywny konstruktor osadzania wiadomości."
+      "description": "Otwórz kreator osadzania wiadomości interaktywnych."
     },
     "games": {
       "name": "igrzyska",
@@ -790,7 +801,7 @@
               "value": "poker"
             },
             {
-              "name": "Youtube",
+              "name": "Kanał Youtube",
               "value": "youtube"
             },
             {
@@ -806,7 +817,7 @@
               "value": "wędkarstwo"
             },
             {
-              "name": "Crazy 8",
+              "name": "Szalone 8's",
               "value": "Osiem"
             },
             {
@@ -814,24 +825,24 @@
               "value": "warcaby"
             },
             {
-              "name": "Kafelek Litery",
-              "value": "lettertile"
+              "name": "Kafelek Letter",
+              "value": "Płytka literowa"
             },
             {
-              "name": "Przekąska słowna",
-              "value": "skok słów"
+              "name": "Słowo Przekąska",
+              "value": "Wordsnack"
             },
             {
               "name": "Załoga Doodle",
-              "value": "doodlecrew"
+              "value": "Doodlecrew"
             },
             {
               "name": "Rzucanie zaklęć",
-              "value": "rzucanie zaklęć"
+              "value": "Rzucanie zaklęć"
             },
             {
-              "name": "Głowice szkicownicze",
-              "value": "Głowice szkicownicze"
+              "name": "Głowice szkicowe",
+              "value": "Głowice szkicowe"
             }
           ]
         }
@@ -849,19 +860,19 @@
         },
         {
           "name": "color_hex",
-          "description": "Kolor HEX na prezent. (Np. #FFFFFF)",
+          "description": "Kolor HEX na prezenty. (np. #FFFFFF)",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
         {
           "name": "nagroda",
-          "description": "Co zamierzasz rozdać.",
+          "description": "Co zamierzasz oddać.",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
         {
           "name": "time_limit",
-          "description": "Jak długo powinien trwać konkurs.",
+          "description": "Jak długo powinien trwać prezent.",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
@@ -875,11 +886,11 @@
     },
     "guilds": {
       "name": "Gildii",
-      "description": "Zobacz gildie, w których znajduje się ten bot."
+      "description": "Zobacz gildie, w których jest ten bot."
     },
     "help": {
       "name": "Pomoc",
-      "description": "Zobacz wszystkie polecenia i informacje o bocie!",
+      "description": "Zobacz wszystkie komendy i informacje o bocie!",
       "options": [
         {
           "name": "polecenie",
@@ -903,29 +914,29 @@
     },
     "inventory": {
       "name": "inwentaryzacja",
-      "description": "Wyświetl spis użytkowników."
+      "description": "Wyświetl spisy użytkowników."
     },
     "kick": {
       "name": "kopać",
-      "description": "Kopnij kogoś z tej gildii.",
+      "description": "Wykop kogoś z tej gildii.",
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik do kopnięcia z tej gildii.",
+          "description": "Użytkownik do wyrzucenia z tej gildii.",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         },
         {
           "name": "powód",
-          "description": "Powód kopnięcia użytkownika.",
+          "description": "Powód wyrzucenia użytkownika.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
       ]
     },
     "leaderboard": {
-      "name": "ranking",
-      "description": "Zobacz tabelę wyników na poziomie czatu na tym serwerze."
+      "name": "Tablica wyników",
+      "description": "Zobacz ranking poziomu czatu na tym serwerze."
     },
     "level": {
       "name": "poziom",
@@ -933,7 +944,7 @@
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik, aby wyświetlić poziom",
+          "description": "Użytkownik do wyświetlenia poziomu",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         }
@@ -949,7 +960,7 @@
     },
     "marriage": {
       "name": "małżeństwo",
-      "description": "Zobacz system ❤️ małżeństwa !"
+      "description": "Zobacz system ❤️ małżeński !"
     },
     "massrole": {
       "name": "massrole",
@@ -957,7 +968,7 @@
       "options": [
         {
           "name": "rola",
-          "description": "Rola, którą należy nadać każdemu członkowi.",
+          "description": "Rola, którą należy powierzyć każdemu członkowi.",
           "required": "prawdziwy",
           "type": "ROLA"
         }
@@ -965,7 +976,7 @@
     },
     "meme": {
       "name": "Taki sam",
-      "description": "Zdobądź mem!"
+      "description": "Zdobądź mema!"
     },
     "music": {
       "name": "muzyka",
@@ -973,7 +984,7 @@
       "options": [
         {
           "name": "play_song",
-          "description": "Piosenka do odtworzenia.",
+          "description": "Piosenka do zagrania.",
           "required": "fałszywy",
           "type": "STRUNA"
         }
@@ -991,7 +1002,7 @@
         },
         {
           "name": "Godzina",
-          "description": "Jak długo chcesz je wyciszyć. (Np.: 15m = 15 minut)",
+          "description": "Jak długo chcesz je wyciszyć. (np. 15m = 15 minut)",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
@@ -1004,8 +1015,8 @@
       ]
     },
     "offlineban": {
-      "name": "offlineban",
-      "description": "Zablokuj kogoś, kto nie należy do gildii.",
+      "name": "Offlineban",
+      "description": "Zablokuj kogoś, kto nie jest w gildii.",
       "options": [
         {
           "name": "user_id",
@@ -1015,7 +1026,7 @@
         },
         {
           "name": "powód",
-          "description": "Powód zablokowania użytkownika.",
+          "description": "Powód zbanowania użytkownika.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -1047,11 +1058,11 @@
     },
     "play": {
       "name": "grać",
-      "description": "Odtwórz muzykę ⏯️ .",
+      "description": "Odtwórz trochę muzyki ⏯️ .",
       "options": [
         {
           "name": "pieśń",
-          "description": "Piosenka do odtworzenia.",
+          "description": "Piosenka do zagrania.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -1063,7 +1074,7 @@
       "options": [
         {
           "name": "pytanie",
-          "description": "Pytanie sondażu.",
+          "description": "Pytanie o ankietę.",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
@@ -1131,7 +1142,7 @@
     },
     "punishments": {
       "name": "Kary",
-      "description": "Wyświetlanie historii spraw użytkowników.",
+      "description": "Wyświetlanie historii przypadków użytkowników.",
       "options": [
         {
           "name": "użytkownik",
@@ -1147,7 +1158,7 @@
       "options": [
         {
           "name": "kwota",
-          "description": "Liczba wiadomości do wyczyszczenia.",
+          "description": "# wiadomości do usunięcia.",
           "required": "prawdziwy",
           "type": "LICZBA CAŁKOWITA"
         }
@@ -1158,12 +1169,12 @@
       "description": "Wyświetl kolejkę muzyki."
     },
     "removecase": {
-      "name": "usuń skrzynkę",
-      "description": "Usuwanie sprawy z bazy danych.",
+      "name": "Zdejmij etui",
+      "description": "Usuń sprawę z bazy danych.",
       "options": [
         {
           "name": "case_id",
-          "description": "Identyfikator sprawy do usunięcia.",
+          "description": "Id sprawy do usunięcia.",
           "required": "prawdziwy",
           "type": "LICZBA CAŁKOWITA"
         }
@@ -1185,13 +1196,13 @@
         },
         {
           "name": "ocena",
-          "description": "Co oceniasz produkt na 5.",
+          "description": "Co oceniasz produkt z 5.",
           "required": "prawdziwy",
           "type": "LICZBA CAŁKOWITA"
         },
         {
           "name": "Komunikat",
-          "description": "Zostaw wiadomość z opinią.",
+          "description": "Zostaw wiadomość z recenzją.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -1199,7 +1210,7 @@
     },
     "rob": {
       "name": "okradać",
-      "description": "Okradzić użytkownika.",
+      "description": "Okradnij użytkownika.",
       "options": [
         {
           "name": "użytkownik",
@@ -1215,41 +1226,41 @@
       "options": [
         {
           "name": "kanał",
-          "description": "Kanał, na którym chcesz opublikować wiadomość.",
+          "description": "Kanał, na którym ma zostać opublikowana wiadomość.",
           "required": "prawdziwy",
           "type": "KANAŁ"
         },
         {
           "name": "Komunikat",
-          "description": "Przesłanie do powiedzenia.",
+          "description": "Wiadomość do powiedzenia.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
       ]
     },
     "selfroles": {
-      "name": "selfroles",
-      "description": "Ustaw role własne dla tej gildii."
+      "name": "Role własne",
+      "description": "Stwórz własne role dla tej gildii."
     },
     "server": {
       "name": "serwer",
-      "description": "Wyświetl informacje o tych serwerach."
+      "description": "Wyświetl informacje o tym serwerze."
     },
     "settings": {
       "name": "Ustawienia",
-      "description": "Zmodyfikuj ustawienia gildii."
+      "description": "Zmodyfikuj ustawienia tej gildii."
     },
     "shop": {
       "name": "sklep",
-      "description": "Zobacz sklep lub dokonaj zakupu."
+      "description": "Wyświetl sklep lub dokonaj zakupu."
     },
     "snipe": {
       "name": "bekas",
-      "description": "Pobierz ostatnią usuniętą wiadomość z tego kanału."
+      "description": "Pobierz ostatnią usuniętą wiadomość na tym kanale."
     },
     "sticky": {
       "name": "lepki",
-      "description": "Dodaj lub usuń przyklejone wiadomości."
+      "description": "Dodawanie lub usuwanie przyklejonych wiadomości."
     },
     "suggest": {
       "name": "sugerować",
@@ -1257,7 +1268,7 @@
       "options": [
         {
           "name": "sugestia",
-          "description": "Co sugerujesz.",
+          "description": "Co proponujesz.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -1268,12 +1279,12 @@
       "description": "Utwórz zgłoszenie."
     },
     "ticketbuttons": {
-      "name": "przyciski biletowe",
+      "name": "Przyciski biletów",
       "description": "Zobacz przydatne przyciski biletów."
     },
     "ticketpanels": {
-      "name": "panele biletów",
-      "description": "Skonfiguruj panele biletów dla tej gildii."
+      "name": "Panele biletowe",
+      "description": "Skonfiguruj panele biletowe dla tej gildii."
     },
     "timer": {
       "name": "Godzin",
@@ -1281,7 +1292,7 @@
       "options": [
         {
           "name": "Godzina",
-          "description": "Czas wyłączenia timera (np. 1h = 1 godzina, 1m = 1 minuta, 5s = 5 sekund)",
+          "description": "Czas wyłączenia stopera. (np. 1 godz. = 1 godzina, 1 m = 1 minuta, 5 s = 5 sekund)",
           "required": "prawdziwy",
           "type": "STRUNA"
         },
@@ -1306,12 +1317,12 @@
       ]
     },
     "unban": {
-      "name": "odbanowanie",
+      "name": "Odblokuj",
       "description": "Odblokuj kogoś z tej gildii.",
       "options": [
         {
           "name": "użytkownik",
-          "description": "Identyfikator użytkownika do odbanowania z tej gildii.",
+          "description": "Identyfikator użytkownika do odblokowania z tej gildii.",
           "required": "prawdziwy",
           "type": "STRUNA"
         }
@@ -1323,7 +1334,7 @@
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik do wyłączenia wyciszenia z tej gildii.",
+          "description": "Użytkownik, aby wyłączyć wyciszenie z tej gildii.",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         }
@@ -1331,7 +1342,7 @@
     },
     "user": {
       "name": "użytkownik",
-      "description": "Wyświetlanie informacji o użytkownikach.",
+      "description": "Wyświetlanie informacji o użytkowniku.",
       "options": [
         {
           "name": "użytkownik",
@@ -1347,7 +1358,7 @@
       "options": [
         {
           "name": "wartość",
-          "description": "Piosenka do odtworzenia.",
+          "description": "Piosenka do zagrania.",
           "required": "prawdziwy",
           "type": "LICZBA CAŁKOWITA"
         }
@@ -1359,7 +1370,7 @@
       "options": [
         {
           "name": "użytkownik",
-          "description": "Użytkownik, aby ostrzec.",
+          "description": "Użytkownik ostrzega.",
           "required": "prawdziwy",
           "type": "UŻYTKOWNIK"
         },
@@ -1373,7 +1384,7 @@
     },
     "wink": {
       "name": "mrugnięcie",
-      "description": "Wyślij komuś gif mrugnięcia okiem."
+      "description": "Wyślij komuś mrugający gif."
     },
     "work": {
       "name": "praca",
@@ -1386,9 +1397,9 @@
     "someone": "ktoś",
     "guilds": {
       "join": "📥 Gildia dołączyła!",
-      "leave": "📤 Gildia odeszła!",
+      "leave": "📤 Gildia w lewo!",
       "name": "**○ Imię i nazwisko:**",
-      "id": "**○ Id:**"
+      "id": "**○ Identyfikator:**"
     },
     "updated": {
       "before": "Przed zmianami",
@@ -1399,12 +1410,12 @@
       "id": "Id",
       "created": "Utworzono",
       "color": "Kolor",
-      "hoisted": "Podnoszony",
+      "hoisted": "Podniesiony",
       "position": "Pozycja",
-      "mentionable": "Godny wzmianki"
+      "mentionable": "Wzmianka"
     },
     "channels": {
-      "created": "Utworzono kanał",
+      "created": "Utworzony kanał",
       "deleted": "Kanał usunięty",
       "updated": "Zaktualizowano kanał",
       "id": "Identyfikator kanału",
@@ -1417,37 +1428,37 @@
       "members": "Członków",
       "users": "Użytkowników",
       "sorry": "Przepraszam",
-      "lockdown": "jest obecnie w zamknięciu! Spróbuj dołączyć ponownie za kilka godzin lub skontaktuj się z administratorem na zewnątrz, aby zobaczyć, co słychać!\n\nMożliwe, że właściciel po prostu zapomniał wyłączyć blokadę serwera, niezależnie od tego, że zostało to zarejestrowane i jestem pewien, że serwer zostanie wkrótce ponownie otwarty.",
-      "lockdownMode": "Serwer jest w trybie lockdownu!",
+      "lockdown": "jest obecnie pod blokadą! Spróbuj dołączyć ponownie za kilka godzin lub skontaktuj się z administratorem zewnętrznym, aby zobaczyć, co słychać!\n\nMożliwe, że właściciel po prostu zapomniał wyłączyć blokadę serwera, niezależnie od tego, że zostało to zarejestrowane i jestem pewien, że serwer będzie wkrótce ponownie otwarty.",
+      "lockdownMode": "Serwer jest w trybie lockdown!",
       "lockdownTitle": "🔒 Blokada serwera!",
-      "lockdownRemoval": "Usunięcie blokady!",
+      "lockdownRemoval": "Usuwanie blokady!",
       "reason": "Powód",
       "action": "Akcja",
       "user": "Użytkownik",
       "kicked": "Kopnął",
       "sl": "Blokada serwera!",
-      "altDetected": "Wykryto konto Alt!",
+      "altDetected": "Wykryto konto alternatywne!",
       "removalTitle": "Zostałeś usunięty!",
       "removal1": "Zostałeś usunięty z",
-      "removal2": "ponieważ Twoje konto nie spełnia wymagań wiekowych konta gildii.",
+      "removal2": "ponieważ twoje konto nie spełnia wymagań wiekowych konta gildii.",
       "join": "dołączył do serwera!",
-      "joinEmbedTitle": "Witaj Użytkowniku!"
+      "joinEmbedTitle": "Witaj użytkowniku!"
     },
     "messages": {
       "deleted": "Wiadomość usunięta",
       "channel": "Kanał",
       "content": "Treść wiadomości",
       "noContent": "Brak treści",
-      "updated": "Zaktualizowano wiadomość",
+      "updated": "Wiadomość zaktualizowana",
       "noAfk": "nie jesteś już oznaczony AFK w tej gildii.",
       "isAfk": "jest obecnie AFK...",
       "pingedBy": "Pingowane przez",
-      "pingPrev": "❤️ System zapobiegania pingom",
+      "pingPrev": "❤️ System zapobiegania pingowi",
       "mail": "📫 Masz pocztę!",
       "pleaseDont": "Proszę mnie nie pingować, mam życie, tak jak Ty :]"
     },
     "roles": {
-      "created": "Utworzono rolę",
+      "created": "Utworzona rola",
       "deleted": "Rola usunięta",
       "updated": "Zaktualizowano rolę",
       "id": "Identyfikator roli",
@@ -1465,13 +1476,13 @@
       "moved": "przeniesiony z",
       "to": "do",
       "deafened": "ogłuszony",
-      "undeafened": "nie ogłuszony",
+      "undeafened": "nieogłuszony",
       "muted": "Wyciszony",
-      "unmuted": "nie wyciszony",
+      "unmuted": "niewyciszony",
       "stopped": "zatrzymał ich wideo",
       "started": "rozpoczęli swój film",
-      "stream": "rozpoczęto streaming",
-      "stopstream": "wstrzymano przesyłanie strumieniowe"
+      "stream": "Rozpoczęto przesyłanie strumieniowe",
+      "stopstream": "Zatrzymał przesyłanie strumieniowe"
     }
   },
   "components": {
@@ -1479,21 +1490,21 @@
       "notasked": "Nie jesteś proszony o wyrażenie zgody na Warunki korzystania z usługi",
       "notasked2": "jest proszony o",
       "agreed": "Uzgodniony",
-      "hasAgreed": "zaakceptował Regulamin"
+      "hasAgreed": "wyraża zgodę na Warunki świadczenia usług"
     },
     "appAccept": {
       "button": "Zaakceptowane przez",
       "err": "Nie udało mi się znaleźć tej aplikacji.",
-      "embedTitle": "✅ Zgłoszenie przyjęte",
-      "app": "**Zastosowanie:**",
-      "message": "**Wiadomość:**"
+      "embedTitle": "✅ Wniosek przyjęty",
+      "app": "**Aplikacja:**",
+      "message": "**Komunikat:**"
     },
     "appDeny": {
-      "denied": "Odmowa przez",
+      "denied": "Odrzucone przez",
       "unable": "Nie udało mi się znaleźć tej aplikacji.",
-      "title": "❌ Odmowa aplikacji",
-      "app": "**Zastosowanie:**",
-      "message": "**Wiadomość:**"
+      "title": "❌ Wniosek odrzucony",
+      "app": "**Aplikacja:**",
+      "message": "**Komunikat:**"
     },
     "appMenuAdd": {
       "title": "Stwórz aplikację!",
@@ -1501,13 +1512,13 @@
       "here": "Wprowadź tutaj nazwę aplikacji.",
       "am": "Zaakceptowana wiadomość",
       "dm": "Odrzucona wiadomość",
-      "aam": "Wprowadź wiadomość, którą użytkownik powinien otrzymać, jeśli zostanie tutaj zaakceptowany.",
-      "ddm": "Wprowadź wiadomość, którą użytkownik powinien otrzymać, jeśli zostanie odrzucony w tym miejscu."
+      "aam": "Wprowadź wiadomość, którą powinien otrzymać użytkownik, jeśli zostanie zaakceptowany tutaj.",
+      "ddm": "Wprowadź wiadomość, którą powinien otrzymać użytkownik, jeśli zostanie odrzucony."
     },
     "appMenuBack": {
       "title": "Menu aplikacji",
-      "name": "○ Nazwa:",
-      "noapps": "Brak aplikacji jeszcze..."
+      "name": "○ Imię i nazwisko:",
+      "noapps": "Brak aplikacji..."
     },
     "appMenuCreate": {
       "created": "Aplikacja stworzona!"
@@ -1517,8 +1528,8 @@
     },
     "appMenuGoHome": {
       "title": "Menu aplikacji",
-      "name": "○ Nazwa:",
-      "noapps": "Brak aplikacji jeszcze...",
+      "name": "○ Imię i nazwisko:",
+      "noapps": "Brak aplikacji...",
       "questions": "Pytania",
       "createform": "Utwórz formularz"
     },
@@ -1527,14 +1538,14 @@
       "add": "Dodaj pytanie",
       "app": "○ Aplikacja:",
       "question": "○ Pytanie:",
-      "noQuestion": "Nie powstały jeszcze żadne pytania."
+      "noQuestion": "Nie utworzono jeszcze żadnych pytań."
     },
     "appMenuQuestionsAdd": {
       "added": "Pytanie dodane!",
       "invalid": "Nieprawidłowa aplikacja.",
       "input": "Wprowadź pytanie, które chcesz dodać do aplikacji.",
       "cancel": "Anulowane.",
-      "error": "Błąd dodawania pytania. Spróbuj ponownie, upewnij się, że nie dołączasz emotikonów do swoich pytań."
+      "error": "Błąd dodawania pytania. Spróbuj ponownie, upewnij się, że nie umieszczasz emotikonów w swoich pytaniach."
     },
     "appMenuQuestionsDelete": {
       "deleted": "Pytanie usunięte!",
@@ -1543,7 +1554,7 @@
     "appSelect": {
       "noQuestions": "Ta aplikacja nie ma jeszcze żadnych pytań.",
       "pleaseAnswer": "Odpowiedz na poniższe pytania najlepiej jak potrafisz.",
-      "started": "Aplikacja uruchomiona w DM.",
+      "started": "Aplikacja została uruchomiona w DM.",
       "cancel": "Anulowane.",
       "date": "Data przesłania",
       "submitted": "Zgłoszenie złożone!",
@@ -1553,39 +1564,39 @@
     },
     "backingDeposit": {
       "noInput": "Wprowadź kwotę, którą chcesz wpłacić do banku.",
-      "notValid": "Wprowadź prawidłowy numer.",
-      "notValid2": "**Podaj prawidłowy numer.**\nSpróbuj ponownie...",
-      "notEnough": "**To więcej niż masz w równowadze.**\nSpróbuj ponownie...",
-      "deposited": "**Zdeponowane ",
+      "notValid": "Wprowadź prawidłową liczbę.",
+      "notValid2": "**Wprowadź prawidłową liczbę.**\nSpróbuj ponownie...",
+      "notEnough": "**To więcej niż masz w swoim bilansie.**\nSpróbuj ponownie...",
+      "deposited": "**Złożony ",
       "deposited1": " do banku.**",
-      "logAuthor": " - Depozyt",
+      "logAuthor": " -Wpłata",
       "amount": "Kwota"
     },
     "bankingTransfer": {
-      "user": "Podaj użytkownika, do którego chcesz przelać tę walutę.",
-      "aUser": "Podaj kwotę, którą chcesz przekazać temu użytkownikowi.",
-      "valUser": "Podaj prawidłowego użytkownika.",
-      "valNumber": "Wprowadź prawidłowy numer.",
-      "valNumber1": "**Podaj prawidłowy numer.**\nSpróbuj ponownie...",
-      "notEnough": "**To więcej niż masz w równowadze.**\nSpróbuj ponownie...",
+      "user": "Podaj użytkownika, któremu chcesz przelać tę walutę.",
+      "aUser": "Podaj kwotę, którą chcesz przelać temu użytkownikowi.",
+      "valUser": "Wprowadź poprawnego użytkownika.",
+      "valNumber": "Wprowadź prawidłową liczbę.",
+      "valNumber1": "**Wprowadź prawidłową liczbę.**\nSpróbuj ponownie...",
+      "notEnough": "**To więcej niż masz w swoim bilansie.**\nSpróbuj ponownie...",
       "Done": " Przeniesione!**",
-      "logAuthor": " - Transfer",
+      "logAuthor": " -Przelać",
       "reciever": "Odbiornik"
     },
     "bankingWithdraw": {
       "iAmount": "Wprowadź kwotę, którą chcesz wypłacić z banku.",
-      "number": "Wprowadź prawidłowy numer.",
-      "valNumber": "**Podaj prawidłowy numer.**\nSpróbuj ponownie...",
+      "number": "Wprowadź prawidłową liczbę.",
+      "valNumber": "**Wprowadź prawidłową liczbę.**\nSpróbuj ponownie...",
       "notEnough": "**To więcej niż masz w swoim banku.**\nSpróbuj ponownie...",
       "Withdrew": "**Wycofał się ",
       "Withdrew1": " od tyłu.**",
-      "logAuthor": " - Wycofał się"
+      "logAuthor": " -Wycofał się"
     },
     "birthdayAdd": {
       "already": "Zarejestrowałeś już urodziny w tej gildii.",
-      "date": "Proszę podać swoją datę urodzenia.\n**Uwaga:** Musi być sformatowany w następujący sposób: \"MM-DD-RRRR\", w przeciwnym razie **nie zadziała**.",
+      "date": "Proszę podać swoją datę urodzenia.\n** Uwaga:** Musi być sformatowany w następujący sposób: \"MM-DD-RRRR\", w przeciwnym razie **nie będzie działać**.",
       "cancel": "Anulowane.",
-      "added": "**Dodano urodziny!**"
+      "added": "**Urodziny dodane!**"
     },
     "birthdayRemove": {
       "noBday": "Nie zarejestrowałeś urodzin w tej gildii.",
@@ -1594,11 +1605,11 @@
     "birthdaySystem": {
       "title": "🥳 Wszystkiego najlepszego z okazji urodzin!",
       "its": "To jest",
-      "bday": "Urodziny już dziś! Życzmy im wszystkiego najlepszego z okazji urodzin i świętujmy!\n\n**Data:**"
+      "bday": "Urodziny dzisiaj! Życzmy im wszystkiego najlepszego z okazji urodzin i świętujmy!\n\n**Data:**"
     },
     "clientAdd": {
-      "user": "Wspomnij o użytkowniku, którego chcesz dodać jako klienta.",
-      "iUser": "Nieprawidłowy użytkownik.\nWspomnij o użytkowniku, którego chcesz dodać jako klienta.",
+      "user": "Podaj użytkownika, którego chcesz dodać jako klienta.",
+      "iUser": "Nieprawidłowy użytkownik.\nPodaj użytkownika, którego chcesz dodać jako klienta.",
       "already": "Ten użytkownik jest już zarejestrowanym klientem.",
       "added": "📥 Dodano klienta",
       "done": "został \"dodany\" jako klient.",
@@ -1606,46 +1617,46 @@
     },
     "clientRemove": {
       "noClients": "Ta gildia nie ma żadnych zarejestrowanych klientów.",
-      "mention": "Wspomnij o kliencie, którego chcesz usunąć.",
-      "iClient": "Nieprawidłowy użytkownik.\nWspomnij o kliencie, którego chcesz usunąć.",
+      "mention": "Podaj klienta, którego chcesz usunąć.",
+      "iClient": "Nieprawidłowy użytkownik.\nPodaj klienta, którego chcesz usunąć.",
       "notR": "Ten użytkownik nie jest zarejestrowanym klientem.",
       "removed": "📥 Klient usunięty",
       "dsec": "został \"usunięty\" jako klient.",
       "done": "**Klient usunięty!**"
     },
     "forceLeaveGuild": {
-      "left": "Lewa Gildia"
+      "left": "Lewa gildia"
     },
     "giveawayEnd": {
-      "end": "Kończąc rozdawnictwo, proszę czekać!",
+      "end": "Kończące się rozdawnictwo, proszę czekać!",
       "notCreator": "Nie jesteś twórcą tego prezentu!\nZostał stworzony przez:",
-      "ended": "Ten prezent już się zakończył.",
-      "notCreator1": "Ten prezent już się zakończył!\nZostał stworzony przez:",
+      "ended": "To rozdawanie już się skończyło.",
+      "notCreator1": "To rozdawanie już się skończyło!\nZostał stworzony przez:",
       "noExist": "Ten prezent nie istnieje w bazie danych..."
     },
     "giveawayEnter": {
-      "enter": "wszedł do konkursu! Teraz mamy",
+      "enter": "zgłosił się do konkursu! Teraz mamy",
       "entries": "Wpisy!",
-      "already": "Już wszedłeś! Obecnie mamy",
-      "notActive": "Ten prezent nie jest już aktywny."
+      "already": "Już weszliście! Obecnie mamy",
+      "notActive": "Ten konkurs nie jest już aktywny."
     },
     "giveawayRefresh": {
       "for": "Prezenty dla",
       "with": "z",
-      "finish": "zwycięzcy zresetowali licznik czasu z powodu ponownego uruchomienia bota!"
+      "finish": "Zwycięzcy mieli zresetowany licznik czasu z powodu ponownego uruchomienia bota!"
     },
     "giveawayReroll": {
       "wait": "Re-Rolling, proszę czekać!",
-      "consoleNumber": "Liczba zwycięzców prezentów nie jest liczbą...",
-      "title": "Giveaway Re-Rolled!",
-      "prize": "**Informacje**\nNagroda:",
+      "consoleNumber": "Liczba prezentów nie jest liczbą...",
+      "title": "Giveaway ponownie zwinięty!",
+      "prize": "**Informacja**\nNagroda:",
       "winners": "Zwycięzców:",
       "time": "Termin:",
-      "winners2": "**Zwycięzcy**",
-      "footer": "Rozdawanie przez: ",
-      "endError": "BŁĄD ZAKOŃCZENIA ROZDANIA: ",
+      "winners2": "**Zwycięzców**",
+      "footer": "Prezenty przez: ",
+      "endError": "BŁĄD ZAKOŃCZENIA PREZENTÓW: ",
       "uNot": "Nie stworzyłeś tego prezentu.",
-      "wait1": "Musisz poczekać, aż prezent się skończy, aby ponownie się przetoczyć!",
+      "wait1": "Musisz poczekać na zakończenie rozdawania, aby ponownie się rzucić!",
       "find": "Nie udało nam się znaleźć tego prezentu w bazie danych."
     },
     "helpPageSelect": {
@@ -1664,11 +1675,11 @@
       "options": {
         "welcome": {
           "label": "👋 Wiadomości powitalne",
-          "desc": "Ustaw kanał rejestrowania wiadomości powitalnych."
+          "desc": "Ustaw kanał rejestrowania dla wiadomości powitalnych."
         },
         "leave": {
           "label": "👋 Zostaw wiadomości",
-          "desc": "Ustaw kanał rejestrowania dla wiadomości o pozostawieniu."
+          "desc": "Ustaw kanał rejestrowania dla wiadomości o urlopie."
         },
         "member": {
           "label": "🔢 Liczba członków",
@@ -1695,8 +1706,8 @@
           "desc": "Ustawianie kanału rejestrowania dla dzienników zgłoszeń"
         },
         "message": {
-          "label": "(Dzienniki komunikatów M)️",
-          "desc": "Ustaw kanał rejestrowania dla dzienników komunikatów."
+          "label": "(Dzienniki wiadomości M)️",
+          "desc": "Ustaw kanał rejestrowania dla dzienników wiadomości."
         },
         "command": {
           "label": "🖨️ Dzienniki poleceń",
@@ -1707,11 +1718,11 @@
           "desc": "Ustaw kanał rejestrowania dla dzienników głosowych."
         },
         "alt": {
-          "label": "👻 Dzienniki zapobiegania alt",
-          "desc": "Ustaw kanał rejestrowania dla dzienników ochrony przed altami."
+          "label": "👻 Dzienniki zapobiegania alternatywom",
+          "desc": "Ustaw kanał rejestrowania dla dzienników zapobiegania alt."
         },
         "server": {
-          "label": "🔒 Logi serwera",
+          "label": "🔒 Dzienniki blokady serwera",
           "desc": "Ustaw kanał rejestrowania dla dzienników blokady serwera."
         },
         "filter": {
@@ -1731,7 +1742,7 @@
           "desc": "Ustaw kanał rejestrowania sugestii."
         },
         "birthday": {
-          "label": "🎉 Dzienniki urodzinowe",
+          "label": "🎉 Dzienniki urodzin",
           "desc": "Ustaw kanał rejestrowania wiadomości urodzinowych."
         },
         "application": {
@@ -1743,8 +1754,8 @@
           "desc": "Ustaw kanał rejestrowania dla dzienników ekonomicznych."
         },
         "eco": {
-          "label": "📈 Dzienniki level-up",
-          "desc": "Ustaw kanał rejestrowania dla dzienników podnoszenia poziomu."
+          "label": "📈 Dzienniki poziomów",
+          "desc": "Ustaw kanał rejestrowania dla dzienników poziomowania."
         },
         "other": {
           "label": "❓ Inne dzienniki",
@@ -1755,11 +1766,11 @@
     "loggingBack": {
       "title": "Rejestrowanie kanałów",
       "type": "**○ Typ dziennika:**",
-      "nochans": "Brak kanałów jeszcze...",
-      "chan": "**○ Kanał dziennika:**"
+      "nochans": "Brak kanałów...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingDelete": {
-      "content": "**Kanał rejestrowania usunięty**"
+      "content": "**Kanał logowania usunięty**"
     },
     "loggingHome": {
       "buttons": {
@@ -1768,46 +1779,46 @@
       },
       "title": "Rejestrowanie kanałów",
       "type": "**○ Typ dziennika:**",
-      "nochans": "Brak kanałów jeszcze...",
-      "chan": "**○ Kanał dziennika:**"
+      "nochans": "Brak kanałów...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingNext": {
       "title": "Rejestrowanie kanałów",
       "type": "**○ Typ dziennika:**",
-      "nochans": "Brak kanałów jeszcze...",
-      "chan": "**○ Kanał dziennika:**"
+      "nochans": "Brak kanałów...",
+      "chan": "**○ Log Channel:**"
     },
     "loggingSelectB": {
-      "provide": "Podaj kanał, do którego mają być kierowane te dzienniki.",
+      "provide": "Podaj kanał, do którego będą przechodzić te dzienniki.",
       "cancel": "Anulowane.",
-      "invalid": "**Podany nieprawidłowy kanał, spróbuj ponownie.**",
-      "created": "**Utworzono kanał rejestrowania!**\n**Typ:**",
+      "invalid": "**Podano nieprawidłowy kanał, spróbuj ponownie.**",
+      "created": "**Utworzono kanał logowania!**\n**Typ:**",
       "channel": "**Kanał:**"
     },
     "marriageAcceptProposal": {
       "already": "Jesteś już żonaty.",
-      "desc1": "Wspomnij o użytkowniku, od którego chcesz zaakceptować prośbę.",
+      "desc1": "Podaj użytkownika, od którego chcesz zaakceptować prośbę.",
       "cancel": "Anulowane.",
-      "self": "Możesz się ożenić.",
-      "never": "Ten użytkownik nigdy nie prosił o rękę...",
+      "self": "Możesz wyjść za mąż.",
+      "never": "Ten użytkownik nigdy nie poprosił o małżeństwo z tobą...",
       "title": "💘 Gratulacje!",
       "desc": "Twoja prośba o małżeństwo została zaakceptowana przez",
       "married": "Jesteś teraz żonaty z"
     },
     "marriageDenyProposal": {
       "already": "Jesteś już żonaty.",
-      "desc": "Wspomnij o użytkowniku, od którego chcesz odrzucić żądanie.",
+      "desc": "Podaj użytkownika, od którego chcesz odrzucić żądanie.",
       "cancel": "Anulowane.",
-      "deny": "Nie możesz zaprzeczyć sobie.",
-      "never": "Ten użytkownik nigdy nie prosił o rękę...",
+      "deny": "Nie możesz sobie zaprzeczyć.",
+      "never": "Ten użytkownik nigdy nie poprosił o małżeństwo z tobą...",
       "title": "😭 Przepraszamy!",
-      "desc1": "Twoja prośba o macierzyństwo została odrzucona przez",
+      "desc1": "Twoja prośba o małżeństwo została odrzucona przez",
       "denied": "Odrzuciłeś prośbę o małżeństwo od tego użytkownika."
     },
     "marriageDivorce": {
       "title": "⚖️ Zostałeś obsłużony!",
       "desc": "Twój współmałżonek,",
-      "divorced": ", właśnie się z tobą rozwiodła. Nic nie wiemy, jesteśmy tylko usługą 👀 dostawy.",
+      "divorced": ", właśnie się z tobą rozwiódł. Nic nie wiemy, jesteśmy tylko usługą 👀 dostawy.",
       "not": "Obecnie nie jesteś w związku małżeńskim.",
       "no": "Nie jesteś już żonaty."
     },
@@ -1816,7 +1827,7 @@
       "buttons": {
         "request": {
           "label": "💌 Wyślij zapytanie",
-          "desc": "Jeśli chcesz się z kimś ożenić."
+          "desc": "Jeśli chcesz kogoś poślubić."
         },
         "accept": {
           "label": "💍 Zaakceptuj propozycję",
@@ -1827,28 +1838,28 @@
           "desc": "Jesteś okropną osobą, jeśli klikniesz to..."
         },
         "divorce": {
-          "label": "⚖️ Weź rozwód",
+          "label": "⚖️ Uzyskaj rozwód",
           "desc": "Kto zabiera dzieci? Bo to nie będę ja."
         }
       }
     },
     "marriageSendRequest": {
       "already": "Jesteś już żonaty.",
-      "desc": "**Kogo chciałbyś poślubić?**\nUżyj symbolu \"@\", aby o nich wspomnieć.",
+      "desc": "**Kogo chciałbyś poślubić?**\nUżyj symbolu \"@\", aby je wymienić.",
       "cancel": "Anulowane.",
-      "self": "Nie możesz się ożenić.",
+      "self": "Nie możesz wyjść za mąż.",
       "bot": "Nie możesz poślubić bota, KROPKA.",
       "title": "💌 Prośba o małżeństwo",
-      "desc1": "poprosił o małżeństwo z TOBĄ!\n\nAby odpowiedzieć na tę prośbę, udaj się do",
-      "desc12": ", lub jakikolwiek inny kanał w tej gildii i uruchom \"/ małżeństwo\", aby zarządzać prośbą.",
-      "person": "Ta osoba jest już zamężna!",
-      "sent": "**Wysłano prośbę o małżeństwo.**\nBędą mieli 2 minuty na zaakceptowanie prośby o małżeństwo przed jej wygaśnięciem.",
-      "expired": "Prośba o małżeństwo, która została wysłana na adres",
+      "desc1": "poprosił o małżeństwo z TOBĄ!\n\nAby odpowiedzieć na tę prośbę, przejdź do",
+      "desc12": "lub dowolny inny kanał w tej gildii i uruchom \"/marriage\", aby zarządzać żądaniem.",
+      "person": "Ta osoba jest już w związku małżeńskim!",
+      "sent": "**Prośba o małżeństwo wysłana.**\nBędą mieli 2 minuty na zaakceptowanie twojego wniosku o małżeństwo przed jego wygaśnięciem.",
+      "expired": "Wniosek o zawarcie małżeństwa, który został wysłany do",
       "expired2": "Wygasła.\nJest ich mnóstwo 🐟 w 🌊 !"
     },
     "marriageSystem": {
       "con1": "Małżeństwo",
-      "con2": " oczekujące prośby o małżeństwo zostały usunięte."
+      "con2": " Oczekujące prośby o małżeństwo zostały usunięte."
     },
     "musicPause": {
       "vc": "Musisz być w kanale głosowym.",
@@ -1863,16 +1874,16 @@
       "buttons": {
         "label": "Kolejka wyczyszczona"
       },
-      "cleared": "Muzyka oczyszczona - "
+      "cleared": "Music Cleared - "
     },
     "musicShuffle": {
       "vc": "Musisz być w kanale głosowym.",
-      "shuffled": "Kolejka przetasowana - "
+      "shuffled": "Tasowanie kolejki — "
     },
     "musicSkip": {
       "vc": "Musisz być w kanale głosowym.",
-      "noSong": "Na tym serwerze nie ma odtwarzanej muzyki.",
-      "noSongQueue": "W kolejce nie ma już utworów, do których można przejść.",
+      "noSong": "Na tym serwerze nie ma muzyki odtwarzanej.",
+      "noSongQueue": "W kolejce nie ma już utworów, do których można by przejść.",
       "skipped": "Muzyka pominięta - "
     },
     "musicStop": {
@@ -1932,22 +1943,22 @@
       },
       "searchResult": {
         "search": "Wyniki wyszukiwania",
-        "choose": "**Wybierz opcję z poniższej listy**",
-        "else": "Wpisz cokolwiek innego lub poczekaj 60 sekund, aby cance"
+        "choose": "**Wybierz opcję z dołu**",
+        "else": "Wprowadź cokolwiek innego lub poczekaj 60 sekund, aby cance"
       },
       "iAnswer": {
         "invalid": "Nieprawidłowa odpowiedź",
-        "provided": "Nieprawidłowa odpowiedź udzielona do wyszukiwania."
+        "provided": "Podano nieprawidłową odpowiedź w wyszukiwaniu."
       }
     },
     "nextGuilds": {
       "buttons": {
-        "leave": "Opuść gildię"
+        "leave": "Opuść Gildię"
       },
       "title": "Lista gildii",
       "guildName": "**○ Nazwa gildii:**",
       "guildId": "**○ Identyfikator gildii:**",
-      "guildMembers": "**○ Członkowie Gildii:**",
+      "guildMembers": "**○ Członkowie gildii:**",
       "guildOwnerTag": "**○ Tag właściciela gildii:**",
       "guildOwnerId": "**○ Identyfikator właściciela gildii:**"
     },
@@ -1956,7 +1967,7 @@
       "options": {
         "admin": {
           "label": "🗝️ Administrator",
-          "desc": "Dodaj rolę administracyjną (NIEBEZPIECZNĄ)."
+          "desc": "Dodaj rolę administracyjną (DANGEROUS)."
         },
         "mod": {
           "label": "👮 ♂️ Prezenter",
@@ -1976,19 +1987,19 @@
         },
         "sticky": {
           "label": "🍯 Lepkie wiadomości",
-          "desc": "Dodaj rolę menedżera wiadomości."
+          "desc": "Dodaj rolę menedżera przyklejonych wiadomości."
         },
         "giveaway": {
           "label": "🎉 Menedżerowie prezentów",
-          "desc": "Dodaj rolę menedżera prezentów."
+          "desc": "Dodaj rolę menedżerów prezentów."
         },
         "client": {
           "label": "💰 Menedżerowie klientów",
-          "desc": "Dodaj rolę menedżera klienta."
+          "desc": "Dodaj rolę menedżerów klienta."
         },
         "ticket": {
-          "label": "🎟️ Obsługa zgłoszeń",
-          "desc": "Dodaj rolę personelu obsługi zgłoszeń."
+          "label": "🎟️ Wsparcie biletowe",
+          "desc": "Dodaj rolę personelu pomocy technicznej dotyczącej biletów."
         },
         "apps": {
           "label": "📜 Aplikacji",
@@ -2000,18 +2011,18 @@
         },
         "pingPrev": {
           "label": "🔕 Zapobieganie pingom",
-          "desc": "Dodaj rolę administratora i obejścia zapobiegania pingom."
+          "desc": "Dodaj rolę administratora zapobiegania pingowi i pomijania."
         }
       }
     },
     "permsBack": {
       "title": "Menu Uprawnienia",
-      "type": "**○ Typ permu:**",
-      "no": "Nie ma jeszcze trwałej ondulacji...",
+      "type": "**○ Typ trwałej ondulacji:**",
+      "no": "Na razie bez trwałej ondulacji...",
       "role": "**○ Identyfikator roli:**"
     },
     "permsDelete": {
-      "content": "**Pozwolenie usunięte**"
+      "content": "**Uprawnienie usunięte**"
     },
     "permsHome": {
       "buttons": {
@@ -2019,40 +2030,40 @@
         "delete": "Usuń zaznaczone"
       },
       "title": "Menu Uprawnienia",
-      "type": "**○ Typ permu:**",
-      "no": "Nie ma jeszcze trwałej ondulacji...",
+      "type": "**○ Typ trwałej ondulacji:**",
+      "no": "Na razie bez trwałej ondulacji...",
       "role": "**○ Identyfikator roli:**"
     },
     "permsNext": {
       "title": "Menu Uprawnienia",
-      "type": "**○ Typ permu:**",
-      "no": "Nie ma jeszcze trwałej ondulacji...",
+      "type": "**○ Typ trwałej ondulacji:**",
+      "no": "Na razie bez trwałej ondulacji...",
       "role": "**○ Identyfikator roli:**"
     },
     "permsSelect": {
       "provide": "Podaj rolę, którą chcesz przypisać/dodać dla tego uprawnienia.",
       "cancel": "Anuluj",
       "Cancelled": "Anulowane.",
-      "invalid": "**Podana nieprawidłowa rola, spróbuj ponownie.**",
-      "created": "**Utworzono pozwolenie!**",
+      "invalid": "**Podano nieprawidłową rolę, spróbuj ponownie.**",
+      "created": "**Utworzono uprawnienie!**",
       "type": "**Typ:**",
       "role": "**Rola:**"
     },
     "pingPreventionAdd": {
-      "already": "Skonfigurowałeś już zapobieganie pingom w tej gildii.",
-      "color": "Zdefiniuj **kolorowy szesnastkowy** dla osadzania funkcji zapobiegania pingom.",
+      "already": "Ustawiłeś już zapobieganie pingom w tej gildii.",
+      "color": "Zdefiniuj **kolor szesnastkowy** dla osadzania zapobiegania pingowi.",
       "cancel": "Anulowane.",
-      "provide": "**Podaj obraz do osadzenia.**\nLink musi kończyć się na \".png\", \".jpg\", \".webp\" itp.\nWpisz \"skip\", aby pominąć.",
-      "added": "**Dodano funkcję ping prevention!**"
+      "provide": "**Podaj obraz do umieszczenia na stronie.**\nLink musi kończyć się na \".png\", \".jpg\", \".webp\" itp.\nWpisz \"skip\", aby pominąć.",
+      "added": "**Dodano zapobieganie pingom!**"
     },
     "pingPreventionRemove": {
-      "no": "W tej gildii nie masz żadnych rekordów zapobiegania pingom.",
-      "removed": "**Usunięto funkcję Ping Prevention!**"
+      "no": "Nie masz żadnych rekordów zapobiegania pingowi w tej gildii.",
+      "removed": "**Usunięto zapobieganie pingom!**"
     },
     "punishBack": {
       "title": "Informacje o sprawie",
       "field1": "Identyfikator sprawy:",
-      "field2": "Typ obudowy:",
+      "field2": "Typ koperty:",
       "field3": "Enforcer:",
       "field4": "Użytkownik:",
       "field5": "Powód:",
@@ -2061,7 +2072,7 @@
     "punishNext": {
       "title": "Informacje o sprawie",
       "field1": "Identyfikator sprawy:",
-      "field2": "Typ obudowy:",
+      "field2": "Typ koperty:",
       "field3": "Enforcer:",
       "field4": "Użytkownik:",
       "field5": "Powód:",
@@ -2075,25 +2086,25 @@
     "selfRolesAdd": {
       "provide": "Podaj nazwę tego panelu ról własnych.",
       "cancel": "Anulowane.",
-      "created": "**Utworzono menu Ról własnych!**"
+      "created": "**Utworzono własne menu ról!**"
     },
     "selfRolesBack": {
       "title": "Menu ról własnych",
       "desc": "**○ Nazwa menu:**",
-      "noMenus": "Brak menu jeszcze..."
+      "noMenus": "Brak menu..."
     },
     "selfRolesDelete": {
-      "unable": "Nie byłem w stanie znaleźć menu ról własnych z tym identyfikatorem.",
-      "deleted": "**Usunięto menu Ról własnych!**"
+      "unable": "Nie udało mi się znaleźć menu ról własnych z tym identyfikatorem.",
+      "deleted": "**Usunięto menu ról własnych!**"
     },
     "selfRolesGoHome": {
       "addMenu": "Dodaj menu",
       "delete": "Usuń zaznaczone",
       "roleManager": "Menedżer ról",
-      "postPanel": "Post Panel",
+      "postPanel": "Panel postów",
       "title": "Menu ról własnych",
       "desc": "**○ Nazwa menu:**",
-      "noMenus": "Brak menu jeszcze..."
+      "noMenus": "Brak menu..."
     },
     "selfRolesManager": {
       "addRole": "Dodaj rolę",
@@ -2103,14 +2114,14 @@
       "menuName": "**○ Nazwa menu:**",
       "roleName": "**○ Nazwa roli:**",
       "roleId": "**○ Identyfikator roli:**",
-      "noRoles": "Nie ma jeszcze ról...",
-      "noMenus": "Brak menu jeszcze..."
+      "noRoles": "Na razie nie ma ról...",
+      "noMenus": "Brak menu..."
     },
     "selfRolesManagerAdd": {
       "provide": "Podaj rolę, którą chcesz dodać do panelu.",
       "cancel": "Anulowane.",
       "provide2": "Podaj prawidłową rolę.",
-      "created": "**Self Role Created!**"
+      "created": "**Stworzona rola własna!**"
     },
     "selfRolesManagerBack": {
       "no": "Nie ma menu ról dla tej gildii.",
@@ -2118,12 +2129,12 @@
       "menuName": "**○ Nazwa menu:**",
       "roleName": "**○ Nazwa roli:**",
       "roleId": "**○ Identyfikator roli:**",
-      "noRoles": "Nie ma jeszcze ról...",
-      "noMenus": "Brak menu jeszcze..."
+      "noRoles": "Na razie nie ma ról...",
+      "noMenus": "Brak menu..."
     },
     "selfRolesManagerDelete": {
       "unable": "Nie byłem w stanie znaleźć własnej roli w tym panelu.",
-      "deleted": "**Rola własna usunięta!**"
+      "deleted": "**Usunięto własną rolę!**"
     },
     "selfRolesManagerNext": {
       "no": "Nie ma menu ról dla tej gildii.",
@@ -2131,63 +2142,63 @@
       "menuName": "**○ Nazwa menu:**",
       "roleName": "**○ Nazwa roli:**",
       "roleId": "**○ Identyfikator roli:**",
-      "noRoles": "Nie ma jeszcze ról...",
-      "noMenus": "Brak menu jeszcze..."
+      "noRoles": "Na razie nie ma ról...",
+      "noMenus": "Brak menu..."
     },
     "selfRolesNext": {
       "title": "Menu ról własnych",
       "desc": "**○ Nazwa menu:**",
-      "noMenus": "Brak menu jeszcze..."
+      "noMenus": "Brak menu..."
     },
     "selfRolesPost": {
       "unable": "Nie udało mi się znaleźć wybranego panelu.",
-      "unable2": "Nie byłem w stanie sfinansować żadnych ról własnych w tym panelu.",
-      "desc": "Wybierz rolę, aby dodać ją lub usunąć z ról.",
+      "unable2": "Nie byłem w stanie sfinansować żadnych własnych ról w tym panelu.",
+      "desc": "Wybierz rolę, aby dodać ją lub usunąć ze swoich ról.",
       "place": "Wybierz rolę.",
       "provide": "Podaj kanał, na którym chcesz opublikować panel.",
       "cancel": "Anulowane.",
       "valid": "Podaj prawidłowy kanał, na którym chcesz opublikować panel.",
-      "posted": "**Panel wysłany!**"
+      "posted": "**Panel opublikowany!**"
     },
     "settingsBaseAutorole": {
-      "backRole": "Rola tylna",
+      "backRole": "Rola Wstecz",
       "nextRole": "Następna rola",
       "toggle": "Przełączać:",
       "enable": "Włączone",
       "disable": "Niepełnosprawny",
       "addRole": "Dodaj rolę",
       "removeRole": "Usuń rolę",
-      "no": "Obecnie nie ma ról automatycznych.",
+      "no": "Obecnie nie ma ról auto.",
       "title": "Automatyczny system ról",
       "role": "**Rola:**",
-      "verification": "**Weryfikacja?**",
+      "verification": "**Weryfikacji?**",
       "desc": ""
     },
     "settingsBaseAutoroleAdd": {
-      "mention": "Podaj rolę lub podaj identyfikator roli do dodania.",
-      "q": "Czy chciałbyś, aby ta rola została podana, gdy dołączą lub kiedy zweryfikują?\n\n**1.** Nadaj rolę, gdy dołączą\n**2.** Nadaj rolę podczas weryfikacji",
+      "mention": "Podaj rolę lub identyfikator roli do dodania.",
+      "q": "Czy chciałbyś, aby ta rola została powierzona, gdy dołączą lub gdy zweryfikują?\n\n**1.** Przypisz rolę, gdy dołączą\n**2.** Podaj rolę, gdy weryfikują",
       "cancel": "Anulowane.",
       "provide": "Podaj prawidłową rolę. \n\"PROCES ANULOWANY\"",
       "provide1": "Podaj prawidłową opcję. \n\"PROCES ANULOWANY\"",
-      "added": "**Autorole Dodane!**"
+      "added": "**Autorole dodane!**"
     },
     "settingsBaseAutoroleBack": {
-      "no": "Obecnie nie ma ról automatycznych.",
+      "no": "Obecnie nie ma ról auto.",
       "title": "Automatyczny system ról",
       "role": "**Rola:**",
-      "noRoles": "Obecnie nie ma ról automatycznych.",
-      "verification": "**Weryfikacja?**"
+      "noRoles": "Obecnie nie ma ról auto.",
+      "verification": "**Weryfikacji?**"
     },
     "settingsBaseAutoroleDelete": {
-      "no": "Nie ma autoroli stworzonych dla tej gildii.",
-      "removed": "**Autorole Usunięte**"
+      "no": "Dla tej gildii nie ma autoroli.",
+      "removed": "**Autorola usunięta**"
     },
     "settingsBaseAutoroleNext": {
-      "no": "Obecnie nie ma ról automatycznych.",
+      "no": "Obecnie nie ma ról auto.",
       "title": "Automatyczny system ról",
       "role": "**Rola:**",
-      "noRoles": "Obecnie nie ma ról automatycznych.",
-      "verification": "**Weryfikacja?**"
+      "noRoles": "Obecnie nie ma ról auto.",
+      "verification": "**Weryfikacji?**"
     },
     "settingsBaseCashappUpdate": {
       "provide": "Podaj nowy link do tej metody płatności.\nWpisz \"false\", aby go wyłączyć.",
@@ -2203,14 +2214,16 @@
       "options": "Opcje:",
       "updateTheme": "Zaktualizuj kolor motywu",
       "updateMuted": "Aktualizowanie wyciszonej roli",
-      "updateTos": "Link Do aktualizacji",
+      "updateTos": "Link do aktualizacji ToS",
       "maxTickets": "Maksymalna liczba biletów",
       "payment": "Płatność:",
       "paypal": "PayPal",
-      "cashapp": "Aplikacja Cash",
-      "customLink": "Łącze niestandardowe",
-      "imageUrls": "Adresy URL obrazów:",
-      "card": "Dołącz/Opuść kartę"
+      "cashapp": "Aplikacja gotówkowa",
+      "customLink": "Link niestandardowy",
+      "moreSettings": "Inne rzeczy:",
+      "card": "Dołącz/Opuść kartę",
+      "privateVCBtn": "Tworzenie prywatnych VC",
+      "privateVCCatBtn": "Prywatna kategoria VC"
     },
     "settingsBaseLeave": {
       "options": "Opcje:",
@@ -2219,13 +2232,13 @@
       "card": "Karta"
     },
     "settingsBaseMaxTickets": {
-      "provide": "Podaj maksymalną liczbę biletów, które użytkownik może mieć otwarte w danym momencie.",
+      "provide": "Podaj maksymalną liczbę biletów, które użytkownik może mieć otwartych w danym momencie.",
       "cancel": "Anulowane.",
-      "valid": "Podaj **WAŻNY** numer.",
-      "updated": "Max Bilety Zaktualizowane"
+      "valid": "Proszę podać **PRAWIDŁOWY** numer.",
+      "updated": "Zaktualizowano maksymalną liczbę biletów"
     },
     "settingsBaseMuteRoleUpdate": {
-      "mention": "Wspomnij o roli, którą chcesz dać użytkownikom, gdy zostaną wyciszeni.",
+      "mention": "Wspomnij o roli, którą chcesz powierzyć użytkownikom, gdy zostaną wyciszeni.",
       "cancelled": "Anulowane.",
       "valid": "Podaj prawidłową rolę wyciszenia.",
       "updated": "**Zaktualizowano rolę wyciszenia**"
@@ -2236,7 +2249,7 @@
       "valid": "Podaj prawidłowy kanał.",
       "verify": "Zweryfikować",
       "verification": "Weryfikacji",
-      "please": "Sprawdź się, naciskając **przycisk** pod tym komunikatem. Potwierdzi to, że *przeczytałeś i zaakceptowałeś zasady*, a także, że jesteś człowiekiem.",
+      "please": "Sprawdź się, naciskając przycisk **** poniżej tej wiadomości. To potwierdzi, że *przeczytałeś i zaakceptowałeś zasady*, a także, że jesteś człowiekiem.",
       "posted": "**Panel weryfikacyjny opublikowany**"
     },
     "settingsBasePaypalUpdate": {
@@ -2248,8 +2261,8 @@
       "ERROR": "Ten panel nie korzysta aktywnie z żadnych funkcji językowych."
     },
     "settingsBaseThemeColorUpdate": {
-      "provide": "Podaj nowy **__COLOR HEX__** dla bota, który będzie używany jako kolor motywu.\n**Na przykład:** \"#FFFFFF\"\n\nPróbnik kolorów: <https://htmlcolorcodes.com/color-picker/>",
-      "valid": "Podaj prawidłowy **__COLOR HEX__**.\n**Na przykład:** \"#FFFFFF\"\n\nPróbnik kolorów: <https://htmlcolorcodes.com/color-picker/>",
+      "provide": "Podaj nowy **__COLOR HEX__** dla bota do użycia jako kolor motywu.\n**Przykład:** '#FFFFFF'\n\nPróbnik kolorów: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Proszę podać prawidłowy **__COLOR HEX__**.\n**Przykład:** '#FFFFFF'\n\nPróbnik kolorów: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "Anulowane.",
       "updated": "**Zaktualizowano kolor motywu**"
     },
@@ -2257,59 +2270,70 @@
       "add": "Dodaj rolę",
       "remove": "Usuń rolę",
       "next": "Następna rola",
-      "back": "Rola tylna"
+      "back": "Rola Wstecz"
     },
     "settingsBaseToggleCaptcha": {
       "verification": "Weryfikacji",
-      "captcha": "Captcha •",
+      "captcha": "Captcha",
       "post": "Opublikuj panel"
     },
     "settingsBaseToggleVerify": {
       "buttons": {
         "verify": "Weryfikacji",
-        "captcha": "Captcha •",
+        "captcha": "Captcha",
         "post": "Opublikuj panel"
       }
     },
     "settingsBaseToSUpdate": {
-      "please": "Podaj nowy link do Warunków korzystania z usługi, aby przeprowadzić aktualizację.",
+      "please": "Podaj nowy link do ToS, do którego chcesz dokonać aktualizacji.",
       "cancelled": "Anulowane.",
-      "valid": "Prosimy o dołączenie ważnego linku do Warunków korzystania z usługi.\nMusi zaczynać się od: \"http://\"",
-      "updated": "**Zaktualizowano link Do ToS**"
+      "valid": "Dołącz prawidłowy link do ToS.\nMusi zaczynać się od: \"http://\"",
+      "updated": "**Zaktualizowano link ToS**"
     },
     "settingsBaseVerification": {
       "buttons": {
         "verify": "Weryfikacji",
-        "captcha": "Captcha •",
+        "captcha": "Captcha",
         "post": "Opublikuj panel"
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "**Podaj link do obrazu adresu URL tła karty.**\n\"Uwaga:\" Link do obrazu musi kończyć się na \".png\", \".jpg\", \".webp\" itp.",
+      "please": "**Podaj link do obrazu dla adresu URL tła karty.**\n\"Uwaga:\" Link do obrazu musi kończyć się na \".png\", \".jpg\", \".webp\" itp.",
       "cancelled": "Anulowane.",
-      "updated": "**Zaktualizowano kartę powitalną**"
+      "updated": "**Aktualizacja karty powitalnej**"
+    },
+    "settingsBasePrivateVCUpdate": {
+      "please": "**Podaj kanał głosowy, aby użytkownicy dołączyli do utworzenia prywatnej VC.**",
+      "cancelled": "Anulowane.",
+      "updated": "**Zaktualizowano prywatny kanał VC**",
+      "valid": "Podaj prawidłowy kanał głosowy."
+    },
+    "settingsBasePrivateVCCatUpdate": {
+      "please": "**Podaj identyfikator kategorii, na który będą wysyłane prywatne kanały VC.**",
+      "cancelled": "Anulowane.",
+      "updated": "**Zaktualizowano kategorię prywatnego VC**"
     },
     "settingsFunAutoReact": {
       "next": "Następna strona",
-      "back": "Wstecz Strona",
+      "back": "Wsteczna strona",
       "add": "Dodaj odpowiedź",
       "title": "Reakcje automatyczne",
       "channel": "**Kanał:**",
-      "no": "Brak aktualnych reakcji automatycznych...",
+      "no": "Brak aktualnych automatycznych reakcji...",
       "response": "**Odpowiedź:**",
       "emoji": "Emoji nie ustawione..."
     },
     "settingsFunAutoreactAdd": {
-      "please": "Podaj kanał, na którym bot powinien nasłuchiwać reakcji.",
+      "please": "Proszę podać kanał, na którym bot powinien nasłuchiwać reakcji.",
       "cancelled": "Anulowane.",
-      "provide": "Podaj, na co bot powinien teraz zareagować, gdy usłyszy wiadomość w tym kanale.\n**Uwaga:** musisz umieścić emoji w bloku kodu, na przykład \":monkey_face:\"",
+      "provide": "Podaj proszę, na co bot powinien teraz zareagować, gdy usłyszy wiadomość na tym kanale.\n** Uwaga:** musisz umieścić emoji w bloku kodu, np. \":monkey_face:\"",
       "valid": "Podaj prawidłowy kanał.",
       "added": "**Dodano automatyczną reakcję**"
     },
     "settingsFunAutoreactBack": {
       "title": "Reakcje automatyczne",
       "channel": "**Kanał:**",
-      "no": "Brak aktualnych reakcji automatycznych...",
+      "no": "Brak aktualnych automatycznych reakcji...",
       "response": "**Odpowiedź:**",
       "emoji": "Emoji nie ustawione..."
     },
@@ -2320,68 +2344,68 @@
     "settingsFunAutoreactNext": {
       "title": "Reakcje automatyczne",
       "channel": "**Kanał:**",
-      "no": "Brak aktualnych reakcji automatycznych...",
+      "no": "Brak aktualnych automatycznych reakcji...",
       "response": "**Odpowiedź:**",
       "emoji": "Emoji nie ustawione..."
     },
     "settingsFunAutoRespond": {
-      "back": "Wstecz Strona",
+      "back": "Wsteczna strona",
       "next": "Następna strona",
       "add": "Dodaj odpowiedź",
       "title": "Automatyczne odpowiedzi",
       "detect": "**Wykrywanie:**",
-      "no": "Brak bieżących automatycznych odpowiedzi...",
+      "no": "Brak aktualnych automatycznych odpowiedzi...",
       "response": "**Odpowiedź:**",
-      "none": "Brak zestawu..."
+      "none": "Żaden nie ustawił..."
     },
     "settingsFunAutorespondAdd": {
-      "please": "Podaj słowa, których bot powinien wysłuchać przed udzieleniem odpowiedzi.",
+      "please": "Podaj słowa, których bot powinien słuchać przed udzieleniem odpowiedzi.",
       "cancelled": "Anulowane.",
-      "provide": "Podaj, na co bot powinien teraz odpowiedzieć, gdy usłyszy wiadomość zawierającą tę treść.",
+      "provide": "Podaj to, co bot powinien teraz odpowiedzieć, gdy usłyszy wiadomość zawierającą tę treść.",
       "added": "**Dodano automatyczną odpowiedź**"
     },
     "settingsFunAutorespondBack": {
       "title": "Automatyczne odpowiedzi",
       "detect": "**Wykrywanie:**",
-      "no": "Brak bieżących automatycznych odpowiedzi...",
+      "no": "Brak aktualnych automatycznych odpowiedzi...",
       "response": "**Odpowiedź:**",
-      "none": "Brak zestawu..."
+      "none": "Żaden nie ustawił..."
     },
     "settingsFunAutorespondDelete": {
       "no": "Nie ma ustawionych automatycznych odpowiedzi dla tej gildii.",
-      "deleted": "**Automatyczna odpowiedź usunięta**"
+      "deleted": "**Usunięto automatyczną odpowiedź**"
     },
     "settingsFunAutorespondNext": {
       "title": "Automatyczne odpowiedzi",
       "detect": "**Wykrywanie:**",
-      "no": "Brak bieżących automatycznych odpowiedzi...",
+      "no": "Brak aktualnych automatycznych odpowiedzi...",
       "response": "**Odpowiedź:**",
-      "none": "Brak zestawu..."
+      "none": "Żaden nie ustawił..."
     },
     "settingsFunBirthdays": {
-      "clear": "Wyczyść dane urodzinowe",
-      "cleared": "Dane urodzinowe wyczyszczone"
+      "clear": "Wyczyść dane urodzin",
+      "cleared": "Wyczyszczono dane urodzin"
     },
     "settingsFunClearLevelData": {
       "clear": "Wyczyść na urlopie",
-      "cleared": "Poziom wyczyszczonych danych",
+      "cleared": "Poziom danych wyczyszczonych",
       "level": "System poziomów"
     },
     "settingsFunEconomy": {
-      "back": "Przedmiot wstecz",
-      "next": "Następny element",
+      "back": "Pozycja wstecz",
+      "next": "Następny przedmiot",
       "add": "Dodaj przedmiot w sklepie",
       "currency": "Waluta",
       "clear": "Wyczyść wszystkie dane",
       "cleared": "Wszystkie dane wyczyszczone",
-      "cooldowns": "Okresy odnowienia:",
+      "cooldowns": "Czas odnowienia:",
       "work": "Praca",
       "crime": "Przestępstwo",
       "rob": "Okradać",
       "economy": "Ustawienia ekonomiczne",
       "currency2": "**Waluta:**",
-      "shop": "**Informacje o przedmiocie w sklepie:**",
-      "id": "**○ Id:**",
+      "shop": "**Informacje o produkcie w sklepie:**",
+      "id": "**○ Identyfikator:**",
       "no": "Brak aktualnych przedmiotów w sklepie...",
       "name": "**○ Imię i nazwisko:**",
       "price": "**○ Cena:**"
@@ -2392,29 +2416,29 @@
     "settingsFunEconomyAdd": {
       "p": "Proszę podać nazwę produktu.",
       "c": "Anulowane.",
-      "price": "Podaj cenę za ten przedmiot.\n**Przykład:** '10'",
-      "price1": "Proszę podać prawidłową cenę.\n**Przykład:** '10'",
-      "added": "'**Dodano przedmiot w sklepie**",
-      "title": " - Utworzony przedmiot",
+      "price": "Podaj cenę tego przedmiotu.\n**Np.** '10'",
+      "price1": "Proszę podać prawidłową cenę.\n**Np.** '10'",
+      "added": "\"**Dodano przedmiot w sklepie**",
+      "title": " - Utworzony element",
       "item": "Przedmiot",
       "Price": "Cena"
     },
     "settingsFunEconomyCrime": {
-      "a": "2-godzinny czas odnowienia przestępczości dla wszystkich użytkowników został zresetowany w tej gildii."
+      "a": "2-godzinny czas odnowienia zbrodni dla wszystkich użytkowników został zresetowany w tej gildii."
     },
     "settingsFunEconomyCurrency": {
-      "a": "Podaj walutę dla tej gildii.\n**Uwaga:** Musisz podać go w formie bloku kodu, na przykład \":moneybag:\"",
+      "a": "Proszę podać walutę tej gildii.\n** Uwaga:** Musisz podać go w formie bloku kodu, np. \":moneybag:\"",
       "c": "Anulowane.",
-      "u": "**Waluta zaktualizowana!**"
+      "u": "**Aktualizacja waluty!**"
     },
     "settingsFunEconomyDelete": {
       "a": "W tej gildii nie ma przedmiotów sklepowych.",
       "d": "**Przedmiot w sklepie usunięty**",
-      "title": "Usunięty element",
+      "title": "Element usunięty",
       "i": "Przedmiot"
     },
     "settingsFunEconomyRob": {
-      "a": "2-godzinny czas odnowienia dla wszystkich użytkowników został zresetowany w tej gildii."
+      "a": "2-godzinny czas odnowienia Roba dla wszystkich użytkowników został zresetowany w tej gildii."
     },
     "settingsFunLevelSystem": {
       "c": "Wyczyść dane poziomu",
@@ -2439,24 +2463,24 @@
     },
     "settingsSecurityAltPrevention": {
       "a": "Przełączać:",
-      "b": "Zapobieganie alt",
+      "b": "Zapobieganie alternatywom",
       "c": "Wiek konta"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "Podaj nowy minimalny wiek konta.\nNp.: 30d = 30 dni.",
+      "a": "Podaj minimalny wiek nowego konta.\nNp.: 30d = 30 dni.",
       "b": "Anulowane.",
       "c": "**Zaktualizowano wiek konta**"
     },
     "settingsSecurityFilter": {
       "a": "Formantów:",
-      "b": "Wstecz Strona",
+      "b": "Wsteczna strona",
       "c": "Następna strona",
       "d": "Opcje:",
       "e": "Dodaj filtr",
       "f": "Usuń zaznaczone",
       "g": "Filtr zabezpieczeń",
-      "h": "**Treść:**",
-      "i": "Brak aktualnych filtrów..."
+      "h": "**Zawartość:**",
+      "i": "Brak filtrów prądu..."
     },
     "settingsSecuirtyFilterAdd": {
       "a": "Podaj słowo/link, który chcesz umieścić na czarnej liście.",
@@ -2465,8 +2489,8 @@
     },
     "settingsSecurityFilterBack": {
       "a": "Filtr zabezpieczeń",
-      "b": "**Treść:**",
-      "c": "Brak aktualnych filtrów..."
+      "b": "**Zawartość:**",
+      "c": "Brak filtrów prądu..."
     },
     "settingsSecurityFilterDelete": {
       "a": "Nie ma ustawionych filtrów dla tej gildii.",
@@ -2475,8 +2499,8 @@
     },
     "settingsSecurityFilterNext": {
       "a": "Filtr zabezpieczeń",
-      "b": "**Treść:**",
-      "c": "Brak aktualnych filtrów..."
+      "b": "**Zawartość:**",
+      "c": "Brak filtrów prądu..."
     },
     "settingsSecuritySelect": {
       "a": "🏠 Idź do domu:"
@@ -2489,14 +2513,14 @@
     "settingsSecurityToggleAltPrev": {
       "a": "🏠 Idź do domu",
       "b": "Przełączać:",
-      "c": "Zapobieganie alt",
+      "c": "Zapobieganie alternatywom",
       "d": "Wiek konta"
     },
     "settingsSecurityToggleLockdown": {
       "a": "🏠 Idź do domu",
       "b": "Przełączać:",
       "c": "Blokada serwera",
-      "d": "Blokada serwera Przełączana!",
+      "d": "Blokada serwera włączona!",
       "e": "Użytkownik:",
       "f": "Przełączane:",
       "g": "Blokada serwera"
@@ -2507,8 +2531,8 @@
       "c": "🟢 Moduł powitalny",
       "d": "🔴 Opuść moduł",
       "e": "🗝️ Weryfikacji",
-      "f": "👋 Autorole",
-      "g": "👻 Zapobieganie alt",
+      "f": "👋 Autorola",
+      "g": "👻 Zapobieganie alternatywom",
       "h": "🔒 Blokada serwera",
       "i": "❌ System filtrów",
       "j": "📊 System poziomów",
@@ -2516,9 +2540,9 @@
       "l": "💰 Gospodarka",
       "m": "🎯 Automatyczna reakcja",
       "n": "🦜 Automatyczna odpowiedź",
-      "o": "Zmień ogólne ustawienia dla tej gildii.\",",
+      "o": "Zmień ogólne ustawienia tej gildii.\",",
       "p": "Zmień moduł powitalny dla tej gildii.",
-      "q": "Zmień moduł urlopu dla tej gildii.",
+      "q": "Zmień moduł urlopowy dla tej gildii.",
       "r": "Zmień moduł weryfikacji dla tej gildii.",
       "s": "Zmień moduł autorole dla tej gildii.",
       "t": "Zmień system zapobiegania alt.",
@@ -2531,12 +2555,12 @@
       "aa": "Zmień moduł automatycznej odpowiedzi dla tej gildii.",
       "ab": "Wybierz opcję ustawień podstawowych.",
       "ac": "Wybierz opcję ustawień zabezpieczeń.",
-      "ad": "Wybierz zabawną opcję ustawień."
+      "ad": "Wybierz opcję ustawień zabawy."
     },
     "shopSelect": {
       "a": "Tego przedmiotu nie ma w sklepie.",
       "b": "Nie masz wystarczająco dużo pieniędzy, aby kupić ten przedmiot.",
-      "c": "zakupił **1**",
+      "c": "Użytkownik zakupił **1**",
       "d": "Zakupiony przedmiot",
       "e": "Przedmiot",
       "f": "Cena",
@@ -2545,38 +2569,38 @@
     "stickyAdd": {
       "a": "Anulowane.",
       "b": "Ten kanał ma już lepką wiadomość.\nSpróbuj ponownie.",
-      "c": "Wpisz, co powinna zawierać lepka wiadomość.",
+      "c": "Wpisz, co ma być napisane w przyklejonym komunikacie.",
       "d": "Podaj prawidłowy kanał.",
-      "e": "**Utworzono lepką wiadomość!**"
+      "e": "**Utworzono przyklejoną wiadomość!**"
     },
     "stickyRemove": {
-      "a": "W tej gildii nie ma lepkich wiadomości.",
-      "b": "Zdefiniuj kanał, z którego chcesz usunąć lepką wiadomość.",
+      "a": "W tej gildii nie ma żadnych lepkich wiadomości.",
+      "b": "Zdefiniuj kanał, z którego chcesz usunąć przyklejoną wiadomość.",
       "c": "Anulowane.",
       "d": "Podaj prawidłowy kanał.",
-      "e": "**Usunięto lepką wiadomość!**",
-      "f": "Ten kanał nie ma lepkiego komunikatu.\nSpróbuj ponownie."
+      "e": "**Przylepna wiadomość usunięta!**",
+      "f": "Ten kanał nie ma przyklejonego komunikatu.\nSpróbuj ponownie."
     },
     "ticketAdd": {
-      "a": "Podaj nazwę tego panelu biletów",
+      "a": "Podaj nazwę tego panelu biletowego",
       "b": "Anulowane.",
-      "c": "Proszę podać opis tego panelu biletów.",
-      "d": "Podaj kategorię \"Id\" dla biletów, do których chcesz się udać.",
+      "c": "Proszę podać opis tego panelu biletowego.",
+      "d": "Podaj kategorię \"Id\", do której chcesz przejść do biletów.",
       "e": "**Panel stworzony!**"
     },
     "ticketAddUser": {
       "a": "Możesz użyć tego polecenia tylko w kanale biletowym!",
-      "b": "Podaj użytkownika, którego chcesz dodać do zgłoszenia.",
+      "b": "Podaj użytkownika, którego chcesz dodać do biletu.",
       "c": "Anulowane.",
-      "d": "Podaj ważnego użytkownika, który chcesz dodać do tego biletu.",
+      "d": "Podaj prawidłowego użytkownika, który zostanie dodany do tego zgłoszenia.",
       "e": "został dodany do tego biletu."
     },
     "ticketBack": {
       "a": "Panele biletowe",
       "b": "**○ Nazwa panelu:**",
-      "c": "Brak paneli jeszcze...",
+      "c": "Na razie nie ma paneli...",
       "d": "**○ Opis panelu:**",
-      "e": "N/a"
+      "e": "N/A"
     },
     "ticketClaim": {
       "a": "Można to zrobić tylko wewnątrz kanału biletowego.",
@@ -2585,13 +2609,13 @@
       "d": "📥 Dodaj użytkownika",
       "e": "📤 Usuń użytkownika",
       "f": "🤝 Zgłoszone przez",
-      "g": "Zgłoszone przez:"
+      "g": "Roszczenie przez:"
     },
     "ticketClose": {
       "a": "Można to zrobić tylko w kanale biletowym.",
       "b": "Nie znaleziono panelu.",
       "c": "Nie znaleziono kategorii...",
-      "d": "Bilet pomyślnie zamknięty! (Proszę czekać)",
+      "d": "Bilet został pomyślnie zamknięty! (Proszę czekać)",
       "e": "Nieznany",
       "f": "Bilet zamknięty",
       "g": "Identyfikator biletu",
@@ -2600,32 +2624,32 @@
       "j": "Panel"
     },
     "ticketDelete": {
-      "a": "Nie ma kategorii biletów stworzonych dla tej gildii.",
+      "a": "Nie ma kategorii biletów dla tej gildii.",
       "b": "**Kategoria usunięta**"
     },
     "ticketNext": {
       "a": "Panele biletowe",
       "b": "**○ Nazwa panelu:**",
-      "c": "Brak paneli jeszcze...",
+      "c": "Na razie nie ma paneli...",
       "d": "**○ Opis panelu:**",
-      "e": "N/a"
+      "e": "N/A"
     },
     "ticketPanelPost": {
       "a": "Ta gildia nie ma jeszcze skonfigurowanych żadnych kategorii biletów.",
       "b": "Kategorie biletów",
-      "c": "Oto kategorie biletów dla tej gildii. Wybierz jeden, aby otworzyć bilet w tej kategorii.",
+      "c": "Oto kategorie biletów dla tej gildii. Wybierz jedną z nich, aby otworzyć bilet w tej kategorii.",
       "d": "System biletowy",
       "e": "Wybierz kategorię biletu.",
       "f": "Anulowane",
       "g": "Podaj prawidłowy kanał.",
-      "h": "**Wysłano panel biletów!**",
+      "h": "**Panel biletowy opublikowany!**",
       "i": "Podaj kanał, na którym chcesz opublikować panel."
     },
     "ticketremove": {
       "a": "Możesz użyć tego polecenia tylko w kanale biletowym!\",",
-      "b": "Podaj użytkownika, którego chcesz usunąć ze zgłoszenia.",
+      "b": "Podaj użytkownika, którego chcesz usunąć z biletu.",
       "c": "Anulowane.",
-      "d": "Podaj ważnego użytkownika, który ma zostać usunięty z tego zgłoszenia.",
+      "d": "Podaj prawidłowego użytkownika, który chcesz usunąć z tego zgłoszenia.",
       "e": "**${member.user.tag}** został usunięty z tego zgłoszenia."
     },
     "ticketrename": {
@@ -2637,25 +2661,25 @@
     "ticketselect": {
       "catna": "Ta kategoria biletów nie istnieje.",
       "content1": "Możesz mieć tylko **",
-      "content2": "bilet(y)** otwarte na raz.",
-      "notpset": "Nie skonfigurowano jeszcze obsługi zgłoszeń.",
-      "nocreate": "**Nie udało mi się utworzyć tego zgłoszenia.**",
+      "content2": "Bilet(y)** otwarte jednocześnie.",
+      "notpset": "Nie ma jeszcze skonfigurowanej obsługi biletów.",
+      "nocreate": "**Nie udało mi się utworzyć tego biletu.**",
       "closetick": "🔒 Zamknij bilet",
       "opened1": "**Otwarte przez:**",
-      "opened2": "Zacznij opisywać powód otwarcia tego biletu pod tym komunikatem.",
-      "opener": "**Otwarte przez:** '${interaction.user.tag}'\n\nZacznij opisywać powód otwarcia tego biletu pod tym komunikatem.",
+      "opened2": "Zacznij opisywać powód otwarcia tego biletu poniżej tej wiadomości.",
+      "opener": "**Otwarte przez:** '${interaction.user.tag}'\n\nZacznij opisywać powód otwarcia tego biletu poniżej tej wiadomości.",
       "success": "Twój nowy bilet został otwarty w ",
       "title": "System biletowy"
     },
     "verifyButton": {
       "humanVerify": "Weryfikacja przez człowieka",
-      "desc1": "Wpisz poniższy captcha poniżej, aby sprawdzić, czy jesteś człowiekiem.",
+      "desc1": "Wpisz poniższy captcha poniżej, aby potwierdzić, że jesteś człowiekiem.",
       "content1": "Sprawdź swoje bezpośrednie wiadomości (DM).",
       "noleft": "Skończyły Ci się próby, proszę o ponowną weryfikację na serwerze.",
-      "left1": "Niepoprawne, masz ",
-      "left2": " próba(y) pozostawiona.",
+      "left1": "Niepoprawnie, masz ",
+      "left2": " Próby w lewo.",
       "youverifed": "Zostałeś zweryfikowany!",
-      "dmsna": "Twoje DM są obecnie ustawione na prywatne, włącz je, abym mógł DM nasz test weryfikacji człowieka."
+      "dmsna": "Twoje DM są obecnie ustawione na prywatne, włącz je, abym mógł DM ci nasz test weryfikacji człowieka."
     }
   }
 }

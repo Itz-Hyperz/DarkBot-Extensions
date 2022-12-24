@@ -1,6 +1,6 @@
 {
-  "selectALanguage": "아래 언어를 선택하십시오!",
-  "noPermissions": "이 길드에 대한 권한 설정은 아직 없습니다!",
+  "selectALanguage": "아래에서 언어를 선택하세요!",
+  "noPermissions": "이 길드에 대한 권한 설정이 아직 없습니다!",
   "missingPermissions": "이 명령을 사용하는 데 필요한 권한이 없습니다!",
   "noVoiceChannel": "이를 사용하려면 음성 채널에 있어야 합니다.",
   "onlyGuildOwner": "길드 소유자만 이 명령을 실행할 수 있습니다.",
@@ -11,22 +11,33 @@
   "no": "아니요",
   "true": "참",
   "false": "거짓",
-  "eightBallCommand": "** 매직 🎱 볼 말한다 :** ",
+  "privatevcreset": "**본인에게 등록된 이 길드의 모든 비공개 VC가 삭제되었습니다.**",
+  "vcManager": "비공개 음성 관리자",
+  "vcDesc": "아래에서 비공개 음성 채널을 관리할 수 있습니다.",
+  "vcCloseChannel": "채널 닫기",
+  "vcAddMember": "구성원 추가",
+  "vcRemoveMember": "구성원 제거",
+  "vcAddMemberText": "채널에 추가할 사용자 ID를 제공하세요.",
+  "vcRemoveMemberText": "채널에서 삭제할 사용자 ID를 입력하세요.",
+  "vcNoChannel": "해당 채널이 데이터베이스에 없습니다.",
+  "vcAddSuccess": "**사용자 추가됨**",
+  "vcRemoveSuccess": "**사용자 제거됨**",
+  "eightBallCommand": "* * 매직 🎱 볼 말한다 : ** ",
   "eightBallResponses": [
-    "그것은 확실합니다.",
-    "그것은 확실히 그렇습니다.",
+    "확실합니다.",
+    "확실히 그렇습니다.",
     "틀림없이.",
-    "네, 물론입니다.",
-    "내가 보다시피, 그렇습니다.",
+    "네 확실히.",
+    "내가 보기에 그렇습니다.",
     "예.",
-    "흐릿한 대답, 다시 시도하십시오.",
-    "지금 당신에게 말하지 않는 것이 좋습니다.",
-    "지금 예측할 수 없습니다.",
+    "답변 흐릿하고 다시 시도하십시오.",
+    "지금 말하지 않는 것이 좋습니다.",
+    "지금은 예측할 수 없습니다.",
     "그것에 의지하지 마십시오.",
     "내 대답은 아니오입니다.",
     "내 소식통은 아니오라고 말합니다.",
     "전망이 좋지 않습니다.",
-    "매우 의심 스럽습니다."
+    "매우 의심 스럽다."
   ],
   "afkNoLonger": "더 이상 AFK로 표시되지 않습니다.",
   "nowMarkedAFK": "이제 AFK로 표시됩니다.",
@@ -42,7 +53,7 @@
     "clickToApply": "이 신청서를 신청하려면 클릭하십시오.",
     "selectApp": "응용 프로그램을 선택합니다.",
     "embedTitle": "응용 프로그램",
-    "embedDescription": "응용 프로그램을 선택하여 작성을 시작합니다."
+    "embedDescription": "신청서를 선택하여 작성을 시작합니다."
   },
   "avatar": "아바타",
   "balance": {
@@ -54,13 +65,13 @@
     "bank": "**은행:**"
   },
   "birthdays": {
-    "selectAction": "생일 동작을 선택합니다.",
+    "selectAction": "생일 액션을 선택합니다.",
     "addBirthday": "👶 생일 추가",
-    "addBirthdayDescription": "생일을 데이터베이스에 추가하십시오.",
+    "addBirthdayDescription": "데이터베이스에 생일을 추가합니다.",
     "removeBirthday": "❌ 생일 제거",
     "removeBirthdayDescription": "데이터베이스에서 생일을 제거합니다.",
     "embedTitle": "생일 메뉴",
-    "embedDescription": "데이터베이스에서 생일을 추가 / 제거하십시오!"
+    "embedDescription": "데이터베이스에 생일을 추가 / 제거하십시오!"
   },
   "cases": {
     "doesNotExist": "케이스 ID 목록에 존재하지 않습니다!",
@@ -76,20 +87,20 @@
     "removeClient": "📤 클라이언트 제거",
     "removeClientDescription": "이 길드 클라이언트 데이터베이스에서 클라이언트를 제거합니다.",
     "embedTitle": "클라이언트 메뉴",
-    "embedDescription": "데이터베이스에 클라이언트 추가 / 제거!",
+    "embedDescription": "데이터베이스에 클라이언트를 추가 / 제거하십시오!",
     "noClients": "이 길드에는 아직 고객이 없습니다.",
     "clients": "클라이언트"
   },
   "ddos": {
-    "NOTICE": "이것은 가짜 농담 명령입!!!!",
+    "NOTICE": "이것은 가짜 농담 명령입니다!!!!",
     "sending": "공격 보내기",
     "successful": "DDOS 공격 성공 ;)",
-    "lag": "사용자가 지연되고 있습니까?",
+    "lag": "사용자가 지연됩니까?",
     "no": "아니요?",
-    "failure": "나는 사람들을 ddos 할 수 없:("
+    "failure": "나는 사람들을 :( 할 수 없다"
   },
   "dice": {
-    "landedOn": "**착륙:**",
+    "landedOn": "* * 착륙: * *",
     "numbers": [
       "1",
       "2",
@@ -100,33 +111,33 @@
     ]
   },
   "dm": {
-    "embedTitle": "📫 메일이 있어요!",
-    "messageSent": "**메시지 전송!**",
-    "messageSentFailed": "**메시지 전송에 실패했습니다!**",
-    "dmsOff": "DM을 비공개로 설정했을 가능성이 큽니다."
+    "embedTitle": "📫 메일이 있습니다!",
+    "messageSent": "** 메시지 전송!",
+    "messageSentFailed": "**메시지 전송 실패!**",
+    "dmsOff": "DM이 비공개로 설정되어 있을 수 있습니다."
   },
   "embed": {
-    "notice": "공지 사항",
-    "posted": "**임베드 게시!**"
+    "notice": "에서 통지",
+    "posted": "** 게시 된 퍼가기!"
   },
   "embedBuilder": {
     "embedTitle": "임베드 빌더",
-    "embedDescription": "인터랙티브 임베드 빌더에 오신 것을 환영합니다. 아래 버튼을 사용하여 게시물을 클릭 한 후 임베드를 빌드하십시오!",
+    "embedDescription": "대화형 임베드 빌더에 오신 것을 환영합니다. 아래 버튼을 사용하여 게시물을 클릭 한 후 임베드를 구축하십시오!",
     "buttons": {
-      "authorText": "저자 텍스트",
+      "authorText": "작성자 텍스트",
       "titleText": "제목 텍스트",
       "titleURL": "제목 URL",
       "descriptionText": "설명 텍스트",
       "footerText": "바닥글 텍스트",
-      "authorImage": "저자 이미지",
-      "thumbnailImage": "축소판 이미지",
+      "authorImage": "작성자 이미지",
+      "thumbnailImage": "썸네일 이미지",
       "largeImage": "큰 이미지",
       "footerImage": "바닥글 이미지",
-      "embedColor": "임베드 색상",
+      "embedColor": "색상 포함",
       "embedFields": "필드 포함",
       "addTimestamp": "타임스탬프 추가",
       "channelToPost": "게시할 채널",
-      "postEmbed": "임베드 게시",
+      "postEmbed": "퍼가기 게시",
       "fieldName": "필드 이름",
       "fieldValue": "필드 값",
       "fieldInline": "필드 인라인",
@@ -134,109 +145,109 @@
       "newField": "새 필드"
     },
     "responses": {
-      "setAuthorText": "저자 텍스트를 무엇으로 설정하시겠습니까?",
-      "setTitleText": "제목 텍스트를 무엇으로 설정하시겠습니까?",
+      "setAuthorText": "작성자 텍스트를 무엇으로 설정 하시겠습니까?",
+      "setTitleText": "제목 텍스트를 무엇으로 설정 하시겠습니까?",
       "setTitleURL": "제목 URL을 무엇으로 설정하시겠습니까?",
-      "setDescriptionText": "설명을 무엇으로 설정하시겠습니까?",
+      "setDescriptionText": "설명을 무엇으로 설정 하시겠습니까?",
       "setFooterText": "바닥글 텍스트를 무엇으로 설정하시겠습니까?",
       "setAuthorImage": "작성자 이미지를 무엇으로 설정하시겠습니까?",
       "setColor": "임베드를 어떤 색상으로 설정하시겠습니까?",
-      "setThumbnailImage": "썸네일 이미지를 무엇으로 설정하시겠습니까?",
-      "setLargeImage": "큰 이미지를 무엇으로 설정하시겠습니까?",
+      "setThumbnailImage": "썸네일 이미지를 무엇으로 설정 하시겠습니까?",
+      "setLargeImage": "큰 이미지를 무엇으로 설정 하시겠습니까?",
       "setFooterImage": "바닥글 이미지를 무엇으로 설정하시겠습니까?",
       "channelToPost": "어떤 채널에 게시하시겠습니까?",
       "fieldName": "이 필드의 이름은 무엇이어야 합니까?",
-      "fieldValue": "이 필드의 가치는 무엇이되어야합니까?",
-      "embedPosted": "임베드 게시!"
+      "fieldValue": "이 필드의 가치는 무엇이어야 합니까?",
+      "embedPosted": "퍼가기 게시됨!"
     }
   },
   "economy": {
     "crime": {
-      "cooldown": "지금 당장은 범죄를 저지를 수 없습니다. 아직 재사용 대기시간 중입니다.",
+      "cooldown": "지금 당장 범죄를 저지를 수는 없습니다. 아직 쿨다운 상태입니다.",
       "crimeResponses": [
         {
-          "text": "당신은 골목에서 여자를 때리고 얻었다. ",
+          "text": "당신은 골목에서 여자를 때리고 ",
           "amount": "10"
         },
         {
-          "text": "당신은 큰 치즈에 드라이브 바이를하고 만들었습니다. ",
+          "text": "당신은 비기 치즈에 드라이브 바이를했고 ",
           "amount": "600"
         },
         {
-          "text": "당신은 차를 열쇠로 넣고 훔쳤다. ",
+          "text": "당신은 차를 열쇠로 훔쳤습니다 ",
           "amount": "19"
         },
         {
-          "text": "당신은 은행을 들고 만들었습니다. ",
+          "text": "당신은 은행을 들고 ",
           "amount": "500"
         },
         {
-          "text": "당신은 이웃 똥을 똥 ",
+          "text": "당신은 이웃 poarch에 똥을 쌌고 ",
           "amount": "1"
         }
       ]
     },
     "work": {
-      "cooldown": "지금은 일할 수 없습니다. 아직 재사용 대기시간 중입니다.",
+      "cooldown": "지금은 일할 수 없습니다. 아직 쿨다운 상태입니다.",
       "workResponses": [
         {
-          "text": "당신은 누군가의 집을 청소하고 만들었습니다. ",
+          "text": "당신은 누군가의 집을 청소하고 만들었습니다 ",
           "amount": "138"
         },
         {
-          "text": "당신은 세차장에서 일하고 만들었습니다. ",
+          "text": "당신은 세차장에서 일하고 ",
           "amount": "382"
         },
         {
-          "text": "당신은 이웃을위한 그릴에 닭고기를 프라이드하고 만들었습니다. ",
+          "text": "당신은 이웃을 위해 그릴에 닭고기를 튀기고 만들었습니다. ",
           "amount": "18"
         },
         {
-          "text": "주유소 화장실을 청소하고 만들었습니다. ",
+          "text": "당신은 주유소 화장실을 청소하고 만들었습니다 ",
           "amount": "15"
         },
         {
-          "text": "당신은 벽에서 페인트를 긁어 내고 만들었습니다. ",
+          "text": "당신은 벽에서 페인트를 긁어 내고 만들었습니다 ",
           "amount": "37"
         },
         {
-          "text": "당신은 6 시간 동안 피자를 만들고 만들었습니다. ",
+          "text": "당신은 6 시간 동안 피자를 만들고 만들었습니다 ",
           "amount": "75"
         },
         {
-          "text": "당신은 접시를 씻고 만들었습니다. ",
+          "text": "설거지를 하고 ",
           "amount": "34"
         },
         {
-          "text": "당신은 우유를 배달하기 위해 전국을 가로 질러 운전하고 만들었습니다. ",
+          "text": "당신은 우유를 배달하기 위해 전국을 운전하고 ",
           "amount": "390"
         },
         {
-          "text": "주유소 선반을 재입고 ",
+          "text": "당신은 주유소 선반을 다시 채우고 만들었습니다 ",
           "amount": "32"
         },
         {
-          "text": "당신은 바닥을 닦고 만들었습니다. ",
+          "text": "당신은 바닥을 닦고 만들었습니다 ",
           "amount": "20"
         },
         {
-          "text": "당신은 누군가에게 마사지를하고 만들었습니다. ",
+          "text": "당신은 누군가에게 마사지를하고 만들었습니다 ",
           "amount": "42"
         },
         {
-          "text": "당신은 제이크 햄블린을 놀리고 만들었습니다. ",
+          "text": "당신은 제이크 햄블린을 놀리고 ",
           "amount": "25"
         },
         {
-          "text": "몇 가지 코드를 작성하고 만들었습니다. ",
+          "text": "당신은 몇 가지 코드를 작성하고 만들었습니다. ",
           "amount": "150"
         },
         {
-          "text": "당신은 E-스포츠 토너먼트에서 뛰었고 만들었습니다. ",
+          "text": "당신은 E-스포츠 토너먼트에서 뛰었고 ",
           "amount": "100"
         },
         {
-          "text": "당신은 월마트에서 체크 아웃을하고 만들었습니다. ",
+          "text": "당신은 월마트에서 계산대에서 일했고 ",
           "amount": "62"
         },
         {
@@ -244,11 +255,11 @@
           "amount": "250"
         },
         {
-          "text": "당신은 누군가의 머리카락을 자르고 만들었습니다. ",
+          "text": "당신은 누군가의 머리카락을 자르고 ",
           "amount": "25"
         },
         {
-          "text": "당신은 그를 위해 아이들 숙제를하고 만들었습니다. ",
+          "text": "당신은 그를 위해 아이들 숙제를했고 ",
           "amount": "67"
         }
       ]
@@ -257,14 +268,14 @@
       "emptyInventory": "인벤토리가 비어 있습니다.",
       "embedTitle": "목록",
       "selectItem": "인벤토리에서 사용할 항목을 선택합니다.",
-      "items": "**재고 항목:**",
-      "clickToUse": "이 항목을 사용하려면 클릭합니다.",
+      "items": "**인벤토리 아이템:**",
+      "clickToUse": "이 항목을 사용하려면 클릭하십시오.",
       "selectAction": "사용할 항목을 선택합니다."
     },
     "rob": {
-      "cooldown": "지금 당장 누군가를 강탈 할 수는 없습니다. 아직 재사용 대기시간 중입니다.",
-      "tooLittleMoney": "이 사용자는 도둑질 할 돈이 너무 적습니다.",
-      "robbed": "당신은 도둑질했습니다",
+      "cooldown": "지금 당장 누군가를 강탈 할 수는 없습니다. 아직 쿨다운 상태입니다.",
+      "tooLittleMoney": "이 사용자는 강탈하기에는 돈이 너무 적습니다.",
+      "robbed": "당신은 강탈했습니다",
       "for": "때문에",
       "robbery": "강도",
       "amount": "분량",
@@ -275,38 +286,38 @@
     "yourLink": "여기 당신의 링크가 있습니다!"
   },
   "giveaways": {
-    "enter": "클릭하여 입력하십시오!",
+    "enter": "입력하려면 클릭하십시오!",
     "end": "끝",
     "reroll": "리롤",
-    "posted": "**경품 행사가 게시되었습니다!**",
-    "embedTitle": "새로운 공짜!",
-    "embedPrize": "**상품:**",
-    "embedWinners": "**우승자:**",
-    "embedTimeLimit": "**시간 제한:**"
+    "posted": "** 경품이 게시되었습니다!",
+    "embedTitle": "새로운 경품!",
+    "embedPrize": "**상:**",
+    "embedWinners": "**승자:**",
+    "embedTimeLimit": "**기한:**"
   },
   "guilds": {
-    "leaveGuild": "길드를 떠나세요",
+    "leaveGuild": "길드 탈퇴",
     "embedTitle": "길드 목록",
-    "embedGuildName": "**○ 길드 이름:**",
-    "embedGuildId": "**○ 길드 아이디:**",
-    "embedGuildMembers": "**○ 길드 회원:**",
+    "embedGuildName": "**○ 길드명:**",
+    "embedGuildId": "**○ 길드 ID:**",
+    "embedGuildMembers": "**○ 길드원:**",
     "embedGuildOwnerTag": "**○ 길드 소유자 태그:**",
-    "embedGuildOwnerId": "**○ 길드 소유자 아이디:**"
+    "embedGuildOwnerId": "**○ 길드 소유자 ID:**"
   },
   "help": {
     "selectAction": "범주를 선택합니다.",
     "embedTitle": "도움말 메뉴",
-    "defaultEmbedDesc": "다크 봇에 오신 것을 환영합니다! 이 메뉴를 사용하여 모든 명령을보고 무엇을해야하는지 확인하십시오! 사용자 정의는 매우 쉬워야합니다!",
+    "defaultEmbedDesc": "다크 봇에 오신 것을 환영합니다! 이 메뉴를 사용하여 내 모든 명령을 보고 수행할 작업을 확인합니다! 사용자 정의는 매우 쉬워야합니다!",
     "user": "🧑 사용자 명령",
     "userDesc": "이 봇이 제공해야 하는 사용자 명령을 봅니다.",
     "economy": "🏦 경제 명령",
-    "economyDesc": "이 봇이 제공해야 하는 경제성 명령을 봅니다.",
+    "economyDesc": "이 봇이 제공하는 경제 명령을 봅니다.",
     "music": "💿 음악 명령",
-    "musicDesc": "이 봇이 제공해야 하는 음악 명령을 봅니다.",
+    "musicDesc": "이 봇이 제공하는 음악 명령을 봅니다.",
     "utility": "🧰 유틸리티 명령",
     "utilityDesc": "이 봇이 제공해야 하는 유틸리티 명령을 봅니다.",
     "moderation": "👮 중재 명령",
-    "moderationDesc": "이 봇이 제공해야 하는 조정 명령을 봅니다.",
+    "moderationDesc": "이 봇이 제공해야 하는 중재 명령을 봅니다.",
     "settings": "🔧 설정 명령",
     "settingsDesc": "이 봇이 제공해야 하는 설정 명령을 봅니다.",
     "owner": "👑 소유자 명령",
@@ -316,34 +327,34 @@
     "individualCommands": {
       "embedTitle": "명령 도움말",
       "name": "**이름:**",
-      "desc": "**설명:**",
-      "type": "**유형:**",
+      "desc": "**묘사:**",
+      "type": "**형:**",
       "slash": "사선"
     }
   },
   "hug": {
-    "hasJustHugged": "방금 포옹했습니다."
+    "hasJustHugged": "방금 껴안았다"
   },
   "leveling": {
-    "disabled": "이 서버는 '레벨링' 기능을 사용하고 있지 않습니다.",
+    "disabled": "이 서버는 '레벨링' 기능을 사용하지 않습니다.",
     "unknownUser": "알 수 없는 사용자(왼쪽)",
-    "lvl": "**Lvl:**",
-    "xp": "**XP:**",
+    "lvl": "**레벨:**",
+    "xp": "** XP : **",
     "embedTitle": "채팅 리더보드",
     "requestedBy": "요청자",
     "levelCommand": {
       "embedTitle": "사용자 현재 수준:",
-      "currentXp": "**현재 XP:**",
-      "currentLevel": "**현재 수준:**",
+      "currentXp": "**현재 경험치:**",
+      "currentLevel": "**현재 레벨:**",
       "noLevelData": "해당 사용자는 이 길드에 레벨이 없습니다."
     },
-    "levelUp": "방금 레벨을 올렸습니다!",
-    "newLevel": "새로운 수준:"
+    "levelUp": "방금 레벨업했습니다!",
+    "newLevel": "새로운 레벨:"
   },
   "logging": {
     "actionLogs": "작업 로그",
     "enforcer": "경호원",
-    "userId": "사용자 ID",
+    "userId": "사용자 아이디",
     "userTag": "사용자 태그",
     "reason": "이유",
     "time": "시간",
@@ -351,20 +362,20 @@
     "channel": "채널",
     "command": "명령",
     "options": "옵션",
-    "noOptions": "옵션이 제공되지 않습니다.",
+    "noOptions": "제공된 옵션이 없습니다.",
     "types": {
-      "userBanned": "사용자 금지됨",
+      "userBanned": "사용자 금지",
       "userOfflineBanned": "사용자 오프라인 금지",
-      "userKicked": "사용자가 걷어차기",
-      "userMuted": "사용자 음소거",
+      "userKicked": "사용자 추방",
+      "userMuted": "사용자 음소거됨",
       "autoUnmute": "자동 음소거 해제",
       "command": "입력된 명령",
-      "caseDeleted": "케이스가 삭제됨",
-      "userUnbanned": "사용자 금지 해제",
-      "userUnmuted": "사용자 음소거 해제",
-      "userWarned": "사용자 경고",
+      "caseDeleted": "케이스 삭제됨",
+      "userUnbanned": "사용자 차단 해제",
+      "userUnmuted": "음소거 해제된 사용자",
+      "userWarned": "사용자에게 경고됨",
       "filterSystem": "필터 시스템",
-      "blacklistedTerm": "블랙리스트 기간",
+      "blacklistedTerm": "블랙리스트 용어",
       "levelUp": "레벨 업",
       "newLevel": "새로운 레벨"
     },
@@ -372,14 +383,14 @@
       "addChannel": "채널 추가"
     },
     "commandEmbed": {
-      "embedTitle": "채널 로깅",
+      "embedTitle": "로깅 채널",
       "type": "**○ 로그 유형:**",
       "channel": "**○ 로그 채널:**",
-      "noChannel": "아직 채널이 없습니다 ..."
+      "noChannel": "아직 채널이 없습니다..."
     }
   },
   "music": {
-    "loopIsNow": "루프가 지금입니다.",
+    "loopIsNow": "루프는 이제",
     "noSongsPlaying": "현재 재생 중인 노래가 없습니다.",
     "searching": "검색...",
     "buttons": {
@@ -399,46 +410,46 @@
   },
   "marriage": {
     "command": {
-      "selectAction": "결혼 행동을 선택하십시오.",
+      "selectAction": "결혼 동작을 선택합니다.",
       "send": "💌 요청 보내기",
       "sendDesc": "누군가와 결혼하고 싶다면.",
       "accept": "💍 제안 수락",
-      "acceptDesc": "누군가 당신에게 그들과 결혼하라고 했습니까? 정말로?",
+      "acceptDesc": "누군가 당신에게 결혼을 요청했습니까? 정말로?",
       "deny": "😭 제안 거부",
-      "denyDesc": "당신이 이것을 클릭하면 당신은 끔찍한 사람입니다 ...",
-      "divorce": "⚖️ 이혼하기",
-      "divorceDesc": "누가 아이들을 데려 가고 있습니까? 왜냐하면 그것은 나가되지 않을 것이기 때문입니다.",
+      "denyDesc": "이것을 클릭하면 당신은 끔찍한 사람입니다 ...",
+      "divorce": "⚖️ 이혼하다",
+      "divorceDesc": "누가 아이들을 데려가는거야? 왜냐하면 그것은 내가 아닐 것이기 때문입니다.",
       "embedTitle": "결혼 제도",
       "embedDesc": "결혼 제도를보고 변경하십시오!"
     }
   },
   "massrole": {
-    "begin": "'매스롤이 지금 시작...'",
+    "begin": "'매스롤이 시작되고 있습니다...'",
     "failed": "'매스롤 실패...'",
-    "missing": "**누락된 권한!**"
+    "missing": "**권한 누락!**"
   },
   "meme": {
-    "grabbing": "야 밈을 잡아 ...",
-    "hereYaGo": "여기 야 간다!"
+    "grabbing": "밈을 잡으려면...",
+    "hereYaGo": "여기 있습니다!"
   },
   "mute": {
-    "already": "해당 사용자가 이미 음소거되어 있습니다.",
+    "already": "해당 사용자는 이미 음소거되어 있습니다.",
     "not": "해당 사용자는 음소거되지 않습니다."
   },
   "offlineBan": {
     "success": "성공적으로 금지됨"
   },
   "payments": {
-    "notify": "이 옵션을 선택한 경우 알려주십시오.",
+    "notify": "이 옵션을 선택했는지 알려주십시오.",
     "payment": "지불",
-    "pleasePay": "지불하십시오",
-    "location": "위의 지불 방법 중 __one__합니다.",
+    "pleasePay": "지불하시기 바랍니다",
+    "location": "위의 지불 방법 중 __one__.",
     "otherOption": "다른 옵션"
   },
   "permissions": {
     "addPermission": "권한 추가",
     "embedTitle": "권한 메뉴",
-    "type": "**○ 파마 타입:**",
+    "type": "**○ 파마 유형:**",
     "role": "**○ 역할 ID:**",
     "noPermsYet": "아직 파마가 없습니다 ..."
   },
@@ -446,47 +457,47 @@
     "message": "🏓 대기 시간은 다음과 같습니다."
   },
   "pingPrevention": {
-    "selectAction": "ping 방지 작업을 선택합니다.",
+    "selectAction": "핑 방지 작업을 선택합니다.",
     "addPingPrev": "📫 핑 방지 추가",
-    "addPingPrevDesc": "핑 방지를 설정하십시오.",
+    "addPingPrevDesc": "핑 방지를 설정합니다.",
     "removePingPrev": "❌ 핑 방지 제거",
-    "removePingPrevDesc": "핑 방지를 제거하십시오.",
+    "removePingPrevDesc": "핑 방지를 제거합니다.",
     "embedTitle": "핑 방지 메뉴",
-    "embedDesc": "핑 방지 상태를 관리하십시오!"
+    "embedDesc": "핑 방지 상태를 관리하세요!"
   },
   "poll": {
-    "posted": "**설문 조사 게시!**"
+    "posted": "** 설문 조사 게시!"
   },
   "punishments": {
-    "noHistory": "이 사용자는 처벌의 역사가 없습니다!",
+    "noHistory": "이 사용자는 처벌 이력이 없습니다!",
     "embedTitle": "사례 정보"
   },
   "purge": {
-    "msgDeleted": "메시지 삭제!",
-    "error": "**메시지를 삭제하는 중 오류가 발생했습니다!**",
-    "reason": "최대 14 일까지만 메시지를 삭제할 수 있습니다 ..."
+    "msgDeleted": "메시지가 삭제되었습니다!",
+    "error": "**메시지 삭제 중 오류 발생!**",
+    "reason": "최대 14일이 지난 메시지만 삭제할 수 있습니다..."
   },
   "queue": {
-    "clearQueue": "큐 지우기",
+    "clearQueue": "대기열 지우기",
     "embedTitle": "대기 중인 노래",
     "noSongsQueued": "대기열에 노래가 없습니다."
   },
   "restart": {
-    "restarting": "클라이언트 다시 시작",
+    "restarting": "클라이언트 재시작 중",
     "restartingDesc": "**클라이언트 다시 시작...**",
     "success": "클라이언트 다시 시작 성공",
     "successDesc": "**클라이언트가 성공적으로 다시 시작되었습니다!**",
     "failed": "클라이언트 다시 시작 실패",
-    "private": "**개인 메시지를 확인하십시오!**",
+    "private": "** 개인 메시지를 확인하십시오!",
     "failed2": "**클라이언트를 다시 시작하지 못했습니다...**"
   },
   "reviews": {
     "reply": "답을 남겨주세요",
-    "newReview": "에서 새로운 리뷰",
-    "posted": "리뷰가 게시되었습니다."
+    "newReview": "에서 새로운 검토",
+    "posted": "귀하의 리뷰가 게시되었습니다."
   },
   "selfroles": {
-    "addMenu": "추가 메뉴",
+    "addMenu": "메뉴 추가",
     "roleManager": "역할 관리자",
     "postPanel": "포스트 패널",
     "embedTitle": "자기 역할 메뉴",
@@ -516,46 +527,46 @@
     "embedDesc": "설정 메뉴를보고 변경하십시오!"
   },
   "shop": {
-    "empty": "가게는 비어 있습니다.",
+    "empty": "가게가 비어 있습니다.",
     "shop": "가게",
-    "select": "상점에서 구매할 항목을 선택하십시오.",
-    "shopItems": "**상점 품목:**",
+    "select": "상점에서 구매할 항목을 선택합니다.",
+    "shopItems": "** 상점 아이템 : **",
     "click": "이 항목을 구입하려면 클릭하십시오.",
     "selectAction": "구매할 항목을 선택합니다."
   },
   "snipe": {
-    "noMessage": "이 채널에는 저격 할 메시지가 없습니다!",
-    "messageFrom": "메시지 출처",
+    "noMessage": "이 채널에는 저격할 메시지가 없습니다!",
+    "messageFrom": "에서 보낸 메시지",
     "snipedBy": "저격"
   },
   "sticky": {
-    "selectAction": "고정 메시지 동작을 선택합니다.",
+    "selectAction": "고정 메시지 작업을 선택합니다.",
     "add": "🍯 스티커 추가",
     "addDesc": "데이터베이스에 고정 메시지를 추가합니다.",
-    "remove": "❌ 끈적임 제거",
+    "remove": "❌ 끈적 끈적한 제거",
     "removeDesc": "데이터베이스에서 고정 메시지를 제거합니다.",
     "embedTitle": "스티커 메시지 메뉴",
-    "embedDesc": "데이터베이스에 스티커 메시지를 추가 / 제거하십시오!"
+    "embedDesc": "데이터베이스에 고정 메시지를 추가 / 제거하십시오!"
   },
   "suggestion": {
-    "recieved": "**제안의 낭독!**",
+    "recieved": "** 제안을 받았습니다!",
     "embedTitle": "새로운 제안!",
     "noChan": "이 길드는 아직 제안 로깅을 설정하지 않았습니다."
   },
   "tickets": {
     "noTickets": "이 길드에는 아직 티켓 카테고리가 설정되어 있지 않습니다.",
     "embedTitle": "티켓 카테고리",
-    "embedDesc": "이 길드의 티켓 범주는 다음과 같습니다. 하나를 선택하여 해당 범주의 티켓을 엽니다.",
-    "selectAction": "티켓 범주를 선택합니다."
+    "embedDesc": "다음은 이 길드의 티켓 카테고리입니다. 하나를 선택하여 해당 카테고리의 티켓을 엽니다.",
+    "selectAction": "티켓 카테고리를 선택합니다."
   },
   "ticketbuttons": {
     "close": "🔒 티켓 닫기",
     "rename": "✏️ 티켓 이름 바꾸기",
     "add": "📥 사용자 추가",
     "remove": "📤 사용자 제거",
-    "claim": "🤝 티켓 청구",
-    "claimedBy": "🤝 주장에 의해 주장",
-    "message": "몇 가지 유용한 티켓 버튼.",
+    "claim": "🤝 티켓 수령",
+    "claimedBy": "🤝 청구자",
+    "message": "유용한 티켓 버튼.",
     "onlyInTicket": "이 작업은 티켓 채널에서만 수행할 수 있습니다."
   },
   "ticketpanels": {
@@ -564,23 +575,23 @@
     "embedTitle": "티켓 패널",
     "panelName": "**○ 패널 이름:**",
     "panelDesc": "**○ 패널 설명:**",
-    "noPanels": "아직 패널이 없습니다 ..."
+    "noPanels": "아직 패널이 없습니다..."
   },
   "timer": {
-    "set": "타이머 세트!",
+    "set": "타이머 설정!",
     "up": "타이머 업!",
-    "remind": "나는 너에게 상기시켜 줄 것이다.",
+    "remind": "나는 당신에게 상기시킬 것입니다",
     "to": "받는 사람",
     "timer": "시간",
-    "time": "**시간: **",
-    "note": "**참고: **",
+    "time": "**시간:**",
+    "note": "**메모:**",
     "ended": "**타이머 종료**"
   },
   "tos": {
     "agree": "동의해요",
     "tos": "서비스 약관",
-    "confirm": "**[서비스 약관]에 동의하는지 **확인**",
-    "confirm2": "** \n아래의 파란색 버튼을 누르면 '동의합니다'라고 표시됩니다."
+    "confirm": "**[서비스 약관]에 동의하는지 **확인**하십시오.",
+    "confirm2": "** \n아래의 파란색 버튼을 눌러 '동의합니다'라고 말합니다."
   },
   "user": {
     "info": "사용자 정보",
@@ -589,7 +600,7 @@
     "bot": "봇",
     "cases": "경우",
     "level": "채팅 수준",
-    "joined": "불화에 합류",
+    "joined": "디스코드 가입",
     "requestedBy": "요청자"
   },
   "volume": {
@@ -619,18 +630,18 @@
   "commands": {
     "eightBall": {
       "name": "8볼",
-      "description": "하나님과 대화하십시오.",
+      "description": "신과 대화하십시오.",
       "options": [
         {
           "name": "질문",
-          "description": "공을 묻는 🎱 질문.",
+          "description": "공을 🎱 묻는 질문.",
           "required": "참",
           "type": "문자열"
         }
       ]
     },
     "afk": {
-      "name": "afk",
+      "name": "증권 시세 표시기",
       "description": "AFK 상태를 전환합니다."
     },
     "applicationmenu": {
@@ -639,11 +650,11 @@
     },
     "apply": {
       "name": "적용하다",
-      "description": "열려 있는 신청서를 작성합니다."
+      "description": "열려 있는 신청서를 작성하십시오."
     },
     "ascii": {
       "name": "아스키",
-      "description": "ascii 텍스트를 만듭니다.",
+      "description": "ASCII 텍스트를 만듭니다.",
       "options": [
         {
           "name": "문자 메시지",
@@ -659,7 +670,7 @@
       "options": [
         {
           "name": "사용자",
-          "description": "사용자의 아바타를 가져옵니다.",
+          "description": "아바타를 가져올 사용자입니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -667,7 +678,7 @@
     },
     "balance": {
       "name": "저울",
-      "description": "계정 잔액을 확인합니다."
+      "description": "계정 잔액을 봅니다."
     },
     "ban": {
       "name": "금지하다",
@@ -675,13 +686,13 @@
       "options": [
         {
           "name": "사용자",
-          "description": "이 길드에서 금지할 사용자입니다.",
+          "description": "이 길드에서 차단할 사용자입니다.",
           "required": "참",
           "type": "사용자"
         },
         {
           "name": "이유",
-          "description": "사용자를 금지하는 이유.",
+          "description": "사용자를 차단하는 이유입니다.",
           "required": "참",
           "type": "문자열"
         }
@@ -697,7 +708,7 @@
       "options": [
         {
           "name": "case_id",
-          "description": "볼 케이스 ID입니다.",
+          "description": "보려는 케이스 ID입니다.",
           "required": "참",
           "type": "정수"
         }
@@ -705,27 +716,27 @@
     },
     "clientmenu": {
       "name": "클라이언트 메뉴",
-      "description": "이 길드 클라이언트를 관리합니다."
+      "description": "이 길드 클라이언트를 관리하십시오."
     },
     "clients": {
       "name": "클라이언트",
-      "description": "이 길드 클라이언트를 봅니다."
+      "description": "이 길드 클라이언트를 확인하세요."
     },
     "credits": {
       "name": "크레딧",
-      "description": "이 봇에 대한 크레딧을 봅니다!"
+      "description": "이 봇의 크레딧을 확인하세요!"
     },
     "crime": {
       "name": "범죄",
       "description": "범죄를 저지르십시오."
     },
     "ddos": {
-      "name": "DDOS",
+      "name": "디도스",
       "description": "DDOS 공격을 😉 보내십시오!",
       "options": [
         {
           "name": "과녁",
-          "description": "사용자가 \"공격\"합니다.",
+          "description": "\"공격\"할 사용자.",
           "required": "참",
           "type": "사용자"
         }
@@ -759,7 +770,7 @@
       "options": [
         {
           "name": "채널",
-          "description": "임베드를 게시할 채널입니다.",
+          "description": "삽입을 게시할 채널입니다.",
           "required": "참",
           "type": "채널"
         },
@@ -772,12 +783,12 @@
       ]
     },
     "embedbuilder": {
-      "name": "임베드빌더",
-      "description": "대화식 메시지 포함 작성기를 엽니다."
+      "name": "임베디빌더",
+      "description": "대화식 메시지 임베드 빌더를 엽니다."
     },
     "games": {
       "name": "게임",
-      "description": "음성 채널에서 재생할 게임을 선택합니다.",
+      "description": "음성 채널에서 플레이할 게임을 선택합니다.",
       "options": [
         {
           "name": "게임",
@@ -806,7 +817,7 @@
               "value": "낚시"
             },
             {
-              "name": "미친 8의",
+              "name": "크레이지 8",
               "value": "8"
             },
             {
@@ -815,18 +826,18 @@
             },
             {
               "name": "편지 타일",
-              "value": "레터타일"
+              "value": "레터 타일"
             },
             {
               "name": "단어 스낵",
-              "value": "낱말 낱말"
+              "value": "워드스낵"
             },
             {
-              "name": "낙서 승무원",
-              "value": "낙서 승무원"
+              "name": "두들 크루",
+              "value": "두들크루"
             },
             {
-              "name": "스펠 캐스트",
+              "name": "주문 시전",
               "value": "스펠캐스트"
             },
             {
@@ -839,7 +850,7 @@
     },
     "giveaway": {
       "name": "공짜",
-      "description": "공짜를 만드세요.",
+      "description": "경품을 만드세요.",
       "options": [
         {
           "name": "채널",
@@ -849,25 +860,25 @@
         },
         {
           "name": "color_hex",
-          "description": "공짜를위한 색상 HEX. (예: #FFFFFF)",
+          "description": "경품을위한 색상 HEX. (예: #FFFFFF)",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "상",
-          "description": "당신이 포기하고자하는 것.",
+          "description": "당신이 포기하려는 것.",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "time_limit",
-          "description": "공짜가 얼마나 오래 지속되어야하는지.",
+          "description": "경품이 얼마나 오래 지속되어야 하는지.",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "승자",
-          "description": "경품 행사가 얼마나 많은 승자를 가져야하는지.",
+          "description": "경품에는 몇 명의 승자가 있어야합니까?",
           "required": "참",
           "type": "정수"
         }
@@ -875,11 +886,11 @@
     },
     "guilds": {
       "name": "길드",
-      "description": "이 봇이 있는 길드를 확인합니다."
+      "description": "이 봇이 속한 길드를 확인하세요."
     },
     "help": {
       "name": "도움말",
-      "description": "봇에 대한 모든 명령과 정보를 봅니다!",
+      "description": "봇에 대한 모든 명령 및 정보를 확인하세요!",
       "options": [
         {
           "name": "명령",
@@ -907,17 +918,17 @@
     },
     "kick": {
       "name": "차기",
-      "description": "이 길드에서 누군가를 걷어차십시오.",
+      "description": "이 길드에서 누군가를 쫓아내십시오.",
       "options": [
         {
           "name": "사용자",
-          "description": "이 길드에서 걷어차는 사용자입니다.",
+          "description": "이 길드에서 추방 할 사용자.",
           "required": "참",
           "type": "사용자"
         },
         {
           "name": "이유",
-          "description": "사용자를 걷어차는 이유.",
+          "description": "사용자를 추방하는 이유입니다.",
           "required": "참",
           "type": "문자열"
         }
@@ -925,7 +936,7 @@
     },
     "leaderboard": {
       "name": "순위표",
-      "description": "이 서버 채팅 수준 순위표를 봅니다."
+      "description": "이 서버 채팅 수준 리더 보드를 봅니다."
     },
     "level": {
       "name": "수준",
@@ -933,7 +944,7 @@
       "options": [
         {
           "name": "사용자",
-          "description": "의 레벨을 볼 수 있는 사용자",
+          "description": "수준을 볼 수 있는 사용자",
           "required": "참",
           "type": "사용자"
         }
@@ -941,15 +952,15 @@
     },
     "logging": {
       "name": "로깅",
-      "description": "이 길드에 대한 로깅 설정을 수정합니다."
+      "description": "이 길드의 로깅 설정을 수정합니다."
     },
     "loop": {
       "name": "루프",
-      "description": "노래 루프를 토글합니다."
+      "description": "노래 루프를 전환합니다."
     },
     "marriage": {
       "name": "결혼",
-      "description": "결혼 시스템을❤️보십시오!"
+      "description": "결혼 시스템❤️보기!"
     },
     "massrole": {
       "name": "매스롤",
@@ -957,7 +968,7 @@
       "options": [
         {
           "name": "역할",
-          "description": "모든 회원에게 줄 역할.",
+          "description": "모든 구성원에게 부여할 역할입니다.",
           "required": "참",
           "type": "역할"
         }
@@ -965,7 +976,7 @@
     },
     "meme": {
       "name": "같은",
-      "description": "밈을 잡아라!"
+      "description": "밈을 얻으십시오!"
     },
     "music": {
       "name": "음악",
@@ -985,37 +996,37 @@
       "options": [
         {
           "name": "사용자",
-          "description": "사용자가 이 길드에서 음소거할 수 있습니다.",
+          "description": "이 길드에서 음소거할 사용자입니다.",
           "required": "참",
           "type": "사용자"
         },
         {
           "name": "시간",
-          "description": "얼마나 오랫동안 그들을 음소거하고 싶은지. (예: 15m = 15분)",
+          "description": "얼마나 오래 음소거하고 싶은지. (예: 15분 = 15분)",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "이유",
-          "description": "사용자를 음소거하는 이유.",
+          "description": "사용자를 음소거하는 이유입니다.",
           "required": "참",
           "type": "문자열"
         }
       ]
     },
     "offlineban": {
-      "name": "오프라인 금지",
-      "description": "길드에 없는 사람을 금지합니다.",
+      "name": "오프라인금지",
+      "description": "길드에 속하지 않은 사람을 차단합니다.",
       "options": [
         {
           "name": "user_id",
-          "description": "금지할 사용자의 사용자 ID입니다.",
+          "description": "차단할 사용자의 사용자 ID입니다.",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "이유",
-          "description": "사용자를 금지하는 이유.",
+          "description": "사용자를 차단하는 이유입니다.",
           "required": "참",
           "type": "문자열"
         }
@@ -1027,7 +1038,7 @@
       "options": [
         {
           "name": "분량",
-          "description": "사용자가 지불해야하는 금액과 통화를 제공하십시오.",
+          "description": "사용자가 지불해야 하는 금액과 통화를 입력하세요.",
           "required": "참",
           "type": "문자열"
         }
@@ -1035,7 +1046,7 @@
     },
     "permissions": {
       "name": "권한을",
-      "description": "이 길드 권한을 수정합니다."
+      "description": "이 길드 권한을 수정하십시오."
     },
     "ping": {
       "name": "핑",
@@ -1047,7 +1058,7 @@
     },
     "play": {
       "name": "놀다",
-      "description": "일부 음악 ⏯️ 재생 .",
+      "description": "음악 ⏯️ 좀 틀어 줘.",
       "options": [
         {
           "name": "노래",
@@ -1135,7 +1146,7 @@
       "options": [
         {
           "name": "사용자",
-          "description": "사용자의 케이스 히스토리를 볼 수 있다.",
+          "description": "사용자의 사례 기록을 볼 수 있습니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -1147,7 +1158,7 @@
       "options": [
         {
           "name": "분량",
-          "description": "제거할 메시지 수입니다.",
+          "description": "제거할 메시지의 #입니다.",
           "required": "참",
           "type": "정수"
         }
@@ -1158,12 +1169,12 @@
       "description": "음악 대기열을 봅니다."
     },
     "removecase": {
-      "name": "제거케이스",
-      "description": "데이터베이스에서 케이스를 제거합니다.",
+      "name": "케이스 제거",
+      "description": "데이터베이스에서 서비스 케이스를 제거합니다.",
       "options": [
         {
           "name": "case_id",
-          "description": "제거할 케이스 ID입니다.",
+          "description": "제거할 대/소문자 ID입니다.",
           "required": "참",
           "type": "정수"
         }
@@ -1179,13 +1190,13 @@
       "options": [
         {
           "name": "서비스",
-          "description": "당신이 구입 / 구입 한 것.",
+          "description": "구매 / 구매 한 것.",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "등급",
-          "description": "5 점 만점에 제품을 평가하는 것.",
+          "description": "제품을 5점 만점으로 평가합니다.",
           "required": "참",
           "type": "정수"
         },
@@ -1199,11 +1210,11 @@
     },
     "rob": {
       "name": "빼앗다",
-      "description": "사용자를 롭 깁니다.",
+      "description": "사용자를 강탈합니다.",
       "options": [
         {
           "name": "사용자",
-          "description": "도둑질할 사용자입니다.",
+          "description": "강탈할 사용자입니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -1229,7 +1240,7 @@
     },
     "selfroles": {
       "name": "자기 역할",
-      "description": "이 길드에 대한 자체 역할을 설정합니다."
+      "description": "이 길드의 자기 역할을 설정합니다."
     },
     "server": {
       "name": "서버",
@@ -1249,7 +1260,7 @@
     },
     "sticky": {
       "name": "끈적끈적한",
-      "description": "스티커 메시지를 추가하거나 제거합니다."
+      "description": "고정 메시지 추가 또는 제거"
     },
     "suggest": {
       "name": "암시하다",
@@ -1257,7 +1268,7 @@
       "options": [
         {
           "name": "제안",
-          "description": "당신이 제안하고있는 것.",
+          "description": "당신이 제안하는 것.",
           "required": "참",
           "type": "문자열"
         }
@@ -1273,7 +1284,7 @@
     },
     "ticketpanels": {
       "name": "티켓 패널",
-      "description": "이 길드의 티켓 패널을 설정합니다."
+      "description": "이 길드의 티켓 패널을 설정하세요."
     },
     "timer": {
       "name": "시간",
@@ -1281,13 +1292,13 @@
       "options": [
         {
           "name": "시간",
-          "description": "타이머가 꺼지는 시간입니다. (예: 1h = 1시간, 1m = 1분, 5s = 5초)",
+          "description": "타이머가 꺼지는 시간입니다. (예: 1시간 = 1시간, 1m = 1분, 5초 = 5초)",
           "required": "참",
           "type": "문자열"
         },
         {
           "name": "이유",
-          "description": "봇이 무엇을 상기시켜야 합니까?",
+          "description": "봇은 무엇을 상기시켜야합니까?",
           "required": "참",
           "type": "문자열"
         }
@@ -1299,7 +1310,7 @@
       "options": [
         {
           "name": "사용자",
-          "description": "귀하가 서비스 약관에 동의하도록 요청하고자 하는 사용자.",
+          "description": "서비스 약관에 동의하도록 요청하려는 사용자입니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -1307,11 +1318,11 @@
     },
     "unban": {
       "name": "금지 해제",
-      "description": "이 길드에서 누군가를 금지 해제하십시오.",
+      "description": "이 길드에서 누군가의 차단을 해제하십시오.",
       "options": [
         {
           "name": "사용자",
-          "description": "이 길드에서 금지를 해제할 사용자 ID입니다.",
+          "description": "이 길드에서 차단을 해제할 사용자 ID입니다.",
           "required": "참",
           "type": "문자열"
         }
@@ -1319,11 +1330,11 @@
     },
     "unmute": {
       "name": "음소거 해제",
-      "description": "길드에 있는 사람의 음소거를 해제합니다.",
+      "description": "길드에서 누군가의 음소거를 해제합니다.",
       "options": [
         {
           "name": "사용자",
-          "description": "사용자가 이 길드에서 음소거를 해제합니다.",
+          "description": "이 길드에서 음소거를 해제할 사용자입니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -1335,7 +1346,7 @@
       "options": [
         {
           "name": "사용자",
-          "description": "볼 사용자입니다.",
+          "description": "보려는 사용자입니다.",
           "required": "참",
           "type": "사용자"
         }
@@ -1365,7 +1376,7 @@
         },
         {
           "name": "이유",
-          "description": "사용자에게 경고하는 이유.",
+          "description": "사용자에게 경고하는 이유입니다.",
           "required": "참",
           "type": "문자열"
         }
@@ -1373,7 +1384,7 @@
     },
     "wink": {
       "name": "윙크",
-      "description": "윙크 GIF를 다른 사람에게 보냅니다."
+      "description": "누군가에게 윙크 gif를 보냅니다."
     },
     "work": {
       "name": "일하다",
@@ -1382,11 +1393,11 @@
   },
   "events": {
     "actionLogs": "작업 로그",
-    "actionBy": "조치 대상",
+    "actionBy": "액션",
     "someone": "누군가",
     "guilds": {
-      "join": "📥 길드가 합류했습니다!",
-      "leave": "📤 길드 왼쪽!",
+      "join": "📥 길드 가입!",
+      "leave": "📤 길드 탈퇴!",
       "name": "**○ 이름:**",
       "id": "**○ 아이디:**"
     },
@@ -1401,7 +1412,7 @@
       "color": "색",
       "hoisted": "게양",
       "position": "위치",
-      "mentionable": "언급 가능"
+      "mentionable": "언급 가능한"
     },
     "channels": {
       "created": "채널 생성됨",
@@ -1412,26 +1423,26 @@
     },
     "members": {
       "left": "서버를 떠났습니다!",
-      "leftEmbedTitle": "안녕히 계세요 사용자!",
-      "accountAge": "계정 연령",
+      "leftEmbedTitle": "안녕 사용자!",
+      "accountAge": "계정 사용 기간",
       "members": "회원",
       "users": "사용자",
       "sorry": "미안해요",
-      "lockdown": "현재 잠금 상태입니다! 몇 시간 후에 다시 참여하거나 외부 관리자에게 연락하여 무슨 일이 일어나고 있는지 확인하십시오!\n\n소유자가 서버 잠금을 비활성화하는 것을 잊어 버렸을 수도 있습니다.이 서버가 기록되었는지에 관계없이 서버가 곧 다시 열릴 것이라고 확신합니다.",
+      "lockdown": "현재 봉쇄 중입니다! 몇 시간 후에 다시 참여하거나 외부 관리자에게 문의하여 무슨 일이 일어나고 있는지 확인하세요!\n\n소유자가 서버 잠금을 비활성화하는 것을 잊었을 수 있습니다.이 기록에 관계없이 서버가 곧 다시 열릴 것이라고 확신합니다.",
       "lockdownMode": "서버가 잠금 모드에 있습니다!",
-      "lockdownTitle": "🔒 서버 록다운!",
-      "lockdownRemoval": "록다운 제거!",
+      "lockdownTitle": "🔒 서버 잠금!",
+      "lockdownRemoval": "봉쇄 해제!",
       "reason": "이유",
       "action": "행동",
       "user": "사용자",
       "kicked": "걷어",
-      "sl": "서버 록다운!",
-      "altDetected": "Alt 계정이 감지되었습니다!",
+      "sl": "서버 잠금!",
+      "altDetected": "대체 계정이 감지되었습니다!",
       "removalTitle": "당신은 제거되었습니다!",
       "removal1": "에서 제거되었습니다.",
-      "removal2": "귀하의 계정이 길드 계정 연령 요건을 충족하지 못하기 때문에.",
+      "removal2": "귀하의 계정이 길드 계정 연령 요건을 충족하지 않기 때문입니다.",
       "join": "서버에 가입했습니다!",
-      "joinEmbedTitle": "오신 것을 환영합니다 사용자!"
+      "joinEmbedTitle": "사용자를 환영합니다!"
     },
     "messages": {
       "deleted": "메시지 삭제됨",
@@ -1439,20 +1450,20 @@
       "content": "메시지 내용",
       "noContent": "내용 없음",
       "updated": "메시지 업데이트됨",
-      "noAfk": "이 길드에서 더 이상 AFK로 표시되지 않습니다.",
+      "noAfk": "더 이상 이 길드에서 AFK로 표시되지 않습니다.",
       "isAfk": "현재 AFK입니다 ...",
-      "pingedBy": "에 의해 핑",
+      "pingedBy": "핑한 사람",
       "pingPrev": "❤️ 핑 방지 시스템",
-      "mail": "📫 메일이 있어요!",
-      "pleaseDont": "제발 나를 핑하지 마라, 나는 너처럼 인생을 가지고있다 :]"
+      "mail": "📫 메일이 있습니다!",
+      "pleaseDont": "핑하지 마세요, 저도 당신처럼 삶이 있습니다 :]"
     },
     "roles": {
-      "created": "역할이 생성됨",
-      "deleted": "역할이 삭제됨",
+      "created": "역할 생성됨",
+      "deleted": "역할 삭제됨",
       "updated": "역할 업데이트됨",
-      "id": "역할 ID",
+      "id": "역할 아이디",
       "name": "역할 이름",
-      "actionedBy": "조치 대상"
+      "actionedBy": "액션"
     },
     "voice": {
       "has": "있다",
@@ -1462,13 +1473,13 @@
       "server": "서버",
       "left": "왼쪽",
       "joined": "합류",
-      "moved": "에서 이동",
+      "moved": "에서 옮김",
       "to": "받는 사람",
       "deafened": "청각 장애인",
-      "undeafened": "청각 장애인",
+      "undeafened": "귀머거리",
       "muted": "음소거",
       "unmuted": "음소거 해제",
-      "stopped": "비디오를 중지했습니다.",
+      "stopped": "동영상을 중지했습니다.",
       "started": "비디오를 시작했습니다.",
       "stream": "스트리밍 시작",
       "stopstream": "스트리밍이 중지됨"
@@ -1476,33 +1487,33 @@
   },
   "components": {
     "agreeTos": {
-      "notasked": "ToS에 동의하라는 요청을 받지 않습니다.",
-      "notasked2": "에 대한 질문을 받고 있습니다.",
+      "notasked": "ToS에 동의하라는 메시지가 표시되지 않습니다.",
+      "notasked2": "를 요청받고 있습니다.",
       "agreed": "동의하여",
       "hasAgreed": "서비스 약관에 동의했습니다."
     },
     "appAccept": {
-      "button": "수락 대상",
+      "button": "수락한 사람",
       "err": "해당 응용 프로그램을 찾을 수 없습니다.",
-      "embedTitle": "✅ 신청서 접수",
-      "app": "**응용 프로그램:**",
+      "embedTitle": "✅ 신청 접수",
+      "app": "**신청:**",
       "message": "**메시지:**"
     },
     "appDeny": {
-      "denied": "에 의해 거부됨",
+      "denied": "거부된 사람",
       "unable": "해당 응용 프로그램을 찾을 수 없습니다.",
       "title": "❌ 신청이 거부됨",
-      "app": "**응용 프로그램:**",
+      "app": "**신청:**",
       "message": "**메시지:**"
     },
     "appMenuAdd": {
       "title": "응용 프로그램 만들기!",
       "name": "응용 프로그램 이름",
-      "here": "여기에 응용 프로그램 이름을 입력합니다.",
+      "here": "여기에 애플리케이션 이름을 입력합니다.",
       "am": "수락된 메시지",
       "dm": "거부된 메시지",
-      "aam": "사용자가 여기에서 수락될 경우 받아야 하는 메시지를 입력합니다.",
-      "ddm": "여기에 거부될 경우 사용자가 받아야 하는 메시지를 입력합니다."
+      "aam": "사용자가 수락된 경우 받을 메시지를 여기에 입력합니다.",
+      "ddm": "거부된 경우 사용자가 받아야 하는 메시지를 여기에 입력합니다."
     },
     "appMenuBack": {
       "title": "응용 프로그램 메뉴",
@@ -1510,7 +1521,7 @@
       "noapps": "아직 응용 프로그램이 없습니다 ..."
     },
     "appMenuCreate": {
-      "created": "응용 프로그램 생성!"
+      "created": "응용 프로그램이 생성되었습니다!"
     },
     "appMenuDelete": {
       "deleted": "응용 프로그램이 삭제되었습니다!"
@@ -1530,123 +1541,123 @@
       "noQuestion": "아직 질문이 생성되지 않았습니다."
     },
     "appMenuQuestionsAdd": {
-      "added": "질문이 추가되었습니다!",
-      "invalid": "잘못된 응용 프로그램.",
-      "input": "응용 프로그램에 추가하려는 질문을 입력하십시오.",
+      "added": "질문 추가!",
+      "invalid": "잘못된 응용 프로그램입니다.",
+      "input": "신청서에 추가하고 싶은 질문을 입력하십시오.",
       "cancel": "취소.",
-      "error": "질문을 추가하는 동안 오류가 발생했습니다. 다시 시도하고, 질문에 이모티콘을 포함하지 않았는지 확인하십시오."
+      "error": "질문을 추가하는 동안 오류가 발생했습니다. 다시 시도하고 질문에 이모티콘을 포함하지 않았는지 확인하십시오."
     },
     "appMenuQuestionsDelete": {
       "deleted": "질문이 삭제되었습니다!",
-      "unable": "데이터베이스에서 해당 질문을 찾을 수 없었습니다."
+      "unable": "데이터베이스에서 해당 질문을 찾을 수 없습니다."
     },
     "appSelect": {
       "noQuestions": "이 응용 프로그램에는 아직 생성 된 질문이 없습니다.",
-      "pleaseAnswer": "다음 질문에 최선을 다해 답변하십시오.",
-      "started": "응용 프로그램이 DM에서 시작되었습니다.",
+      "pleaseAnswer": "다음 질문에 최선을 다해 답변해 주십시오.",
+      "started": "DM에서 응용 프로그램이 시작되었습니다.",
       "cancel": "취소.",
-      "date": "제출일",
+      "date": "제출 날짜",
       "submitted": "신청서 제출!",
-      "failed": "**응용 프로그램 실패.**\nDM이 비공개가 아닌지 확인하십시오.",
+      "failed": "**응용 프로그램이 실패했습니다.**\nDM이 비공개가 아닌지 확인하세요.",
       "q": "Q",
       "a": "A"
     },
     "backingDeposit": {
-      "noInput": "은행에 입금하려는 금액을 입력하십시오.",
+      "noInput": "은행에 입금할 금액을 입력하십시오.",
       "notValid": "유효한 번호를 입력하십시오.",
-      "notValid2": "**유효한 번호를 입력하십시오.**\n다시 시도하십시오...",
-      "notEnough": "** 그것은 당신이 당신의 균형에있는 것보다 더 많은 것입니다.\n다시 시도하십시오...",
+      "notValid2": "** 유효한 번호를 입력하십시오.\n다시 시도하십시오...",
+      "notEnough": "** 그것은 당신이 당신의 잔액에있는 것보다 더 많습니다.\n다시 시도하십시오...",
       "deposited": "**입금 ",
-      "deposited1": " 은행에 들어갑니다.**",
-      "logAuthor": " - 보증금",
+      "deposited1": " 은행에.**",
+      "logAuthor": " -보증금",
       "amount": "분량"
     },
     "bankingTransfer": {
-      "user": "이 통화를 이전하려는 사용자를 제공하십시오.",
-      "aUser": "이 사용자에게 이전하려는 금액을 제공하십시오.",
+      "user": "이 통화를 이체하려는 사용자를 제공하십시오.",
+      "aUser": "이 사용자에게 이체할 금액을 입력하십시오.",
       "valUser": "유효한 사용자를 입력하십시오.",
       "valNumber": "유효한 번호를 입력하십시오.",
-      "valNumber1": "**유효한 번호를 입력하십시오.**\n다시 시도하십시오...",
-      "notEnough": "** 그것은 당신이 당신의 균형에있는 것보다 더 많은 것입니다.\n다시 시도하십시오...",
+      "valNumber1": "** 유효한 번호를 입력하십시오.\n다시 시도하십시오...",
+      "notEnough": "** 그것은 당신이 당신의 잔액에있는 것보다 더 많습니다.\n다시 시도하십시오...",
       "Done": " 전송!**",
-      "logAuthor": " - 전송",
-      "reciever": "리사이버"
+      "logAuthor": " -갈아타다",
+      "reciever": "리시버"
     },
     "bankingWithdraw": {
-      "iAmount": "은행에서 인출하려는 금액을 입력하십시오.",
+      "iAmount": "은행에서 인출할 금액을 입력하십시오.",
       "number": "유효한 번호를 입력하십시오.",
-      "valNumber": "**유효한 번호를 입력하십시오.**\n다시 시도하십시오...",
-      "notEnough": "** 그것은 당신이 당신의 은행에있는 것보다 더 많은 것입니다.\n다시 시도하십시오...",
+      "valNumber": "** 유효한 번호를 입력하십시오.\n다시 시도하십시오...",
+      "notEnough": "** 그것은 당신이 은행에있는 것보다 더 많습니다.\n다시 시도하십시오...",
       "Withdrew": "**철회 ",
-      "Withdrew1": " 뒤에서 .**",
-      "logAuthor": " - 철수"
+      "Withdrew1": " 뒤에서.**",
+      "logAuthor": " -철회"
     },
     "birthdayAdd": {
-      "already": "이 길드에 이미 생일을 등록했습니다.",
-      "date": "생년월일을 명시하십시오.\n**참고:** 다음과 같이 포맷해야 합니다: 'MM-DD-YYYY' 그렇지 않으면 **작동하지 않습니다**.",
+      "already": "이미 이 길드에 생일을 등록했습니다.",
+      "date": "생년월일을 기재해 주십시오.\n** 참고 : ** 다음과 같은 형식이어야합니다 : 'MM-DD-YYYY'그렇지 않으면 ** 작동하지 않습니다 **.",
       "cancel": "취소.",
-      "added": "**생일 추가!**"
+      "added": "** 생일 추가!"
     },
     "birthdayRemove": {
       "noBday": "이 길드에 생일을 등록하지 않았습니다.",
-      "removed": "**생일이 제거되었습니다!**"
+      "removed": "** 생일 제거!"
     },
     "birthdaySystem": {
       "title": "🥳 생일 축하해요!",
       "its": "그것은",
-      "bday": "오늘 생일! 그들에게 생일 축하를 기원하고 축하합시다!\n\n**날짜:**"
+      "bday": "오늘 생일! 그들에게 생일을 축하하고 축하합시다!\n\n**날짜:**"
     },
     "clientAdd": {
       "user": "클라이언트로 추가하려는 사용자를 언급하십시오.",
       "iUser": "잘못된 사용자입니다.\n클라이언트로 추가하려는 사용자를 언급하십시오.",
-      "already": "해당 사용자가 이미 등록된 클라이언트입니다.",
-      "added": "📥 클라이언트가 추가됨",
+      "already": "해당 사용자는 이미 등록된 클라이언트입니다.",
+      "added": "📥 클라이언트 추가됨",
       "done": "클라이언트로 '추가'되었습니다.",
       "add": "**클라이언트 추가!**"
     },
     "clientRemove": {
-      "noClients": "이 길드에는 등록된 클라이언트가 없습니다.",
-      "mention": "제거하려는 고객을 언급하십시오.",
-      "iClient": "잘못된 사용자입니다.\n제거하려는 고객을 언급하십시오.",
+      "noClients": "이 길드에는 등록된 고객이 없습니다.",
+      "mention": "제거하려는 클라이언트를 언급하십시오.",
+      "iClient": "잘못된 사용자입니다.\n제거하려는 클라이언트를 언급하십시오.",
       "notR": "해당 사용자는 등록된 클라이언트가 아닙니다.",
-      "removed": "📥 클라이언트가 제거됨",
-      "dsec": "클라이언트로 '제거'되었습니다.",
+      "removed": "📥 클라이언트 제거됨",
+      "dsec": "클라이언트에서 '제거'되었습니다.",
       "done": "**클라이언트가 제거되었습니다!**"
     },
     "forceLeaveGuild": {
       "left": "왼쪽 길드"
     },
     "giveawayEnd": {
-      "end": "경품 행사 종료, 잠시만 기다려 주세요!",
+      "end": "엔딩 경품, 잠시만 기다려주세요!",
       "notCreator": "당신은이 경품의 창조자가 아닙니다!\n그것은 다음에 의해 만들어졌습니다 :",
-      "ended": "이 공짜는 이미 끝났습니다.",
-      "notCreator1": "이 공짜는 이미 끝났습니다!\n그것은 다음에 의해 만들어졌습니다 :",
-      "noExist": "이 공짜는 데이터베이스에 존재하지 않습니다 ..."
+      "ended": "이 경품은 이미 종료되었습니다.",
+      "notCreator1": "이 경품은 이미 종료되었습니다!\n그것은 다음에 의해 만들어졌습니다 :",
+      "noExist": "이 경품은 데이터베이스에 존재하지 않습니다 ..."
     },
     "giveawayEnter": {
-      "enter": "경품 행사에 참가했습니다! 우리는 지금 가지고 있습니다.",
+      "enter": "경품에 들어갔다! 우리는 지금 가지고 있습니다",
       "entries": "항목!",
-      "already": "당신은 이미 입력했습니다! 우리는 현재 가지고 있습니다.",
-      "notActive": "이 공짜는 더 이상 활성화되지 않습니다."
+      "already": "이미 입력하셨습니다! 우리는 현재 가지고 있습니다",
+      "notActive": "이 경품은 더 이상 활성화되지 않습니다."
     },
     "giveawayRefresh": {
-      "for": "공짜",
+      "for": "경품",
       "with": "와",
-      "finish": "승자는 봇이 다시 시작되어 타이머가 재설정되었습니다!"
+      "finish": "우승자는 봇 재시작으로 인해 타이머가 재설정되었습니다!"
     },
     "giveawayReroll": {
-      "wait": "다시 롤링, 잠시만 기다려주십시오!",
+      "wait": "다시 롤링, 잠시만 기다려주세요!",
       "consoleNumber": "경품 상금 수는 숫자가 아닙니다 ...",
-      "title": "공짜 다시 롤드!",
+      "title": "경품 다시 롤!",
       "prize": "**정보**\n상:",
       "winners": "승자:",
       "time": "기한:",
-      "winners2": "**우승자**",
-      "footer": "공짜: ",
-      "endError": "공짜 종료 오류 : ",
-      "uNot": "당신은이 경품을 만들지 않았습니다.",
-      "wait1": "다시 롤링하려면 경품이 끝날 때까지 기다려야합니다!",
-      "find": "우리는 데이터베이스에서이 공짜를 찾을 수 없었습니다."
+      "winners2": "**승자**",
+      "footer": "경품 제공: ",
+      "endError": "경품 종료 오류 : ",
+      "uNot": "이 경품을 만들지 않았습니다.",
+      "wait1": "다시 굴리려면 경품이 끝날 때까지 기다려야 합니다!",
+      "find": "데이터베이스에서 이 경품을 찾을 수 없습니다."
     },
     "helpPageSelect": {
       "title": " 도움말 메뉴",
@@ -1654,9 +1665,9 @@
       "by": "곁에"
     },
     "inventorySelect": {
-      "noItems": "인벤토리에 항목이 없습니다.",
-      "used": "**1** 을 사용했습니다.",
-      "logAuthor": " - 중고 항목",
+      "noItems": "인벤토리에 아이템이 없습니다.",
+      "used": "**1**을 사용했습니다.",
+      "logAuthor": " - 중고 아이템",
       "field1": "항목"
     },
     "loggingSelect": {
@@ -1667,8 +1678,8 @@
           "desc": "환영 메시지에 대한 로깅 채널을 설정합니다."
         },
         "leave": {
-          "label": "👋 메시지 남기기",
-          "desc": "휴가 메시지에 대한 로깅 채널을 설정합니다."
+          "label": "👋 메시지를 남겨주세요",
+          "desc": "메시지 남기기에 대한 로깅 채널을 설정합니다."
         },
         "member": {
           "label": "🔢 회원 수",
@@ -1684,11 +1695,11 @@
         },
         "role": {
           "label": "🎭 역할 로그",
-          "desc": "조정 로그에 대한 로깅 채널 설정"
+          "desc": "중재 로그에 대한 로깅 채널 설정"
         },
         "mod": {
           "label": "🔨 중재 로그",
-          "desc": "조정 로그에 대한 로깅 채널 설정"
+          "desc": "중재 로그에 대한 로깅 채널 설정"
         },
         "ticket": {
           "label": "🎟️ 티켓 로그",
@@ -1708,14 +1719,14 @@
         },
         "alt": {
           "label": "👻 대체 방지 로그",
-          "desc": "alt 방지 로그에 대한 로깅 채널을 설정합니다."
+          "desc": "대체 방지 로그에 대한 로깅 채널을 설정합니다."
         },
         "server": {
-          "label": "🔒 서버 로그",
+          "label": "🔒 서버 잠금 로그",
           "desc": "서버 잠금 로그에 대한 로깅 채널을 설정합니다."
         },
         "filter": {
-          "label": "❌ 필터 로그",
+          "label": "❌ 로그 필터링",
           "desc": "필터 로그에 대한 로깅 채널을 설정합니다."
         },
         "client": {
@@ -1739,12 +1750,12 @@
           "desc": "응용 프로그램 로그에 대한 로깅 채널을 설정합니다."
         },
         "economy": {
-          "label": "🏦 이코노미 로그",
-          "desc": "이코노미 로그에 대한 로깅 채널을 설정합니다."
+          "label": "🏦 경제 로그",
+          "desc": "경제 로그에 대한 로깅 채널을 설정합니다."
         },
         "eco": {
-          "label": "📈 레벨 업 로그",
-          "desc": "레벨 업 로그에 대한 로깅 채널을 설정합니다."
+          "label": "📈 로그 레벨업",
+          "desc": "레벨업 로그에 대한 로깅 채널을 설정합니다."
         },
         "other": {
           "label": "❓ 다른 로그",
@@ -1753,9 +1764,9 @@
       }
     },
     "loggingBack": {
-      "title": "채널 로깅",
+      "title": "로깅 채널",
       "type": "**○ 로그 유형:**",
-      "nochans": "아직 채널이 없습니다 ...",
+      "nochans": "아직 채널이 없습니다...",
       "chan": "**○ 로그 채널:**"
     },
     "loggingDelete": {
@@ -1766,53 +1777,53 @@
         "addChan": "채널 추가",
         "deleted": "선택한 항목 삭제"
       },
-      "title": "채널 로깅",
+      "title": "로깅 채널",
       "type": "**○ 로그 유형:**",
-      "nochans": "아직 채널이 없습니다 ...",
+      "nochans": "아직 채널이 없습니다...",
       "chan": "**○ 로그 채널:**"
     },
     "loggingNext": {
-      "title": "채널 로깅",
+      "title": "로깅 채널",
       "type": "**○ 로그 유형:**",
-      "nochans": "아직 채널이 없습니다 ...",
+      "nochans": "아직 채널이 없습니다...",
       "chan": "**○ 로그 채널:**"
     },
     "loggingSelectB": {
-      "provide": "이러한 로그로 이동할 채널을 제공하십시오.",
+      "provide": "이러한 로그가 이동할 수 있는 채널을 제공하세요.",
       "cancel": "취소.",
-      "invalid": "**잘못된 채널이 제공됨, 다시 시도하십시오.**",
-      "created": "**로깅 채널이 생성되었습니다!**\n**유형:**",
+      "invalid": "**잘못된 채널이 제공되었습니다. 다시 시도하십시오.**",
+      "created": "**로깅 채널 생성!**\n**형:**",
       "channel": "**채널:**"
     },
     "marriageAcceptProposal": {
       "already": "당신은 이미 결혼했습니다.",
       "desc1": "요청을 수락하려는 사용자를 언급하십시오.",
       "cancel": "취소.",
-      "self": "당신은 너 자신과 결혼 할 수 있습니다.",
-      "never": "그 사용자는 당신과 결혼하도록 요청하지 않았습니다 ...",
+      "self": "너 자신과 결혼 할 수있다.",
+      "never": "그 사용자는 당신과 결혼을 요청한 적이 없습니다 ...",
       "title": "💘 축하합니다!",
-      "desc": "결혼 요청이 수락되었습니다.",
-      "married": "당신은 지금 결혼했습니다."
+      "desc": "귀하의 결혼 요청이 수락되었습니다.",
+      "married": "당신은 지금 결혼했습니다"
     },
     "marriageDenyProposal": {
       "already": "당신은 이미 결혼했습니다.",
       "desc": "요청을 거부하려는 사용자를 언급하십시오.",
       "cancel": "취소.",
       "deny": "당신은 자신을 부정 할 수 없습니다.",
-      "never": "그 사용자는 당신과 결혼하도록 요청하지 않았습니다 ...",
+      "never": "그 사용자는 당신과 결혼을 요청한 적이 없습니다 ...",
       "title": "😭 미안해요!",
       "desc1": "귀하의 결혼 요청이 거부되었습니다.",
       "denied": "해당 사용자의 결혼 요청을 거부했습니다."
     },
     "marriageDivorce": {
-      "title": "⚖️ 당신은 섬김을 받았습니다!",
-      "desc": "귀하의 배우자,",
-      "divorced": ", 방금 이혼했습니다. 우리는 아무것도 모른다, 우리는 단지 배달 서비스👀이다.",
+      "title": "⚖️ 당신은 봉사했습니다!",
+      "desc": "배우자,",
+      "divorced": ", 방금 이혼했습니다. 우리는 아무것도 모르고 배달 서비스 👀 일뿐입니다.",
       "not": "당신은 현재 결혼하지 않았습니다.",
       "no": "당신은 더 이상 결혼하지 않았습니다."
     },
     "marriageSelect": {
-      "place": "옵션 선택",
+      "place": "옵션을 선택하세요",
       "buttons": {
         "request": {
           "label": "💌 요청 보내기",
@@ -1820,39 +1831,39 @@
         },
         "accept": {
           "label": "💍 제안 수락",
-          "desc": "누군가 당신에게 그들과 결혼하라고 했습니까? 정말로?"
+          "desc": "누군가 당신에게 결혼을 요청했습니까? 정말로?"
         },
         "deny": {
           "label": "😭 제안 거부",
-          "desc": "당신이 이것을 클릭하면 당신은 끔찍한 사람입니다 ..."
+          "desc": "이것을 클릭하면 당신은 끔찍한 사람입니다 ..."
         },
         "divorce": {
-          "label": "⚖️ 이혼하기",
-          "desc": "누가 아이들을 데려 가고 있습니까? 왜냐하면 그것은 나가되지 않을 것이기 때문입니다."
+          "label": "⚖️ 이혼하다",
+          "desc": "누가 아이들을 데려가는거야? 왜냐하면 그것은 내가 아닐 것이기 때문입니다."
         }
       }
     },
     "marriageSendRequest": {
       "already": "당신은 이미 결혼했습니다.",
-      "desc": "**누구와 결혼하고 싶으신가요?**\n'@'기호를 사용하여 언급하십시오.",
+      "desc": "**누구와 결혼하고 싶니?**\n'@'기호를 사용하여 언급하십시오.",
       "cancel": "취소.",
-      "self": "너 자신과 결혼 할 수 없다.",
-      "bot": "봇, PERIOD와 결혼할 수 없습니다.",
+      "self": "당신은 자신과 결혼 할 수 없습니다.",
+      "bot": "당신은 봇과 결혼 할 수 없습니다, 기간.",
       "title": "💌 결혼 요청",
-      "desc1": "여러분과 결혼을 요청했습니다!\n\n이 요청에 응답하려면",
-      "desc12": ", 또는 해당 길드의 다른 채널에서 '/marriage'을 실행하여 요청을 관리합니다.",
+      "desc1": "당신과 결혼을 요청했습니다!\n\n이 요청에 응답하려면",
+      "desc12": "또는 해당 길드의 다른 채널을 실행하고 '/marriage'를 실행하여 요청을 관리합니다.",
       "person": "그 사람은 이미 결혼했습니다!",
-      "sent": "**결혼 요청서가 발송되었습니다.**\n그들은 만료되기 전에 결혼 요청을 수락 할 2 분을 가질 것입니다.",
-      "expired": "에 보낸 결혼 요청",
-      "expired2": "만료되었습니다.\n에는 많은 🐟 것들이 있습니다 🌊!"
+      "sent": "**결혼 요청서가 전송되었습니다.**\n결혼 요청이 만료되기 전에 2분 이내에 결혼 요청을 수락해야 합니다.",
+      "expired": "전송된 결혼 요청서",
+      "expired2": "만료되었습니다.\n에 많이 🐟 🌊 있습니다!"
     },
     "marriageSystem": {
       "con1": "결혼",
-      "con2": " 보류 중인 결혼 요청이 삭제되었습니다."
+      "con2": " 보류 중인 결혼 요청은 제거되었습니다."
     },
     "musicPause": {
       "vc": "음성 채널에 있어야 합니다.",
-      "paused": "음악 일시 중지됨 - "
+      "paused": "음악 일시 중지 - "
     },
     "musicPlay": {
       "vc": "음성 채널에 있어야 합니다.",
@@ -1861,19 +1872,19 @@
     "musicQueueClear": {
       "vc": "음성 채널에 있어야 합니다.",
       "buttons": {
-        "label": "큐가 지워짐"
+        "label": "대기열 지우기"
       },
       "cleared": "음악 지우기 - "
     },
     "musicShuffle": {
       "vc": "음성 채널에 있어야 합니다.",
-      "shuffled": "큐 셔플 - "
+      "shuffled": "대기열 셔플 - "
     },
     "musicSkip": {
       "vc": "음성 채널에 있어야 합니다.",
       "noSong": "이 서버에서 재생되는 음악이 없습니다.",
       "noSongQueue": "대기열에 건너뛸 노래가 더 이상 없습니다.",
-      "skipped": "음악 건너뛰기 - "
+      "skipped": "음악 건너뜀 - "
     },
     "musicStop": {
       "buttons": {
@@ -1881,10 +1892,10 @@
           "label": "상태:"
         },
         "music": {
-          "label": "음악 중지됨"
+          "label": "음악이 멈췄다"
         },
         "stopped": {
-          "label": "들렀습니다 :"
+          "label": "중지한 사람:"
         }
       },
       "vc": "음성 채널에 있어야 합니다."
@@ -1907,16 +1918,16 @@
           "label": "뒤섞다"
         }
       },
-      "error": "오류가 발생했습니다 ...",
+      "error": "오류가 발생했습니다...",
       "playSong": {
-        "playing": "노래 재생",
+        "playing": "노래 연주",
         "name": "이름",
         "duration": "기간",
         "requestor": "요청자",
         "views": "레이아웃: "
       },
       "addSong": {
-        "updated": "⏰ 큐가 업데이트됨",
+        "updated": "⏰ 대기열 업데이트됨",
         "name": "이름",
         "duration": "기간",
         "requestor": "요청자",
@@ -1924,7 +1935,7 @@
       },
       "finish": {
         "empty": "큐가 비어 있습니다.",
-        "no": "더 이상 대기열에 노래가 없습니다."
+        "no": "대기열에 더 이상 노래가 없습니다."
       },
       "searchNoResult": {
         "error": "오류 404",
@@ -1932,31 +1943,31 @@
       },
       "searchResult": {
         "search": "검색 결과",
-        "choose": "**아래에서 옵션을 선택하십시오 **",
-        "else": "다른 것을 입력하거나 cance까지 60 초 동안 기다립니다."
+        "choose": "**아래에서 옵션을 선택하세요**",
+        "else": "다른 것을 입력하거나 60초 동안 기다립니다."
       },
       "iAnswer": {
         "invalid": "잘못된 답변",
-        "provided": "검색에 잘못된 답변이 제공되었습니다."
+        "provided": "검색에 대해 잘못된 답변이 제공되었습니다."
       }
     },
     "nextGuilds": {
       "buttons": {
-        "leave": "길드를 떠나세요"
+        "leave": "길드 탈퇴"
       },
       "title": "길드 목록",
-      "guildName": "**○ 길드 이름:**",
-      "guildId": "**○ 길드 아이디:**",
-      "guildMembers": "**○ 길드 회원:**",
+      "guildName": "**○ 길드명:**",
+      "guildId": "**○ 길드 ID:**",
+      "guildMembers": "**○ 길드원:**",
       "guildOwnerTag": "**○ 길드 소유자 태그:**",
-      "guildOwnerId": "**○ 길드 소유자 아이디:**"
+      "guildOwnerId": "**○ 길드 소유자 ID:**"
     },
     "permsAdd": {
-      "place": "추가할 사용 권한 유형을 선택합니다.",
+      "place": "추가할 권한 유형을 선택합니다.",
       "options": {
         "admin": {
           "label": "🗝️ 관리자",
-          "desc": "관리 역할(위험)을 추가합니다."
+          "desc": "관리 역할을 추가합니다(위험)."
         },
         "mod": {
           "label": "👮 ♂️ 발표자",
@@ -1972,15 +1983,15 @@
         },
         "roles": {
           "label": "🎭 자기 역할",
-          "desc": "자체 역할 관리자 역할을 추가합니다."
+          "desc": "자기 역할 관리자 역할을 추가합니다."
         },
         "sticky": {
-          "label": "🍯 스티커 메시지",
+          "label": "🍯 고정 메시지",
           "desc": "고정 메시지 관리자 역할을 추가합니다."
         },
         "giveaway": {
-          "label": "🎉 공짜 관리자",
-          "desc": "공짜 관리자 역할을 추가합니다."
+          "label": "🎉 경품 관리자",
+          "desc": "경품 관리자 역할을 추가합니다."
         },
         "client": {
           "label": "💰 클라이언트 관리자",
@@ -2006,12 +2017,12 @@
     },
     "permsBack": {
       "title": "권한 메뉴",
-      "type": "**○ 파마 타입:**",
+      "type": "**○ 파마 유형:**",
       "no": "아직 파마가 없습니다 ...",
       "role": "**○ 역할 ID:**"
     },
     "permsDelete": {
-      "content": "**권한 삭제**"
+      "content": "**권한 삭제됨**"
     },
     "permsHome": {
       "buttons": {
@@ -2019,39 +2030,39 @@
         "delete": "선택한 항목 삭제"
       },
       "title": "권한 메뉴",
-      "type": "**○ 파마 타입:**",
+      "type": "**○ 파마 유형:**",
       "no": "아직 파마가 없습니다 ...",
       "role": "**○ 역할 ID:**"
     },
     "permsNext": {
       "title": "권한 메뉴",
-      "type": "**○ 파마 타입:**",
+      "type": "**○ 파마 유형:**",
       "no": "아직 파마가 없습니다 ...",
       "role": "**○ 역할 ID:**"
     },
     "permsSelect": {
-      "provide": "이 권한에 할당/추가할 역할을 제공하십시오.",
+      "provide": "이 권한에 대해 할당/추가할 역할을 제공하십시오.",
       "cancel": "취소",
       "Cancelled": "취소.",
-      "invalid": "**잘못된 역할 제공, 다시 시도하십시오.**",
-      "created": "**권한이 생성되었습니다!**",
-      "type": "**유형:**",
+      "invalid": "**잘못된 역할이 제공되었습니다. 다시 시도하십시오.**",
+      "created": "**권한 생성됨!**",
+      "type": "**형:**",
       "role": "**역할:**"
     },
     "pingPreventionAdd": {
-      "already": "이 길드에서 이미 핑 방지를 설정했습니다.",
-      "color": "핑 방지 임베드를 위해 **color hex** 를 정의하십시오.",
+      "already": "이미 이 길드에서 핑 방지를 설정했습니다.",
+      "color": "핑 방지 삽입을 위해 **색상 hex**를 정의하십시오.",
       "cancel": "취소.",
-      "provide": "**임베디드에 대한 이미지를 제공하십시오.**\n링크는 '.png', '.jpg', '.webp' 등으로 끝나야 합니다.\n건너뛰려면 '건너뛰기'를 입력합니다.",
-      "added": "**핑 방지 기능이 추가되었습니다!**"
+      "provide": "** 퍼갈 이미지를 제공하십시오.\n링크는 '.png', '.jpg', '.webp' 등으로 끝나야 합니다.\n건너뛰려면 'skip'을 입력합니다.",
+      "added": "** 핑 방지 추가!"
     },
     "pingPreventionRemove": {
       "no": "이 길드에는 핑 방지 기록이 없습니다.",
-      "removed": "**핑 방지가 제거되었습니다!**"
+      "removed": "** 핑 방지가 제거되었습니다!"
     },
     "punishBack": {
       "title": "사례 정보",
-      "field1": "케이스 ID :",
+      "field1": "케이스 ID:",
       "field2": "케이스 유형:",
       "field3": "경호원:",
       "field4": "사용자:",
@@ -2060,7 +2071,7 @@
     },
     "punishNext": {
       "title": "사례 정보",
-      "field1": "케이스 ID :",
+      "field1": "케이스 ID:",
       "field2": "케이스 유형:",
       "field3": "경호원:",
       "field4": "사용자:",
@@ -2070,12 +2081,12 @@
     "reviewReply": {
       "cancel": "취소.",
       "field": "직원의 회신",
-      "added": "**리뷰 추가!**"
+      "added": "** 리뷰 추가!**"
     },
     "selfRolesAdd": {
-      "provide": "이 자체 역할 패널의 이름을 입력하십시오.",
+      "provide": "이 자기 역할 패널의 이름을 입력하십시오.",
       "cancel": "취소.",
-      "created": "**자체 역할 메뉴가 만들어졌습니다!**"
+      "created": "**자기 역할 메뉴 생성!**"
     },
     "selfRolesBack": {
       "title": "자기 역할 메뉴",
@@ -2083,11 +2094,11 @@
       "noMenus": "아직 메뉴가 없습니다. . ."
     },
     "selfRolesDelete": {
-      "unable": "나는 그 ID로 자기 역할 메뉴를 찾을 수 없었다.",
-      "deleted": "**자체 역할 메뉴가 삭제되었습니다!**"
+      "unable": "해당 ID로 자기 역할 메뉴를 찾을 수 없었습니다.",
+      "deleted": "**자기 역할 메뉴가 삭제되었습니다!**"
     },
     "selfRolesGoHome": {
-      "addMenu": "추가 메뉴",
+      "addMenu": "메뉴 추가",
       "delete": "선택한 항목 삭제",
       "roleManager": "역할 관리자",
       "postPanel": "포스트 패널",
@@ -2103,7 +2114,7 @@
       "menuName": "**○ 메뉴 이름:**",
       "roleName": "**○ 역할 이름:**",
       "roleId": "**○ 역할 ID:**",
-      "noRoles": "아직 역할이 없습니다 ...",
+      "noRoles": "아직 역할이 없습니다...",
       "noMenus": "아직 메뉴가 없습니다. . ."
     },
     "selfRolesManagerAdd": {
@@ -2118,12 +2129,12 @@
       "menuName": "**○ 메뉴 이름:**",
       "roleName": "**○ 역할 이름:**",
       "roleId": "**○ 역할 ID:**",
-      "noRoles": "아직 역할이 없습니다 ...",
+      "noRoles": "아직 역할이 없습니다...",
       "noMenus": "아직 메뉴가 없습니다. . ."
     },
     "selfRolesManagerDelete": {
-      "unable": "나는 그 패널과 함께 자기 역할을 찾을 수 없었다.",
-      "deleted": "**자체 역할이 삭제되었습니다!**"
+      "unable": "나는 그 패널에서 자기 역할을 찾을 수 없었다.",
+      "deleted": "**자기 역할이 삭제되었습니다!**"
     },
     "selfRolesManagerNext": {
       "no": "이 길드에는 역할 메뉴가 없습니다.",
@@ -2131,7 +2142,7 @@
       "menuName": "**○ 메뉴 이름:**",
       "roleName": "**○ 역할 이름:**",
       "roleId": "**○ 역할 ID:**",
-      "noRoles": "아직 역할이 없습니다 ...",
+      "noRoles": "아직 역할이 없습니다...",
       "noMenus": "아직 메뉴가 없습니다. . ."
     },
     "selfRolesNext": {
@@ -2141,13 +2152,13 @@
     },
     "selfRolesPost": {
       "unable": "선택한 패널을 찾을 수 없습니다.",
-      "unable2": "나는이 패널에서 어떤 자기 역할에도 자금을 지원할 수 없었다.",
-      "desc": "역할에서 추가하거나 제거할 역할을 선택합니다.",
+      "unable2": "이 패널에서 자기 역할에 자금을 지원할 수 없었습니다.",
+      "desc": "역할을 선택하여 역할에서 추가하거나 제거합니다.",
       "place": "역할을 선택합니다.",
       "provide": "패널을 게시할 채널을 제공하십시오.",
       "cancel": "취소.",
-      "valid": "패널을 게시할 수 있는 유효한 채널을 제공하십시오.",
-      "posted": "**패널 게시!**"
+      "valid": "패널을 게시할 유효한 채널을 제공하십시오.",
+      "posted": "** 패널 게시!"
     },
     "settingsBaseAutorole": {
       "backRole": "뒤로 역할",
@@ -2157,7 +2168,7 @@
       "disable": "비활성화",
       "addRole": "역할 추가",
       "removeRole": "역할 제거",
-      "no": "현재 자동 역할이 없습니다.",
+      "no": "현재 자동 역할은 없습니다.",
       "title": "자동 역할 시스템",
       "role": "**역할:**",
       "verification": "**확인?**",
@@ -2165,37 +2176,37 @@
     },
     "settingsBaseAutoroleAdd": {
       "mention": "역할을 언급하거나 추가할 역할 ID를 제공하십시오.",
-      "q": "그들이 가입할 때 또는 그들이 확인할 때 이 역할을 부여하시겠습니까?\n\n**1.** 그들이 참여할 때 역할을 부여하십시오.\n**2.** 확인할 때 역할 부여",
+      "q": "가입할 때 또는 확인할 때 이 역할을 부여하시겠습니까?\n\n**1.** 가입할 때 역할 부여\n**2.** 확인할 때 역할 부여",
       "cancel": "취소.",
-      "provide": "유효한 역할을 제공하십시오. \n'프로세스 취소'",
-      "provide1": "유효한 옵션을 제공하십시오. \n'프로세스 취소'",
+      "provide": "유효한 역할을 제공하십시오. \n'프로세스가 취소됨'",
+      "provide1": "유효한 옵션을 제공하십시오. \n'프로세스가 취소됨'",
       "added": "**자동 역할 추가!**"
     },
     "settingsBaseAutoroleBack": {
-      "no": "현재 자동 역할이 없습니다.",
+      "no": "현재 자동 역할은 없습니다.",
       "title": "자동 역할 시스템",
       "role": "**역할:**",
-      "noRoles": "현재 자동 역할이 없습니다.",
+      "noRoles": "현재 자동 역할은 없습니다.",
       "verification": "**확인?**"
     },
     "settingsBaseAutoroleDelete": {
-      "no": "이 길드를 위해 만들어진 자동 역할은 없습니다.",
+      "no": "이 길드에는 자동 역할이 없습니다.",
       "removed": "**자동 역할 제거됨**"
     },
     "settingsBaseAutoroleNext": {
-      "no": "현재 자동 역할이 없습니다.",
+      "no": "현재 자동 역할은 없습니다.",
       "title": "자동 역할 시스템",
       "role": "**역할:**",
-      "noRoles": "현재 자동 역할이 없습니다.",
+      "noRoles": "현재 자동 역할은 없습니다.",
       "verification": "**확인?**"
     },
     "settingsBaseCashappUpdate": {
-      "provide": "이 지불 방법에 대한 새로운 링크를 제공하십시오.\n'false'를 입력하여 비활성화하십시오.",
+      "provide": "이 결제 수단에 대한 새 링크를 제공하십시오.\n비활성화하려면 'false'를 입력합니다.",
       "cancel": "취소.",
       "updated": "**결제 링크 업데이트**"
     },
     "settingsBaseCustomUpdate": {
-      "provide": "이 지불 방법에 대한 새로운 링크를 제공하십시오.\n'false'를 입력하여 비활성화하십시오.",
+      "provide": "이 결제 수단에 대한 새 링크를 제공하십시오.\n비활성화하려면 'false'를 입력합니다.",
       "cancel": "취소.",
       "updated": "**결제 링크 업데이트**"
     },
@@ -2203,14 +2214,16 @@
       "options": "옵션:",
       "updateTheme": "테마 색상 업데이트",
       "updateMuted": "음소거된 역할 업데이트",
-      "updateTos": "업데이트 대상 링크",
-      "maxTickets": "최대 티켓",
+      "updateTos": "ToS 링크 업데이트",
+      "maxTickets": "최대 티켓 수",
       "payment": "지불:",
       "paypal": "PayPal",
       "cashapp": "현금 앱",
       "customLink": "사용자 지정 링크",
-      "imageUrls": "이미지 URL:",
-      "card": "카드 조인/탈퇴"
+      "moreSettings": "다른 물건:",
+      "card": "가입/탈퇴 카드",
+      "privateVCBtn": "프라이빗 VC 생성",
+      "privateVCCatBtn": "프라이빗 VC 범주"
     },
     "settingsBaseLeave": {
       "options": "옵션:",
@@ -2219,13 +2232,13 @@
       "card": "카드"
     },
     "settingsBaseMaxTickets": {
-      "provide": "사용자가 한 번에 열 수 있는 최대 티켓 수를 제공하십시오.",
+      "provide": "사용자가 한 번에 열 수 있는 최대 티켓 수를 입력하세요.",
       "cancel": "취소.",
-      "valid": "**VALID** 번호를 입력하십시오.",
-      "updated": "최대 티켓 업데이트"
+      "valid": "**유효한** 번호를 입력하십시오.",
+      "updated": "최대 티켓 수 업데이트"
     },
     "settingsBaseMuteRoleUpdate": {
-      "mention": "사용자가 음소거 될 때 제공하고자하는 역할을 언급하십시오.",
+      "mention": "사용자가 음소거될 때 부여할 역할을 언급하세요.",
       "cancelled": "취소.",
       "valid": "유효한 음소거 역할을 제공하십시오.",
       "updated": "**음소거 역할 업데이트**"
@@ -2236,11 +2249,11 @@
       "valid": "유효한 채널을 제공하십시오.",
       "verify": "확인",
       "verification": "확인",
-      "please": "이 메시지 아래의 **버튼**을 눌러 자신을 확인하십시오. 이것은 당신이 * 규칙 *을 읽고 받아 들였음을 확인시켜 줄 것이며, 당신이 인간이라는 것을 확인할 것입니다.",
-      "posted": "**검증 패널 게시**"
+      "please": "이 메시지 아래의 **버튼**을 눌러 자신을 확인하십시오. 이것은 당신이 *규칙을 읽고 수락*했음을 확인하고 당신이 인간임을 확인할 것입니다.",
+      "posted": "**검증 패널 게시됨**"
     },
     "settingsBasePaypalUpdate": {
-      "new": "이 지불 방법에 대한 새로운 링크를 제공하십시오.\n'false'를 입력하여 비활성화하십시오.",
+      "new": "이 결제 수단에 대한 새 링크를 제공하십시오.\n비활성화하려면 'false'를 입력합니다.",
       "cancelled": "취소.",
       "set": "**결제 링크 업데이트**"
     },
@@ -2248,8 +2261,8 @@
       "ERROR": "이 패널은 언어 기능을 적극적으로 사용하지 않습니다."
     },
     "settingsBaseThemeColorUpdate": {
-      "provide": "봇이 테마 색상으로 사용할 수 있도록 새로운 **__COLOR HEX__**를 제공하십시오.\n**예:** '#FFFFFF'\n\n색상 피커 : <https://htmlcolorcodes.com/color-picker/>",
-      "valid": "유효한 **__COLOR HEX__**를 제공하십시오.\n**예:** '#FFFFFF'\n\n색상 피커 : <https://htmlcolorcodes.com/color-picker/>",
+      "provide": "봇이 테마 색으로 사용할 새 **__COLOR HEX__**를 제공하세요.\n**예:** '#FFFFFF'\n\n색상 선택기: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "유효한 **__COLOR HEX__**를 제공하십시오.\n**예:** '#FFFFFF'\n\n색상 선택기: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "취소.",
       "updated": "** 테마 색상 업데이트 **"
     },
@@ -2261,33 +2274,44 @@
     },
     "settingsBaseToggleCaptcha": {
       "verification": "확인",
-      "captcha": "캡차",
-      "post": "포스트 A 패널"
+      "captcha": "보안 문자",
+      "post": "패널 게시"
     },
     "settingsBaseToggleVerify": {
       "buttons": {
         "verify": "확인",
-        "captcha": "캡차",
-        "post": "포스트 A 패널"
+        "captcha": "보안 문자",
+        "post": "패널 게시"
       }
     },
     "settingsBaseToSUpdate": {
       "please": "업데이트할 새 ToS 링크를 제공하십시오.",
       "cancelled": "취소.",
-      "valid": "유효한 ToS 링크를 포함하십시오.\n다음으로 시작해야합니다 : 'http://'",
+      "valid": "유효한 ToS 링크를 포함하십시오.\n'http://'로 시작해야 합니다.",
       "updated": "**ToS 링크 업데이트**"
     },
     "settingsBaseVerification": {
       "buttons": {
         "verify": "확인",
-        "captcha": "캡차",
-        "post": "포스트 A 패널"
+        "captcha": "보안 문자",
+        "post": "패널 게시"
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "**카드 배경 URL에 대한 이미지 링크를 제공하십시오.**\n'알림:' 이미지 링크는 '.png', '.jpg', '.webp' 등으로 끝나야 합니다.",
+      "please": "**카드 배경 URL에 대한 이미지 링크를 입력하세요.**\n'알림:' 이미지 링크는 '.png', '.jpg', '.webp' 등으로 끝나야 합니다.",
       "cancelled": "취소.",
-      "updated": "**환영 카드 업데이트**"
+      "updated": "* * 환영 카드 업데이트* *"
+    },
+    "settingsBasePrivateVCUpdate": {
+      "please": "**사용자가 개인 VC를 만들기 위해 가입할 수 있도록 음성 채널을 제공하세요.**",
+      "cancelled": "취소.",
+      "updated": "**비공개 VC 채널 업데이트**",
+      "valid": "유효한 음성 채널을 제공하십시오."
+    },
+    "settingsBasePrivateVCCatUpdate": {
+      "please": "**프라이빗 VC 채널을 전송할 카테고리 ID를 제공하십시오.**",
+      "cancelled": "취소.",
+      "updated": "**프라이빗 VC 카테고리 업데이트**"
     },
     "settingsFunAutoReact": {
       "next": "다음 페이지",
@@ -2295,34 +2319,34 @@
       "add": "응답 추가",
       "title": "자동 반응",
       "channel": "**채널:**",
-      "no": "현재 자동 동작 없음...",
+      "no": "현재 자동 반응이 없습니다 ...",
       "response": "**응답:**",
-      "emoji": "이모티콘이 설정되지 않았습니다 ..."
+      "emoji": "이모티콘이 설정되지 않았습니다..."
     },
     "settingsFunAutoreactAdd": {
-      "please": "봇이 반응을 듣기 위해 들어야 하는 채널을 제공하십시오.",
+      "please": "봇이 반응을 듣기 위해 수신해야 하는 채널을 제공하세요.",
       "cancelled": "취소.",
-      "provide": "봇이 해당 채널에서 메시지를 들을 때 봇이 반응해야 하는 내용을 제공하세요.\n**참고:** 이모티콘을 ':monkey_face:'와 같은 코드 블록에 넣어야 합니다.",
+      "provide": "봇이 해당 채널에서 메시지를 들을 때 반응해야 하는 내용을 제공하세요.\n** 참고 : ** 이모티콘을 ':monkey_face:'과 같은 코드 블록에 넣어야합니다.",
       "valid": "유효한 채널을 제공하십시오.",
-      "added": "**자동 반응 추가**"
+      "added": "** 자동 반응 추가 **"
     },
     "settingsFunAutoreactBack": {
       "title": "자동 반응",
       "channel": "**채널:**",
-      "no": "현재 자동 동작 없음...",
+      "no": "현재 자동 반응이 없습니다 ...",
       "response": "**응답:**",
-      "emoji": "이모티콘이 설정되지 않았습니다 ..."
+      "emoji": "이모티콘이 설정되지 않았습니다..."
     },
     "settingsFunAutoreactDelete": {
-      "no": "이 길드에 대한 자동 반응은 없습니다.",
+      "no": "이 길드에는 자동 반응이 설정되어 있지 않습니다.",
       "deleted": "**자동 반응 삭제**"
     },
     "settingsFunAutoreactNext": {
       "title": "자동 반응",
       "channel": "**채널:**",
-      "no": "현재 자동 동작 없음...",
+      "no": "현재 자동 반응이 없습니다 ...",
       "response": "**응답:**",
-      "emoji": "이모티콘이 설정되지 않았습니다 ..."
+      "emoji": "이모티콘이 설정되지 않았습니다..."
     },
     "settingsFunAutoRespond": {
       "back": "뒤로 페이지",
@@ -2330,120 +2354,120 @@
       "add": "응답 추가",
       "title": "자동 응답",
       "detect": "**탐지:**",
-      "no": "현재 자동 응답 없음...",
+      "no": "현재 자동 응답이 없습니다...",
       "response": "**응답:**",
-      "none": "아무 설정도 없습니다 ..."
+      "none": "설정 없음..."
     },
     "settingsFunAutorespondAdd": {
-      "please": "응답하기 전에 봇이 들어야 하는 단어를 제공하십시오.",
+      "please": "응답하기 전에 봇이 들어야 하는 단어를 제공하세요.",
       "cancelled": "취소.",
-      "provide": "봇이 해당 콘텐츠가 포함된 메시지를 들을 때 봇이 응답해야 하는 내용을 제공하세요.",
-      "added": "**자동 응답 추가**"
+      "provide": "봇이 이제 해당 콘텐츠가 포함된 메시지를 들을 때 응답해야 하는 내용을 제공하세요.",
+      "added": "** 자동 응답 추가 **"
     },
     "settingsFunAutorespondBack": {
       "title": "자동 응답",
       "detect": "**탐지:**",
-      "no": "현재 자동 응답 없음...",
+      "no": "현재 자동 응답이 없습니다...",
       "response": "**응답:**",
-      "none": "아무 설정도 없습니다 ..."
+      "none": "설정 없음..."
     },
     "settingsFunAutorespondDelete": {
-      "no": "이 길드에 대해 설정된 자동 응답이 없습니다.",
+      "no": "이 길드에 설정된 자동 응답이 없습니다.",
       "deleted": "**자동 응답 삭제**"
     },
     "settingsFunAutorespondNext": {
       "title": "자동 응답",
       "detect": "**탐지:**",
-      "no": "현재 자동 응답 없음...",
+      "no": "현재 자동 응답이 없습니다...",
       "response": "**응답:**",
-      "none": "아무 설정도 없습니다 ..."
+      "none": "설정 없음..."
     },
     "settingsFunBirthdays": {
       "clear": "생일 데이터 지우기",
       "cleared": "생일 데이터 삭제"
     },
     "settingsFunClearLevelData": {
-      "clear": "휴가 시 지우기",
+      "clear": "휴가 중 지우기",
       "cleared": "레벨 데이터 지우기",
       "level": "레벨 시스템"
     },
     "settingsFunEconomy": {
-      "back": "뒤로 항목",
+      "back": "뒷면 항목",
       "next": "다음 항목",
-      "add": "상점 항목 추가",
+      "add": "상점 아이템 추가",
       "currency": "통화",
       "clear": "모든 데이터 지우기",
-      "cleared": "모든 데이터 삭제",
+      "cleared": "모든 데이터 지우기",
       "cooldowns": "재사용 대기시간:",
       "work": "일하다",
       "crime": "범죄",
       "rob": "빼앗다",
       "economy": "경제 설정",
       "currency2": "**통화:**",
-      "shop": "**상점 품목 정보:**",
+      "shop": "** 상점 아이템 정보 : **",
       "id": "**○ 아이디:**",
-      "no": "현재 상점 품목이 없습니다. . .",
+      "no": "현재 상점 항목이 없습니다. . .",
       "name": "**○ 이름:**",
-      "price": "**○ 가격:**"
+      "price": "** ○ 가격 : **"
     },
     "settingsFunEconomyWork": {
-      "text": "모든 사용자에 대한 2 시간 작업 재사용 대기시간이 이 길드에서 재설정되었습니다."
+      "text": "이 길드에서 모든 사용자의 2시간 작업 대기시간이 초기화되었습니다."
     },
     "settingsFunEconomyAdd": {
       "p": "제품 이름을 입력하십시오.",
       "c": "취소.",
-      "price": "이 품목에 대한 가격을 제공하십시오.\n**예:** '10'",
-      "price1": "유효한 가격을 제공하십시오.\n**예:** '10'",
+      "price": "이 항목에 대한 가격을 제공하십시오.\n**예:** '10'",
+      "price1": "유효한 가격을 입력하십시오.\n**예:** '10'",
       "added": "'**상점 아이템 추가**",
-      "title": " - 생성 된 항목",
+      "title": " - 생성된 항목",
       "item": "항목",
       "Price": "값"
     },
     "settingsFunEconomyCrime": {
-      "a": "모든 사용자에 대한 2 시간 범죄 쿨 다운이이 길드에서 재설정되었습니다."
+      "a": "이 길드에서 모든 사용자의 범죄 재사용 대기시간이 2시간 동안 초기화되었습니다."
     },
     "settingsFunEconomyCurrency": {
-      "a": "이 길드의 통화를 제공하십시오.\n**참고:** ':moneybag:'과 같은 코드 블록 형식으로 제공해야 합니다.",
+      "a": "이 길드의 통화를 입력하세요.\n**참고:** ':moneybag:'과 같은 코드 블록 형식으로 제공해야 합니다.",
       "c": "취소.",
       "u": "**통화 업데이트!**"
     },
     "settingsFunEconomyDelete": {
-      "a": "이 길드에는 상점 품목이 없습니다.",
-      "d": "**상점 아이템이 삭제됨**",
+      "a": "이 길드에는 상점 아이템이 없습니다.",
+      "d": "**상점 아이템 삭제됨**",
       "title": "삭제된 항목",
       "i": "항목"
     },
     "settingsFunEconomyRob": {
-      "a": "모든 사용자에 대한 2 시간 rob 쿨 다운이이 길드에서 재설정되었습니다."
+      "a": "이 길드에서 모든 사용자의 2시간 강탈 재사용 대기시간이 초기화되었습니다."
     },
     "settingsFunLevelSystem": {
-      "c": "수준 데이터 지우기",
+      "c": "클리어 레벨 데이터",
       "l": "레벨 시스템",
-      "cL": "휴가 시 지우기"
+      "cL": "휴가 중 지우기"
     },
     "settingsFunToggleLevelKick": {
       "a": "🏠 집에 가세요",
       "b": "토글:",
       "c": "설정:",
-      "d": "수준 데이터 지우기",
+      "d": "클리어 레벨 데이터",
       "e": "레벨 시스템",
-      "f": "휴가 시 지우기"
+      "f": "휴가 중 지우기"
     },
     "settingsFunToggleLevelSystem": {
       "a": "🏠 집에 가세요",
       "b": "토글:",
       "c": "설정:",
-      "d": "수준 데이터 지우기",
+      "d": "클리어 레벨 데이터",
       "e": "레벨 시스템",
-      "f": "휴가 시 지우기"
+      "f": "휴가 중 지우기"
     },
     "settingsSecurityAltPrevention": {
       "a": "토글:",
       "b": "대체 방지",
-      "c": "계정 연령"
+      "c": "계정 사용 기간"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "최소 연령의 새 계정을 제공하십시오.\n예: 30d = 30일.",
+      "a": "새 계정 최소 연령을 입력하십시오.\n예: 30d = 30일.",
       "b": "취소.",
       "c": "**계정 연령 업데이트**"
     },
@@ -2455,27 +2479,27 @@
       "e": "필터 추가",
       "f": "선택한 항목 삭제",
       "g": "보안 필터",
-      "h": "**내용:**",
+      "h": "**콘텐츠:**",
       "i": "현재 필터 없음..."
     },
     "settingsSecuirtyFilterAdd": {
-      "a": "블랙리스트에 올리려는 단어/링크를 제공해 주십시오.",
+      "a": "블랙리스트에 올릴 단어 / 링크를 제공하십시오.",
       "b": "취소.",
-      "c": "**필터 추가**"
+      "c": "**필터 추가됨**"
     },
     "settingsSecurityFilterBack": {
       "a": "보안 필터",
-      "b": "**내용:**",
+      "b": "**콘텐츠:**",
       "c": "현재 필터 없음..."
     },
     "settingsSecurityFilterDelete": {
-      "a": "이 길드에는 필터가 설정되어 있지 않습니다.",
-      "b": "이 필터는 존재하지 않습니다.",
+      "a": "이 길드에 설정된 필터가 없습니다.",
+      "b": "해당 필터가 존재하지 않습니다.",
       "c": "**필터 삭제됨**"
     },
     "settingsSecurityFilterNext": {
       "a": "보안 필터",
-      "b": "**내용:**",
+      "b": "**콘텐츠:**",
       "c": "현재 필터 없음..."
     },
     "settingsSecuritySelect": {
@@ -2490,13 +2514,13 @@
       "a": "🏠 집에 가세요",
       "b": "토글:",
       "c": "대체 방지",
-      "d": "계정 연령"
+      "d": "계정 사용 기간"
     },
     "settingsSecurityToggleLockdown": {
       "a": "🏠 집에 가세요",
       "b": "토글:",
       "c": "서버 잠금",
-      "d": "서버 잠금 토글!",
+      "d": "서버 잠금이 전환되었습니다!",
       "e": "사용자:",
       "f": "전환:",
       "g": "서버 잠금"
@@ -2516,65 +2540,65 @@
       "l": "💰 경제",
       "m": "🎯 자동 반응",
       "n": "🦜 자동 응답",
-      "o": "이 길드의 일반 설정을 변경합니다.',",
-      "p": "이 길드의 환영 모듈을 변경하십시오.",
-      "q": "이 길드에 대한 leave 모듈을 변경합니다.",
-      "r": "이 길드에 대한 확인 모듈을 변경합니다.",
-      "s": "이 길드에 대한 자동 역할 모듈을 변경합니다.",
-      "t": "alt 방지 시스템을 변경하십시오.",
+      "o": "이 길드의 일반 설정을 변경하십시오.',",
+      "p": "이 길드의 환영 모듈을 변경합니다.",
+      "q": "이 길드의 탈퇴 모듈을 변경합니다.",
+      "r": "이 길드의 검증 모듈을 변경합니다.",
+      "s": "이 길드의 자동 역할 모듈을 변경합니다.",
+      "t": "대체 방지 시스템을 변경합니다.",
       "u": "서버 잠금 모드를 변경합니다.",
-      "v": "필터 시스템을 변경합니다.",
-      "w": "이 길드의 레벨 시스템을 변경합니다.",
-      "x": "이 길드의 생일 모듈을 변경하십시오.",
-      "y": "이 길드의 이코노미 모듈을 변경하십시오.",
-      "z": "이 길드에 대한 자동 반응 모듈을 변경하십시오.",
-      "aa": "이 길드에 대한 자동 응답 모듈을 변경합니다.",
+      "v": "필터 시스템을 변경하십시오.",
+      "w": "이 길드의 레벨 시스템을 변경하십시오.",
+      "x": "이 길드의 생일 모듈을 변경합니다.",
+      "y": "이 길드의 경제 모듈을 변경하십시오.",
+      "z": "이 길드의 자동 반응 모듈을 변경합니다.",
+      "aa": "이 길드의 자동 응답 모듈을 변경합니다.",
       "ab": "기본 설정 옵션을 선택합니다.",
       "ac": "보안 설정 옵션을 선택합니다.",
-      "ad": "재미있는 설정 옵션을 선택하십시오."
+      "ad": "재미있는 설정 옵션을 선택합니다."
     },
     "shopSelect": {
-      "a": "해당 품목은 상점에 없습니다.",
-      "b": "당신은 그 물건을 살 돈이 충분하지 않습니다.",
-      "c": "구입했습니다 **1**",
-      "d": "구매한 품목",
+      "a": "해당 아이템은 상점에 없습니다.",
+      "b": "그 물건을 살 돈이 충분하지 않습니다.",
+      "c": "**1** 구매하셨습니다.",
+      "d": "구매한 아이템",
       "e": "항목",
       "f": "값",
-      "g": "상점에는 품목이 없습니다."
+      "g": "상점에 아이템이 없습니다."
     },
     "stickyAdd": {
       "a": "취소.",
-      "b": "이 채널에는 이미 스티커 메시지가 있습니다.\n다시 시도하십시오.",
-      "c": "스티커 메시지가 말하는 것을 입력하십시오.",
+      "b": "이 채널에는 이미 고정 메시지가 있습니다.\n다시 시도하십시오.",
+      "c": "고정 메시지에 표시되는 내용을 입력하십시오.",
       "d": "유효한 채널을 제공하십시오.",
-      "e": "**스티커 메시지가 만들어졌습니다!**"
+      "e": "** 고정 메시지가 생성되었습니다!"
     },
     "stickyRemove": {
-      "a": "이 길드에는 끈적 끈적한 메시지가 없습니다.",
-      "b": "스티커 메시지를 제거할 채널을 정의하십시오.",
+      "a": "이 길드에는 스티커 메시지가 없습니다.",
+      "b": "고정 메시지를 제거할 채널을 정의하십시오.",
       "c": "취소.",
       "d": "유효한 채널을 제공하십시오.",
-      "e": "**스티커 메시지가 제거되었습니다!**",
-      "f": "이 채널에는 스티커 메시지가 없습니다.\n다시 시도하십시오."
+      "e": "** 고정 메시지가 제거되었습니다!",
+      "f": "이 채널에는 고정 메시지가 없습니다.\n다시 시도하십시오."
     },
     "ticketAdd": {
       "a": "이 티켓 패널의 이름을 입력하십시오.",
       "b": "취소.",
-      "c": "이 티켓 패널에 대한 설명을 제공하십시오.",
-      "d": "티켓에 대한 카테고리 'Id'를 제공하십시오.",
-      "e": "**패널 생성!**"
+      "c": "이 티켓 패널에 대한 설명을 입력하십시오.",
+      "d": "갈 티켓의 카테고리 'ID'를 제공하십시오.",
+      "e": "** 패널 생성!"
     },
     "ticketAddUser": {
       "a": "이 명령은 티켓 채널에서만 사용할 수 있습니다!",
-      "b": "티켓에 추가하려는 사용자를 제공하십시오.",
+      "b": "티켓에 추가할 사용자를 입력하세요.",
       "c": "취소.",
-      "d": "이 티켓에 추가할 유효한 사용자를 제공하십시오.",
-      "e": "이 티켓에 추가되었습니다."
+      "d": "이 티켓에 추가할 유효한 사용자를 입력하십시오.",
+      "e": "이(가) 이 티켓에 추가되었습니다."
     },
     "ticketBack": {
       "a": "티켓 패널",
       "b": "**○ 패널 이름:**",
-      "c": "아직 패널이 없습니다 ...",
+      "c": "아직 패널이 없습니다...",
       "d": "**○ 패널 설명:**",
       "e": "해당 없음"
     },
@@ -2584,78 +2608,78 @@
       "c": "✏️ 티켓 이름 바꾸기",
       "d": "📥 사용자 추가",
       "e": "📤 사용자 제거",
-      "f": "🤝 주장에 의해 주장",
-      "g": "주장에 의해 주장 :"
+      "f": "🤝 청구자",
+      "g": "청구자:"
     },
     "ticketClose": {
       "a": "이 작업은 티켓 채널에서만 수행할 수 있습니다.",
       "b": "패널을 찾을 수 없습니다.",
-      "c": "카테고리를 찾을 수 없습니다 ...",
-      "d": "티켓이 성공적으로 닫혔습니다! (잠시만 기다려 주십시오)",
+      "c": "카테고리를 찾을 수 없습니다...",
+      "d": "티켓이 성공적으로 마감되었습니다! (잠시만 기다려 주십시오)",
       "e": "알려지지 않은",
       "f": "티켓 마감",
       "g": "티켓 ID",
-      "h": "폐회 회원",
+      "h": "결산 회원",
       "i": "티켓 회원",
       "j": "패널"
     },
     "ticketDelete": {
-      "a": "이 길드를 위해 만들어진 티켓 카테고리는 없습니다.",
-      "b": "**범주가 제거됨**"
+      "a": "이 길드에는 티켓 카테고리가 없습니다.",
+      "b": "**카테고리 제거됨**"
     },
     "ticketNext": {
       "a": "티켓 패널",
       "b": "**○ 패널 이름:**",
-      "c": "아직 패널이 없습니다 ...",
+      "c": "아직 패널이 없습니다...",
       "d": "**○ 패널 설명:**",
       "e": "해당 없음"
     },
     "ticketPanelPost": {
       "a": "이 길드에는 아직 티켓 카테고리가 설정되어 있지 않습니다.",
       "b": "티켓 카테고리",
-      "c": "이 길드의 티켓 범주는 다음과 같습니다. 하나를 선택하여 해당 범주의 티켓을 엽니다.",
+      "c": "다음은 이 길드의 티켓 카테고리입니다. 하나를 선택하여 해당 카테고리의 티켓을 엽니다.",
       "d": "티켓 시스템",
-      "e": "티켓 범주를 선택합니다.",
+      "e": "티켓 카테고리를 선택합니다.",
       "f": "취소",
       "g": "유효한 채널을 제공하십시오.",
-      "h": "**티켓 패널 게시!**",
+      "h": "** 티켓 패널 게시!",
       "i": "패널을 게시할 채널을 제공하십시오."
     },
     "ticketremove": {
-      "a": "이 명령은 티켓 채널에서만 사용할 수 있습니다!',",
-      "b": "티켓에서 제거하려는 사용자를 제공하십시오.",
+      "a": "이 명령어는 티켓 채널에서만 사용할 수 있습니다!',",
+      "b": "티켓에서 제거할 사용자를 입력하십시오.",
       "c": "취소.",
       "d": "이 티켓에서 제거할 유효한 사용자를 제공하십시오.",
-      "e": "**${member.user.tag}** 이 티켓에서 제거되었습니다."
+      "e": "**${member.user.tag}**가 이 티켓에서 제거되었습니다."
     },
     "ticketrename": {
       "a": "이 명령은 티켓 채널에서만 사용할 수 있습니다!",
-      "b": "티켓이 설정되어야 하는 이름을 입력하십시오.",
+      "b": "티켓을 설정해야 하는 이름을 입력하세요.",
       "c": "취소.",
-      "d": "**티켓 이름이 바뀐다!**"
+      "d": "* * 티켓 이름 변경!"
     },
     "ticketselect": {
       "catna": "해당 티켓 범주가 존재하지 않습니다.",
-      "content1": "당신은 단지 **",
-      "content2": "티켓** 한 번에 열립니다.",
-      "notpset": "아직 티켓 지원 파마가 설정되지 않았습니다.",
+      "content1": "당신은 **",
+      "content2": "티켓**은 한 번에 열립니다.",
+      "notpset": "아직 티켓 지원 행사가 설정되어 있지 않습니다.",
       "nocreate": "**이 티켓을 만들 수 없습니다.**",
       "closetick": "🔒 티켓 닫기",
-      "opened1": "**에 의해 열림:**",
-      "opened2": "이 메시지 아래에 이 티켓을 여는 이유를 설명하십시오.",
-      "opener": "**열림자:** '${interaction.user.tag}'\n\n이 메시지 아래에 이 티켓을 여는 이유를 설명하십시오.",
-      "success": "새 티켓이 열렸습니다. ",
+      "opened1": "**개설자:**",
+      "opened2": "이 메시지 아래에 이 티켓을 여는 이유를 설명해 주세요.",
+      "opener": "**열림:** '${interaction.user.tag}'\n\n이 메시지 아래에 이 티켓을 여는 이유를 설명해 주세요.",
+      "success": "새 티켓이 다음에서 열렸습니다. ",
       "title": "티켓 시스템"
     },
     "verifyButton": {
       "humanVerify": "인간 검증",
-      "desc1": "아래에 다음 captcha를 입력하여 귀하가 인간인지 확인하십시오.",
-      "content1": "직접 메시지(DM)를 확인하십시오.",
-      "noleft": "시도가 부족했으므로 서버에서 다시 확인하십시오.",
-      "left1": "틀렸어, 당신은 ",
-      "left2": " 시도(들)가 떠났다.",
+      "desc1": "당신이 인간인지 확인하기 위해 아래에 다음 보안 문자를 입력하십시오.",
+      "content1": "다이렉트 메시지(DM)를 확인하세요.",
+      "noleft": "시도 횟수가 부족하면 서버에서 다시 확인하십시오.",
+      "left1": "틀린, 당신은 가지고 있습니다 ",
+      "left2": " 시도가 남았습니다.",
       "youverifed": "당신은 확인되었습니다!",
-      "dmsna": "귀하의 DM은 현재 비공개로 설정되어 있으므로 인적 검증 테스트를 DM 할 수 있도록 활성화하십시오."
+      "dmsna": "귀하의 DM은 현재 비공개로 설정되어 있으므로 인간 확인 테스트에 DM을 보낼 수 있도록 활성화하십시오."
     }
   }
 }

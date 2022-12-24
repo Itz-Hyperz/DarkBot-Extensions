@@ -11,6 +11,17 @@
   "no": "Hayır",
   "true": "doğru",
   "false": "yanlış",
+  "privatevcreset": "**Bu loncada size kayıtlı tüm özel VC'ler silindi.**",
+  "vcManager": "Özel Ses Yöneticisi",
+  "vcDesc": "Aşağıda özel ses kanalınızı yönetebileceksiniz.",
+  "vcCloseChannel": "Kanalı Kapat",
+  "vcAddMember": "Üye Ekle",
+  "vcRemoveMember": "Üyeyi Kaldır",
+  "vcAddMemberText": "Lütfen kanalınıza eklemek üzere bir kullanıcı Kimliği sağlayın.",
+  "vcRemoveMemberText": "Lütfen kanalınızdan kaldırmak için bir kullanıcı Kimliği sağlayın.",
+  "vcNoChannel": "Bu kanal veritabanında yok.",
+  "vcAddSuccess": "**Kullanıcı Eklendi**",
+  "vcRemoveSuccess": "**Kullanıcı Kaldırıldı**",
   "eightBallCommand": "**Magic 🎱 Ball diyor ki:** ",
   "eightBallResponses": [
     "Kesindir.",
@@ -85,7 +96,7 @@
     "sending": "Saldırıyı şuraya gönderme",
     "successful": "DDOS Saldırısı Başarılı ;)",
     "lag": "Kullanıcı gecikiyor mu?",
-    "no": "Hayır?",
+    "no": "Hoy",
     "failure": "İnsanları :("
   },
   "dice": {
@@ -281,7 +292,7 @@
     "posted": "**Hediye yayınlandı!**",
     "embedTitle": "Yeni Hediye!",
     "embedPrize": "**Ödül:**",
-    "embedWinners": "**Kazananlar:**",
+    "embedWinners": "**Kazanan:**",
     "embedTimeLimit": "**Zaman Sınırı:**"
   },
   "guilds": {
@@ -315,9 +326,9 @@
     "creditsDesc": "Bu botun kredilerini görüntüleyin.",
     "individualCommands": {
       "embedTitle": "Komut Yardımı",
-      "name": "**İsim:**",
-      "desc": "**Açıklama:**",
-      "type": "**Türü:**",
+      "name": "**Ad:**",
+      "desc": "**Tarif:**",
+      "type": "**Tür:**",
       "slash": "eğik çizgi"
     }
   },
@@ -572,8 +583,8 @@
     "remind": "Size hatırlatacağım",
     "to": "Hedef",
     "timer": "Saat",
-    "time": "**Saat: **",
-    "note": "**Not: **",
+    "time": "**Saat:**",
+    "note": "**Not:**",
     "ended": "**Zamanlayıcı Sona Erdi**"
   },
   "tos": {
@@ -1486,14 +1497,14 @@
       "err": "Bu uygulamayı bulamadım.",
       "embedTitle": "✅ Başvuru Kabul Edildi",
       "app": "**Uygulama:**",
-      "message": "**Mesajınız:**"
+      "message": "**İleti:**"
     },
     "appDeny": {
       "denied": "Reddeden",
       "unable": "Bu uygulamayı bulamadım.",
       "title": "❌ Başvuru Reddedildi",
       "app": "**Uygulama:**",
-      "message": "**Mesajınız:**"
+      "message": "**İleti:**"
     },
     "appMenuAdd": {
       "title": "Uygulama Oluştur!",
@@ -1556,9 +1567,9 @@
       "notValid": "Lütfen geçerli bir numara girin.",
       "notValid2": "**Lütfen geçerli bir numara giriniz.**\nLütfen tekrar deneyin...",
       "notEnough": "**Bu, bakiyenizde sahip olduğunuzdan daha fazlasıdır.**\nLütfen tekrar deneyin...",
-      "deposited": "**Yatırılan ",
+      "deposited": "**Yatırılır ",
       "deposited1": " bankaya.**",
-      "logAuthor": " - Para Yatırma",
+      "logAuthor": " -Pey",
       "amount": "Miktar"
     },
     "bankingTransfer": {
@@ -1568,8 +1579,8 @@
       "valNumber": "Lütfen geçerli bir numara girin.",
       "valNumber1": "**Lütfen geçerli bir numara giriniz.**\nLütfen tekrar deneyin...",
       "notEnough": "**Bu, bakiyenizde sahip olduğunuzdan daha fazlasıdır.**\nLütfen tekrar deneyin...",
-      "Done": " Aktarıldı!**",
-      "logAuthor": " - Transfer",
+      "Done": " Transfer!**",
+      "logAuthor": " -Aktarmak",
       "reciever": "Alıcı"
     },
     "bankingWithdraw": {
@@ -1641,7 +1652,7 @@
       "prize": "**Bilgi**\nÖdül:",
       "winners": "Kazanan:",
       "time": "Zaman Sınırı:",
-      "winners2": "**Kazananlar**",
+      "winners2": "**Kazanan**",
       "footer": "Eşantiyon: ",
       "endError": "HEDIYE BITIŞ HATASI: ",
       "uNot": "Bu hediyeyi siz yaratmadınız.",
@@ -1711,7 +1722,7 @@
           "desc": "Alt önleme günlükleri için bir günlük kanalı ayarlayın."
         },
         "server": {
-          "label": "🔒 Sunucu Günlükleri",
+          "label": "🔒 Sunucu Kilidi Günlükleri",
           "desc": "Sunucu kilidi günlükleri için bir günlük kanalı ayarlayın."
         },
         "filter": {
@@ -1781,7 +1792,7 @@
       "provide": "Lütfen bu günlüklerin gidebileceği bir kanal sağlayın.",
       "cancel": "Iptal.",
       "invalid": "**Geçersiz kanal sağlandı, yeniden deneyin.**",
-      "created": "**Günlük Kanalı Oluşturuldu!**\n**Türü:**",
+      "created": "**Günlük Kanalı Oluşturuldu!**\n**Tür:**",
       "channel": "**Kanal:**"
     },
     "marriageAcceptProposal": {
@@ -2035,7 +2046,7 @@
       "Cancelled": "Iptal.",
       "invalid": "**Geçersiz rol sağlandı, yeniden deneyin.**",
       "created": "**İzin Oluşturuldu!**",
-      "type": "**Türü:**",
+      "type": "**Tür:**",
       "role": "**Rol:**"
     },
     "pingPreventionAdd": {
@@ -2209,8 +2220,10 @@
       "paypal": "PayPal",
       "cashapp": "Nakit Uygulaması",
       "customLink": "Özel Bağlantı",
-      "imageUrls": "Resim URL'leri:",
-      "card": "Katılma/Ayrılma Kartı"
+      "moreSettings": "Diğer Şeyler:",
+      "card": "Katılma/Ayrılma Kartı",
+      "privateVCBtn": "Özel VC Oluşturma",
+      "privateVCCatBtn": "Özel VC Kategorisi"
     },
     "settingsBaseLeave": {
       "options": "Seçenekler:",
@@ -2288,6 +2301,17 @@
       "please": "**Lütfen kartın arka plan URL'si için bir resim bağlantısı sağlayın.**\n\"Uyarı:\" Resim bağlantısı \".png\", \".jpg\", \".webp\" vb. ile bitmelidir.",
       "cancelled": "Iptal.",
       "updated": "**Karşılama Kartı Güncellendi**"
+    },
+    "settingsBasePrivateVCUpdate": {
+      "please": "**Lütfen kullanıcıların özel bir VC oluşturmak üzere katılmaları için bir ses kanalı sağlayın.**",
+      "cancelled": "Iptal.",
+      "updated": "**Özel VC Kanalı Güncellendi**",
+      "valid": "Lütfen geçerli bir ses kanalı sağlayın."
+    },
+    "settingsBasePrivateVCCatUpdate": {
+      "please": "**Lütfen özel VC kanallarının gönderilmesi için bir kategori Kimliği sağlayın.**",
+      "cancelled": "Iptal.",
+      "updated": "**Özel VC Kategorisi Güncellendi**"
     },
     "settingsFunAutoReact": {
       "next": "Sonraki Sayfa",
@@ -2576,7 +2600,7 @@
       "b": "**○ Panel Adı:**",
       "c": "Henüz panel yok...",
       "d": "**○ Panel Açıklaması:**",
-      "e": "Yok"
+      "e": "YOK"
     },
     "ticketClaim": {
       "a": "Bu sadece bir bilet kanalının içinde yapılabilir.",
@@ -2608,7 +2632,7 @@
       "b": "**○ Panel Adı:**",
       "c": "Henüz panel yok...",
       "d": "**○ Panel Açıklaması:**",
-      "e": "Yok"
+      "e": "YOK"
     },
     "ticketPanelPost": {
       "a": "Bu loncada henüz herhangi bir bilet kategorisi ayarlanmamıştır.",

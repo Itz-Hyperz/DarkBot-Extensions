@@ -11,18 +11,29 @@
   "no": "no",
   "true": "verdadero",
   "false": "falso",
+  "privatevcreset": "**Todos los VC privados de este gremio registrados a tu nombre han sido eliminados.**",
+  "vcManager": "Administrador de voz privada",
+  "vcDesc": "A continuación podrá administrar su canal de voz privado.",
+  "vcCloseChannel": "Cerrar canal",
+  "vcAddMember": "Agregar miembro",
+  "vcRemoveMember": "Eliminar miembro",
+  "vcAddMemberText": "Proporciona un ID de usuario para añadirlo a tu canal.",
+  "vcRemoveMemberText": "Proporciona un ID de usuario para eliminarlo de tu canal.",
+  "vcNoChannel": "Ese canal no existe en la base de datos.",
+  "vcAddSuccess": "**Usuario añadido**",
+  "vcRemoveSuccess": "**Usuario eliminado**",
   "eightBallCommand": "**Magic 🎱 Ball dice:** ",
   "eightBallResponses": [
     "Es cierto.",
-    "Es decididamente así.",
+    "Decididamente es así.",
     "Sin dudas.",
     "Sí, definitivamente.",
     "Como yo lo veo, sí.",
     "Sí.",
     "Responde confuso, inténtalo de nuevo.",
     "Mejor no decírtelo ahora.",
-    "No puedo predecir ahora.",
-    "No cuentes con ello.",
+    "No se puede predecir ahora.",
+    "No cuentes con eso.",
     "Mi respuesta es no.",
     "Mis fuentes dicen que no.",
     "Las perspectivas no son tan buenas.",
@@ -39,10 +50,10 @@
   },
   "apply": {
     "noAppsFound": "No se han encontrado aplicaciones para este gremio.",
-    "clickToApply": "Haga clic para solicitar esta aplicación.",
+    "clickToApply": "Haga clic para solicitar esta solicitud.",
     "selectApp": "Seleccione una aplicación.",
     "embedTitle": "Aplicaciones",
-    "embedDescription": "Seleccione una aplicación para comenzar a llenarla."
+    "embedDescription": "Seleccione una solicitud para comenzar a llenarla."
   },
   "avatar": "Avatar",
   "balance": {
@@ -50,46 +61,46 @@
     "withdraw": "Retirar",
     "transfer": "Transferencia",
     "bankingInfo": "Información bancaria",
-    "wallet": "**Monedero:**",
+    "wallet": "**Billetera:**",
     "bank": "**Banco:**"
   },
   "birthdays": {
     "selectAction": "Selecciona una acción de cumpleaños.",
-    "addBirthday": "👶 Añadir cumpleaños",
-    "addBirthdayDescription": "Agregue su cumpleaños a la base de datos.",
+    "addBirthday": "👶 Agregar cumpleaños",
+    "addBirthdayDescription": "Agregue su fecha de nacimiento a la base de datos.",
     "removeBirthday": "❌ Eliminar cumpleaños",
-    "removeBirthdayDescription": "Elimine su cumpleaños de la base de datos.",
-    "embedTitle": "Menú cumpleaños",
-    "embedDescription": "¡Agregue / elimine su cumpleaños a / desde la base de datos!"
+    "removeBirthdayDescription": "Elimine su fecha de nacimiento de la base de datos.",
+    "embedTitle": "Menú de cumpleaños",
+    "embedDescription": "¡Agregue / elimine su cumpleaños a/de la base de datos!"
   },
   "cases": {
-    "doesNotExist": "no existe en la lista de ID de caso!",
+    "doesNotExist": "no existe en la lista de ID de casos!",
     "embedTitle": "Información del caso",
-    "caseId": "Id. de caso",
+    "caseId": "ID del caso",
     "caseType": "Tipo de caso",
     "caseUser": "Usuario"
   },
   "clients": {
     "selectAction": "Seleccione una acción de cliente.",
     "addClient": "📥 Agregar cliente",
-    "addClientDescription": "Agregue un cliente a esta base de datos de clientes de gremios.",
+    "addClientDescription": "Añade un cliente a esta base de datos de clientes de gremios.",
     "removeClient": "📤 Quitar cliente",
-    "removeClientDescription": "Quitar un cliente de esta base de datos de clientes de gremios.",
-    "embedTitle": "Menú cliente",
-    "embedDescription": "¡Agregar/Quitar clientes a/desde la base de datos!",
+    "removeClientDescription": "Elimina un cliente de esta base de datos de clientes de gremios.",
+    "embedTitle": "Menú del cliente",
+    "embedDescription": "¡Agregue/elimine clientes a/de la base de datos!",
     "noClients": "Este gremio aún no tiene clientes.",
     "clients": "Clientes"
   },
   "ddos": {
     "NOTICE": "Este es un comando de broma falso!!!!",
     "sending": "Envío de ataque a",
-    "successful": "Ataque DDOS con éxito ;)",
-    "lag": "¿El usuario obtiene retraso?",
+    "successful": "Ataque DDOS exitoso ;)",
+    "lag": "¿El usuario se retrasa?",
     "no": "No?",
-    "failure": "No puedo dar a la gente :("
+    "failure": "No puedo ddos personas :("
   },
   "dice": {
-    "landedOn": "**aterrizó en:**",
+    "landedOn": "**Aterrizó el:**",
     "numbers": [
       "1",
       "2",
@@ -102,7 +113,7 @@
   "dm": {
     "embedTitle": "📫 ¡Tienes correo!",
     "messageSent": "**¡Mensaje enviado!**",
-    "messageSentFailed": "**¡Error en el envío de mensajes!**",
+    "messageSentFailed": "**¡Error al enviar el mensaje!**",
     "dmsOff": "Es probable que tengan sus DM configurados como privados."
   },
   "embed": {
@@ -110,13 +121,13 @@
     "posted": "**¡Insertar publicado!**"
   },
   "embedBuilder": {
-    "embedTitle": "Constructor de incrustaciones",
-    "embedDescription": "Bienvenido al constructor de incrustaciones interactivas. ¡Use los botones a continuación para construir la inserción, después de hacer clic en la publicación!",
+    "embedTitle": "Incrustar Builder",
+    "embedDescription": "Bienvenido al constructor de incrustación interactivo. ¡Use los botones a continuación para crear la inserción, después de hacer clic en la publicación!",
     "buttons": {
       "authorText": "Texto del autor",
       "titleText": "Texto del título",
       "titleURL": "URL del título",
-      "descriptionText": "Descripción Texto",
+      "descriptionText": "Texto de descripción",
       "footerText": "Texto del pie de página",
       "authorImage": "Imagen del autor",
       "thumbnailImage": "Imagen en miniatura",
@@ -128,26 +139,26 @@
       "channelToPost": "Canal para publicar",
       "postEmbed": "Publicar la inserción",
       "fieldName": "Nombre del campo",
-      "fieldValue": "Valor del campo",
+      "fieldValue": "Valor de campo",
       "fieldInline": "Campo en línea",
       "goBack": "Volver",
       "newField": "Nuevo campo"
     },
     "responses": {
-      "setAuthorText": "¿En qué te gustaría establecer el texto del autor?",
-      "setTitleText": "¿En qué te gustaría establecer el texto del título?",
-      "setTitleURL": "¿En qué te gustaría establecer la URL del título?",
+      "setAuthorText": "¿En qué le gustaría establecer el texto del autor?",
+      "setTitleText": "¿En qué le gustaría establecer el texto del título?",
+      "setTitleURL": "¿En qué le gustaría establecer la URL del título?",
       "setDescriptionText": "¿En qué le gustaría establecer la descripción?",
       "setFooterText": "¿En qué le gustaría establecer el texto del pie de página?",
-      "setAuthorImage": "¿En qué te gustaría configurar la imagen del autor?",
-      "setColor": "¿En qué color te gustaría configurar la inserción?",
-      "setThumbnailImage": "¿En qué le gustaría configurar la imagen en miniatura?",
-      "setLargeImage": "¿En qué te gustaría configurar la imagen grande?",
-      "setFooterImage": "¿En qué te gustaría establecer la imagen del pie de página?",
+      "setAuthorImage": "¿En qué le gustaría establecer la imagen del autor?",
+      "setColor": "¿En qué color le gustaría establecer la inserción?",
+      "setThumbnailImage": "¿En qué le gustaría establecer la imagen en miniatura?",
+      "setLargeImage": "¿En qué le gustaría establecer la imagen grande?",
+      "setFooterImage": "¿En qué le gustaría establecer la imagen de pie de página?",
       "channelToPost": "¿En qué canal te gustaría publicar esto?",
       "fieldName": "¿Cuál debería ser el nombre de este campo?",
       "fieldValue": "¿Cuál debería ser el valor de este campo?",
-      "embedPosted": "¡Insertar publicado!"
+      "embedPosted": "Embed Posted!"
     }
   },
   "economy": {
@@ -155,23 +166,23 @@
       "cooldown": "No puedes cometer un crimen en este momento. Todavía estás en enfriamiento.",
       "crimeResponses": [
         {
-          "text": "Golpeaste a una mujer en un callejón y conseguiste ",
+          "text": "Golpeaste a una mujer en un callejón y obtuviste ",
           "amount": "10"
         },
         {
-          "text": "Hiciste un drive-by con queso biggie y lo hiciste ",
+          "text": "Hiciste un drive-by en queso biggie e hiciste ",
           "amount": "600"
         },
         {
-          "text": "Has llavedo un coche y robado ",
+          "text": "Llaveste un coche y robaste ",
           "amount": "19"
         },
         {
-          "text": "Sostuviste un banco e hiciste ",
+          "text": "Atrapaste un banco y hiciste ",
           "amount": "500"
         },
         {
-          "text": "Hiciste caca sobre el poarch de los vecinos y conseguiste ",
+          "text": "Hiciste caca en la poarch de los vecinos y obtuviste ",
           "amount": "1"
         }
       ]
@@ -184,43 +195,43 @@
           "amount": "138"
         },
         {
-          "text": "Trabajaste en el lavado de autos y hiciste ",
+          "text": "Trabajaste en el lavado de autos e hiciste ",
           "amount": "382"
         },
         {
-          "text": "Fríes pollo en una parrilla para los vecinos y lo hiciste ",
+          "text": "Has frito pollo en una parrilla para los vecinos y hecho ",
           "amount": "18"
         },
         {
-          "text": "Limpiaste los baños de la gasolinera y hiciste ",
+          "text": "Limpiaste los baños de la gasolinera e hiciste ",
           "amount": "15"
         },
         {
-          "text": "Raspaste pintura de una pared e hiciste ",
+          "text": "Raspaste la pintura de una pared y hiciste ",
           "amount": "37"
         },
         {
-          "text": "Haces pizzas durante 6 horas y hechas ",
+          "text": "Haces pizzas durante 6 horas y haces ",
           "amount": "75"
         },
         {
-          "text": "Lavaste los platos y los hiciste ",
+          "text": "Lavaste los platos y hiciste ",
           "amount": "34"
         },
         {
-          "text": "Condujiste por todo el país para entregar leche y elaboraste ",
+          "text": "Manejaste por todo el país para entregar leche y hiciste ",
           "amount": "390"
         },
         {
-          "text": "Reabasteció los estantes de la gasolinera y hizo ",
+          "text": "Reabasteciste los estantes de las gasolineras e hiciste ",
           "amount": "32"
         },
         {
-          "text": "Limpiaste el piso e hiciste ",
+          "text": "Trapeaste el piso e hiciste ",
           "amount": "20"
         },
         {
-          "text": "Le diste un masaje a alguien y le diste un masaje ",
+          "text": "Le diste un masaje a alguien y lo hiciste ",
           "amount": "42"
         },
         {
@@ -228,7 +239,7 @@
           "amount": "25"
         },
         {
-          "text": "Escribiste un código y hiciste ",
+          "text": "Escribiste un poco de código y hiciste ",
           "amount": "150"
         },
         {
@@ -236,25 +247,25 @@
           "amount": "100"
         },
         {
-          "text": "Trabajaste en el checkout en walmart y hiciste ",
+          "text": "Trabajaste en Walmart y hiciste ",
           "amount": "62"
         },
         {
-          "text": "Preparaste una cortadora de césped y hiciste ",
+          "text": "Armaste una cortadora de césped y hiciste ",
           "amount": "250"
         },
         {
-          "text": "Cortas el pelo de alguien y haces ",
+          "text": "Cortaste el pelo de alguien y lo hiciste ",
           "amount": "25"
         },
         {
-          "text": "Hiciste una tarea para niños para él e hiciste ",
+          "text": "Hiciste una tarea de niños para él e hiciste ",
           "amount": "67"
         }
       ]
     },
     "inventory": {
-      "emptyInventory": "Su inventario está vacío.",
+      "emptyInventory": "Tu inventario está vacío.",
       "embedTitle": "Inventario",
       "selectItem": "Selecciona un artículo de tu inventario para usarlo.",
       "items": "**Artículos de inventario:**",
@@ -277,29 +288,29 @@
   "giveaways": {
     "enter": "¡Haga clic para entrar!",
     "end": "Fin",
-    "reroll": "Volver a enrollar",
-    "posted": "**¡Se ha publicado un sorteo!**",
+    "reroll": "Re-Roll",
+    "posted": "**¡El sorteo ha sido publicado!**",
     "embedTitle": "¡Nuevo sorteo!",
     "embedPrize": "**Premio:**",
     "embedWinners": "**Ganadores:**",
-    "embedTimeLimit": "**Límite de tiempo:**"
+    "embedTimeLimit": "**Plazo:**"
   },
   "guilds": {
-    "leaveGuild": "Dejar el gremio",
+    "leaveGuild": "Abandonar el gremio",
     "embedTitle": "Lista de gremios",
     "embedGuildName": "**○ Nombre del gremio:**",
-    "embedGuildId": "**○ Id de gremio:**",
+    "embedGuildId": "**○ ID de gremio:**",
     "embedGuildMembers": "**○ Miembros del gremio:**",
-    "embedGuildOwnerTag": "**○ Etiqueta del propietario del gremio:**",
+    "embedGuildOwnerTag": "**○ Etiqueta de propietario del gremio:**",
     "embedGuildOwnerId": "**○ ID de propietario del gremio:**"
   },
   "help": {
     "selectAction": "Seleccione una categoría.",
     "embedTitle": "Menú Ayuda",
-    "defaultEmbedDesc": "¡Bienvenido a Dark Bot! ¡Usa este menú para ver todos mis comandos y ver lo que hay que hacer! ¡La personalización debería ser bastante fácil!",
+    "defaultEmbedDesc": "¡Bienvenido a Dark Bot! ¡Utilice este menú para ver todos mis comandos y ver lo que hay que hacer! ¡La personalización debería ser bastante fácil!",
     "user": "🧑 Comandos de usuario",
-    "userDesc": "Vea los comandos de usuario que este bot tiene para ofrecer.",
-    "economy": "🏦 Comandos de Economía",
+    "userDesc": "Ver los comandos de usuario que este bot tiene para ofrecer.",
+    "economy": "🏦 Comandos económicos",
     "economyDesc": "Vea los comandos económicos que este bot tiene para ofrecer.",
     "music": "💿 Comandos de música",
     "musicDesc": "Vea los comandos de música que este bot tiene para ofrecer.",
@@ -309,8 +320,8 @@
     "moderationDesc": "Vea los comandos de moderación que este bot tiene para ofrecer.",
     "settings": "🔧 Comandos de configuración",
     "settingsDesc": "Vea los comandos de configuración que este bot tiene para ofrecer.",
-    "owner": "👑 Comandos de propietario",
-    "ownerDesc": "Vea los comandos del propietario (gremio) que este bot tiene para ofrecer.",
+    "owner": "👑 Comandos del propietario",
+    "ownerDesc": "Vea los comandos de propietario (del gremio) que este bot tiene para ofrecer.",
     "credits": "📜 Créditos",
     "creditsDesc": "Ver los créditos de este bot.",
     "individualCommands": {
@@ -325,7 +336,7 @@
     "hasJustHugged": "acaba de abrazar"
   },
   "leveling": {
-    "disabled": "Este servidor no está utilizando la función de 'nivelación'.",
+    "disabled": "Este servidor no está utilizando la función 'nivelación'.",
     "unknownUser": "Usuario desconocido (izquierda)",
     "lvl": "**Lvl:**",
     "xp": "**XP:**",
@@ -357,30 +368,30 @@
       "userOfflineBanned": "Usuario sin conexión prohibido",
       "userKicked": "Usuario pateado",
       "userMuted": "Usuario silenciado",
-      "autoUnmute": "Reactivación automática",
+      "autoUnmute": "Reactivar el sonido automático",
       "command": "Comando introducido",
       "caseDeleted": "Caso eliminado",
       "userUnbanned": "Usuario no prohibido",
       "userUnmuted": "Usuario sin silenciar",
       "userWarned": "Usuario advertido",
-      "filterSystem": "Sistema de filtros",
+      "filterSystem": "Sistema de filtro",
       "blacklistedTerm": "Término en la lista negra",
       "levelUp": "Subir de nivel",
       "newLevel": "Nuevo nivel"
     },
     "buttons": {
-      "addChannel": "Añadir canal"
+      "addChannel": "Agregar canal"
     },
     "commandEmbed": {
       "embedTitle": "Canales de registro",
       "type": "**○ Tipo de registro:**",
       "channel": "**○ Canal de registro:**",
-      "noChannel": "Aún no hay canales..."
+      "noChannel": "Todavía no hay canales..."
     }
   },
   "music": {
     "loopIsNow": "Loop es ahora",
-    "noSongsPlaying": "No hay canciones que se estén reproduciendo actualmente.",
+    "noSongsPlaying": "No hay canciones actualmente reproduciéndose.",
     "searching": "Minucioso...",
     "buttons": {
       "pause": "⏸️ Pausa",
@@ -390,7 +401,7 @@
       "shuffle": "🔀 Aleatorio"
     },
     "musicCmd": {
-      "embedTitle": "Jugando actualmente",
+      "embedTitle": "Actualmente jugando",
       "name": "Nombre",
       "duration": "Duración",
       "requestor": "Solicitante",
@@ -406,9 +417,9 @@
       "acceptDesc": "¿Alguien te pidió que te casaras con ellos? ¿Realmente?",
       "deny": "😭 Denegar una propuesta",
       "denyDesc": "Eres una persona horrible si haces clic en esto...",
-      "divorce": "⚖️ Divorciarse",
+      "divorce": "⚖️ Obtener un divorcio",
       "divorceDesc": "¿Quién se lleva a los niños? Porque no voy a ser yo.",
-      "embedTitle": "Sistema de matrimonio",
+      "embedTitle": "Sistema matrimonial",
       "embedDesc": "¡Vea el sistema matrimonial y haga cambios!"
     }
   },
@@ -419,7 +430,7 @@
   },
   "meme": {
     "grabbing": "Agarrando ya un meme...",
-    "hereYaGo": "¡Aquí ya está!"
+    "hereYaGo": "¡Aquí tienes!"
   },
   "mute": {
     "already": "Ese usuario ya está silenciado.",
@@ -431,16 +442,16 @@
   "payments": {
     "notify": "Notifíquenos si ha elegido esta opción.",
     "payment": "Pago",
-    "pleasePay": "Por favor, pague",
-    "location": "para __one__ de los métodos de pago anteriores.",
+    "pleasePay": "Por favor pague",
+    "location": "a __one__ de los métodos de pago anteriores.",
     "otherOption": "Otra opción"
   },
   "permissions": {
     "addPermission": "Agregar permiso",
-    "embedTitle": "Menú Permisos",
+    "embedTitle": "Menú de permisos",
     "type": "**○ Tipo de permanente:**",
     "role": "**○ Id. de rol:**",
-    "noPermsYet": "Aún no hay permanentes..."
+    "noPermsYet": "Sin permanentes todavía..."
   },
   "ping": {
     "message": "🏓 La latencia es:"
@@ -448,14 +459,14 @@
   "pingPrevention": {
     "selectAction": "Seleccione una acción de prevención de ping.",
     "addPingPrev": "📫 Agregar prevención de ping",
-    "addPingPrevDesc": "Configura la prevención de ping.",
-    "removePingPrev": "❌ Eliminar Ping Prevention",
+    "addPingPrevDesc": "Configura tu prevención de ping.",
+    "removePingPrev": "❌ Eliminar prevención de ping",
     "removePingPrevDesc": "Elimine la prevención de ping.",
-    "embedTitle": "Menú de prevención de ping",
+    "embedTitle": "Menú Prevención de ping",
     "embedDesc": "¡Gestiona tu estado de prevención de ping!"
   },
   "poll": {
-    "posted": "**Encuesta publicada!**"
+    "posted": "**¡Encuesta publicada!**"
   },
   "punishments": {
     "noHistory": "¡Este usuario no tiene historial de castigos!",
@@ -463,7 +474,7 @@
   },
   "purge": {
     "msgDeleted": "¡Mensajes eliminados!",
-    "error": "**Error al eliminar mensajes!**",
+    "error": "**¡Error al eliminar mensajes!**",
     "reason": "Solo puedo eliminar mensajes de hasta 14 días de antigüedad..."
   },
   "queue": {
@@ -474,9 +485,9 @@
   "restart": {
     "restarting": "Reinicio del cliente",
     "restartingDesc": "**Reiniciando el cliente...**",
-    "success": "Reinicio del cliente correctamente",
+    "success": "Reinicio del cliente correcto",
     "successDesc": "**¡El cliente se ha reiniciado correctamente!**",
-    "failed": "Error de reinicio del cliente",
+    "failed": "Error al reiniciar el cliente",
     "private": "**¡Por favor, revisa tus mensajes privados!**",
     "failed2": "**Error al reiniciar el cliente...**"
   },
@@ -486,12 +497,12 @@
     "posted": "Su opinión ha sido publicada."
   },
   "selfroles": {
-    "addMenu": "Añadir menú",
+    "addMenu": "Agregar menú",
     "roleManager": "Administrador de roles",
     "postPanel": "Panel de correos",
     "embedTitle": "Menús de rol propio",
     "menuName": "**○ Nombre del menú:**",
-    "noMenus": "Aún no hay menús..."
+    "noMenus": "Todavía no hay menús..."
   },
   "server": {
     "serverInfo": "Información del servidor",
@@ -507,35 +518,35 @@
   "settings": {
     "selectAction": "Seleccione una opción de configuración.",
     "base": "📕 Módulos base",
-    "baseDesc": "Altera los módulos base para este gremio.",
+    "baseDesc": "Modifica los módulos base para este gremio.",
     "security": "📘 Módulos de seguridad",
-    "securityDesc": "Modifique los módulos de seguridad para este gremio.",
+    "securityDesc": "Altera los módulos de seguridad para este gremio.",
     "fun": "📙 Módulos divertidos",
-    "funDesc": "Altere módulos divertidos para este gremio.",
-    "embedTitle": "Menú de configuración",
+    "funDesc": "Altera módulos divertidos para este gremio.",
+    "embedTitle": "Menú Configuración",
     "embedDesc": "¡Vea el menú de configuración y realice cambios!"
   },
   "shop": {
     "empty": "La tienda está vacía.",
     "shop": "Tienda",
-    "select": "Seleccione un artículo de la tienda para comprarlo.",
-    "shopItems": "**Comprar artículos:**",
+    "select": "Selecciona un artículo de la tienda para comprarlo.",
+    "shopItems": "**Artículos de la tienda:**",
     "click": "Haga clic para comprar este artículo.",
-    "selectAction": "Selecciona un artículo para comprarlo."
+    "selectAction": "Seleccione un artículo para comprarlo."
   },
   "snipe": {
-    "noMessage": "¡No hay mensajes que disparar en este canal!",
+    "noMessage": "¡No hay mensajes para disparar en este canal!",
     "messageFrom": "Mensaje de",
-    "snipedBy": "Snígado por"
+    "snipedBy": "Disparado por"
   },
   "sticky": {
-    "selectAction": "Seleccione una acción de mensaje adhesiva.",
+    "selectAction": "Seleccione una acción de mensaje adhesivo.",
     "add": "🍯 Añadir pegajoso",
     "addDesc": "Agregue un mensaje adhesivo a la base de datos.",
-    "remove": "❌ Eliminar Pegajoso",
+    "remove": "❌ Eliminar pegajoso",
     "removeDesc": "Elimine un mensaje adhesivo de la base de datos.",
     "embedTitle": "Menú de mensajes adhesivos",
-    "embedDesc": "¡Agregue / elimine mensajes pegajosos a / desde la base de datos!"
+    "embedDesc": "¡Agregue / elimine mensajes adhesivos a / desde la base de datos!"
   },
   "suggestion": {
     "recieved": "**¡Sugerencia recibida!**",
@@ -546,14 +557,14 @@
     "noTickets": "Este gremio aún no tiene ninguna categoría de boletos configurada.",
     "embedTitle": "Categorías de entradas",
     "embedDesc": "Aquí están las categorías de boletos para este gremio. Seleccione uno para abrir un ticket en esa categoría.",
-    "selectAction": "Seleccione una categoría de boleto."
+    "selectAction": "Seleccione una categoría de entrada."
   },
   "ticketbuttons": {
-    "close": "🔒 Cerrar Ticket",
+    "close": "🔒 Cerrar ticket",
     "rename": "✏️ Cambiar el nombre del ticket",
     "add": "📥 Agregar usuario",
     "remove": "📤 Eliminar usuario",
-    "claim": "🤝 Reclamar ticket",
+    "claim": "🤝 Reclamar boleto",
     "claimedBy": "🤝 Reclamado por",
     "message": "Algunos botones de tickets útiles.",
     "onlyInTicket": "Esto solo se puede hacer en un canal de tickets."
@@ -561,25 +572,25 @@
   "ticketpanels": {
     "addPanel": "Agregar panel",
     "post": "Publicar en el canal",
-    "embedTitle": "Paneles de tickets",
+    "embedTitle": "Paneles de entradas",
     "panelName": "**○ Nombre del panel:**",
     "panelDesc": "**○ Descripción del panel:**",
-    "noPanels": "Aún no hay paneles..."
+    "noPanels": "Todavía no hay paneles..."
   },
   "timer": {
-    "set": "¡Conjunto de temporizador!",
+    "set": "¡Temporizador establecido!",
     "up": "¡Temporizador arriba!",
     "remind": "Te lo recordaré en",
     "to": "Para",
     "timer": "Horas",
-    "time": "**Tiempo: **",
-    "note": "**Nota: **",
+    "time": "**Hora:**",
+    "note": "**Nota:**",
     "ended": "**Temporizador finalizado**"
   },
   "tos": {
     "agree": "De acuerdo",
-    "tos": "Términos de servicio",
-    "confirm": "Por favor* confirme ** que está de acuerdo con los **[Términos de servicio]",
+    "tos": "Condiciones del servicio",
+    "confirm": "Por favor, **confirme** que está de acuerdo con los **[Términos de servicio]",
     "confirm2": "** \npresionando el botón azul debajo que dice 'Estoy de acuerdo'."
   },
   "user": {
@@ -593,7 +604,7 @@
     "requestedBy": "Solicitado por"
   },
   "volume": {
-    "changed": "Volumen cambiado"
+    "changed": "Cambio de volumen"
   },
   "globalButtons": {
     "controls": "Mandos:",
@@ -618,28 +629,28 @@
   },
   "commands": {
     "eightBall": {
-      "name": "8bola",
+      "name": "8ball",
       "description": "Habla con Dios.",
       "options": [
         {
           "name": "pregunta",
-          "description": "La pregunta para hacer la 🎱 pelota.",
+          "description": "La pregunta para hacerle a la 🎱 pelota.",
           "required": "verdadero",
           "type": "CUERDA"
         }
       ]
     },
     "afk": {
-      "name": "afk",
+      "name": "AFK",
       "description": "Alterna tu estado AFK."
     },
     "applicationmenu": {
-      "name": "applicationmenu",
-      "description": "Gestiona estas aplicaciones de gremios."
+      "name": "ApplicationMenu",
+      "description": "Administrar las aplicaciones de estos gremios."
     },
     "apply": {
       "name": "aplicar",
-      "description": "Llene una solicitud abierta."
+      "description": "Complete una solicitud abierta."
     },
     "ascii": {
       "name": "ASCII",
@@ -655,7 +666,7 @@
     },
     "avatar": {
       "name": "avatar",
-      "description": "Obtén un avatar de usuario.",
+      "description": "Obtener un avatar de usuario.",
       "options": [
         {
           "name": "usuario",
@@ -671,17 +682,17 @@
     },
     "ban": {
       "name": "prohibición",
-      "description": "Prohíbe a alguien del gremio.",
+      "description": "Prohibir a alguien del gremio.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario a prohibir de este gremio.",
+          "description": "El usuario que va a prohibir de este gremio.",
           "required": "verdadero",
           "type": "USUARIO"
         },
         {
           "name": "razón",
-          "description": "La razón para prohibir al usuario.",
+          "description": "El motivo de la prohibición del usuario.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -689,7 +700,7 @@
     },
     "birthdays": {
       "name": "Cumpleaños",
-      "description": "Abra el panel cumpleaños."
+      "description": "Abra el panel de cumpleaños."
     },
     "case": {
       "name": "caso",
@@ -697,19 +708,19 @@
       "options": [
         {
           "name": "case_id",
-          "description": "Identificador del caso que se va a ver.",
+          "description": "El caso Id para ver.",
           "required": "verdadero",
           "type": "ENTERO"
         }
       ]
     },
     "clientmenu": {
-      "name": "menú cliente",
-      "description": "Gestiona estos gremios de clientes."
+      "name": "clientemenú",
+      "description": "Gestiona los clientes de estos gremios."
     },
     "clients": {
       "name": "Clientes",
-      "description": "Ver estos gremios clientes."
+      "description": "Ver estos clientes de gremios."
     },
     "credits": {
       "name": "créditos",
@@ -720,7 +731,7 @@
       "description": "Cometer un delito."
     },
     "ddos": {
-      "name": "ddos",
+      "name": "DDoS",
       "description": "¡Envía un ataque 😉 DDOS!",
       "options": [
         {
@@ -737,11 +748,11 @@
     },
     "dm": {
       "name": "decímetro",
-      "description": "Envíe un mensaje privado a un usuario como el bot.",
+      "description": "Enviar un mensaje privado a un usuario como bot.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario que desea enviar el mensaje.",
+          "description": "El usuario al que se va a enviar un mensaje.",
           "required": "verdadero",
           "type": "USUARIO"
         },
@@ -759,13 +770,13 @@
       "options": [
         {
           "name": "canal",
-          "description": "El canal en el que se va a publicar la inserción.",
+          "description": "Canal en el que se va a publicar la inserción.",
           "required": "verdadero",
           "type": "CANAL"
         },
         {
           "name": "Mensaje",
-          "description": "El mensaje a decir en el embed.",
+          "description": "Mensaje que se va a decir en la inserción.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -773,7 +784,7 @@
     },
     "embedbuilder": {
       "name": "embedbuilder",
-      "description": "Abra el generador de incrustaciones de mensajes interactivos."
+      "description": "Abra el generador de incrustación de mensajes interactivos."
     },
     "games": {
       "name": "juegos",
@@ -790,8 +801,8 @@
               "value": "póquer"
             },
             {
-              "name": "Youtube (en inglés",
-              "value": "youtube"
+              "name": "Youtube (en inglés)",
+              "value": "YouTube (en inglés)"
             },
             {
               "name": "Ajedrez",
@@ -806,7 +817,7 @@
               "value": "pesca"
             },
             {
-              "name": "Locos 8's",
+              "name": "Locos 8",
               "value": "ocho"
             },
             {
@@ -814,24 +825,24 @@
               "value": "damas"
             },
             {
-              "name": "Azulejo de letras",
-              "value": "lettertile"
+              "name": "Mosaico de letras",
+              "value": "azulejo"
             },
             {
               "name": "Bocadillo de palabras",
-              "value": "wordsnack"
+              "value": "Wordsnack"
             },
             {
-              "name": "Doodle Crew",
-              "value": "doodlecrew"
+              "name": "Equipo de garabatos",
+              "value": "Doodlecrew"
             },
             {
               "name": "Lanzamiento de hechizos",
               "value": "hechizos"
             },
             {
-              "name": "Cabezas de boceto",
-              "value": "Cabezas de boceto"
+              "name": "Cabezales de boceto",
+              "value": "Cabezales de boceto"
             }
           ]
         }
@@ -843,7 +854,7 @@
       "options": [
         {
           "name": "canal",
-          "description": "El canal para poner el sorteo.",
+          "description": "El canal en el que poner el sorteo.",
           "required": "verdadero",
           "type": "CANAL"
         },
@@ -875,7 +886,7 @@
     },
     "guilds": {
       "name": "Gremios",
-      "description": "Vea los gremios en los que se encuentra este bot."
+      "description": "Mira los gremios en los que se encuentra este bot."
     },
     "help": {
       "name": "Ayuda",
@@ -895,7 +906,7 @@
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario a abrazar.",
+          "description": "El usuario al que abrazar.",
           "required": "verdadero",
           "type": "USUARIO"
         }
@@ -903,11 +914,11 @@
     },
     "inventory": {
       "name": "inventario",
-      "description": "Vea su inventario de usuarios."
+      "description": "Ver el inventario de usuarios."
     },
     "kick": {
       "name": "patear",
-      "description": "Patea a alguien de este gremio.",
+      "description": "Patear a alguien de este gremio.",
       "options": [
         {
           "name": "usuario",
@@ -924,8 +935,8 @@
       ]
     },
     "leaderboard": {
-      "name": "tabla de clasificación",
-      "description": "Vea esta tabla de clasificación de nivel de chat de servidores."
+      "name": "Tabla de clasificación",
+      "description": "Ver la tabla de clasificación de nivel de chat de estos servidores."
     },
     "level": {
       "name": "nivel",
@@ -933,7 +944,7 @@
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario que desea ver el nivel de",
+          "description": "El usuario para ver el nivel de",
           "required": "verdadero",
           "type": "USUARIO"
         }
@@ -941,23 +952,23 @@
     },
     "logging": {
       "name": "Registro",
-      "description": "Modifique la configuración de registro de este gremio."
+      "description": "Modifica la configuración de registro de este gremio."
     },
     "loop": {
       "name": "bucle",
-      "description": "Alterna el bucle de la canción."
+      "description": "Alterna el bucle de canción."
     },
     "marriage": {
       "name": "matrimonio",
-      "description": "¡Vea el sistema ❤️ de matrimonio!"
+      "description": "¡Vea el sistema ❤️ matrimonial!"
     },
     "massrole": {
       "name": "massrole",
-      "description": "Asigne a cada miembro de este servidor un rol.",
+      "description": "Asigne un rol a cada miembro de este servidor.",
       "options": [
         {
           "name": "rol",
-          "description": "El papel que se debe dar a cada miembro.",
+          "description": "El papel a dar a cada miembro.",
           "required": "verdadero",
           "type": "ROL"
         }
@@ -973,7 +984,7 @@
       "options": [
         {
           "name": "play_song",
-          "description": "La canción para tocar.",
+          "description": "La canción que se va a reproducir.",
           "required": "falso",
           "type": "CUERDA"
         }
@@ -981,11 +992,11 @@
     },
     "mute": {
       "name": "mudo",
-      "description": "Silencia a alguien en el gremio.",
+      "description": "Silencia a alguien del gremio.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario a silenciar de este gremio.",
+          "description": "El usuario para silenciar de este gremio.",
           "required": "verdadero",
           "type": "USUARIO"
         },
@@ -997,7 +1008,7 @@
         },
         {
           "name": "razón",
-          "description": "La razón para silenciar al usuario.",
+          "description": "El motivo para silenciar al usuario.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -1035,7 +1046,7 @@
     },
     "permissions": {
       "name": "Permisos",
-      "description": "Modifique los permisos de este gremio."
+      "description": "Modifica los permisos de estos gremios."
     },
     "ping": {
       "name": "Señal",
@@ -1051,7 +1062,7 @@
       "options": [
         {
           "name": "canción",
-          "description": "La canción para tocar.",
+          "description": "La canción que se va a reproducir.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -1059,7 +1070,7 @@
     },
     "poll": {
       "name": "encuesta",
-      "description": "Crear una encuesta.",
+      "description": "Crea una encuesta.",
       "options": [
         {
           "name": "pregunta",
@@ -1131,11 +1142,11 @@
     },
     "punishments": {
       "name": "Castigos",
-      "description": "Ver un historial de casos de usuarios.",
+      "description": "Ver el historial de casos de un usuario.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario del que desea ver el historial de casos.",
+          "description": "El usuario del que desea ver el historial del caso.",
           "required": "verdadero",
           "type": "USUARIO"
         }
@@ -1143,11 +1154,11 @@
     },
     "purge": {
       "name": "purga",
-      "description": "Eliminar mensajes masivos en un canal.",
+      "description": "Eliminar mensajes de forma masiva en un canal.",
       "options": [
         {
           "name": "importe",
-          "description": "El número de mensajes que se van a purgar.",
+          "description": "El # de mensajes para purgar.",
           "required": "verdadero",
           "type": "ENTERO"
         }
@@ -1158,12 +1169,12 @@
       "description": "Ver la cola de música."
     },
     "removecase": {
-      "name": "removecase",
+      "name": "Eliminar caso",
       "description": "Quitar un caso de la base de datos.",
       "options": [
         {
           "name": "case_id",
-          "description": "Identificador de caso que se va a quitar.",
+          "description": "El caso Id para eliminar.",
           "required": "verdadero",
           "type": "ENTERO"
         }
@@ -1175,7 +1186,7 @@
     },
     "review": {
       "name": "revisión",
-      "description": "Escribe una reseña como cliente.",
+      "description": "Escriba una reseña como cliente.",
       "options": [
         {
           "name": "servicio",
@@ -1191,7 +1202,7 @@
         },
         {
           "name": "Mensaje",
-          "description": "Deja un mensaje con tu opinión.",
+          "description": "Deja un mensaje con tu reseña.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -1215,7 +1226,7 @@
       "options": [
         {
           "name": "canal",
-          "description": "El canal en el que se va a publicar el mensaje.",
+          "description": "Canal en el que se va a publicar el mensaje.",
           "required": "verdadero",
           "type": "CANAL"
         },
@@ -1228,16 +1239,16 @@
       ]
     },
     "selfroles": {
-      "name": "selfroles",
-      "description": "Configura roles propios para este gremio."
+      "name": "Roles propios",
+      "description": "Establece roles propios para este gremio."
     },
     "server": {
       "name": "servidor",
-      "description": "Vea esta información de servidores."
+      "description": "Ver esta información de servidores."
     },
     "settings": {
       "name": "Configuración",
-      "description": "Modifique esta configuración de gremios."
+      "description": "Modifica la configuración de estos gremios."
     },
     "shop": {
       "name": "tienda",
@@ -1245,11 +1256,11 @@
     },
     "snipe": {
       "name": "agachadiza",
-      "description": "Busque el último mensaje eliminado en este canal."
+      "description": "Busca el último mensaje eliminado en este canal."
     },
     "sticky": {
       "name": "pegajoso",
-      "description": "Agregar o quitar mensajes pegajosos."
+      "description": "Agregar o quitar mensajes adhesivos."
     },
     "suggest": {
       "name": "sugerir",
@@ -1257,7 +1268,7 @@
       "options": [
         {
           "name": "sugerencia",
-          "description": "Lo que estás sugiriendo.",
+          "description": "Lo que usted sugiere.",
           "required": "verdadero",
           "type": "CUERDA"
         }
@@ -1268,11 +1279,11 @@
       "description": "Crea un ticket."
     },
     "ticketbuttons": {
-      "name": "botones de billetes",
+      "name": "ticketbuttons",
       "description": "Ver botones de tickets útiles."
     },
     "ticketpanels": {
-      "name": "pasarelas",
+      "name": "Ticketpanels",
       "description": "Configura paneles de tickets para este gremio."
     },
     "timer": {
@@ -1306,24 +1317,24 @@
       ]
     },
     "unban": {
-      "name": "no prohibir",
-      "description": "Deshabilite a alguien de este gremio.",
+      "name": "unban",
+      "description": "Desbancar a alguien de este gremio.",
       "options": [
         {
           "name": "usuario",
-          "description": "El identificador de usuario que se va a desbancar de este gremio.",
+          "description": "El identificador del usuario que se va a eliminar de este gremio.",
           "required": "verdadero",
           "type": "CUERDA"
         }
       ]
     },
     "unmute": {
-      "name": "activar el silencio",
-      "description": "Desactiva el silencio de alguien en el gremio.",
+      "name": "Activar el audio",
+      "description": "Reactiva el audio de alguien del gremio.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario que va a activar el silencio de este gremio.",
+          "description": "El usuario para reactivar el audio de este gremio.",
           "required": "verdadero",
           "type": "USUARIO"
         }
@@ -1331,7 +1342,7 @@
     },
     "user": {
       "name": "usuario",
-      "description": "Ver la información de un usuario.",
+      "description": "Ver la información de los usuarios.",
       "options": [
         {
           "name": "usuario",
@@ -1347,7 +1358,7 @@
       "options": [
         {
           "name": "valor",
-          "description": "La canción para tocar.",
+          "description": "La canción que se va a reproducir.",
           "required": "verdadero",
           "type": "ENTERO"
         }
@@ -1355,11 +1366,11 @@
     },
     "warn": {
       "name": "advertir",
-      "description": "Avisar a un usuario de este gremio.",
+      "description": "Advertir a un usuario de este gremio.",
       "options": [
         {
           "name": "usuario",
-          "description": "El usuario que va a advertir.",
+          "description": "El usuario que se va a advertir.",
           "required": "verdadero",
           "type": "USUARIO"
         },
@@ -1373,16 +1384,16 @@
     },
     "wink": {
       "name": "guiño",
-      "description": "Envía un gif de guiño a alguien."
+      "description": "Envía un gif guiño a alguien."
     },
     "work": {
       "name": "trabajo",
-      "description": "Ir a trabajar."
+      "description": "Ve a trabajar."
     }
   },
   "events": {
     "actionLogs": "Registros de acciones",
-    "actionBy": "Accionado por",
+    "actionBy": "Actuado por",
     "someone": "alguien",
     "guilds": {
       "join": "📥 ¡Gremio se unió!",
@@ -1411,25 +1422,25 @@
       "name": "Nombre del canal"
     },
     "members": {
-      "left": "ha abandonado el servidor!",
+      "left": "ha dejado el servidor!",
       "leftEmbedTitle": "¡Adiós usuario!",
       "accountAge": "Antigüedad de la cuenta",
       "members": "Miembros",
       "users": "Usuarios",
       "sorry": "Arrepentido",
-      "lockdown": "está actualmente bajo confinamiento! ¡Intente unirse en unas horas o póngase en contacto con un administrador externamente para ver qué pasa!\n\nEs posible que el propietario simplemente se haya olvidado de deshabilitar el bloqueo del servidor, independientemente de que esto se haya registrado y estoy seguro de que el servidor volverá a abrirse pronto.",
+      "lockdown": "¡Actualmente está bajo bloqueo! ¡Intente unirse de nuevo en unas horas o póngase en contacto con un administrador externo para ver qué pasa!\n\nEs posible que el propietario haya olvidado deshabilitar el bloqueo del servidor, independientemente de que esto se haya registrado y estoy seguro de que el servidor volverá a estar abierto pronto.",
       "lockdownMode": "¡El servidor está en modo de bloqueo!",
       "lockdownTitle": "🔒 ¡Bloqueo del servidor!",
-      "lockdownRemoval": "¡Eliminación del bloqueo!",
+      "lockdownRemoval": "¡Eliminación de bloqueo!",
       "reason": "Razón",
       "action": "Acción",
       "user": "Usuario",
       "kicked": "Pateó",
       "sl": "¡Bloqueo del servidor!",
-      "altDetected": "¡Cuenta Alt detectada!",
+      "altDetected": "¡Cuenta alternativa detectada!",
       "removalTitle": "¡Fuiste eliminado!",
-      "removal1": "Ha sido eliminado de",
-      "removal2": "ya que su cuenta no cumple con los requisitos de antigüedad de la cuenta de guilds.",
+      "removal1": "Has sido eliminado de",
+      "removal2": "ya que tu cuenta no cumple con los requisitos de edad de la cuenta de clanes.",
       "join": "se ha unido al servidor!",
       "joinEmbedTitle": "¡Bienvenido usuario!"
     },
@@ -1440,8 +1451,8 @@
       "noContent": "Sin contenido",
       "updated": "Mensaje actualizado",
       "noAfk": "ya no estás marcado como AFK en este gremio.",
-      "isAfk": "actualmente es AFK...",
-      "pingedBy": "Pingeado por",
+      "isAfk": "es actualmente AFK...",
+      "pingedBy": "Hecho ping por",
       "pingPrev": "❤️ Sistema de prevención de ping",
       "mail": "📫 ¡Tienes correo!",
       "pleaseDont": "Por favor, no me hagas ping, tengo una vida, como tú :]"
@@ -1450,33 +1461,33 @@
       "created": "Rol creado",
       "deleted": "Rol eliminado",
       "updated": "Rol actualizado",
-      "id": "Identificador de rol",
+      "id": "ID de rol",
       "name": "Nombre del rol",
-      "actionedBy": "Accionado por"
+      "actionedBy": "Actuado por"
     },
     "voice": {
       "has": "tiene",
       "was": "era",
       "unavailable": "Indisponible",
-      "update": "Actualización del estado de voz",
+      "update": "Actualización de estado de voz",
       "server": "servidor",
       "left": "Izquierda",
       "joined": "unido",
       "moved": "movido desde",
       "to": "Para",
-      "deafened": "sordo",
-      "undeafened": "insobrio",
+      "deafened": "ensordecido",
+      "undeafened": "Sin ensordecimiento",
       "muted": "Silenciado",
       "unmuted": "sin silenciar",
       "stopped": "detuvo su video",
-      "started": "comenzaron su video",
-      "stream": "comenzó a transmitir",
-      "stopstream": "se detuvo la transmisión"
+      "started": "comenzó su video",
+      "stream": "Comenzó a transmitir",
+      "stopstream": "Transmisión detenida"
     }
   },
   "components": {
     "agreeTos": {
-      "notasked": "No se le pide que acepte los ToS",
+      "notasked": "No se le pide que acepte los TdS",
       "notasked2": "se le pide que",
       "agreed": "Acordado",
       "hasAgreed": "ha aceptado los Términos de Servicio"
@@ -1489,9 +1500,9 @@
       "message": "**Mensaje:**"
     },
     "appDeny": {
-      "denied": "Negado por",
+      "denied": "Denegado por",
       "unable": "No pude encontrar esa aplicación.",
-      "title": "❌ Solicitud denegada",
+      "title": "❌ Aplicación denegada",
       "app": "**Aplicación:**",
       "message": "**Mensaje:**"
     },
@@ -1501,8 +1512,8 @@
       "here": "Introduzca el nombre de la aplicación aquí.",
       "am": "Mensaje aceptado",
       "dm": "Mensaje denegado",
-      "aam": "Ingrese el mensaje que un usuario debe recibir si es aceptado aquí.",
-      "ddm": "Ingrese el mensaje que un usuario debería recibir si se le niega aquí."
+      "aam": "Ingrese el mensaje que un usuario debería recibir si es aceptado aquí.",
+      "ddm": "Escriba el mensaje que un usuario debe recibir si se le niega aquí."
     },
     "appMenuBack": {
       "title": "Menú de la aplicación",
@@ -1527,11 +1538,11 @@
       "add": "Añadir pregunta",
       "app": "○ Aplicación:",
       "question": "○ Pregunta:",
-      "noQuestion": "Aún no hay preguntas creadas."
+      "noQuestion": "Aún no se han creado preguntas."
     },
     "appMenuQuestionsAdd": {
       "added": "¡Pregunta añadida!",
-      "invalid": "Solicitud no válida.",
+      "invalid": "Aplicación no válida.",
       "input": "Introduce la pregunta que quieras añadir a la aplicación.",
       "cancel": "Anulado.",
       "error": "Error al agregar la pregunta. Inténtalo de nuevo, asegúrate de no incluir emojis en tus preguntas."
@@ -1541,49 +1552,49 @@
       "unable": "No pude encontrar esa pregunta en la base de datos."
     },
     "appSelect": {
-      "noQuestions": "No tiene ninguna pregunta creada todavía.",
-      "pleaseAnswer": "Por favor, responda a las siguientes preguntas lo mejor que pueda.",
+      "noQuestions": "Esta aplicación aún no tiene ninguna pregunta creada.",
+      "pleaseAnswer": "Por favor, responda las siguientes preguntas lo mejor que pueda.",
       "started": "Aplicación iniciada en DMs.",
       "cancel": "Anulado.",
       "date": "Fecha de envío",
-      "submitted": "¡Solicitud presentada!",
-      "failed": "**Error de aplicación.**\nAsegúrese de que sus DM no sean privados.",
+      "submitted": "¡Solicitud enviada!",
+      "failed": "**Error en la aplicación.**\nAsegúrese de que sus DM no sean privados.",
       "q": "Q",
       "a": "Un"
     },
     "backingDeposit": {
       "noInput": "Por favor, introduzca una cantidad que desea depositar en el banco.",
-      "notValid": "Introduzca un número válido.",
-      "notValid2": "**Introduzca un número válido.**\nInténtelo de nuevo...",
-      "notEnough": "**Eso es más de lo que tienes en tu saldo.**\nInténtelo de nuevo...",
+      "notValid": "Introduce un número válido.",
+      "notValid2": "**Por favor, introduzca un número válido.**\nInténtalo de nuevo...",
+      "notEnough": "** Eso es más de lo que tienes en tu saldo. **\nInténtalo de nuevo...",
       "deposited": "**Depositado ",
       "deposited1": " en el banco.**",
-      "logAuthor": " - Depósito",
+      "logAuthor": " -Depósito",
       "amount": "Importe"
     },
     "bankingTransfer": {
-      "user": "Por favor, proporcione al usuario al que desea transferir esta moneda.",
+      "user": "Por favor, proporcione el usuario al que desea transferir esta moneda.",
       "aUser": "Por favor, proporcione la cantidad que desea transferir a este usuario.",
       "valUser": "Introduzca un usuario válido.",
-      "valNumber": "Introduzca un número válido.",
-      "valNumber1": "**Introduzca un número válido.**\nInténtelo de nuevo...",
-      "notEnough": "**Eso es más de lo que tienes en tu saldo.**\nInténtelo de nuevo...",
+      "valNumber": "Introduce un número válido.",
+      "valNumber1": "**Por favor, introduzca un número válido.**\nInténtalo de nuevo...",
+      "notEnough": "** Eso es más de lo que tienes en tu saldo. **\nInténtalo de nuevo...",
       "Done": " ¡Transferido!**",
-      "logAuthor": " - Traslado",
-      "reciever": "Reciever"
+      "logAuthor": " -Transferencia",
+      "reciever": "Receptor"
     },
     "bankingWithdraw": {
       "iAmount": "Por favor, introduzca una cantidad que desea retirar del banco.",
-      "number": "Introduzca un número válido.",
-      "valNumber": "**Introduzca un número válido.**\nInténtelo de nuevo...",
-      "notEnough": "**Eso es más de lo que tienes en tu banco.**\nInténtelo de nuevo...",
-      "Withdrew": "**Retirado ",
-      "Withdrew1": " desde la parte posterior.**",
-      "logAuthor": " - Retirado"
+      "number": "Introduce un número válido.",
+      "valNumber": "**Por favor, introduzca un número válido.**\nInténtalo de nuevo...",
+      "notEnough": "** Eso es más de lo que tiene en su banco. **\nInténtalo de nuevo...",
+      "Withdrew": "**Se retiró ",
+      "Withdrew1": " desde atrás.**",
+      "logAuthor": " -Se retiró"
     },
     "birthdayAdd": {
       "already": "Ya has registrado un cumpleaños en este gremio.",
-      "date": "Por favor, indique su fecha de nacimiento.\n**Nota:** Debe tener el siguiente formato: 'MM-DD-AAAA' de lo contrario **no funcionará**.",
+      "date": "Por favor, indique su fecha de nacimiento.\n**Nota:** Debe tener este formato: 'MM-DD-AAAA' de lo contrario **no funcionará**.",
       "cancel": "Anulado.",
       "added": "**¡Cumpleaños añadido!**"
     },
@@ -1594,14 +1605,14 @@
     "birthdaySystem": {
       "title": "🥳 ¡Feliz cumpleaños!",
       "its": "Es",
-      "bday": "¡Cumpleaños hoy! ¡Deseándoles un feliz cumpleaños y celebremos!\n\n**Fecha:**"
+      "bday": "¡Cumpleaños hoy! ¡Deséales un feliz cumpleaños y celebremos!\n\n**Fecha:**"
     },
     "clientAdd": {
       "user": "Por favor, mencione el usuario que desea agregar como cliente.",
       "iUser": "Usuario no válido.\nPor favor, mencione el usuario que desea agregar como cliente.",
       "already": "Ese usuario ya es un cliente registrado.",
-      "added": "📥 Cliente agregado",
-      "done": "ha sido 'añadido' como cliente.",
+      "added": "📥 Cliente añadido",
+      "done": "ha sido 'agregado' como cliente.",
       "add": "**¡Cliente añadido!**"
     },
     "clientRemove": {
@@ -1614,10 +1625,10 @@
       "done": "**¡Cliente eliminado!**"
     },
     "forceLeaveGuild": {
-      "left": "Gremio de izquierda"
+      "left": "Gremio izquierdo"
     },
     "giveawayEnd": {
-      "end": "¡Terminando el sorteo, por favor espere!",
+      "end": "Fin del sorteo, ¡por favor espere!",
       "notCreator": "¡Tú no eres el creador de este sorteo!\nFue creado por:",
       "ended": "Este sorteo ya ha terminado.",
       "notCreator1": "¡Este sorteo ya ha terminado!\nFue creado por:",
@@ -1632,12 +1643,12 @@
     "giveawayRefresh": {
       "for": "Sorteo para",
       "with": "con",
-      "finish": "¡Los ganadores han restablecido el temporizador debido al reinicio del bot!"
+      "finish": "¡Ganadores ha tenido el temporizador restablecido debido al reinicio del bot!"
     },
     "giveawayReroll": {
-      "wait": "¡Re-Rolling, por favor espere!",
-      "consoleNumber": "Un conteo de winnters de sorteos no es un número...",
-      "title": "¡Sorteo re-enrollado!",
+      "wait": "Re-Rolling, por favor espere!",
+      "consoleNumber": "Un sorteo que los ganadores cuentan no es un número ...",
+      "title": "¡Sorteo re-rodado!",
       "prize": "**Información**\nPremio:",
       "winners": "Ganadores:",
       "time": "Plazo:",
@@ -1645,7 +1656,7 @@
       "footer": "Sorteo por: ",
       "endError": "ERROR DE FINALIZACIÓN DEL SORTEO: ",
       "uNot": "No creaste este sorteo.",
-      "wait1": "¡Debes esperar a que termine el sorteo para volver a rodar!",
+      "wait1": "¡Tienes que esperar a que termine el sorteo para volver a rodar!",
       "find": "No pudimos encontrar este sorteo en la base de datos."
     },
     "helpPageSelect": {
@@ -1668,18 +1679,18 @@
         },
         "leave": {
           "label": "👋 Dejar mensajes",
-          "desc": "Establezca un canal de registro para los mensajes de salida."
+          "desc": "Establezca un canal de registro para dejar mensajes."
         },
         "member": {
-          "label": "🔢 Recuento de miembros",
+          "label": "🔢 Número de miembros",
           "desc": "Establezca el canal de recuento de miembros."
         },
         "user": {
-          "label": "🔢 Recuento de usuarios",
+          "label": "🔢 Número de usuarios",
           "desc": "Establezca el canal de recuento de usuarios."
         },
         "channel": {
-          "label": "🎒 Registros de canal",
+          "label": "🎒 Registros de canales",
           "desc": "Establezca un canal de registro para los cambios de canal."
         },
         "role": {
@@ -1691,11 +1702,11 @@
           "desc": "Establecer un canal de registro para los registros de moderación"
         },
         "ticket": {
-          "label": "🎟️ Registros de boletos",
+          "label": "🎟️ Registros de tickets",
           "desc": "Establecer un canal de registro para los registros de tickets"
         },
         "message": {
-          "label": "(M)️ Registros de mensajes",
+          "label": "(M)️ registros de mensajes",
           "desc": "Establezca un canal de registro para los registros de mensajes."
         },
         "command": {
@@ -1707,15 +1718,15 @@
           "desc": "Establezca un canal de registro para los registros de voz."
         },
         "alt": {
-          "label": "👻 Registros de prevención de alt",
-          "desc": "Establezca un canal de registro para los registros de prevención alternativa."
+          "label": "👻 Registros de prevención de alternativas",
+          "desc": "Establezca un canal de registro para los registros de prevención alternativos."
         },
         "server": {
-          "label": "🔒 Registros del servidor",
+          "label": "🔒 Registros de bloqueo del servidor",
           "desc": "Establezca un canal de registro para los registros de bloqueo del servidor."
         },
         "filter": {
-          "label": "❌ Filtrar registros",
+          "label": "❌ Registros de filtros",
           "desc": "Establezca un canal de registro para los registros de filtro."
         },
         "client": {
@@ -1728,7 +1739,7 @@
         },
         "suggestion": {
           "label": "📥 Registros de sugerencias",
-          "desc": "Establezca un canal de registro para las sugerencias."
+          "desc": "Establezca un canal de registro para sugerencias."
         },
         "birthday": {
           "label": "🎉 Registros de cumpleaños",
@@ -1739,11 +1750,11 @@
           "desc": "Establezca un canal de registro para los registros de la aplicación."
         },
         "economy": {
-          "label": "🏦 Registros económicos",
+          "label": "🏦 Registros de economía",
           "desc": "Establezca un canal de registro para los registros económicos."
         },
         "eco": {
-          "label": "📈 Registros de subir de nivel",
+          "label": "📈 Subir de nivel Registros",
           "desc": "Establezca un canal de registro para los registros de subida de nivel."
         },
         "other": {
@@ -1755,7 +1766,7 @@
     "loggingBack": {
       "title": "Canales de registro",
       "type": "**○ Tipo de registro:**",
-      "nochans": "Aún no hay canales...",
+      "nochans": "Todavía no hay canales...",
       "chan": "**○ Canal de registro:**"
     },
     "loggingDelete": {
@@ -1763,30 +1774,30 @@
     },
     "loggingHome": {
       "buttons": {
-        "addChan": "Añadir canal",
+        "addChan": "Agregar canal",
         "deleted": "Eliminar seleccionado"
       },
       "title": "Canales de registro",
       "type": "**○ Tipo de registro:**",
-      "nochans": "Aún no hay canales...",
+      "nochans": "Todavía no hay canales...",
       "chan": "**○ Canal de registro:**"
     },
     "loggingNext": {
       "title": "Canales de registro",
       "type": "**○ Tipo de registro:**",
-      "nochans": "Aún no hay canales...",
+      "nochans": "Todavía no hay canales...",
       "chan": "**○ Canal de registro:**"
     },
     "loggingSelectB": {
-      "provide": "Proporcione un canal para que estos registros vayan.",
+      "provide": "Proporcione un canal al que se dirigirán estos registros.",
       "cancel": "Anulado.",
-      "invalid": "**Canal no válido proporcionado, inténtalo de nuevo.**",
+      "invalid": "**Se ha proporcionado un canal no válido, inténtalo de nuevo.**",
       "created": "**¡Canal de registro creado!**\n**Tipo:**",
       "channel": "**Canal:**"
     },
     "marriageAcceptProposal": {
       "already": "Ya estás casado.",
-      "desc1": "Por favor, mencione al usuario del que desea aceptar la solicitud.",
+      "desc1": "Por favor, mencione el usuario al que desea aceptar la solicitud.",
       "cancel": "Anulado.",
       "self": "Puedes casarte contigo mismo.",
       "never": "Ese usuario nunca solicitó casarse contigo...",
@@ -1801,11 +1812,11 @@
       "deny": "No puedes negarte a ti mismo.",
       "never": "Ese usuario nunca solicitó casarse contigo...",
       "title": "😭 ¡Lo sentimos!",
-      "desc1": "Su solicitud de marriade ha sido denegada por",
-      "denied": "Usted ha denegado la solicitud de matrimonio de ese usuario."
+      "desc1": "Su solicitud de matrimonio ha sido denegada por",
+      "denied": "Ha denegado la solicitud de matrimonio de ese usuario."
     },
     "marriageDivorce": {
-      "title": "⚖️ ¡Te han servido!",
+      "title": "⚖️ ¡Has sido servido!",
       "desc": "Su cónyuge,",
       "divorced": ", acaba de divorciarse de ti. No sabemos nada, solo somos el servicio 👀 de entrega.",
       "not": "Actualmente no está casado.",
@@ -1827,20 +1838,20 @@
           "desc": "Eres una persona horrible si haces clic en esto..."
         },
         "divorce": {
-          "label": "⚖️ Divorciarse",
+          "label": "⚖️ Obtener un divorcio",
           "desc": "¿Quién se lleva a los niños? Porque no voy a ser yo."
         }
       }
     },
     "marriageSendRequest": {
       "already": "Ya estás casado.",
-      "desc": "**¿Con quién te gustaría casarte?**\nUtilice el símbolo '@' para mencionarlos.",
+      "desc": "**¿Con quién te gustaría casarte?**\nPor favor, utilice el símbolo '@' para mencionarlos.",
       "cancel": "Anulado.",
       "self": "No puedes casarte contigo mismo.",
       "bot": "No puedes casarte con un bot, PUNTO.",
       "title": "💌 Solicitud de matrimonio",
-      "desc1": "ha solicitado casarse con USTED!\n\nPara responder a esta solicitud, diríjase a",
-      "desc12": ", o cualquier otro canal de ese gremio, y ejecute '/matrimonio' para gestionar la solicitud.",
+      "desc1": "ha solicitado casarse contigo!\n\nPara responder a esta solicitud, dirígete a",
+      "desc12": ", o cualquier otro canal de ese gremio, y ejecute '/marriage' para gestionar la solicitud.",
       "person": "¡Esa persona ya está casada!",
       "sent": "**Solicitud de matrimonio enviada.**\nTendrán 2 minutos para aceptar su solicitud de matrimonio antes de que expire.",
       "expired": "La solicitud de matrimonio que se envió a",
@@ -1848,31 +1859,31 @@
     },
     "marriageSystem": {
       "con1": "Matrimonio",
-      "con2": " las solicitudes de matrimonio pendientes fueron eliminadas."
+      "con2": " Las solicitudes de matrimonio pendientes fueron eliminadas."
     },
     "musicPause": {
-      "vc": "Debes estar en un canal de voz.",
-      "paused": "Música en pausa - "
+      "vc": "Debe estar en un canal de voz.",
+      "paused": "Música pausada - "
     },
     "musicPlay": {
-      "vc": "Debes estar en un canal de voz.",
+      "vc": "Debe estar en un canal de voz.",
       "resumed": "Música reanudada - "
     },
     "musicQueueClear": {
-      "vc": "Debes estar en un canal de voz.",
+      "vc": "Debe estar en un canal de voz.",
       "buttons": {
         "label": "Cola borrada"
       },
       "cleared": "Música borrada - "
     },
     "musicShuffle": {
-      "vc": "Debes estar en un canal de voz.",
+      "vc": "Debe estar en un canal de voz.",
       "shuffled": "Cola barajada - "
     },
     "musicSkip": {
-      "vc": "Debes estar en un canal de voz.",
-      "noSong": "No hay música reproduciéndose en este servidor.",
-      "noSongQueue": "No hay más canciones en la cola a las que saltar.",
+      "vc": "Debe estar en un canal de voz.",
+      "noSong": "No hay música en este servidor.",
+      "noSongQueue": "No hay más canciones en la cola para saltar.",
       "skipped": "Música omitida - "
     },
     "musicStop": {
@@ -1881,13 +1892,13 @@
           "label": "Estado:"
         },
         "music": {
-          "label": "Música detenida"
+          "label": "La música se detuvo"
         },
         "stopped": {
           "label": "Detenido por:"
         }
       },
-      "vc": "Debes estar en un canal de voz."
+      "vc": "Debe estar en un canal de voz."
     },
     "musicSystem": {
       "buttons": {
@@ -1928,27 +1939,27 @@
       },
       "searchNoResult": {
         "error": "Error 404",
-        "noResults": "No se ha encontrado ningún resultado para"
+        "noResults": "No se encontró ningún resultado para"
       },
       "searchResult": {
         "search": "Resultados de la búsqueda",
         "choose": "**Elija una opción de abajo**",
-        "else": "Ingrese cualquier otra cosa o espere 60 segundos para cantar"
+        "else": "Ingrese cualquier otra cosa o espere 60 segundos para cance"
       },
       "iAnswer": {
         "invalid": "Respuesta no válida",
-        "provided": "Respuesta no válida proporcionada para la búsqueda."
+        "provided": "Se proporciona una respuesta no válida para la búsqueda."
       }
     },
     "nextGuilds": {
       "buttons": {
-        "leave": "Dejar el gremio"
+        "leave": "Abandonar el gremio"
       },
       "title": "Lista de gremios",
       "guildName": "**○ Nombre del gremio:**",
-      "guildId": "**○ Id de gremio:**",
+      "guildId": "**○ ID de gremio:**",
       "guildMembers": "**○ Miembros del gremio:**",
-      "guildOwnerTag": "**○ Etiqueta del propietario del gremio:**",
+      "guildOwnerTag": "**○ Etiqueta de propietario del gremio:**",
       "guildOwnerId": "**○ ID de propietario del gremio:**"
     },
     "permsAdd": {
@@ -1956,7 +1967,7 @@
       "options": {
         "admin": {
           "label": "🗝️ Administrador",
-          "desc": "Agregar un rol administrativo (PELIGROSO)."
+          "desc": "Agregar un rol administrativo (DANGEROUS)."
         },
         "mod": {
           "label": "👮 ♂️ Presentador",
@@ -1968,46 +1979,46 @@
         },
         "info": {
           "label": "🔎 Información",
-          "desc": "Agregue un rol de visualización de información."
+          "desc": "Agregar un rol de visualización de información."
         },
         "roles": {
           "label": "🎭 Roles propios",
           "desc": "Agregue un rol de administrador de roles propios."
         },
         "sticky": {
-          "label": "🍯 Mensajes pegajosos",
-          "desc": "Agregue un rol de administrador de mensajes pegajoso."
+          "label": "🍯 Mensajes adhesivos",
+          "desc": "Agregue un rol de administrador de mensajes fijo."
         },
         "giveaway": {
-          "label": "🎉 Gerentes de sorteos",
-          "desc": "Agregue un rol de gerentes de sorteo."
+          "label": "🎉 Gestores de sorteos",
+          "desc": "Añade un rol de mánager de regalos."
         },
         "client": {
-          "label": "💰 Gerentes de clientes",
+          "label": "💰 Gerentes de Clientes",
           "desc": "Agregue un rol de administradores de clientes."
         },
         "ticket": {
           "label": "🎟️ Soporte de tickets",
-          "desc": "Agregue un rol de personal de soporte de tickets."
+          "desc": "Agregue un rol de personal de soporte técnico de tickets."
         },
         "apps": {
           "label": "📜 Aplicaciones",
-          "desc": "Agregue un rol de administrador de aplicaciones."
+          "desc": "Agregue un rol de administradores de aplicaciones."
         },
         "customers": {
           "label": "🛍️ Clientela",
-          "desc": "Agregue un rol de cliente."
+          "desc": "Agregar un rol de cliente."
         },
         "pingPrev": {
-          "label": "🔕 Prevención de ping",
-          "desc": "Agregue un rol de administrador y derivación de prevención de ping."
+          "label": "🔕 Prevención de Ping",
+          "desc": "Agregue un rol de administración y omisión de prevención de ping."
         }
       }
     },
     "permsBack": {
-      "title": "Menú Permisos",
+      "title": "Menú de permisos",
       "type": "**○ Tipo de permanente:**",
-      "no": "Aún no hay permanentes...",
+      "no": "Sin permanentes todavía...",
       "role": "**○ Id. de rol:**"
     },
     "permsDelete": {
@@ -2018,40 +2029,40 @@
         "add": "Agregar permiso",
         "delete": "Eliminar seleccionado"
       },
-      "title": "Menú Permisos",
+      "title": "Menú de permisos",
       "type": "**○ Tipo de permanente:**",
-      "no": "Aún no hay permanentes...",
+      "no": "Sin permanentes todavía...",
       "role": "**○ Id. de rol:**"
     },
     "permsNext": {
-      "title": "Menú Permisos",
+      "title": "Menú de permisos",
       "type": "**○ Tipo de permanente:**",
-      "no": "Aún no hay permanentes...",
+      "no": "Sin permanentes todavía...",
       "role": "**○ Id. de rol:**"
     },
     "permsSelect": {
       "provide": "Proporcione un rol para asignar/agregar para este permiso.",
       "cancel": "Cancelar",
       "Cancelled": "Anulado.",
-      "invalid": "**Rol no válido proporcionado, inténtelo de nuevo.**",
+      "invalid": "**Se proporciona un rol no válido, inténtelo de nuevo.**",
       "created": "**¡Permiso creado!**",
       "type": "**Tipo:**",
       "role": "**Rol:**"
     },
     "pingPreventionAdd": {
-      "already": "Ya ha configurado una prevención de ping en este gremio.",
-      "color": "Defina un **color hex** para su inserción de prevención de ping.",
+      "already": "Ya has configurado una prevención de ping en este gremio.",
+      "color": "Defina un **hexadecimal de color** para su inserción de prevención de ping.",
       "cancel": "Anulado.",
-      "provide": "**Proporcione una imagen para la inserción.**\nEl enlace debe terminar en '.png', '.jpg', '.webp', etc.\nEscriba 'skip' para omitir.",
+      "provide": "**Proporcione una imagen para la inserción.**\nEl enlace debe terminar en '.png', '.jpg', '.webp', etc.\nEscriba 'omitir' para omitir.",
       "added": "**¡Prevención de ping añadida!**"
     },
     "pingPreventionRemove": {
-      "no": "No tiene registros de prevención de ping en este gremio.",
-      "removed": "**¡Prevención de ping eliminada!**"
+      "no": "No tienes registros de prevención de ping en este gremio.",
+      "removed": "**¡Se ha eliminado la prevención de ping!**"
     },
     "punishBack": {
       "title": "Información del caso",
-      "field1": "Id. de caso:",
+      "field1": "Identificador del caso:",
       "field2": "Tipo de caso:",
       "field3": "Enforcer:",
       "field4": "Usuario:",
@@ -2060,7 +2071,7 @@
     },
     "punishNext": {
       "title": "Información del caso",
-      "field1": "Id. de caso:",
+      "field1": "Identificador del caso:",
       "field2": "Tipo de caso:",
       "field3": "Enforcer:",
       "field4": "Usuario:",
@@ -2080,20 +2091,20 @@
     "selfRolesBack": {
       "title": "Menús de rol propio",
       "desc": "**○ Nombre del menú:**",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesDelete": {
-      "unable": "No pude encontrar un menú de rol propio con ese Id.",
+      "unable": "No pude encontrar un menú de rol propio con ese ID.",
       "deleted": "**¡Menú de roles propios eliminado!**"
     },
     "selfRolesGoHome": {
-      "addMenu": "Añadir menú",
+      "addMenu": "Agregar menú",
       "delete": "Eliminar seleccionado",
       "roleManager": "Administrador de roles",
       "postPanel": "Panel de correos",
       "title": "Menús de rol propio",
       "desc": "**○ Nombre del menú:**",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesManager": {
       "addRole": "Agregar rol",
@@ -2104,7 +2115,7 @@
       "roleName": "**○ Nombre del rol:**",
       "roleId": "**○ Id. de rol:**",
       "noRoles": "Aún no hay papeles...",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesManagerAdd": {
       "provide": "Proporcione un rol para agregar al panel.",
@@ -2119,10 +2130,10 @@
       "roleName": "**○ Nombre del rol:**",
       "roleId": "**○ Id. de rol:**",
       "noRoles": "Aún no hay papeles...",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesManagerDelete": {
-      "unable": "No pude encontrar un papel propio con ese panel.",
+      "unable": "No pude encontrar un rol propio con ese panel.",
       "deleted": "**¡Rol propio eliminado!**"
     },
     "selfRolesManagerNext": {
@@ -2132,31 +2143,31 @@
       "roleName": "**○ Nombre del rol:**",
       "roleId": "**○ Id. de rol:**",
       "noRoles": "Aún no hay papeles...",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesNext": {
       "title": "Menús de rol propio",
       "desc": "**○ Nombre del menú:**",
-      "noMenus": "Aún no hay menús..."
+      "noMenus": "Todavía no hay menús..."
     },
     "selfRolesPost": {
-      "unable": "No pude encontrar el panel seleccionado.",
+      "unable": "No he podido encontrar el panel seleccionado.",
       "unable2": "No pude financiar ningún papel propio en este panel.",
       "desc": "Seleccione un rol para agregarlo o quitarlo de sus roles.",
       "place": "Seleccione un rol.",
-      "provide": "Proporcione un canal para publicar el panel.",
+      "provide": "Por favor, proporcione un canal para publicar el panel.",
       "cancel": "Anulado.",
-      "valid": "Proporcione un canal válido para enviar el panel.",
-      "posted": "**Panel publicado!**"
+      "valid": "Proporcione un canal válido para publicar el panel.",
+      "posted": "**¡Panel publicado!**"
     },
     "settingsBaseAutorole": {
       "backRole": "Rol de espalda",
-      "nextRole": "Siguiente rol",
+      "nextRole": "Siguiente Rol",
       "toggle": "Alternar:",
       "enable": "Habilitado",
       "disable": "Deshabilitado",
       "addRole": "Agregar rol",
-      "removeRole": "Quitar rol",
+      "removeRole": "Eliminar rol",
       "no": "Actualmente no hay roles automáticos.",
       "title": "Sistema de rol automático",
       "role": "**Rol:**",
@@ -2165,11 +2176,11 @@
     },
     "settingsBaseAutoroleAdd": {
       "mention": "Mencione el rol o proporcione un ID de rol para agregar.",
-      "q": "¿Le gustaría que se le diera este rol cuando se unan o cuando verifiquen?\n\n**1.** Dar rol cuando se unan\n**2.** Dar rol cuando verifiquen",
+      "q": "¿Le gustaría que se le diera este rol cuando se unan o cuando verifiquen?\n\n**1.** Dar rol cuando se unan\n**2.** Asignar rol cuando verifiquen",
       "cancel": "Anulado.",
       "provide": "Proporcione un rol válido. \n'PROCESO CANCELADO'",
-      "provide1": "Por favor, proporcione una opción válida. \n'PROCESO CANCELADO'",
-      "added": "**¡Autorola añadida!**"
+      "provide1": "Proporcione una opción válida. \n'PROCESO CANCELADO'",
+      "added": "**¡Rol automático añadido!**"
     },
     "settingsBaseAutoroleBack": {
       "no": "Actualmente no hay roles automáticos.",
@@ -2179,8 +2190,8 @@
       "verification": "**¿Verificación?**"
     },
     "settingsBaseAutoroleDelete": {
-      "no": "No hay autorolas hechas para este gremio.",
-      "removed": "**Autorola eliminada**"
+      "no": "No hay autoroles hechos para este gremio.",
+      "removed": "**Autorole eliminado**"
     },
     "settingsBaseAutoroleNext": {
       "no": "Actualmente no hay roles automáticos.",
@@ -2203,14 +2214,16 @@
       "options": "Opciones:",
       "updateTheme": "Actualizar el color del tema",
       "updateMuted": "Actualizar rol silenciado",
-      "updateTos": "Actualizar enlace tos",
-      "maxTickets": "Entradas Max",
+      "updateTos": "Actualizar vínculo ToS",
+      "maxTickets": "Entradas máximas",
       "payment": "Pago:",
       "paypal": "PayPal",
       "cashapp": "Aplicación Cash",
       "customLink": "Enlace personalizado",
-      "imageUrls": "URL de imagen:",
-      "card": "Tarjeta de Inscripción/Salida"
+      "moreSettings": "Otras cosas:",
+      "card": "Tarjeta de unirse/dejar",
+      "privateVCBtn": "Creación de VC privado",
+      "privateVCCatBtn": "Categoría VC privado"
     },
     "settingsBaseLeave": {
       "options": "Opciones:",
@@ -2219,24 +2232,24 @@
       "card": "Tarjeta"
     },
     "settingsBaseMaxTickets": {
-      "provide": "Proporcione el número máximo de tickets que un usuario puede tener abierto a la vez.",
+      "provide": "Proporcione el número máximo de entradas que un usuario puede tener abiertas a la vez.",
       "cancel": "Anulado.",
-      "valid": "Proporcione un número **VALID**.",
-      "updated": "Max Tickets Actualizado"
+      "valid": "Proporcione un número **VÁLIDO**.",
+      "updated": "Max Tickets Actualizados"
     },
     "settingsBaseMuteRoleUpdate": {
-      "mention": "Por favor, mencione el rol que desea dar a los usuarios cuando se silencian.",
+      "mention": "Mencione el rol que desea asignar a los usuarios cuando se silencien.",
       "cancelled": "Anulado.",
       "valid": "Proporcione un rol de silencio válido.",
-      "updated": "**Silenciar rol actualizado**"
+      "updated": "**Rol de silencio actualizado**"
     },
     "settingsBasePanelVerifyPost": {
-      "provide": "Proporcione un canal para publicar el panel.",
+      "provide": "Por favor, proporcione un canal para publicar el panel.",
       "cancelled": "Anulado.",
       "valid": "Proporcione un canal válido.",
       "verify": "Verificar",
       "verification": "Verificación",
-      "please": "Por favor, verifique usted mismo presionando el botón *** debajo de este mensaje. Esto confirmará que has *leído y aceptado las reglas*, así como que eres un humano.",
+      "please": "Por favor, verifíquelo presionando el **botón** debajo de este mensaje. Esto confirmará que has *leído y aceptado las reglas*, así como que eres un humano.",
       "posted": "**Panel de verificación publicado**"
     },
     "settingsBasePaypalUpdate": {
@@ -2245,34 +2258,34 @@
       "set": "**Enlace de pago actualizado**"
     },
     "settingsBaseSelect": {
-      "ERROR": "Este panel no utiliza activamente ninguna característica de idioma."
+      "ERROR": "Este panel no utiliza activamente ninguna función de idioma."
     },
     "settingsBaseThemeColorUpdate": {
-      "provide": "Proporcione un nuevo **__COLOR HEX__** para que el bot lo use como color de tema.\n**Ex:** '#FFFFFF'\n\nSelector de color: <https://htmlcolorcodes.com/color-picker/>",
-      "valid": "Por favor, proporcione un **__COLOR HEX__** válido.\n**Ex:** '#FFFFFF'\n\nSelector de color: <https://htmlcolorcodes.com/color-picker/>",
+      "provide": "Proporcione un nuevo **__COLOR HEX__** para que el bot lo use como color de tema.\n**Ej:** '#FFFFFF'\n\nSelector de color: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Proporcione un **__COLOR HEX__** válido.\n**Ej:** '#FFFFFF'\n\nSelector de color: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "Anulado.",
       "updated": "**Color del tema actualizado**"
     },
     "settingsBaseToggleAutorole": {
       "add": "Agregar rol",
-      "remove": "Quitar rol",
-      "next": "Siguiente rol",
+      "remove": "Eliminar rol",
+      "next": "Siguiente Rol",
       "back": "Rol de espalda"
     },
     "settingsBaseToggleCaptcha": {
       "verification": "Verificación",
       "captcha": "Captcha",
-      "post": "Post A Panel"
+      "post": "Publicar un panel"
     },
     "settingsBaseToggleVerify": {
       "buttons": {
         "verify": "Verificación",
         "captcha": "Captcha",
-        "post": "Post A Panel"
+        "post": "Publicar un panel"
       }
     },
     "settingsBaseToSUpdate": {
-      "please": "Proporcione un nuevo enlace de ToS para actualizar.",
+      "please": "Proporcione un nuevo vínculo ToS para actualizar.",
       "cancelled": "Anulado.",
       "valid": "Incluya un enlace ToS válido.\nDebe comenzar con: 'http://'",
       "updated": "**Enlace ToS actualizado**"
@@ -2281,28 +2294,39 @@
       "buttons": {
         "verify": "Verificación",
         "captcha": "Captcha",
-        "post": "Post A Panel"
+        "post": "Publicar un panel"
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "**Proporcione un enlace de imagen para la URL de fondo de la tarjeta.**\n'Aviso:' El enlace de la imagen debe terminar en '.png', '.jpg', '.webp', etc.",
+      "please": "**Proporcione un enlace de imagen para la URL del fondo de la tarjeta.**\n'Aviso:' El enlace de la imagen debe terminar en '.png', '.jpg', '.webp', etc.",
       "cancelled": "Anulado.",
       "updated": "**Tarjeta de bienvenida actualizada**"
     },
+    "settingsBasePrivateVCUpdate": {
+      "please": "**Proporcione un canal de voz para que los usuarios se unan para crear un VC privado.**",
+      "cancelled": "Anulado.",
+      "updated": "**Canal VC privado actualizado**",
+      "valid": "Proporcione un canal de voz válido."
+    },
+    "settingsBasePrivateVCCatUpdate": {
+      "please": "**Proporcione un ID de categoría para que se envíen los canales VC privados.**",
+      "cancelled": "Anulado.",
+      "updated": "**Categoría VC privada actualizada**"
+    },
     "settingsFunAutoReact": {
       "next": "Página siguiente",
-      "back": "Volver página",
+      "back": "Volver a la página",
       "add": "Agregar respuesta",
       "title": "Reacciones automáticas",
       "channel": "**Canal:**",
       "no": "No hay reacciones automáticas actuales...",
       "response": "**Respuesta:**",
-      "emoji": "Emoji no configurado..."
+      "emoji": "Emoji no establecido..."
     },
     "settingsFunAutoreactAdd": {
-      "please": "Proporcione el canal que el bot debe escuchar para las reacciones.",
+      "please": "Proporcione el canal que el bot debe escuchar para conocer las reacciones.",
       "cancelled": "Anulado.",
-      "provide": "Proporcione con qué debería reaccionar ahora el bot cuando escuche un mensaje en ese canal.\n**Nota:** debes poner el emoji en un bloque de código, como ':monkey_face:'",
+      "provide": "Proporcione con qué debería reaccionar el bot ahora cuando escuche un mensaje en ese canal.\n**Nota:** debes poner el emoji en un bloque de código, como ':monkey_face:'",
       "valid": "Proporcione un canal válido.",
       "added": "**Reacción automática añadida**"
     },
@@ -2311,7 +2335,7 @@
       "channel": "**Canal:**",
       "no": "No hay reacciones automáticas actuales...",
       "response": "**Respuesta:**",
-      "emoji": "Emoji no configurado..."
+      "emoji": "Emoji no establecido..."
     },
     "settingsFunAutoreactDelete": {
       "no": "No hay reacciones automáticas establecidas para este gremio.",
@@ -2322,17 +2346,17 @@
       "channel": "**Canal:**",
       "no": "No hay reacciones automáticas actuales...",
       "response": "**Respuesta:**",
-      "emoji": "Emoji no configurado..."
+      "emoji": "Emoji no establecido..."
     },
     "settingsFunAutoRespond": {
-      "back": "Volver página",
+      "back": "Volver a la página",
       "next": "Página siguiente",
       "add": "Agregar respuesta",
       "title": "Respuestas automáticas",
       "detect": "**Detección:**",
-      "no": "No hay respuestas automáticas actuales...",
+      "no": "Sin respuestas automáticas actuales...",
       "response": "**Respuesta:**",
-      "none": "Ninguno establecido..."
+      "none": "Ninguno conjunto..."
     },
     "settingsFunAutorespondAdd": {
       "please": "Proporcione las palabras que el bot debe escuchar antes de responder.",
@@ -2343,9 +2367,9 @@
     "settingsFunAutorespondBack": {
       "title": "Respuestas automáticas",
       "detect": "**Detección:**",
-      "no": "No hay respuestas automáticas actuales...",
+      "no": "Sin respuestas automáticas actuales...",
       "response": "**Respuesta:**",
-      "none": "Ninguno establecido..."
+      "none": "Ninguno conjunto..."
     },
     "settingsFunAutorespondDelete": {
       "no": "No hay respuestas automáticas establecidas para este gremio.",
@@ -2354,32 +2378,32 @@
     "settingsFunAutorespondNext": {
       "title": "Respuestas automáticas",
       "detect": "**Detección:**",
-      "no": "No hay respuestas automáticas actuales...",
+      "no": "Sin respuestas automáticas actuales...",
       "response": "**Respuesta:**",
-      "none": "Ninguno establecido..."
+      "none": "Ninguno conjunto..."
     },
     "settingsFunBirthdays": {
       "clear": "Borrar datos de cumpleaños",
       "cleared": "Datos de cumpleaños borrados"
     },
     "settingsFunClearLevelData": {
-      "clear": "Despejar en licencia",
+      "clear": "Claro en licencia",
       "cleared": "Datos de nivel borrados",
       "level": "Sistema de niveles"
     },
     "settingsFunEconomy": {
       "back": "Volver artículo",
-      "next": "Siguiente punto",
-      "add": "Añadir artículo de la tienda",
+      "next": "Siguiente artículo",
+      "add": "Agregar artículo de tienda",
       "currency": "Divisa",
       "clear": "Borrar todos los datos",
       "cleared": "Todos los datos borrados",
-      "cooldowns": "Enfriamientos:",
+      "cooldowns": "Tiempos de reutilización:",
       "work": "Trabajo",
       "crime": "Crimen",
       "rob": "Robar",
       "economy": "Configuración económica",
-      "currency2": "**Moneda:**",
+      "currency2": "**Divisa:**",
       "shop": "**Información del artículo de la tienda:**",
       "id": "**○ Id:**",
       "no": "No hay artículos actuales de la tienda...",
@@ -2387,20 +2411,20 @@
       "price": "**○ Precio:**"
     },
     "settingsFunEconomyWork": {
-      "text": "El enfriamiento del trabajo de 2 horas para todos los usuarios se ha restablecido en este gremio."
+      "text": "Se ha restablecido el tiempo de recuperación del trabajo de 2 horas para todos los usuarios en este gremio."
     },
     "settingsFunEconomyAdd": {
       "p": "Por favor, proporcione el nombre del producto.",
       "c": "Anulado.",
       "price": "Por favor, proporcione un precio para este artículo.\n**Ej:** '10'",
       "price1": "Por favor, proporcione un precio válido.\n**Ej:** '10'",
-      "added": "'**Artículo de la tienda añadido**",
+      "added": "'**Artículo de tienda añadido**",
       "title": " - Artículo creado",
       "item": "Artículo",
       "Price": "Precio"
     },
     "settingsFunEconomyCrime": {
-      "a": "El enfriamiento del crimen de 2 horas para todos los usuarios se ha restablecido en este gremio."
+      "a": "El tiempo de recuperación del crimen de 2 horas para todos los usuarios se ha restablecido en este gremio."
     },
     "settingsFunEconomyCurrency": {
       "a": "Por favor, proporcione la moneda para este gremio.\n**Nota:** Debe proporcionarlo en forma de bloque de código, como ':moneybag:'",
@@ -2408,18 +2432,18 @@
       "u": "**¡Moneda actualizada!**"
     },
     "settingsFunEconomyDelete": {
-      "a": "No hay artículos de tienda en este gremio.",
+      "a": "No hay artículos de la tienda en este gremio.",
       "d": "**Artículo de la tienda eliminado**",
       "title": "Elemento eliminado",
       "i": "Artículo"
     },
     "settingsFunEconomyRob": {
-      "a": "El enfriamiento de rob de 2 horas para todos los usuarios se ha restablecido en este gremio."
+      "a": "Se ha restablecido el tiempo de recuperación de 2 horas para todos los usuarios en este gremio."
     },
     "settingsFunLevelSystem": {
       "c": "Datos de nivel claro",
       "l": "Sistema de niveles",
-      "cL": "Despejar en licencia"
+      "cL": "Claro en licencia"
     },
     "settingsFunToggleLevelKick": {
       "a": "🏠 Vete a casa",
@@ -2427,7 +2451,7 @@
       "c": "Configuración:",
       "d": "Datos de nivel claro",
       "e": "Sistema de niveles",
-      "f": "Despejar en licencia"
+      "f": "Claro en licencia"
     },
     "settingsFunToggleLevelSystem": {
       "a": "🏠 Vete a casa",
@@ -2435,7 +2459,7 @@
       "c": "Configuración:",
       "d": "Datos de nivel claro",
       "e": "Sistema de niveles",
-      "f": "Despejar en licencia"
+      "f": "Claro en licencia"
     },
     "settingsSecurityAltPrevention": {
       "a": "Alternar:",
@@ -2443,13 +2467,13 @@
       "c": "Antigüedad de la cuenta"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "Proporcione una edad mínima de la nueva cuenta.\nEj: 30d = 30 días.",
+      "a": "Proporcione un nuevo mínimo de antigüedad de la cuenta.\nEj: 30d = 30 días.",
       "b": "Anulado.",
       "c": "**Antigüedad de la cuenta actualizada**"
     },
     "settingsSecurityFilter": {
       "a": "Mandos:",
-      "b": "Volver página",
+      "b": "Volver a la página",
       "c": "Página siguiente",
       "d": "Opciones:",
       "e": "Agregar filtro",
@@ -2507,28 +2531,28 @@
       "c": "🟢 Módulo de bienvenida",
       "d": "🔴 Módulo de salida",
       "e": "🗝️ Verificación",
-      "f": "👋 Autorola",
+      "f": "👋 Rol automático",
       "g": "👻 Prevención alternativa",
       "h": "🔒 Bloqueo del servidor",
-      "i": "❌ Sistema de filtros",
+      "i": "❌ Sistema de filtro",
       "j": "📊 Sistema de niveles",
       "k": "🎉 Cumpleaños",
       "l": "💰 Economía",
       "m": "🎯 Reacción automática",
       "n": "🦜 Respuesta automática",
-      "o": "Altera la configuración general de este gremio.',",
-      "p": "Alter módulo de bienvenida para este gremio.",
-      "q": "Alter módulo de permiso para este gremio.",
-      "r": "Alter el módulo de verificación para este gremio.",
-      "s": "Alter el módulo de la plantilla automática para este gremio.",
-      "t": "Alterar el sistema de prevención alternativa.",
+      "o": "Modifica la configuración general de este gremio.',",
+      "p": "Altera el módulo de bienvenida para este gremio.",
+      "q": "Altera el módulo de licencia para este gremio.",
+      "r": "Altera el módulo de verificación para este gremio.",
+      "s": "Altera el módulo de rol automático para este gremio.",
+      "t": "Alterar el sistema de prevención alternativo.",
       "u": "Modifique el modo de bloqueo del servidor.",
-      "v": "Alterar el sistema de filtros.",
-      "w": "Altera el sistema de niveles para este gremio.",
-      "x": "Alter módulo de cumpleaños para este gremio.",
-      "y": "Módulo alter economy para este gremio.",
-      "z": "Alter el módulo de reacción automática para este gremio.",
-      "aa": "Altere el módulo de respuesta automática para este gremio.",
+      "v": "Modifique el sistema de filtros.",
+      "w": "Modifica el sistema de niveles para este gremio.",
+      "x": "Altera el módulo de cumpleaños para este gremio.",
+      "y": "Módulo de economía alternativa para este gremio.",
+      "z": "Altera el módulo de reacción automática para este gremio.",
+      "aa": "Altera el módulo de respuesta automática para este gremio.",
       "ab": "Seleccione una opción de configuración base.",
       "ac": "Seleccione una opción de configuración de seguridad.",
       "ad": "Seleccione una opción de configuración divertida."
@@ -2544,24 +2568,24 @@
     },
     "stickyAdd": {
       "a": "Anulado.",
-      "b": "Este canal ya tiene un mensaje pegajoso.\nInténtelo de nuevo.",
-      "c": "Por favor, introduzca lo que debe decir el mensaje adhesivo.",
+      "b": "Este canal ya tiene un mensaje pegajoso.\nInténtalo de nuevo.",
+      "c": "Por favor, introduzca lo que el mensaje adhesivo debe decir.",
       "d": "Proporcione un canal válido.",
-      "e": "**¡Mensaje pegajoso creado!**"
+      "e": "**¡Mensaje adhesivo creado!**"
     },
     "stickyRemove": {
       "a": "No hay mensajes pegajosos en este gremio.",
       "b": "Defina el canal del que desea eliminar el mensaje adhesivo.",
       "c": "Anulado.",
       "d": "Proporcione un canal válido.",
-      "e": "**¡Mensaje pegajoso eliminado!**",
-      "f": "Este canal no tiene un mensaje pegajoso.\nInténtelo de nuevo."
+      "e": "**¡Mensaje adhesivo eliminado!**",
+      "f": "Este canal no tiene un mensaje pegajoso.\nInténtalo de nuevo."
     },
     "ticketAdd": {
-      "a": "Proporcione un nombre para este panel de boletos",
+      "a": "Por favor, proporcione un nombre para este panel de tickets",
       "b": "Anulado.",
-      "c": "Proporcione una descripción para este panel de boletos.",
-      "d": "Proporcione una categoría 'Id' para los boletos a los que ir.",
+      "c": "Por favor, proporcione una descripción para este panel de tickets.",
+      "d": "Por favor, proporcione una categoría 'ID' para las entradas a las que ir.",
       "e": "**¡Panel creado!**"
     },
     "ticketAddUser": {
@@ -2572,15 +2596,15 @@
       "e": "se ha añadido a este ticket."
     },
     "ticketBack": {
-      "a": "Paneles de tickets",
+      "a": "Paneles de entradas",
       "b": "**○ Nombre del panel:**",
-      "c": "Aún no hay paneles...",
+      "c": "Todavía no hay paneles...",
       "d": "**○ Descripción del panel:**",
       "e": "N/A"
     },
     "ticketClaim": {
       "a": "Esto solo se puede hacer dentro de un canal de tickets.",
-      "b": "🔒 Cerrar Ticket",
+      "b": "🔒 Cerrar ticket",
       "c": "✏️ Cambiar el nombre del ticket",
       "d": "📥 Agregar usuario",
       "e": "📤 Eliminar usuario",
@@ -2589,13 +2613,13 @@
     },
     "ticketClose": {
       "a": "Esto solo se puede hacer en un canal de tickets.",
-      "b": "No se ha encontrado ningún grupo especial.",
+      "b": "No se encontró ningún panel.",
       "c": "No se ha encontrado ninguna categoría...",
-      "d": "¡Boleto cerrado con éxito! (Por favor, espere)",
+      "d": "¡Ticket cerrado con éxito! (Por favor, espere)",
       "e": "Desconocido",
       "f": "Entrada cerrada",
-      "g": "Identificación del boleto",
-      "h": "Miembro de cierre",
+      "g": "Ticket Id",
+      "h": "Miembro Cierre",
       "i": "Miembros en Ticket",
       "j": "Tablero"
     },
@@ -2604,9 +2628,9 @@
       "b": "**Categoría eliminada**"
     },
     "ticketNext": {
-      "a": "Paneles de tickets",
+      "a": "Paneles de entradas",
       "b": "**○ Nombre del panel:**",
-      "c": "Aún no hay paneles...",
+      "c": "Todavía no hay paneles...",
       "d": "**○ Descripción del panel:**",
       "e": "N/A"
     },
@@ -2615,15 +2639,15 @@
       "b": "Categorías de entradas",
       "c": "Aquí están las categorías de boletos para este gremio. Seleccione uno para abrir un ticket en esa categoría.",
       "d": "Sistema de tickets",
-      "e": "Seleccione una categoría de boleto.",
+      "e": "Seleccione una categoría de entrada.",
       "f": "Anulado",
       "g": "Proporcione un canal válido.",
-      "h": "**¡Panel de entradas publicado!**",
-      "i": "Proporcione un canal para publicar el panel."
+      "h": "**¡Panel de tickets publicado!**",
+      "i": "Por favor, proporcione un canal para publicar el panel."
     },
     "ticketremove": {
       "a": "¡Solo puedes usar este comando en un canal de tickets!',",
-      "b": "Por favor, proporcione el usuario que desea eliminar del boleto.",
+      "b": "Por favor, proporcione el usuario que desea eliminar del ticket.",
       "c": "Anulado.",
       "d": "Proporcione un usuario válido para eliminar de este ticket.",
       "e": "**${member.user.tag}** se ha eliminado de este ticket."
@@ -2636,26 +2660,26 @@
     },
     "ticketselect": {
       "catna": "Esa categoría de boleto no existe.",
-      "content1": "Es posible que solo tenga **",
-      "content2": "ticket(s)** abierto a la vez.",
-      "notpset": "Todavía no hay permanentes de soporte de tickets configurados.",
+      "content1": "Solo puede tener **",
+      "content2": "Entrada(s)** Abierta(s) a la vez.",
+      "notpset": "Todavía no hay permanentes de soporte de tickets configuradas.",
       "nocreate": "**No pude crear este ticket.**",
-      "closetick": "🔒 Cerrar Ticket",
+      "closetick": "🔒 Cerrar ticket",
       "opened1": "**Abierto por:**",
       "opened2": "Comience a describir su razón para abrir este boleto debajo de este mensaje.",
       "opener": "**Abierto por:** '${interaction.user.tag}'\n\nComience a describir su razón para abrir este boleto debajo de este mensaje.",
-      "success": "Tu nuevo ticket ha sido abierto en ",
+      "success": "Su nuevo billete ha sido abierto en ",
       "title": "Sistema de tickets"
     },
     "verifyButton": {
       "humanVerify": "Verificación humana",
-      "desc1": "Por favor, escriba el siguiente captcha a continuación para verificar que es humano.",
+      "desc1": "Escriba el siguiente captcha a continuación para verificar que es humano.",
       "content1": "Por favor, compruebe sus mensajes directos (DM).",
       "noleft": "Se ha quedado sin intentos, vuelva a verificar en el servidor.",
       "left1": "Incorrecto, tienes ",
-      "left2": " intento(s) izquierdo(s).",
+      "left2": " Intento(s) a la izquierda.",
       "youverifed": "¡Has sido verificado!",
-      "dmsna": "Sus DM están actualmente configurados como privados, por favor habilítelos para que pueda enviarle nuestra prueba de verificación humana."
+      "dmsna": "Sus DM están configurados actualmente como privados, habilítelos para que pueda enviarle nuestro DM a nuestra prueba de verificación humana."
     }
   }
 }

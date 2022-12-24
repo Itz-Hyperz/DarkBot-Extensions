@@ -1,6 +1,6 @@
 {
   "selectALanguage": "Wählen Sie unten eine Sprache aus!",
-  "noPermissions": "Es gibt noch keine Berechtigungseinstellungen für diese Gilde!",
+  "noPermissions": "Es gibt noch keine Berechtigungen für diese Gilde!",
   "missingPermissions": "Sie verfügen nicht über die erforderlichen Berechtigungen, um diesen Befehl zu verwenden!",
   "noVoiceChannel": "Sie müssen sich in einem Sprachkanal befinden, um dies verwenden zu können.",
   "onlyGuildOwner": "Nur der Gildenbesitzer kann diesen Befehl ausführen.",
@@ -11,25 +11,36 @@
   "no": "Nein",
   "true": "STIMMT",
   "false": "FALSE",
-  "eightBallCommand": "🎱 **Magic Ball sagt:** ",
+  "privatevcreset": "**Alle privaten VCs in dieser Gilde, die auf dich registriert sind, wurden gelöscht.**",
+  "vcManager": "Privater Sprachmanager",
+  "vcDesc": "Unten können Sie Ihren privaten Sprachkanal verwalten.",
+  "vcCloseChannel": "Kanal schließen",
+  "vcAddMember": "Mitglied hinzufügen",
+  "vcRemoveMember": "Mitglied entfernen",
+  "vcAddMemberText": "Bitte gib eine Benutzer-ID an, die du deinem Kanal hinzufügen sollst.",
+  "vcRemoveMemberText": "Bitte gib eine Benutzer-ID an, die du aus deinem Kanal entfernen möchtest.",
+  "vcNoChannel": "Dieser Kanal ist in der Datenbank nicht vorhanden.",
+  "vcAddSuccess": "**Benutzer hinzugefügt**",
+  "vcRemoveSuccess": "**Benutzer entfernt**",
+  "eightBallCommand": "** Magic 🎱 Ball sagt: ** ",
   "eightBallResponses": [
     "Es ist sicher.",
-    "Das ist definitiv so.",
+    "Das ist eindeutig so.",
     "Ohne Zweifel.",
     "Ja, auf jeden Fall.",
     "So wie ich es sehe, ja.",
     "Ja.",
     "Antworten Sie verschwommen, versuchen Sie es erneut.",
-    "Sag es dir jetzt besser nicht.",
+    "Sag es dir lieber nicht jetzt.",
     "Kann jetzt nicht vorhersagen.",
     "Verlassen Sie sich nicht darauf.",
     "Meine Antwort ist nein.",
     "Meine Quellen sagen nein.",
-    "Die Aussichten sind nicht so gut.",
+    "Ausblick nicht so gut.",
     "Sehr zweifelhaft."
   ],
   "afkNoLonger": "Sie sind nicht mehr als AFK gekennzeichnet.",
-  "nowMarkedAFK": "Sie sind nun als AFK gekennzeichnet.",
+  "nowMarkedAFK": "Sie sind jetzt als AFK markiert.",
   "applicationMenu": {
     "questions": "Fragen",
     "embedTitle": "Anwendungsmenü",
@@ -38,8 +49,8 @@
     "createForm": "Formular erstellen"
   },
   "apply": {
-    "noAppsFound": "Für diese Gilde wurden keine Bewerbungen gefunden.",
-    "clickToApply": "Klicken Sie hier, um sich für diese Bewerbung zu bewerben.",
+    "noAppsFound": "Keine Bewerbungen für diese Gilde gefunden.",
+    "clickToApply": "Klicken Sie hier, um sich für diese Anwendung zu bewerben.",
     "selectApp": "Wählen Sie eine Anwendung aus.",
     "embedTitle": "Anträge",
     "embedDescription": "Wählen Sie eine Anwendung aus, um mit dem Ausfüllen zu beginnen."
@@ -49,47 +60,47 @@
     "deposit": "Deponieren",
     "withdraw": "Zurückziehen",
     "transfer": "Übertragung",
-    "bankingInfo": "Banking-Info",
-    "wallet": "** Brieftasche: **",
+    "bankingInfo": "Bankverbindung",
+    "wallet": "**Brieftasche:**",
     "bank": "**Bank:**"
   },
   "birthdays": {
     "selectAction": "Wählen Sie eine Geburtstagsaktion aus.",
     "addBirthday": "👶 Geburtstag hinzufügen",
-    "addBirthdayDescription": "Fügen Sie Ihren Geburtstag der Datenbank hinzu.",
+    "addBirthdayDescription": "Fügen Sie Ihren Geburtstag zur Datenbank hinzu.",
     "removeBirthday": "❌ Geburtstag entfernen",
     "removeBirthdayDescription": "Entfernen Sie Ihren Geburtstag aus der Datenbank.",
     "embedTitle": "Geburtstagsmenü",
-    "embedDescription": "Hinzufügen/Entfernen Ihres Geburtstags zum/aus der Datenbank!"
+    "embedDescription": "Hinzufügen/Entfernen Sie Ihren Geburtstag zu/aus der Datenbank!"
   },
   "cases": {
     "doesNotExist": "existiert nicht in der Fall-ID-Liste!",
     "embedTitle": "Fallinformationen",
-    "caseId": "Groß-/Kleinschreibung ID",
-    "caseType": "Falltyp",
+    "caseId": "Fall-ID",
+    "caseType": "Art des Falles",
     "caseUser": "Benutzer"
   },
   "clients": {
     "selectAction": "Wählen Sie eine Clientaktion aus.",
     "addClient": "📥 Client hinzufügen",
-    "addClientDescription": "Fügt dieser Gilden-Client-Datenbank einen Client hinzu.",
+    "addClientDescription": "Füge dieser Gilden-Clientdatenbank einen Client hinzu.",
     "removeClient": "📤 Client entfernen",
     "removeClientDescription": "Entferne einen Client aus dieser Gilden-Client-Datenbank.",
     "embedTitle": "Client-Menü",
-    "embedDescription": "Hinzufügen/Entfernen von Clients zum/aus der Datenbank!",
+    "embedDescription": "Hinzufügen/Entfernen von Clients zu/aus der Datenbank!",
     "noClients": "Diese Gilde hat noch keine Kunden.",
     "clients": "Klienten"
   },
   "ddos": {
-    "NOTICE": "Dies ist ein gefälschter Witzbefehl!!!!",
-    "sending": "Angriff senden an",
+    "NOTICE": "Dies ist ein gefälschter Scherzbefehl!!!!",
+    "sending": "Senden eines Angriffs an",
     "successful": "DDOS-Angriff erfolgreich ;)",
-    "lag": "Benutzer bekommen Verzögerungen?",
+    "lag": "Benutzer bekommt Verzögerung?",
     "no": "Nein?",
-    "failure": "Ich kann nicht ddos Leute :("
+    "failure": "Ich kann Leute nicht ddos :("
   },
   "dice": {
-    "landedOn": "** Gelandet auf: **",
+    "landedOn": "** gelandet am: **",
     "numbers": [
       "1",
       "2",
@@ -102,28 +113,28 @@
   "dm": {
     "embedTitle": "📫 Sie haben Post!",
     "messageSent": "**Nachricht gesendet!**",
-    "messageSentFailed": "**Nachricht gesendet fehlgeschlagen!**",
+    "messageSentFailed": "**Senden der Nachricht fehlgeschlagen!**",
     "dmsOff": "Sie haben wahrscheinlich ihre DMs auf privat gesetzt."
   },
   "embed": {
-    "notice": "Mitteilung von",
-    "posted": "**Gepostet einbetten!**"
+    "notice": "Hinweis vom",
+    "posted": "**Einbetten gepostet!**"
   },
   "embedBuilder": {
-    "embedTitle": "Einbettungs-Builder",
+    "embedTitle": "Embed Builder",
     "embedDescription": "Willkommen beim interaktiven Embed-Builder. Verwenden Sie die Schaltflächen unten, um die Einbettung zu erstellen, nachdem Sie auf Post geklickt haben!",
     "buttons": {
       "authorText": "Autorentext",
       "titleText": "Titeltext",
       "titleURL": "Titel-URL",
-      "descriptionText": "Beschreibung Text",
+      "descriptionText": "Beschreibungstext",
       "footerText": "Fußzeilentext",
-      "authorImage": "Autorenbild",
+      "authorImage": "Bild des Autors",
       "thumbnailImage": "Miniaturbild",
       "largeImage": "Großes Bild",
       "footerImage": "Fußzeilenbild",
       "embedColor": "Farbe einbetten",
-      "embedFields": "Einbetten von Feldern",
+      "embedFields": "Felder einbetten",
       "addTimestamp": "Zeitstempel hinzufügen",
       "channelToPost": "Kanal zum Posten",
       "postEmbed": "Posten Sie die Einbettung",
@@ -134,53 +145,53 @@
       "newField": "Neues Feld"
     },
     "responses": {
-      "setAuthorText": "Worauf möchten Sie den Autorentext setzen?",
-      "setTitleText": "Worauf möchten Sie den Titeltext setzen?",
+      "setAuthorText": "Worauf möchten Sie den Autorentext einstellen?",
+      "setTitleText": "Worauf möchten Sie den Titeltext einstellen?",
       "setTitleURL": "Worauf möchten Sie die Titel-URL festlegen?",
       "setDescriptionText": "Worauf möchten Sie die Beschreibung einstellen?",
-      "setFooterText": "Worauf möchten Sie den Fußzeilentext festlegen?",
-      "setAuthorImage": "Worauf möchten Sie das Autorenbild setzen?",
+      "setFooterText": "Worauf möchten Sie den Fußzeilentext einstellen?",
+      "setAuthorImage": "Worauf möchten Sie das Autorenbild einstellen?",
       "setColor": "Auf welche Farbe möchten Sie die Einbettung einstellen?",
       "setThumbnailImage": "Worauf möchten Sie das Miniaturbild einstellen?",
       "setLargeImage": "Worauf möchten Sie das große Bild einstellen?",
       "setFooterImage": "Worauf möchten Sie das Fußzeilenbild einstellen?",
-      "channelToPost": "Auf welchem Kanal möchten Sie dies posten?",
+      "channelToPost": "Auf welchem Kanal würdest du das gerne posten?",
       "fieldName": "Wie sollte dieses Feld heißen?",
-      "fieldValue": "Welchen Wert sollte dieses Feld haben?",
-      "embedPosted": "Gepostet einbetten!"
+      "fieldValue": "Was sollte der Wert dieses Feldes sein?",
+      "embedPosted": "Einbetten Posted!"
     }
   },
   "economy": {
     "crime": {
-      "cooldown": "Sie können im Moment kein Verbrechen begehen. Sie befinden sich immer noch in der Abklingzeit.",
+      "cooldown": "Du kannst jetzt kein Verbrechen begehen. Du bist immer noch auf Abklingzeit.",
       "crimeResponses": [
         {
           "text": "Du hast eine Frau in einer Gasse verprügelt und bist ",
           "amount": "10"
         },
         {
-          "text": "Sie haben einen Drive-by an Biggie-Käse gemacht und ",
+          "text": "Sie haben einen Drive-by auf Biggie Cheese gemacht und ",
           "amount": "600"
         },
         {
-          "text": "Sie haben ein Auto getippt und gestohlen ",
+          "text": "Sie haben ein Auto geschlüsselt und gestohlen ",
           "amount": "19"
         },
         {
-          "text": "Sie haben eine Bank aufgehalten und ",
+          "text": "Sie haben eine Bank überfallen und ",
           "amount": "500"
         },
         {
-          "text": "Du hast auf den Poarch der Nachbarn und hast ",
+          "text": "Sie auf die Nachbarn Poarch und bekamen ",
           "amount": "1"
         }
       ]
     },
     "work": {
-      "cooldown": "Sie können im Moment nicht arbeiten. Sie befinden sich immer noch in der Abklingzeit.",
+      "cooldown": "Du kannst jetzt nicht arbeiten. Du bist immer noch auf Abklingzeit.",
       "workResponses": [
         {
-          "text": "Sie haben das Haus von jemandem gereinigt und ",
+          "text": "Sie haben jemandes Haus geputzt und ",
           "amount": "138"
         },
         {
@@ -188,7 +199,7 @@
           "amount": "382"
         },
         {
-          "text": "Sie haben Hühnchen auf einem Grill für die Nachbarn gebraten und gemacht ",
+          "text": "Sie gebratenes Hähnchen auf einem Grill für die Nachbarn und machten ",
           "amount": "18"
         },
         {
@@ -204,7 +215,7 @@
           "amount": "75"
         },
         {
-          "text": "Sie haben Geschirr gewaschen und gemacht ",
+          "text": "Sie haben Geschirr gespült und ",
           "amount": "34"
         },
         {
@@ -212,7 +223,7 @@
           "amount": "390"
         },
         {
-          "text": "Sie haben die Regale der Tankstellen wieder aufgefüllt und ",
+          "text": "Sie haben die Tankstellenregale wieder aufgefüllt und ",
           "amount": "32"
         },
         {
@@ -220,7 +231,7 @@
           "amount": "20"
         },
         {
-          "text": "Du hast jemandem eine Massage gegeben und ",
+          "text": "Sie haben jemandem eine Massage gegeben und ",
           "amount": "42"
         },
         {
@@ -236,19 +247,19 @@
           "amount": "100"
         },
         {
-          "text": "Du hast an der Kasse bei Walmart gearbeitet und ",
+          "text": "Sie haben bei Walmart an der Kasse gearbeitet und ",
           "amount": "62"
         },
         {
-          "text": "Sie haben einen Rasenmäher zusammengebaut und ",
+          "text": "Sie haben einen Rasenmäher zusammengestellt und ",
           "amount": "250"
         },
         {
-          "text": "Du hast jemandem Haare geschnitten und ",
+          "text": "Du schneidest jemandem die Haare und machst ",
           "amount": "25"
         },
         {
-          "text": "Du hast eine Kinderhausaufgabe für ihn gemacht und ",
+          "text": "Du hast eine Hausaufgabe für ihn gemacht und ",
           "amount": "67"
         }
       ]
@@ -256,13 +267,13 @@
     "inventory": {
       "emptyInventory": "Ihr Inventar ist leer.",
       "embedTitle": "Inventar",
-      "selectItem": "Wählen Sie einen Artikel aus Ihrem Inventar aus, um ihn zu verwenden.",
-      "items": "**Inventarartikel:**",
+      "selectItem": "Wähle einen Gegenstand aus deinem Inventar aus, um ihn zu verwenden.",
+      "items": "** Inventargegenstände: **",
       "clickToUse": "Klicken Sie hier, um dieses Element zu verwenden.",
       "selectAction": "Wählen Sie ein Element aus, um es zu verwenden."
     },
     "rob": {
-      "cooldown": "Du kannst jetzt niemanden ausrauben. Sie befinden sich immer noch in der Abklingzeit.",
+      "cooldown": "Du kannst jetzt niemanden ausrauben. Du bist immer noch auf Abklingzeit.",
       "tooLittleMoney": "Dieser Benutzer hat zu wenig Geld, um ausgeraubt zu werden.",
       "robbed": "Sie haben ausgeraubt",
       "for": "für",
@@ -277,12 +288,12 @@
   "giveaways": {
     "enter": "Klicken Sie hier, um teilzunehmen!",
     "end": "Ende",
-    "reroll": "Re-Roll",
-    "posted": "**Giveaway wurde veröffentlicht!**",
-    "embedTitle": "Neues Giveaway!",
+    "reroll": "Erneut rollen",
+    "posted": "** Giveaway wurde gepostet! **",
+    "embedTitle": "Neues Werbegeschenk!",
     "embedPrize": "**Preis:**",
     "embedWinners": "**Gewinner:**",
-    "embedTimeLimit": "** Zeitlimit: **"
+    "embedTimeLimit": "**Frist:**"
   },
   "guilds": {
     "leaveGuild": "Gilde verlassen",
@@ -291,48 +302,48 @@
     "embedGuildId": "**○ Gilden-ID:**",
     "embedGuildMembers": "**○ Gildenmitglieder:**",
     "embedGuildOwnerTag": "**○ Gildenbesitzer-Tag:**",
-    "embedGuildOwnerId": "**○ Gildenbesitzer ID:**"
+    "embedGuildOwnerId": "**○ Gildenbesitzer-ID:**"
   },
   "help": {
     "selectAction": "Wählen Sie eine Kategorie aus.",
-    "embedTitle": "Menü \"Hilfe\"",
+    "embedTitle": "Hilfe-Menü",
     "defaultEmbedDesc": "Willkommen bei Dark Bot! Verwenden Sie dieses Menü, um alle meine Befehle anzuzeigen und zu sehen, was es zu tun gibt! Die Anpassung sollte ziemlich einfach sein!",
     "user": "🧑 Benutzerbefehle",
-    "userDesc": "Sehen Sie sich die Benutzerbefehle an, die dieser Bot zu bieten hat.",
+    "userDesc": "Zeigen Sie die Benutzerbefehle an, die dieser Bot zu bieten hat.",
     "economy": "🏦 Economy-Befehle",
-    "economyDesc": "Sehen Sie sich die Economy-Befehle an, die dieser Bot zu bieten hat.",
+    "economyDesc": "Sehen Sie sich die Sparbefehle an, die dieser Bot zu bieten hat.",
     "music": "💿 Musikbefehle",
     "musicDesc": "Sehen Sie sich die Musikbefehle an, die dieser Bot zu bieten hat.",
-    "utility": "🧰 Utility-Befehle",
+    "utility": "🧰 Befehle des Hilfsprogramms",
     "utilityDesc": "Sehen Sie sich die Dienstprogrammbefehle an, die dieser Bot zu bieten hat.",
     "moderation": "👮 Moderationsbefehle",
     "moderationDesc": "Sehen Sie sich die Moderationsbefehle an, die dieser Bot zu bieten hat.",
     "settings": "🔧 Einstellungsbefehle",
-    "settingsDesc": "Sehen Sie sich die Einstellungsbefehle an, die dieser Bot zu bieten hat.",
-    "owner": "👑 Owner-Befehle",
-    "ownerDesc": "Sehen Sie sich die (Gilden-) Besitzerbefehle an, die dieser Bot zu bieten hat.",
+    "settingsDesc": "Zeigen Sie die Einstellungsbefehle an, die dieser Bot zu bieten hat.",
+    "owner": "👑 Besitzerbefehle",
+    "ownerDesc": "Sieh dir die Befehle (der Gildenbesitzer) an, die dieser Bot zu bieten hat.",
     "credits": "📜 Kredite",
     "creditsDesc": "Sehen Sie sich die Credits dieses Bots an.",
     "individualCommands": {
       "embedTitle": "Befehlshilfe",
-      "name": "** Name: **",
+      "name": "**Name:**",
       "desc": "**Beschreibung:**",
-      "type": "**Typ:**",
+      "type": "**Art:**",
       "slash": "Schrägstrich"
     }
   },
   "hug": {
-    "hasJustHugged": "hat gerade umarmt"
+    "hasJustHugged": "hat sich gerade umarmt"
   },
   "leveling": {
-    "disabled": "Dieser Server verwendet nicht die \"Leveling\"-Funktion.",
+    "disabled": "Dieser Server verwendet nicht die Funktion \"Nivellierung\".",
     "unknownUser": "Unbekannter Benutzer (links)",
-    "lvl": "**Lvl:**",
+    "lvl": "** LVL: **",
     "xp": "**XP:**",
     "embedTitle": "Chat-Bestenliste",
-    "requestedBy": "Angefordert von",
+    "requestedBy": "Gewünscht von",
     "levelCommand": {
-      "embedTitle": "Aktuelles Niveau des Benutzers:",
+      "embedTitle": "Aktuelles Niveau der Benutzer:",
       "currentXp": "**Aktuelle XP:**",
       "currentLevel": "** Aktuelles Niveau: **",
       "noLevelData": "Dieser Benutzer hat kein Level in dieser Gilde."
@@ -355,13 +366,13 @@
     "types": {
       "userBanned": "Benutzer gesperrt",
       "userOfflineBanned": "Benutzer offline gesperrt",
-      "userKicked": "Benutzer getreten",
+      "userKicked": "Benutzer gekickt",
       "userMuted": "Benutzer stummgeschaltet",
-      "autoUnmute": "Automatische Aufhebung der Stummschaltung",
-      "command": "Befehl eingegeben",
+      "autoUnmute": "Automatische Stummschaltung aufheben",
+      "command": "Eingegebener Befehl",
       "caseDeleted": "Fall gelöscht",
-      "userUnbanned": "Benutzer entsperrt",
-      "userUnmuted": "Stummschaltung des Benutzers aufgehoben",
+      "userUnbanned": "Benutzer nicht gesperrt",
+      "userUnmuted": "Benutzer nicht stummgeschaltet",
       "userWarned": "Benutzer gewarnt",
       "filterSystem": "Filtersystem",
       "blacklistedTerm": "Begriff auf der schwarzen Liste",
@@ -372,15 +383,15 @@
       "addChannel": "Kanal hinzufügen"
     },
     "commandEmbed": {
-      "embedTitle": "Protokollierungskanäle",
+      "embedTitle": "Protokollierung von Kanälen",
       "type": "**○ Protokolltyp:**",
-      "channel": "**○ Log-Kanal:**",
+      "channel": "**○ Protokollkanal:**",
       "noChannel": "Noch keine Kanäle..."
     }
   },
   "music": {
     "loopIsNow": "Loop ist jetzt",
-    "noSongsPlaying": "Derzeit werden keine Songs gespielt.",
+    "noSongsPlaying": "Derzeit werden keine Songs abgespielt.",
     "searching": "Suche...",
     "buttons": {
       "pause": "⏸️ Pause",
@@ -390,7 +401,7 @@
       "shuffle": "🔀 Durchmischung"
     },
     "musicCmd": {
-      "embedTitle": "Wird derzeit gespielt",
+      "embedTitle": "Wird gerade gespielt",
       "name": "Name",
       "duration": "Dauer",
       "requestor": "Anforderer",
@@ -400,25 +411,25 @@
   "marriage": {
     "command": {
       "selectAction": "Wählen Sie eine Heiratsaktion aus.",
-      "send": "💌 Senden Sie eine Anfrage",
+      "send": "💌 Anfrage senden",
       "sendDesc": "Wenn Sie jemanden heiraten möchten.",
       "accept": "💍 Akzeptieren Sie einen Vorschlag",
-      "acceptDesc": "Jemand hat Sie gebeten, sie zu heiraten? Wirklich?",
+      "acceptDesc": "Jemand hat dich gebeten, sie zu heiraten? Wirklich?",
       "deny": "😭 Ablehnen eines Vorschlags",
       "denyDesc": "Du bist eine schreckliche Person, wenn du darauf klickst ...",
       "divorce": "⚖️ Lassen Sie sich scheiden",
-      "divorceDesc": "Wer nimmt die Kinder mit? Weil ich es nicht sein werde.",
-      "embedTitle": "Ehesystem",
+      "divorceDesc": "Wer nimmt die Kinder mit? Denn ich werde es nicht sein.",
+      "embedTitle": "Heiratssystem",
       "embedDesc": "Sehen Sie sich das Ehesystem an und nehmen Sie Änderungen vor!"
     }
   },
   "massrole": {
     "begin": "\"Massrole initiiert jetzt...\"",
-    "failed": "\"Massrole gescheitert...\"",
+    "failed": "\"Massrole ist gescheitert...\"",
     "missing": "**Fehlende Berechtigungen!**"
   },
   "meme": {
-    "grabbing": "Grabbing ya a meme...",
+    "grabbing": "Schnappen Sie sich ein Meme...",
     "hereYaGo": "Los geht's!"
   },
   "mute": {
@@ -431,14 +442,14 @@
   "payments": {
     "notify": "Benachrichtigen Sie uns, wenn Sie diese Option gewählt haben.",
     "payment": "Zahlung",
-    "pleasePay": "Bitte bezahlen",
-    "location": "__one__ der oben genannten Zahlungsmethoden.",
+    "pleasePay": "Bitte zahlen Sie",
+    "location": "zu __one__ der oben genannten Zahlungsmethoden.",
     "otherOption": "Andere Option"
   },
   "permissions": {
     "addPermission": "Berechtigung hinzufügen",
     "embedTitle": "Menü \"Berechtigungen\"",
-    "type": "**○ Perm Typ:**",
+    "type": "**○ Dauerwellentyp:**",
     "role": "**○ Rollen-ID:**",
     "noPermsYet": "Noch keine Dauerwellen..."
   },
@@ -451,38 +462,38 @@
     "addPingPrevDesc": "Richten Sie Ihre Ping-Prävention ein.",
     "removePingPrev": "❌ Ping-Prävention entfernen",
     "removePingPrevDesc": "Entfernen Sie Ihre Ping-Prävention.",
-    "embedTitle": "Menü \"Ping-Prävention\"",
+    "embedTitle": "Menü \"Ping-Verhinderung\"",
     "embedDesc": "Verwalten Sie Ihren Ping-Präventionsstatus!"
   },
   "poll": {
-    "posted": "**Umfrage gepostet!**"
+    "posted": "** Umfrage veröffentlicht! **"
   },
   "punishments": {
-    "noHistory": "Dieser Benutzer hat keine Vorgeschichte von Strafen!",
+    "noHistory": "Dieser Benutzer hat keine Strafgeschichte!",
     "embedTitle": "Fallinformationen"
   },
   "purge": {
     "msgDeleted": "Nachrichten gelöscht!",
-    "error": "**Fehler beim Löschen von Nachrichten!**",
+    "error": "Fehler beim Löschen von Nachrichten!**",
     "reason": "Ich kann nur Nachrichten löschen, die bis zu 14 Tage alt sind..."
   },
   "queue": {
-    "clearQueue": "Warteschlange leeren",
+    "clearQueue": "Warteschlange löschen",
     "embedTitle": "Songs in der Warteschlange",
     "noSongsQueued": "Es befinden sich keine Songs in der Warteschlange."
   },
   "restart": {
     "restarting": "Neustart des Clients",
-    "restartingDesc": "** Neustart des Clients ... **",
+    "restartingDesc": "**Neustart des Clients...**",
     "success": "Client-Neustart erfolgreich",
     "successDesc": "**Der Client wurde erfolgreich neu gestartet!**",
-    "failed": "Client-Neustart fehlgeschlagen",
-    "private": "** Bitte überprüfen Sie Ihre privaten Nachrichten!**",
+    "failed": "Fehler beim Neustart des Clients",
+    "private": "** Bitte überprüfen Sie Ihre privaten Nachrichten! **",
     "failed2": "**Neustart des Clients fehlgeschlagen...**"
   },
   "reviews": {
     "reply": "Hinterlasse eine Antwort",
-    "newReview": "Neue Bewertung von",
+    "newReview": "Neue Rezension von",
     "posted": "Ihre Bewertung wurde veröffentlicht."
   },
   "selfroles": {
@@ -501,17 +512,17 @@
     "members": "Angehörige",
     "users": "Benutzer",
     "bots": "Bots",
-    "date": "Gründungsdatum",
-    "requestedBy": "Angefordert von"
+    "date": "Erstellungsdatum",
+    "requestedBy": "Gewünscht von"
   },
   "settings": {
     "selectAction": "Wählen Sie eine Einstellungsoption aus.",
     "base": "📕 Basismodule",
-    "baseDesc": "Ändern Sie die Basismodule für diese Gilde.",
+    "baseDesc": "Ändert die Basismodule für diese Gilde.",
     "security": "📘 Sicherheitsmodule",
-    "securityDesc": "Ändern Sie die Sicherheitsmodule für diese Gilde.",
+    "securityDesc": "Verändere Sicherheitsmodule für diese Gilde.",
     "fun": "📙 Fun-Module",
-    "funDesc": "Ändern Sie lustige Module für diese Gilde.",
+    "funDesc": "Verändere Spaßmodule für diese Gilde.",
     "embedTitle": "Menü \"Einstellungen\"",
     "embedDesc": "Sehen Sie sich das Einstellungsmenü an und nehmen Sie Änderungen vor!"
   },
@@ -519,33 +530,33 @@
     "empty": "Der Laden ist leer.",
     "shop": "Laden",
     "select": "Wählen Sie einen Artikel aus dem Shop aus, um ihn zu kaufen.",
-    "shopItems": "**Shop-Artikel:**",
+    "shopItems": "** Shop-Artikel: **",
     "click": "Klicken Sie hier, um diesen Artikel zu kaufen.",
     "selectAction": "Wählen Sie einen Artikel aus, um ihn zu kaufen."
   },
   "snipe": {
     "noMessage": "Es gibt keine Nachrichten in diesem Kanal!",
     "messageFrom": "Nachricht von",
-    "snipedBy": "Geschnippelt von"
+    "snipedBy": "Sniped von"
   },
   "sticky": {
-    "selectAction": "Wählen Sie eine Sticky-Message-Aktion aus.",
+    "selectAction": "Wählen Sie eine Aktion für Sticky Message aus.",
     "add": "🍯 Sticky hinzufügen",
     "addDesc": "Fügen Sie der Datenbank eine Sticky-Nachricht hinzu.",
-    "remove": "❌ Entfernen Sie Sticky",
-    "removeDesc": "Entfernen Sie eine Sticky-Nachricht aus der Datenbank.",
+    "remove": "❌ Sticky entfernen",
+    "removeDesc": "Entfernen Sie eine Sticky Message aus der Datenbank.",
     "embedTitle": "Menü \"Sticky Message\"",
-    "embedDesc": "Hinzufügen/Entfernen von Sticky-Nachrichten zu/aus der Datenbank!"
+    "embedDesc": "Sticky Messages zu/aus der Datenbank hinzufügen/entfernen!"
   },
   "suggestion": {
-    "recieved": "**Vorschlag erhalten!**",
+    "recieved": "** Vorschlag erhalten! **",
     "embedTitle": "Neuer Vorschlag!",
     "noChan": "Diese Gilde hat noch keine Vorschlagsprotokollierung eingerichtet."
   },
   "tickets": {
     "noTickets": "Diese Gilde hat noch keine Ticketkategorien eingerichtet.",
-    "embedTitle": "Ticketkategorien",
-    "embedDesc": "Hier sind die Ticketkategorien für diese Gilde. Wählen Sie eines aus, um ein Ticket in dieser Kategorie zu öffnen.",
+    "embedTitle": "Ticket-Kategorien",
+    "embedDesc": "Hier sind die Ticketkategorien für diese Gilde. Wählen Sie eines aus, um ein Ticket in dieser Kategorie zu eröffnen.",
     "selectAction": "Wählen Sie eine Ticketkategorie aus."
   },
   "ticketbuttons": {
@@ -553,34 +564,34 @@
     "rename": "✏️ Ticket umbenennen",
     "add": "📥 Benutzer hinzufügen",
     "remove": "📤 Benutzer entfernen",
-    "claim": "🤝 Ticket anfordern",
-    "claimedBy": "🤝 Reklamiert von",
+    "claim": "🤝 Ticket beanspruchen",
+    "claimedBy": "🤝 Beansprucht von",
     "message": "Einige nützliche Ticket-Buttons.",
     "onlyInTicket": "Dies kann nur in einem Ticketkanal erfolgen."
   },
   "ticketpanels": {
     "addPanel": "Bedienfeld hinzufügen",
-    "post": "Auf Kanal posten",
+    "post": "An Kanal posten",
     "embedTitle": "Ticket-Panels",
-    "panelName": "**○ Name des Panels:**",
+    "panelName": "**○ Panel-Name:**",
     "panelDesc": "**○ Panel-Beschreibung:**",
     "noPanels": "Noch keine Panels..."
   },
   "timer": {
-    "set": "Timer-Set!",
+    "set": "Timer eingestellt!",
     "up": "Timer Up!",
     "remind": "Ich werde Sie daran erinnern in",
     "to": "An",
     "timer": "Stunden",
-    "time": "** Zeit: **",
-    "note": "**Hinweis: **",
+    "time": "**Zeit:**",
+    "note": "**Anmerkung:**",
     "ended": "**Timer beendet**"
   },
   "tos": {
     "agree": "Ich stimme zu",
-    "tos": "Allgemeine Geschäftsbedingungen (AGB)",
-    "confirm": "Bitte **bestätigen**, dass Sie den **[Nutzungsbedingungen] zustimmen",
-    "confirm2": "** \ndurch Drücken der blauen Schaltfläche unten mit der Aufschrift \"Ich stimme zu\"."
+    "tos": "Allgemeine Geschäftsbedingungen",
+    "confirm": "Bitte **bestätigen** Sie, dass Sie den **[Nutzungsbedingungen] zustimmen.",
+    "confirm2": "** \ndurch Drücken der blauen Taste unten mit der Aufschrift \"Ich stimme zu\"."
   },
   "user": {
     "info": "Benutzerinformationen",
@@ -589,8 +600,8 @@
     "bot": "Bot",
     "cases": "Etuis",
     "level": "Chat-Ebene",
-    "joined": "Verbundener Discord",
-    "requestedBy": "Angefordert von"
+    "joined": "Discord beigetreten",
+    "requestedBy": "Gewünscht von"
   },
   "volume": {
     "changed": "Lautstärke geändert"
@@ -601,12 +612,12 @@
     "settings": "Einstellungen:",
     "tools": "Werkzeuge:",
     "toggle": "Umschalten:",
-    "delete": "Ausgewählt löschen",
+    "delete": "Ausgewählte löschen",
     "disabled": "Arbeitsunfähig",
     "enabled": "Ermöglichte",
     "back": "Zurück",
     "next": "Nächster",
-    "deleteSelected": "Ausgewählt löschen",
+    "deleteSelected": "Ausgewählte löschen",
     "closed": "Geschlossen",
     "open": "Offen",
     "home": "🏠 Geh nach Hause",
@@ -618,12 +629,12 @@
   },
   "commands": {
     "eightBall": {
-      "name": "8Ball",
+      "name": "8ball",
       "description": "Sprich mit Gott.",
       "options": [
         {
           "name": "Frage",
-          "description": "Die Frage, um den 🎱 Ball zu stellen.",
+          "description": "Die Frage, die man dem 🎱 Ball stellen muss.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -635,11 +646,11 @@
     },
     "applicationmenu": {
       "name": "Anwendungsmenü",
-      "description": "Verwalte diese Gildenanwendungen."
+      "description": "Verwalten Sie diese Gildenanwendungen."
     },
     "apply": {
       "name": "anwenden",
-      "description": "Füllen Sie einen offenen Antrag aus."
+      "description": "Füllen Sie eine offene Bewerbung aus."
     },
     "ascii": {
       "name": "ASCII",
@@ -659,7 +670,7 @@
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer, um den Avatar zu erhalten.",
+          "description": "Der Benutzer, von dem der Avatar abgerufen werden soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         }
@@ -667,15 +678,15 @@
     },
     "balance": {
       "name": "Gleichgewicht",
-      "description": "Zeigen Sie Ihren Kontostand an."
+      "description": "Sehen Sie sich Ihren Kontostand an."
     },
     "ban": {
       "name": "Verbot",
-      "description": "Verbanne jemanden aus der Gilde.",
+      "description": "Verbiete jemanden aus der Gilde.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer soll aus dieser Gilde ausgeschlossen werden.",
+          "description": "Der Benutzer, der aus dieser Gilde ausgeschlossen werden soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         },
@@ -689,27 +700,27 @@
     },
     "birthdays": {
       "name": "Geburtstage",
-      "description": "Öffnen Sie das Geburtstagsfeld."
+      "description": "Öffnen Sie das Geburtstagsfenster."
     },
     "case": {
       "name": "Fall",
-      "description": "Zeigen Sie eine Fallinformation an.",
+      "description": "Zeigen Sie Fallinformationen an.",
       "options": [
         {
           "name": "case_id",
-          "description": "Die anzuzeigende Fall-ID.",
+          "description": "Die anzuzeigende Groß-/Kleinschreibungs-ID.",
           "required": "STIMMT",
           "type": "GANZE ZAHL"
         }
       ]
     },
     "clientmenu": {
-      "name": "ClientMenu",
-      "description": "Verwalte diese Gilden-Clients."
+      "name": "ClientMenü",
+      "description": "Verwalten Sie die Kunden dieser Gilde."
     },
     "clients": {
       "name": "Klienten",
-      "description": "Sehen Sie sich diese Gildenkunden an."
+      "description": "Sehen Sie sich die Kunden dieser Gilde an."
     },
     "credits": {
       "name": "Kredite",
@@ -721,7 +732,7 @@
     },
     "ddos": {
       "name": "DDoS",
-      "description": "Senden Sie einen DDOS-Angriff 😉 !",
+      "description": "Senden Sie einen DDOS-Angriff 😉!",
       "options": [
         {
           "name": "Ziel",
@@ -733,21 +744,21 @@
     },
     "dice": {
       "name": "Sagt",
-      "description": "Würfeln Sie die Würfel."
+      "description": "Würfeln Sie."
     },
     "dm": {
       "name": "Dezimeter",
-      "description": "Benachrichtigen Sie einen Benutzer privat als Bot.",
+      "description": "Senden Sie eine private Nachricht an einen Benutzer als Bot.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer soll eine Nachricht senden.",
+          "description": "Der Benutzer an die Nachricht.",
           "required": "STIMMT",
           "type": "BENUTZER"
         },
         {
           "name": "Nachricht",
-          "description": "Die Nachricht, um sie zu senden.",
+          "description": "Die Nachricht, die sie senden soll.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -755,25 +766,25 @@
     },
     "embed": {
       "name": "Einbinden",
-      "description": "Bringen Sie den Bot dazu, etwas zu sagen.",
+      "description": "Lassen Sie den Bot etwas sagen.",
       "options": [
         {
           "name": "Kanal",
-          "description": "Der Kanal, in den die Einbettung gepostet werden soll.",
+          "description": "Der Kanal, in dem die Einbettung gepostet werden soll.",
           "required": "STIMMT",
           "type": "KANAL"
         },
         {
           "name": "Nachricht",
-          "description": "Die Botschaft, die in der Einbettung zu sagen ist.",
+          "description": "Die Nachricht, die in der Einbettung zu sagen ist.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
       ]
     },
     "embedbuilder": {
-      "name": "EmbedBuilder",
-      "description": "Öffnen Sie den interaktiven Nachrichten-Einbettungsgenerator."
+      "name": "Embedbuilder",
+      "description": "Öffnen Sie den interaktiven Message Embed-Builder."
     },
     "games": {
       "name": "Spiele",
@@ -781,7 +792,7 @@
       "options": [
         {
           "name": "Spiel",
-          "description": "Wählen Sie ein Spiel zum Spielen aus.",
+          "description": "Wählen Sie ein Spiel aus, das Sie spielen möchten.",
           "required": "STIMMT",
           "type": "SCHNUR",
           "choices": [
@@ -790,8 +801,8 @@
               "value": "Poker"
             },
             {
-              "name": "Youtube (Englisch)",
-              "value": "Youtube (Englisch)"
+              "name": "Youtube-Seite",
+              "value": "youtube"
             },
             {
               "name": "Schach",
@@ -819,15 +830,15 @@
             },
             {
               "name": "Wort-Snack",
-              "value": "Wortsnack"
+              "value": "wordsnack"
             },
             {
               "name": "Doodle Crew",
               "value": "DoodleCrew"
             },
             {
-              "name": "Zauberspruch",
-              "value": "Zauberspruch"
+              "name": "Zaubersprüche",
+              "value": "Zaubersprüche"
             },
             {
               "name": "Skizzenköpfe",
@@ -843,7 +854,7 @@
       "options": [
         {
           "name": "Kanal",
-          "description": "Der Kanal, um das Werbegeschenk zu platzieren.",
+          "description": "Der Kanal, in den das Werbegeschenk eingefügt werden soll.",
           "required": "STIMMT",
           "type": "KANAL"
         },
@@ -861,13 +872,13 @@
         },
         {
           "name": "time_limit",
-          "description": "Wie lange das Werbegeschenk dauern sollte.",
+          "description": "Wie lange das Werbegeschenk dauern soll.",
           "required": "STIMMT",
           "type": "SCHNUR"
         },
         {
           "name": "Gewinner",
-          "description": "Wie viele Gewinner das Gewinnspiel haben soll.",
+          "description": "Wie viele Gewinner das Gewinnspiel haben sollte.",
           "required": "STIMMT",
           "type": "GANZE ZAHL"
         }
@@ -875,7 +886,7 @@
     },
     "guilds": {
       "name": "Gilden",
-      "description": "Sehen Sie sich die Gilden an, in denen sich dieser Bot befindet."
+      "description": "Sieh dir die Gilden an, in denen sich dieser Bot befindet."
     },
     "help": {
       "name": "Hilfe",
@@ -883,7 +894,7 @@
       "options": [
         {
           "name": "Befehl",
-          "description": "Zeigen Sie Informationen zu einem bestimmten Befehl an.",
+          "description": "Anzeigen von Informationen zu einem bestimmten Befehl.",
           "required": "FALSE",
           "type": "SCHNUR"
         }
@@ -891,11 +902,11 @@
     },
     "hug": {
       "name": "umarmen",
-      "description": "Umarmen Sie einen Benutzer.",
+      "description": "Umarme einen Benutzer.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer soll sich umarmen.",
+          "description": "Der Benutzer, der umarmt werden soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         }
@@ -907,17 +918,17 @@
     },
     "kick": {
       "name": "treten",
-      "description": "Kick jemanden aus dieser Gilde.",
+      "description": "Tritt jemanden aus dieser Gilde.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer, der aus dieser Gilde kicken soll.",
+          "description": "Der Benutzer, der aus dieser Gilde geworfen werden soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         },
         {
           "name": "Grund",
-          "description": "Der Grund für das Treten des Benutzers.",
+          "description": "Der Grund für das Kicken des Benutzers.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -925,7 +936,7 @@
     },
     "leaderboard": {
       "name": "Bestenliste",
-      "description": "Sehen Sie sich diese Bestenliste auf Server-Chat-Ebene an."
+      "description": "Sehen Sie sich die Chat-Level-Bestenliste dieses Servers an."
     },
     "level": {
       "name": "Niveau",
@@ -941,7 +952,7 @@
     },
     "logging": {
       "name": "Protokollierung",
-      "description": "Ändert die Protokollierungseinstellungen für diese Gilde."
+      "description": "Ändert die Logging-Einstellungen für diese Gilde."
     },
     "loop": {
       "name": "Schleife",
@@ -957,7 +968,7 @@
       "options": [
         {
           "name": "Rolle",
-          "description": "Die Rolle, die jedem Mitglied übertragen werden muss.",
+          "description": "Die Rolle, die jedem Mitglied gegeben werden soll.",
           "required": "STIMMT",
           "type": "ROLLE"
         }
@@ -965,7 +976,7 @@
     },
     "meme": {
       "name": "Gleich",
-      "description": "Holen Sie sich ein Meme!"
+      "description": "Hol dir ein Meme!"
     },
     "music": {
       "name": "Musik",
@@ -973,7 +984,7 @@
       "options": [
         {
           "name": "play_song",
-          "description": "Das Lied, das gespielt werden soll.",
+          "description": "Das zu spielende Lied.",
           "required": "FALSE",
           "type": "SCHNUR"
         }
@@ -981,41 +992,41 @@
     },
     "mute": {
       "name": "stumm",
-      "description": "Stummschalte jemanden in der Gilde.",
+      "description": "Stumm jemanden in der Gilde.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer soll von dieser Gilde stummschalten.",
+          "description": "Der Benutzer, der von dieser Gilde stummgeschaltet werden soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         },
         {
           "name": "Zeit",
-          "description": "Wie lange Sie sie stummschalten möchten. (Bsp.: 15m = 15 Minuten)",
+          "description": "Wie lange Sie sie stummschalten möchten. (Beispiel: 15 m = 15 Minuten)",
           "required": "STIMMT",
           "type": "SCHNUR"
         },
         {
           "name": "Grund",
-          "description": "Der Grund für das Stummschalten des Benutzers.",
+          "description": "Der Grund für die Stummschaltung des Benutzers.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
       ]
     },
     "offlineban": {
-      "name": "offlineban",
-      "description": "Verbanne jemanden, der nicht in der Gilde ist.",
+      "name": "Offline-Verbot",
+      "description": "Verbiete jemanden, der nicht in der Gilde ist.",
       "options": [
         {
           "name": "user_id",
-          "description": "Die Benutzer-ID des zu sperrenden Benutzers.",
+          "description": "Die Benutzer-ID des Benutzers, der gesperrt werden soll.",
           "required": "STIMMT",
           "type": "SCHNUR"
         },
         {
           "name": "Grund",
-          "description": "Der Grund, den Benutzer zu sperren.",
+          "description": "Der Grund für die Sperrung des Benutzers.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -1027,7 +1038,7 @@
       "options": [
         {
           "name": "Menge",
-          "description": "Bitte geben Sie den Betrag und die Währung an, die der Benutzer zahlen soll.",
+          "description": "Bitte geben Sie den Betrag und die Währung an, die der Benutzer bezahlen soll.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -1035,14 +1046,14 @@
     },
     "permissions": {
       "name": "Erlaubnisse",
-      "description": "Ändert diese Gildenberechtigungen."
+      "description": "Ändern Sie die Berechtigungen dieser Gilde."
     },
     "ping": {
       "name": "anpingen",
       "description": "Ein einfacher Ping-Befehl."
     },
     "pingprev": {
-      "name": "pingprev",
+      "name": "PingZurück",
       "description": "Verwalten Sie Ihren Ping-Präventionsstatus."
     },
     "play": {
@@ -1051,7 +1062,7 @@
       "options": [
         {
           "name": "Lied",
-          "description": "Das Lied, das gespielt werden soll.",
+          "description": "Das zu spielende Lied.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -1131,11 +1142,11 @@
     },
     "punishments": {
       "name": "Strafen",
-      "description": "Zeigen Sie einen Benutzer-Fallverlauf an.",
+      "description": "Zeigen Sie den Fallverlauf eines Benutzers an.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer, um den Fallverlauf anzuzeigen.",
+          "description": "Der Benutzer, der den Fallverlauf anzeigen soll.",
           "required": "STIMMT",
           "type": "BENUTZER"
         }
@@ -1147,7 +1158,7 @@
       "options": [
         {
           "name": "Menge",
-          "description": "Das # der zu löschenden Nachrichten.",
+          "description": "Die # der zu löschenden Nachrichten.",
           "required": "STIMMT",
           "type": "GANZE ZAHL"
         }
@@ -1158,12 +1169,12 @@
       "description": "Sehen Sie sich die Musikwarteschlange an."
     },
     "removecase": {
-      "name": "removecase",
+      "name": "EntfernenGroß- und Kleinschreibung",
       "description": "Entfernen Sie einen Fall aus der Datenbank.",
       "options": [
         {
           "name": "case_id",
-          "description": "Die zu entfernende Groß-/Kleinschreibung ID.",
+          "description": "Die zu entfernende Groß-/Kleinschreibungs-ID.",
           "required": "STIMMT",
           "type": "GANZE ZAHL"
         }
@@ -1175,7 +1186,7 @@
     },
     "review": {
       "name": "Rezension",
-      "description": "Schreiben Sie eine Bewertung als Kunde.",
+      "description": "Schreiben Sie als Kunde eine Rezension.",
       "options": [
         {
           "name": "Dienst",
@@ -1199,11 +1210,11 @@
     },
     "rob": {
       "name": "rauben",
-      "description": "Einen Benutzer ausrauben.",
+      "description": "Rauben Sie einen Benutzer.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer zu rauben.",
+          "description": "Der zu raubende Benutzer.",
           "required": "STIMMT",
           "type": "BENUTZER"
         }
@@ -1211,17 +1222,17 @@
     },
     "say": {
       "name": "sagen",
-      "description": "Bringen Sie den Bot dazu, etwas zu sagen.",
+      "description": "Lassen Sie den Bot etwas sagen.",
       "options": [
         {
           "name": "Kanal",
-          "description": "Der Kanal, in dem die Nachricht gepostet werden soll.",
+          "description": "Der Kanal, an den die Nachricht gesendet werden soll.",
           "required": "STIMMT",
           "type": "KANAL"
         },
         {
           "name": "Nachricht",
-          "description": "Die Botschaft zu sagen.",
+          "description": "Die zu sagende Botschaft.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -1229,7 +1240,7 @@
     },
     "selfroles": {
       "name": "Selbstrollen",
-      "description": "Richten Sie Selbstrollen für diese Gilde ein."
+      "description": "Richte Selbstrollen für diese Gilde ein."
     },
     "server": {
       "name": "Server",
@@ -1237,15 +1248,15 @@
     },
     "settings": {
       "name": "Einstellungen",
-      "description": "Ändert diese Gildeneinstellungen."
+      "description": "Ändere die Einstellungen dieser Gilde."
     },
     "shop": {
       "name": "Laden",
-      "description": "Sehen Sie sich den Shop an oder tätigen Sie einen Kauf."
+      "description": "Sehen Sie sich den Shop an oder tätigen Sie einen Einkauf."
     },
     "snipe": {
       "name": "Schnepfe",
-      "description": "Rufen Sie die zuletzt gelöschte Nachricht in diesem Kanal ab."
+      "description": "Rufen Sie die letzte gelöschte Nachricht in diesem Kanal ab."
     },
     "sticky": {
       "name": "klebrig",
@@ -1253,7 +1264,7 @@
     },
     "suggest": {
       "name": "vorschlagen",
-      "description": "Hinterlassen Sie einen Vorschlag.",
+      "description": "Hinterlasse einen Vorschlag.",
       "options": [
         {
           "name": "Vorschlag",
@@ -1268,12 +1279,12 @@
       "description": "Erstellen Sie ein Ticket."
     },
     "ticketbuttons": {
-      "name": "Ticketschaltflächen",
+      "name": "Ticketbuttons",
       "description": "Sehen Sie sich nützliche Ticketschaltflächen an."
     },
     "ticketpanels": {
-      "name": "Ticket-Panels",
-      "description": "Setze Ticket-Panels für diese Gilde ein."
+      "name": "Ticketpanels",
+      "description": "Richten Sie Tickettafeln für diese Gilde ein."
     },
     "timer": {
       "name": "Stunden",
@@ -1281,7 +1292,7 @@
       "options": [
         {
           "name": "Zeit",
-          "description": "Die Zeit, in der der Timer losgeht. (Bsp: 1h = 1 Stunde, 1m = 1 Minute, 5s = 5 Sekunden)",
+          "description": "Die Zeit, in der der Timer ausgelöst wird. (Beispiel: 1h = 1 Stunde, 1m = 1 Minute, 5s = 5 Sekunden)",
           "required": "STIMMT",
           "type": "SCHNUR"
         },
@@ -1306,12 +1317,12 @@
       ]
     },
     "unban": {
-      "name": "Sperre aufheben",
-      "description": "Entferne jemanden aus dieser Gilde.",
+      "name": "Entsperrung aufheben",
+      "description": "Entsperre jemanden aus dieser Gilde.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Die Benutzer-ID, die aus dieser Gilde entsperrt werden soll.",
+          "description": "Die Benutzer-ID, um die Sperre aus dieser Gilde aufzuheben.",
           "required": "STIMMT",
           "type": "SCHNUR"
         }
@@ -1319,11 +1330,11 @@
     },
     "unmute": {
       "name": "Stummschaltung aufheben",
-      "description": "Heben Sie die Stummschaltung einer Person in der Gilde auf.",
+      "description": "Heben Sie die Stummschaltung von jemandem in der Gilde auf.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer hebt die Stummschaltung von dieser Gilde auf.",
+          "description": "Der Benutzer, der die Stummschaltung von dieser Gilde aufhebt.",
           "required": "STIMMT",
           "type": "BENUTZER"
         }
@@ -1331,7 +1342,7 @@
     },
     "user": {
       "name": "Benutzer",
-      "description": "Zeigen Sie eine Benutzerinformation an.",
+      "description": "Anzeigen von Benutzerinformationen.",
       "options": [
         {
           "name": "Benutzer",
@@ -1347,7 +1358,7 @@
       "options": [
         {
           "name": "Wert",
-          "description": "Das Lied, das gespielt werden soll.",
+          "description": "Das zu spielende Lied.",
           "required": "STIMMT",
           "type": "GANZE ZAHL"
         }
@@ -1355,11 +1366,11 @@
     },
     "warn": {
       "name": "warnen",
-      "description": "Warnt einen Benutzer in dieser Gilde.",
+      "description": "Warne einen Benutzer in dieser Gilde.",
       "options": [
         {
           "name": "Benutzer",
-          "description": "Der Benutzer muss gewarnt werden.",
+          "description": "Der zu warnende Benutzer.",
           "required": "STIMMT",
           "type": "BENUTZER"
         },
@@ -1373,22 +1384,22 @@
     },
     "wink": {
       "name": "zwinkern",
-      "description": "Senden Sie ein Wink-Gif an jemanden."
+      "description": "Senden Sie ein Wink-GIF an jemanden."
     },
     "work": {
       "name": "Arbeit",
-      "description": "Gehen Sie zur Arbeit."
+      "description": "Geh zur Arbeit."
     }
   },
   "events": {
     "actionLogs": "Aktionsprotokolle",
-    "actionBy": "Umgesetzt von",
+    "actionBy": "Aktioniert von",
     "someone": "jemand",
     "guilds": {
       "join": "📥 Gilde beigetreten!",
       "leave": "📤 Gilde links!",
       "name": "**○ Name:**",
-      "id": "**○ ID:**"
+      "id": "**○ Id:**"
     },
     "updated": {
       "before": "Vor Änderungen",
@@ -1408,7 +1419,7 @@
       "deleted": "Kanal gelöscht",
       "updated": "Kanal aktualisiert",
       "id": "Kanal-ID",
-      "name": "Kanalname"
+      "name": "Name des Kanals"
     },
     "members": {
       "left": "hat den Server verlassen!",
@@ -1417,19 +1428,19 @@
       "members": "Angehörige",
       "users": "Benutzer",
       "sorry": "Tut mir Leid",
-      "lockdown": "ist derzeit unter Lockdown! Versuchen Sie, in ein paar Stunden wieder beizutreten oder kontaktieren Sie einen Administrator extern, um zu sehen, was los ist!\n\nEs ist möglich, dass der Besitzer gerade vergessen hat, die Serversperre zu deaktivieren, unabhängig davon, ob dies protokolliert wurde, und ich bin mir sicher, dass der Server bald wieder geöffnet sein wird.",
-      "lockdownMode": "Der Server befindet sich im Sperrmodus!",
-      "lockdownTitle": "🔒 Server-Sperre!",
-      "lockdownRemoval": "Aufhebung des Lockdowns!",
+      "lockdown": "befindet sich derzeit im Lockdown! Versuchen Sie, in ein paar Stunden wieder beizutreten, oder kontaktieren Sie einen externen Administrator, um zu sehen, was los ist!\n\nEs ist möglich, dass der Besitzer einfach vergessen hat, die Serversperre zu deaktivieren, unabhängig davon, dass dies protokolliert wurde, und ich bin sicher, dass der Server bald wieder geöffnet sein wird.",
+      "lockdownMode": "Server befindet sich im Sperrmodus!",
+      "lockdownTitle": "🔒 Server-Sperrung!",
+      "lockdownRemoval": "Lockdown-Entfernung!",
       "reason": "Grund",
       "action": "Aktion",
       "user": "Benutzer",
       "kicked": "Trat",
-      "sl": "Server-Sperre!",
+      "sl": "Server-Sperrung!",
       "altDetected": "Alt-Konto erkannt!",
       "removalTitle": "Du wurdest entfernt!",
-      "removal1": "Sie wurden entfernt von",
-      "removal2": "da euer Account die Altersanforderungen für Gildenkonten nicht erfüllt.",
+      "removal1": "Sie wurden aus",
+      "removal2": "da euer Konto nicht die Altersanforderungen des Gildenkontos erfüllt.",
       "join": "hat sich dem Server angeschlossen!",
       "joinEmbedTitle": "Willkommen Benutzer!"
     },
@@ -1447,39 +1458,39 @@
       "pleaseDont": "Bitte pingen Sie mich nicht an, ich habe ein Leben, genau wie Sie :]"
     },
     "roles": {
-      "created": "Rolle erstellt",
+      "created": "Erstellte Rolle",
       "deleted": "Rolle gelöscht",
       "updated": "Rolle aktualisiert",
       "id": "Rollen-ID",
       "name": "Rollenname",
-      "actionedBy": "Umgesetzt von"
+      "actionedBy": "Aktioniert von"
     },
     "voice": {
       "has": "hat",
       "was": "war",
       "unavailable": "Nicht verfügbar",
-      "update": "Sprachstatus-Update",
+      "update": "Update des VoIP-Status",
       "server": "Server",
       "left": "Links",
       "joined": "angegliedert",
       "moved": "verschoben von",
       "to": "An",
-      "deafened": "ohrenbetäubt",
-      "undeafened": "Nicht taub",
+      "deafened": "taub",
+      "undeafened": "untaub",
       "muted": "gedämpft",
-      "unmuted": "Nicht stummgeschaltet",
-      "stopped": "ihr Video gestoppt",
-      "started": "startete ihr Video",
+      "unmuted": "nicht stummgeschaltet",
+      "stopped": "Video gestoppt",
+      "started": "begann ihr Video",
       "stream": "Streaming gestartet",
-      "stopstream": "Streaming gestoppt"
+      "stopstream": "Streaming beendet"
     }
   },
   "components": {
     "agreeTos": {
       "notasked": "Sie werden nicht aufgefordert, den Nutzungsbedingungen zuzustimmen",
-      "notasked2": "wird gebeten,",
+      "notasked2": "aufgefordert wird,",
       "agreed": "Einverstanden",
-      "hasAgreed": "den Nutzungsbedingungen zugestimmt hat"
+      "hasAgreed": "hat den Nutzungsbedingungen zugestimmt"
     },
     "appAccept": {
       "button": "Akzeptiert von",
@@ -1498,11 +1509,11 @@
     "appMenuAdd": {
       "title": "Anwendung erstellen!",
       "name": "Name der Anwendung",
-      "here": "Geben Sie hier den Namen der Anwendung ein.",
+      "here": "Geben Sie hier den Anwendungsnamen ein.",
       "am": "Akzeptierte Nachricht",
-      "dm": "Abgelehnte Nachricht",
+      "dm": "Nachricht \"Abgelehnt\"",
       "aam": "Geben Sie die Nachricht ein, die ein Benutzer erhalten soll, wenn er hier akzeptiert wird.",
-      "ddm": "Geben Sie hier die Nachricht ein, die ein Benutzer erhalten soll, wenn er abgelehnt wird."
+      "ddm": "Geben Sie die Nachricht ein, die ein Benutzer erhalten soll, wenn er hier abgelehnt wird."
     },
     "appMenuBack": {
       "title": "Anwendungsmenü",
@@ -1513,7 +1524,7 @@
       "created": "Anwendung erstellt!"
     },
     "appMenuDelete": {
-      "deleted": "Bewerbung gelöscht!"
+      "deleted": "Anwendung gelöscht!"
     },
     "appMenuGoHome": {
       "title": "Anwendungsmenü",
@@ -1523,11 +1534,11 @@
       "createform": "Formular erstellen"
     },
     "appMenuQuestions": {
-      "title": "Frage-Editor",
+      "title": "Fragen-Editor",
       "add": "Frage hinzufügen",
       "app": "○ App:",
       "question": "○ Frage:",
-      "noQuestion": "Noch keine Fragen gestellt."
+      "noQuestion": "Es wurden noch keine Fragen erstellt."
     },
     "appMenuQuestionsAdd": {
       "added": "Frage hinzugefügt!",
@@ -1541,74 +1552,74 @@
       "unable": "Ich konnte diese Frage nicht in der Datenbank finden."
     },
     "appSelect": {
-      "noQuestions": "Für diese Anwendung wurden noch keine Fragen erstellt.",
+      "noQuestions": "Diese Anwendung hat noch keine Fragen erstellt.",
       "pleaseAnswer": "Bitte beantworten Sie die folgenden Fragen nach besten Kräften.",
-      "started": "Die Anwendung wurde in DMs gestartet.",
+      "started": "Anwendung in DMs gestartet.",
       "cancel": "Abgebrochen.",
-      "date": "Datum der Einreichung",
+      "date": "Übermittlungsdatum",
       "submitted": "Bewerbung eingereicht!",
       "failed": "**Anwendung fehlgeschlagen.**\nBitte stellen Sie sicher, dass Ihre DMs nicht privat sind.",
       "q": "Q",
       "a": "Ein"
     },
     "backingDeposit": {
-      "noInput": "Bitte geben Sie einen Betrag ein, den Sie in die Bank einzahlen möchten.",
+      "noInput": "Bitte geben Sie einen Betrag ein, den Sie auf die Bank einzahlen möchten.",
       "notValid": "Bitte geben Sie eine gültige Nummer ein.",
-      "notValid2": "** Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
-      "notEnough": "**Das ist mehr, als du in deinem Guthaben hast.**\nBitte versuchen Sie es erneut...",
-      "deposited": "**Hinterlegt ",
+      "notValid2": "**Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
+      "notEnough": "** Das ist mehr, als Sie in Ihrem Guthaben haben. **\nBitte versuchen Sie es erneut...",
+      "deposited": "**Abgelagert ",
       "deposited1": " in die Bank.**",
-      "logAuthor": " - Kaution",
+      "logAuthor": " -Deponieren",
       "amount": "Menge"
     },
     "bankingTransfer": {
-      "user": "Bitte geben Sie den Benutzer an, an den Sie diese Währung übertragen möchten.",
+      "user": "Bitte geben Sie den Benutzer an, an den Sie diese Währung überweisen möchten.",
       "aUser": "Bitte geben Sie den Betrag an, den Sie an diesen Benutzer überweisen möchten.",
-      "valUser": "Bitte geben Sie einen gültigen Benutzer ein.",
+      "valUser": "Geben Sie einen gültigen Benutzer ein.",
       "valNumber": "Bitte geben Sie eine gültige Nummer ein.",
-      "valNumber1": "** Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
-      "notEnough": "**Das ist mehr, als du in deinem Guthaben hast.**\nBitte versuchen Sie es erneut...",
-      "Done": " Übertragen!**",
-      "logAuthor": " - Übertragung",
+      "valNumber1": "**Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
+      "notEnough": "** Das ist mehr, als Sie in Ihrem Guthaben haben. **\nBitte versuchen Sie es erneut...",
+      "Done": " Überführt!**",
+      "logAuthor": " -Übertragung",
       "reciever": "Reciever"
     },
     "bankingWithdraw": {
       "iAmount": "Bitte geben Sie einen Betrag ein, den Sie von der Bank abheben möchten.",
       "number": "Bitte geben Sie eine gültige Nummer ein.",
-      "valNumber": "** Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
-      "notEnough": "**Das ist mehr, als Sie in Ihrer Bank haben.**\nBitte versuchen Sie es erneut...",
-      "Withdrew": "**Zurückgezogen ",
+      "valNumber": "**Bitte geben Sie eine gültige Nummer ein.**\nBitte versuchen Sie es erneut...",
+      "notEnough": "** Das ist mehr, als Sie in Ihrer Bank haben. **\nBitte versuchen Sie es erneut...",
+      "Withdrew": "**Zog ",
       "Withdrew1": " von hinten.**",
-      "logAuthor": " - Zurückgezogen"
+      "logAuthor": " -Zog"
     },
     "birthdayAdd": {
-      "already": "Ihr habt bereits einen Geburtstag in dieser Gilde angemeldet.",
-      "date": "Bitte geben Sie Ihr Geburtsdatum an.\n**Hinweis:** Es muss wie folgt formatiert werden: 'MM-TT-JJJJ' sonst funktioniert es nicht**.",
+      "already": "Ihr habt bereits einen Geburtstag in dieser Gilde registriert.",
+      "date": "Bitte geben Sie Ihr Geburtsdatum an.\n** Hinweis: ** Es muss wie folgt formatiert werden: 'MM-TT-JJJJ', sonst funktioniert es nicht **.",
       "cancel": "Abgebrochen.",
-      "added": "**Geburtstag hinzugefügt!**"
+      "added": "** Geburtstag hinzugefügt! **"
     },
     "birthdayRemove": {
-      "noBday": "Ihr habt noch keinen Geburtstag in dieser Gilde angemeldet.",
-      "removed": "**Geburtstag entfernt!**"
+      "noBday": "Du hast keinen Geburtstag in dieser Gilde registriert.",
+      "removed": "** Geburtstag entfernt! **"
     },
     "birthdaySystem": {
       "title": "🥳 Alles Gute zum Geburtstag!!",
       "its": "Es ist",
-      "bday": "Heute Geburtstag! Wünschen Sie ihnen alles Gute zum Geburtstag und lassen Sie uns feiern!\n\n**Datum:**"
+      "bday": "Heute Geburtstag! Wünscht ihnen alles Gute zum Geburtstag und lasst uns feiern!\n\n**Datum:**"
     },
     "clientAdd": {
       "user": "Bitte geben Sie den Benutzer an, den Sie als Client hinzufügen möchten.",
       "iUser": "Ungültiger Benutzer.\nBitte geben Sie den Benutzer an, den Sie als Client hinzufügen möchten.",
-      "already": "Dieser Benutzer ist bereits ein registrierter Client.",
+      "already": "Dieser Benutzer ist bereits ein registrierter Kunde.",
       "added": "📥 Client hinzugefügt",
-      "done": "wurde als Kunde \"hinzugefügt\".",
+      "done": "wurde als Client 'hinzugefügt'.",
       "add": "**Client hinzugefügt!**"
     },
     "clientRemove": {
       "noClients": "Diese Gilde hat keine registrierten Kunden.",
       "mention": "Bitte erwähnen Sie einen Kunden, den Sie entfernen möchten.",
-      "iClient": "Ungültiger Benutzer.\nBitte geben Sie den Kunden an, den Sie entfernen möchten.",
-      "notR": "Dieser Benutzer ist kein registrierter Client.",
+      "iClient": "Ungültiger Benutzer.\nBitte geben Sie den Client an, den Sie entfernen möchten.",
+      "notR": "Dieser Benutzer ist kein registrierter Kunde.",
       "removed": "📥 Client entfernt",
       "dsec": "wurde als Client \"entfernt\".",
       "done": "**Client entfernt!**"
@@ -1617,39 +1628,39 @@
       "left": "Linke Gilde"
     },
     "giveawayEnd": {
-      "end": "Beenden Sie das Werbegeschenk, bitte warten Sie!",
-      "notCreator": "Du bist nicht der Schöpfer dieses Werbegeschenks!\nEr wurde erstellt von:",
+      "end": "Ende des Werbegeschenks, bitte warten!",
+      "notCreator": "Sie sind nicht der Schöpfer dieses Werbegeschenks!\nEs wurde erstellt von:",
       "ended": "Dieses Werbegeschenk ist bereits beendet.",
-      "notCreator1": "Dieses Werbegeschenk ist bereits beendet!\nEr wurde erstellt von:",
+      "notCreator1": "Dieses Werbegeschenk ist bereits beendet!\nEs wurde erstellt von:",
       "noExist": "Dieses Werbegeschenk existiert nicht in der Datenbank..."
     },
     "giveawayEnter": {
-      "enter": "hat am Gewinnspiel teilgenommen! Wir haben jetzt",
+      "enter": "hat am Giveaway teilgenommen! Wir haben jetzt",
       "entries": "Einträge!",
-      "already": "Sie sind bereits eingetreten! Wir haben derzeit",
+      "already": "Sie haben bereits teilgenommen! Wir haben derzeit",
       "notActive": "Dieses Werbegeschenk ist nicht mehr aktiv."
     },
     "giveawayRefresh": {
-      "for": "Werbegeschenk für",
+      "for": "Giveaway für",
       "with": "mit",
-      "finish": "Winners hat den Timer aufgrund des Neustarts des Bots zurücksetzen lassen!"
+      "finish": "Gewinner hat den Timer aufgrund des Neustarts des Bots zurückgesetzt!"
     },
     "giveawayReroll": {
       "wait": "Re-Rolling, bitte warten!",
-      "consoleNumber": "Ein Giveaways-Winnters-Count ist keine Zahl...",
-      "title": "Giveaway Re-Rolled!",
-      "prize": "**Informationen**\nPreis:",
+      "consoleNumber": "Eine Giveaways-Gewinnerzählung ist keine Zahl...",
+      "title": "Giveaway neu gerollt!",
+      "prize": "**Information**\nPreis:",
       "winners": "Gewinner:",
       "time": "Frist:",
       "winners2": "**Gewinner**",
-      "footer": "Giveaway von: ",
-      "endError": "ERGEBNIS BEIM BEENDEN DES GIVEAWAYS: ",
+      "footer": "Gewinnspiel von: ",
+      "endError": "FEHLER BEIM BEENDEN DES WERBEGESCHENKS: ",
       "uNot": "Sie haben dieses Werbegeschenk nicht erstellt.",
       "wait1": "Sie müssen warten, bis das Werbegeschenk beendet ist, um erneut zu rollen!",
       "find": "Wir konnten dieses Werbegeschenk nicht in der Datenbank finden."
     },
     "helpPageSelect": {
-      "title": " Menü \"Hilfe\"",
+      "title": " Hilfe-Menü",
       "footer": "Hergestellt mit",
       "by": "bis"
     },
@@ -1691,7 +1702,7 @@
           "desc": "Festlegen eines Protokollierungskanals für Moderationsprotokolle"
         },
         "ticket": {
-          "label": "🎟️ Ticket-Protokolle",
+          "label": "🎟️ Ticket-Logs",
           "desc": "Festlegen eines Protokollierungskanals für Ticketprotokolle"
         },
         "message": {
@@ -1707,24 +1718,24 @@
           "desc": "Legen Sie einen Protokollierungskanal für Sprachprotokolle fest."
         },
         "alt": {
-          "label": "👻 Alt-Präventionsprotokolle",
+          "label": "👻 Alt Prevention-Protokolle",
           "desc": "Legen Sie einen Protokollierungskanal für Alt-Prevention-Protokolle fest."
         },
         "server": {
-          "label": "🔒 Serverprotokolle",
+          "label": "🔒 Serversperrprotokolle",
           "desc": "Legen Sie einen Protokollierungskanal für Serversperrprotokolle fest."
         },
         "filter": {
-          "label": "❌ Filterprotokolle",
+          "label": "❌ Protokolle filtern",
           "desc": "Legen Sie einen Protokollierungskanal für Filterprotokolle fest."
         },
         "client": {
-          "label": "💰 Clientprotokolle",
+          "label": "💰 Client-Protokolle",
           "desc": "Legen Sie einen Protokollierungskanal für Clients fest."
         },
         "review": {
-          "label": "⭐ Protokolle überprüfen",
-          "desc": "Legen Sie einen Protokollierungskanal für Überprüfungen fest."
+          "label": "⭐ Überprüfungsprotokolle",
+          "desc": "Legen Sie einen Protokollierungskanal für Bewertungen fest."
         },
         "suggestion": {
           "label": "📥 Vorschlagsprotokolle",
@@ -1753,10 +1764,10 @@
       }
     },
     "loggingBack": {
-      "title": "Protokollierungskanäle",
+      "title": "Protokollierung von Kanälen",
       "type": "**○ Protokolltyp:**",
       "nochans": "Noch keine Kanäle...",
-      "chan": "**○ Log-Kanal:**"
+      "chan": "**○ Protokollkanal:**"
     },
     "loggingDelete": {
       "content": "**Protokollierungskanal gelöscht**"
@@ -1764,24 +1775,24 @@
     "loggingHome": {
       "buttons": {
         "addChan": "Kanal hinzufügen",
-        "deleted": "Ausgewählt löschen"
+        "deleted": "Ausgewählte löschen"
       },
-      "title": "Protokollierungskanäle",
+      "title": "Protokollierung von Kanälen",
       "type": "**○ Protokolltyp:**",
       "nochans": "Noch keine Kanäle...",
-      "chan": "**○ Log-Kanal:**"
+      "chan": "**○ Protokollkanal:**"
     },
     "loggingNext": {
-      "title": "Protokollierungskanäle",
+      "title": "Protokollierung von Kanälen",
       "type": "**○ Protokolltyp:**",
       "nochans": "Noch keine Kanäle...",
-      "chan": "**○ Log-Kanal:**"
+      "chan": "**○ Protokollkanal:**"
     },
     "loggingSelectB": {
-      "provide": "Geben Sie einen Kanal an, über den diese Protokolle aufgerufen werden können.",
+      "provide": "Geben Sie einen Kanal für diese Protokolle an.",
       "cancel": "Abgebrochen.",
       "invalid": "**Ungültiger Kanal angegeben, versuchen Sie es erneut.**",
-      "created": "**Protokollierungskanal erstellt!**\n**Typ:**",
+      "created": "**Protokollierungskanal erstellt!**\n**Art:**",
       "channel": "**Kanal:**"
     },
     "marriageAcceptProposal": {
@@ -1789,7 +1800,7 @@
       "desc1": "Bitte geben Sie den Benutzer an, von dem Sie die Anfrage annehmen möchten.",
       "cancel": "Abgebrochen.",
       "self": "Du kannst dich selbst heiraten.",
-      "never": "Dieser Benutzer hat nie darum gebeten, Sie zu heiraten ...",
+      "never": "Dieser Benutzer hat nie darum gebeten, Sie zu heiraten...",
       "title": "💘 Glückwunsch!",
       "desc": "Ihr Heiratsantrag wurde angenommen von",
       "married": "Sie sind jetzt verheiratet mit"
@@ -1799,9 +1810,9 @@
       "desc": "Bitte geben Sie den Benutzer an, von dem Sie die Anfrage ablehnen möchten.",
       "cancel": "Abgebrochen.",
       "deny": "Du kannst dich selbst nicht verleugnen.",
-      "never": "Dieser Benutzer hat nie darum gebeten, Sie zu heiraten ...",
+      "never": "Dieser Benutzer hat nie darum gebeten, Sie zu heiraten...",
       "title": "😭 Es tut uns leid!",
-      "desc1": "Ihre Marriade-Anfrage wurde abgelehnt von",
+      "desc1": "Ihr Heiratsantrag wurde abgelehnt von",
       "denied": "Sie haben den Heiratsantrag dieses Benutzers abgelehnt."
     },
     "marriageDivorce": {
@@ -1812,15 +1823,15 @@
       "no": "Sie sind nicht mehr verheiratet."
     },
     "marriageSelect": {
-      "place": "Wählen Sie eine Option aus",
+      "place": "Wählen Sie eine Option",
       "buttons": {
         "request": {
-          "label": "💌 Senden Sie eine Anfrage",
+          "label": "💌 Anfrage senden",
           "desc": "Wenn Sie jemanden heiraten möchten."
         },
         "accept": {
           "label": "💍 Akzeptieren Sie einen Vorschlag",
-          "desc": "Jemand hat Sie gebeten, sie zu heiraten? Wirklich?"
+          "desc": "Jemand hat dich gebeten, sie zu heiraten? Wirklich?"
         },
         "deny": {
           "label": "😭 Ablehnen eines Vorschlags",
@@ -1828,27 +1839,27 @@
         },
         "divorce": {
           "label": "⚖️ Lassen Sie sich scheiden",
-          "desc": "Wer nimmt die Kinder mit? Weil ich es nicht sein werde."
+          "desc": "Wer nimmt die Kinder mit? Denn ich werde es nicht sein."
         }
       }
     },
     "marriageSendRequest": {
       "already": "Sie sind bereits verheiratet.",
-      "desc": "**Wen möchtest du heiraten?**\nBitte verwenden Sie das '@'-Symbol, um sie zu erwähnen.",
+      "desc": "**Wen würdest du gerne heiraten?**\nBitte verwenden Sie das '@'-Symbol, um sie zu erwähnen.",
       "cancel": "Abgebrochen.",
       "self": "Du kannst dich nicht selbst heiraten.",
-      "bot": "Sie können keinen Bot heiraten, PUNKT.",
+      "bot": "Du kannst keinen Bot heiraten, PUNKT.",
       "title": "💌 Heiratsantrag",
       "desc1": "hat darum gebeten, DICH zu heiraten!\n\nUm auf diese Anfrage zu antworten, gehen Sie zu",
-      "desc12": ", oder einem anderen Kanal in dieser Gilde, und führe '/marriage' aus, um die Anfrage zu verwalten.",
+      "desc12": ", oder einen anderen Kanal in dieser Gilde, und führen Sie '/marriage' aus, um die Anfrage zu verwalten.",
       "person": "Diese Person ist bereits verheiratet!",
-      "sent": "**Heiratsantrag gesendet.**\nSie haben 2 Minuten Zeit, um Ihren Heiratsantrag zu akzeptieren, bevor er abläuft.",
+      "sent": "** Heiratsantrag gesendet. **\nSie haben 2 Minuten Zeit, um Ihren Heiratsantrag anzunehmen, bevor er abläuft.",
       "expired": "Der Heiratsantrag, der an",
-      "expired2": "Abgelaufen.\nEs gibt viele in der 🐟 🌊 !"
+      "expired2": "Abgelaufen.\nEs gibt viele 🐟 in der 🌊 !"
     },
     "marriageSystem": {
       "con1": "Heirat",
-      "con2": " Ausstehende Heiratsanträge wurden entfernt."
+      "con2": " Anhängige Heiratsanträge wurden entfernt."
     },
     "musicPause": {
       "vc": "Sie müssen sich in einem Sprachkanal befinden.",
@@ -1861,7 +1872,7 @@
     "musicQueueClear": {
       "vc": "Sie müssen sich in einem Sprachkanal befinden.",
       "buttons": {
-        "label": "Warteschlange geleert"
+        "label": "Warteschlange gelöscht"
       },
       "cleared": "Musik gelöscht - "
     },
@@ -1872,7 +1883,7 @@
     "musicSkip": {
       "vc": "Sie müssen sich in einem Sprachkanal befinden.",
       "noSong": "Auf diesem Server wird keine Musik abgespielt.",
-      "noSongQueue": "Es gibt keine Songs mehr in der Warteschlange, zu denen Sie springen können.",
+      "noSongQueue": "Es gibt keine weiteren Songs in der Warteschlange, zu denen man springen kann.",
       "skipped": "Musik übersprungen - "
     },
     "musicStop": {
@@ -1884,7 +1895,7 @@
           "label": "Musik gestoppt"
         },
         "stopped": {
-          "label": "Besucht von:"
+          "label": "Vorbeischauen:"
         }
       },
       "vc": "Sie müssen sich in einem Sprachkanal befinden."
@@ -1907,9 +1918,9 @@
           "label": "Durchmischung"
         }
       },
-      "error": "Es ist ein Fehler aufgetreten...",
+      "error": "Ein Fehler ist aufgetreten...",
       "playSong": {
-        "playing": "Song-Spiel",
+        "playing": "Abspielen von Liedern",
         "name": "Name",
         "duration": "Dauer",
         "requestor": "Anforderer",
@@ -1932,12 +1943,12 @@
       },
       "searchResult": {
         "search": "Suchergebnisse",
-        "choose": "**Wählen Sie unten eine Option aus **",
+        "choose": "** Wählen Sie eine Option von unten**",
         "else": "Geben Sie etwas anderes ein oder warten Sie 60 Sekunden, um zu cance"
       },
       "iAnswer": {
         "invalid": "Ungültige Antwort",
-        "provided": "Ungültige Antwort für die Suche."
+        "provided": "Ungültige Antwort für die Suche bereitgestellt."
       }
     },
     "nextGuilds": {
@@ -1949,7 +1960,7 @@
       "guildId": "**○ Gilden-ID:**",
       "guildMembers": "**○ Gildenmitglieder:**",
       "guildOwnerTag": "**○ Gildenbesitzer-Tag:**",
-      "guildOwnerId": "**○ Gildenbesitzer ID:**"
+      "guildOwnerId": "**○ Gildenbesitzer-ID:**"
     },
     "permsAdd": {
       "place": "Wählen Sie den Typ der hinzuzufügenden Berechtigung aus.",
@@ -1960,7 +1971,7 @@
         },
         "mod": {
           "label": "👮‍♂️ Moderator",
-          "desc": "Fügen Sie eine Moderatorenrolle hinzu."
+          "desc": "Fügen Sie eine Moderatorrolle hinzu."
         },
         "filter": {
           "label": "❌ Filter",
@@ -1972,11 +1983,11 @@
         },
         "roles": {
           "label": "🎭 Selbstrollen",
-          "desc": "Fügen Sie eine Selbstrollen-Managerrolle hinzu."
+          "desc": "Fügen Sie eine Rolle für den Manager für Selbstrollen hinzu."
         },
         "sticky": {
-          "label": "🍯 Sticky Nachrichten",
-          "desc": "Fügen Sie eine Sticky-Message-Manager-Rolle hinzu."
+          "label": "🍯 Haftnachrichten",
+          "desc": "Fügen Sie eine Sticky Message Manager-Rolle hinzu."
         },
         "giveaway": {
           "label": "🎉 Giveaway-Manager",
@@ -1988,11 +1999,11 @@
         },
         "ticket": {
           "label": "🎟️ Ticket-Support",
-          "desc": "Fügen Sie eine Ticket-Support-Mitarbeiterrolle hinzu."
+          "desc": "Fügen Sie eine Rolle als Ticket-Support-Mitarbeiter hinzu."
         },
         "apps": {
           "label": "📜 Anträge",
-          "desc": "Fügen Sie eine Anwendungs-Manager-Rolle hinzu."
+          "desc": "Fügen Sie eine Anwendungsmanagerrolle hinzu."
         },
         "customers": {
           "label": "🛍️ Kundschaft",
@@ -2000,13 +2011,13 @@
         },
         "pingPrev": {
           "label": "🔕 Ping-Prävention",
-          "desc": "Fügen Sie eine Ping-Präventions-Admin- und Bypass-Rolle hinzu."
+          "desc": "Fügen Sie eine Ping-Präventions-Administrator- und Bypass-Rolle hinzu."
         }
       }
     },
     "permsBack": {
       "title": "Menü \"Berechtigungen\"",
-      "type": "**○ Perm Typ:**",
+      "type": "**○ Dauerwellentyp:**",
       "no": "Noch keine Dauerwellen...",
       "role": "**○ Rollen-ID:**"
     },
@@ -2016,34 +2027,34 @@
     "permsHome": {
       "buttons": {
         "add": "Berechtigung hinzufügen",
-        "delete": "Ausgewählt löschen"
+        "delete": "Ausgewählte löschen"
       },
       "title": "Menü \"Berechtigungen\"",
-      "type": "**○ Perm Typ:**",
+      "type": "**○ Dauerwellentyp:**",
       "no": "Noch keine Dauerwellen...",
       "role": "**○ Rollen-ID:**"
     },
     "permsNext": {
       "title": "Menü \"Berechtigungen\"",
-      "type": "**○ Perm Typ:**",
+      "type": "**○ Dauerwellentyp:**",
       "no": "Noch keine Dauerwellen...",
       "role": "**○ Rollen-ID:**"
     },
     "permsSelect": {
-      "provide": "Geben Sie eine Rolle an, die für diese Berechtigung zugewiesen/hinzugefügt werden soll.",
+      "provide": "Geben Sie eine Rolle an, die Sie für diese Berechtigung zuweisen/hinzufügen möchten.",
       "cancel": "Abbrechen",
       "Cancelled": "Abgebrochen.",
       "invalid": "**Ungültige Rolle angegeben, versuchen Sie es erneut.**",
       "created": "**Berechtigung erstellt!**",
-      "type": "**Typ:**",
+      "type": "**Art:**",
       "role": "**Rolle:**"
     },
     "pingPreventionAdd": {
       "already": "Ihr habt in dieser Gilde bereits eine Ping-Prävention eingerichtet.",
-      "color": "Bitte definieren Sie einen **color hex** für Ihre Ping-Präventionseinbettung.",
+      "color": "Bitte definieren Sie eine **Farbe hex** für Ihre Ping-Prävention Einbettung.",
       "cancel": "Abgebrochen.",
-      "provide": "**Bitte geben Sie ein Bild für die Einbettung an.**\nDer Link muss mit '.png', '.jpg', '.webp' usw. enden.\nGeben Sie 'skip' ein, um zu überspringen.",
-      "added": "**Ping-Prävention hinzugefügt!**"
+      "provide": "** Bitte geben Sie ein Bild für die Einbettung an. **\nDer Link muss auf \".png\", \".jpg\", \".webp\" usw. enden.\nGeben Sie 'skip' ein, um zu überspringen.",
+      "added": "** Ping-Prävention hinzugefügt! **"
     },
     "pingPreventionRemove": {
       "no": "Ihr habt keine Ping-Präventionsaufzeichnungen in dieser Gilde.",
@@ -2052,7 +2063,7 @@
     "punishBack": {
       "title": "Fallinformationen",
       "field1": "Fall-ID:",
-      "field2": "Gehäusetyp:",
+      "field2": "Falltyp:",
       "field3": "Vollstrecker:",
       "field4": "Benutzer:",
       "field5": "Grund:",
@@ -2061,7 +2072,7 @@
     "punishNext": {
       "title": "Fallinformationen",
       "field1": "Fall-ID:",
-      "field2": "Gehäusetyp:",
+      "field2": "Falltyp:",
       "field3": "Vollstrecker:",
       "field4": "Benutzer:",
       "field5": "Grund:",
@@ -2070,12 +2081,12 @@
     "reviewReply": {
       "cancel": "Abgebrochen.",
       "field": "Antwort des Personals",
-      "added": "**Bewertung hinzugefügt!**"
+      "added": "** Rezension hinzugefügt! **"
     },
     "selfRolesAdd": {
-      "provide": "Bitte geben Sie einen Namen für dieses Selbstrollen-Panel an.",
+      "provide": "Geben Sie einen Namen für dieses Bedienfeld \"Selbstrollen\" ein.",
       "cancel": "Abgebrochen.",
-      "created": "**Selbstrollen-Menü erstellt!**"
+      "created": "**Self Roles Menü erstellt!**"
     },
     "selfRolesBack": {
       "title": "Selbstrollenmenüs",
@@ -2083,12 +2094,12 @@
       "noMenus": "Noch keine Menüs..."
     },
     "selfRolesDelete": {
-      "unable": "Ich konnte mit dieser ID kein Selbstrollenmenü finden.",
-      "deleted": "**Selbstrollen-Menü gelöscht!**"
+      "unable": "Ich konnte kein Selbstrollenmenü mit dieser ID finden.",
+      "deleted": "** Menü \"Selbstrollen\" gelöscht!"
     },
     "selfRolesGoHome": {
       "addMenu": "Menü hinzufügen",
-      "delete": "Ausgewählt löschen",
+      "delete": "Ausgewählte löschen",
       "roleManager": "Rollen-Manager",
       "postPanel": "Post-Panel",
       "title": "Selbstrollenmenüs",
@@ -2097,7 +2108,7 @@
     },
     "selfRolesManager": {
       "addRole": "Rolle hinzufügen",
-      "delete": "Ausgewählt löschen",
+      "delete": "Ausgewählte löschen",
       "no": "Es gibt keine Rollenmenüs für diese Gilde.",
       "title": "Selbstrollenmenüs",
       "menuName": "**○ Menüname:**",
@@ -2107,7 +2118,7 @@
       "noMenus": "Noch keine Menüs..."
     },
     "selfRolesManagerAdd": {
-      "provide": "Geben Sie eine Rolle an, die dem Panel hinzugefügt werden soll.",
+      "provide": "Bitte geben Sie eine Rolle an, die Sie dem Panel hinzufügen möchten.",
       "cancel": "Abgebrochen.",
       "provide2": "Bitte geben Sie eine gültige Rolle an.",
       "created": "**Selbstrolle erstellt!**"
@@ -2142,11 +2153,11 @@
     "selfRolesPost": {
       "unable": "Ich konnte das ausgewählte Panel nicht finden.",
       "unable2": "Ich war nicht in der Lage, irgendwelche Selbstrollen in diesem Panel zu finanzieren.",
-      "desc": "Wählen Sie eine Rolle aus, um sie zu Ihren Rollen hinzuzufügen oder daraus zu entfernen.",
+      "desc": "Wählen Sie eine Rolle aus, um sie Ihren Rollen hinzuzufügen oder daraus zu entfernen.",
       "place": "Wählen Sie eine Rolle aus.",
-      "provide": "Bitte geben Sie einen Kanal an, über den Sie das Panel veröffentlichen können.",
+      "provide": "Bitte geben Sie einen Kanal an, auf dem Sie das Panel veröffentlichen können.",
       "cancel": "Abgebrochen.",
-      "valid": "Bitte geben Sie einen gültigen Kanal an, über den das Panel gepostet werden kann.",
+      "valid": "Bitte geben Sie einen gültigen Kanal an, auf dem das Panel gepostet werden soll.",
       "posted": "**Panel gepostet!**"
     },
     "settingsBaseAutorole": {
@@ -2157,60 +2168,62 @@
       "disable": "Arbeitsunfähig",
       "addRole": "Rolle hinzufügen",
       "removeRole": "Rolle entfernen",
-      "no": "Derzeit gibt es keine automatischen Rollen.",
-      "title": "Automatisches Rollensystem",
+      "no": "Derzeit gibt es keine Autorollen.",
+      "title": "Auto-Rollensystem",
       "role": "**Rolle:**",
       "verification": "**Verifizierung?**",
       "desc": ""
     },
     "settingsBaseAutoroleAdd": {
-      "mention": "Bitte erwähnen Sie die Rolle oder geben Sie eine hinzuzufügende Rollen-ID an.",
-      "q": "Möchten Sie, dass diese Rolle gegeben wird, wenn sie beitreten oder wenn sie sich verifizieren?\n\n**1.** Rolle geben, wenn sie beitreten\n**2.** Geben Sie Rolle an, wenn sie verifizieren",
+      "mention": "Bitte erwähnen Sie die Rolle oder geben Sie eine Rollen-ID an, die Sie hinzufügen möchten.",
+      "q": "Möchten Sie, dass diese Rolle gegeben wird, wenn sie beitreten oder wenn sie überprüfen?\n\n**1.** Geben Sie eine Rolle, wenn sie beitreten\n**2.** Geben Sie eine Rolle an, wenn sie verifizieren",
       "cancel": "Abgebrochen.",
-      "provide": "Bitte geben Sie eine gültige Rolle an. \n\"VORGANG ABGEBROCHEN\"",
-      "provide1": "Bitte geben Sie eine gültige Option an. \n\"VORGANG ABGEBROCHEN\"",
-      "added": "**Autorolle hinzugefügt!**"
+      "provide": "Bitte geben Sie eine gültige Rolle an. \n\"PROZESS ABGEBROCHEN\"",
+      "provide1": "Bitte geben Sie eine gültige Option an. \n\"PROZESS ABGEBROCHEN\"",
+      "added": "**Autorole hinzugefügt!**"
     },
     "settingsBaseAutoroleBack": {
-      "no": "Derzeit gibt es keine automatischen Rollen.",
-      "title": "Automatisches Rollensystem",
+      "no": "Derzeit gibt es keine Autorollen.",
+      "title": "Auto-Rollensystem",
       "role": "**Rolle:**",
-      "noRoles": "Derzeit gibt es keine automatischen Rollen.",
+      "noRoles": "Derzeit gibt es keine Autorollen.",
       "verification": "**Verifizierung?**"
     },
     "settingsBaseAutoroleDelete": {
       "no": "Es gibt keine Autorollen für diese Gilde.",
-      "removed": "**Autorolle entfernt**"
+      "removed": "**Autorole entfernt**"
     },
     "settingsBaseAutoroleNext": {
-      "no": "Derzeit gibt es keine automatischen Rollen.",
-      "title": "Automatisches Rollensystem",
+      "no": "Derzeit gibt es keine Autorollen.",
+      "title": "Auto-Rollensystem",
       "role": "**Rolle:**",
-      "noRoles": "Derzeit gibt es keine automatischen Rollen.",
+      "noRoles": "Derzeit gibt es keine Autorollen.",
       "verification": "**Verifizierung?**"
     },
     "settingsBaseCashappUpdate": {
       "provide": "Bitte geben Sie einen neuen Link für diese Zahlungsmethode an.\nGeben Sie 'false' ein, um es zu deaktivieren.",
       "cancel": "Abgebrochen.",
-      "updated": "**Zahlungslink aktualisiert**"
+      "updated": "** Zahlungslink aktualisiert **"
     },
     "settingsBaseCustomUpdate": {
       "provide": "Bitte geben Sie einen neuen Link für diese Zahlungsmethode an.\nGeben Sie 'false' ein, um es zu deaktivieren.",
       "cancel": "Abgebrochen.",
-      "updated": "**Zahlungslink aktualisiert**"
+      "updated": "** Zahlungslink aktualisiert **"
     },
     "settingsBaseGeneralSettings": {
       "options": "Optionen:",
       "updateTheme": "Designfarbe aktualisieren",
-      "updateMuted": "Aktualisieren der stummgeschalteten Rolle",
-      "updateTos": "Aktualisieren des Inhaltslinks",
-      "maxTickets": "Max. Tickets",
+      "updateMuted": "Stummgeschaltete Rolle aktualisieren",
+      "updateTos": "Link zum Aktualisieren von ToS",
+      "maxTickets": "Max Tickets",
       "payment": "Zahlung:",
       "paypal": "PayPal",
-      "cashapp": "Cash-App",
+      "cashapp": "Cash App",
       "customLink": "Benutzerdefinierter Link",
-      "imageUrls": "Bild-URLs:",
-      "card": "Beitreten/Verlassen der Karte"
+      "moreSettings": "Sonstiges:",
+      "card": "Join/Leave Card",
+      "privateVCBtn": "Private VC-Erstellung",
+      "privateVCCatBtn": "Private VC Kategorie"
     },
     "settingsBaseLeave": {
       "options": "Optionen:",
@@ -2219,39 +2232,39 @@
       "card": "Karte"
     },
     "settingsBaseMaxTickets": {
-      "provide": "Bitte geben Sie die Anzahl der maximal geöffneten Tickets an, die ein Benutzer gleichzeitig geöffnet haben kann.",
+      "provide": "Bitte geben Sie die Anzahl der maximalen Tickets an, die ein Benutzer gleichzeitig geöffnet haben kann.",
       "cancel": "Abgebrochen.",
       "valid": "Bitte geben Sie eine **GÜLTIGE** Nummer an.",
-      "updated": "Maximale Anzahl aktualisierter Tickets"
+      "updated": "Max. Tickets aktualisiert"
     },
     "settingsBaseMuteRoleUpdate": {
       "mention": "Bitte erwähnen Sie die Rolle, die Sie Benutzern zuweisen möchten, wenn sie stummgeschaltet werden.",
       "cancelled": "Abgebrochen.",
-      "valid": "Geben Sie eine gültige Stummschaltungsrolle an.",
-      "updated": "**Stummschaltung der Rolle aktualisiert**"
+      "valid": "Bitte geben Sie eine gültige Stummschaltung an.",
+      "updated": "**Rolle stummschalten aktualisiert**"
     },
     "settingsBasePanelVerifyPost": {
-      "provide": "Bitte geben Sie einen Kanal an, über den Sie das Panel veröffentlichen können.",
+      "provide": "Bitte geben Sie einen Kanal an, auf dem Sie das Panel veröffentlichen können.",
       "cancelled": "Abgebrochen.",
       "valid": "Bitte geben Sie einen gültigen Kanal an.",
       "verify": "Überprüfen",
       "verification": "Verifizierung",
-      "please": "Bitte überprüfen Sie sich, indem Sie den **Button** unter dieser Nachricht drücken. Dies wird bestätigen, dass Sie die Regeln gelesen und akzeptiert haben, sowie dass Sie ein Mensch sind.",
-      "posted": "**Verifizierungspanel veröffentlicht**"
+      "please": "Bitte verifizieren Sie sich, indem Sie den **Button** unter dieser Nachricht drücken. Dies wird bestätigen, dass Sie die Regeln gelesen und akzeptiert haben, sowie dass Sie ein Mensch sind.",
+      "posted": "** Verifizierungspanel veröffentlicht **"
     },
     "settingsBasePaypalUpdate": {
       "new": "Bitte geben Sie einen neuen Link für diese Zahlungsmethode an.\nGeben Sie 'false' ein, um es zu deaktivieren.",
       "cancelled": "Abgebrochen.",
-      "set": "**Zahlungslink aktualisiert**"
+      "set": "** Zahlungslink aktualisiert **"
     },
     "settingsBaseSelect": {
-      "ERROR": "Dieses Panel verwendet keine Sprachfunktionen."
+      "ERROR": "Dieses Panel verwendet keine Sprachfunktionen aktiv."
     },
     "settingsBaseThemeColorUpdate": {
-      "provide": "Bitte geben Sie eine neue **__COLOR HEX__** an, die der Bot als Themenfarbe verwenden kann.\n**Ex:** '#FFFFFF'\n\nFarbwähler: <https://htmlcolorcodes.com/color-picker/>",
-      "valid": "Bitte geben Sie eine gültige **__COLOR HEX__** an.\n**Ex:** '#FFFFFF'\n\nFarbwähler: <https://htmlcolorcodes.com/color-picker/>",
+      "provide": "Bitte geben Sie ein neues **__COLOR HEX__** an, das der Bot als Designfarbe verwenden kann.\n** Beispiel: ** \"#FFFFFF\"\n\nFarbwähler: <https://htmlcolorcodes.com/color-picker/>",
+      "valid": "Bitte geben Sie einen gültigen **__COLOR HEX__** an.\n** Beispiel: ** \"#FFFFFF\"\n\nFarbwähler: <https://htmlcolorcodes.com/color-picker/>",
       "cancelled": "Abgebrochen.",
-      "updated": "** Theme-Farbe aktualisiert **"
+      "updated": "** Designfarbe aktualisiert **"
     },
     "settingsBaseToggleAutorole": {
       "add": "Rolle hinzufügen",
@@ -2262,17 +2275,17 @@
     "settingsBaseToggleCaptcha": {
       "verification": "Verifizierung",
       "captcha": "Captcha",
-      "post": "Post-A-Panel"
+      "post": "Posten eines Panels"
     },
     "settingsBaseToggleVerify": {
       "buttons": {
         "verify": "Verifizierung",
         "captcha": "Captcha",
-        "post": "Post-A-Panel"
+        "post": "Posten eines Panels"
       }
     },
     "settingsBaseToSUpdate": {
-      "please": "Bitte geben Sie einen neuen ToS-Link an, auf den Sie aktualisieren können.",
+      "please": "Geben Sie einen neuen ToS-Link zum Aktualisieren an.",
       "cancelled": "Abgebrochen.",
       "valid": "Bitte fügen Sie einen gültigen ToS-Link hinzu.\nMuss beginnen mit: \"http://\"",
       "updated": "**ToS-Link aktualisiert**"
@@ -2281,17 +2294,28 @@
       "buttons": {
         "verify": "Verifizierung",
         "captcha": "Captcha",
-        "post": "Post-A-Panel"
+        "post": "Posten eines Panels"
       }
     },
     "settingsBaseWelcomeCardUpdate": {
-      "please": "** Bitte geben Sie einen Bildlink für die Hintergrund-URL der Karte an.**\n'Hinweis:' Der Bildlink muss auf '.png', '.jpg', '.webp' usw. enden.",
+      "please": "** Bitte geben Sie einen Bildlink für die Hintergrund-URL der Karte an. **\n'Hinweis:' Der Bildlink muss auf '.png', '.jpg', '.webp' usw. enden.",
       "cancelled": "Abgebrochen.",
-      "updated": "**Welcome Card aktualisiert**"
+      "updated": "** Willkommenskarte aktualisiert **"
+    },
+    "settingsBasePrivateVCUpdate": {
+      "please": "** Bitte geben Sie einen Sprachkanal an, damit die Benutzer beitreten können, um einen privaten VC zu erstellen. **",
+      "cancelled": "Abgebrochen.",
+      "updated": "** Privater VC-Kanal aktualisiert **",
+      "valid": "Bitte geben Sie einen gültigen Sprachkanal an."
+    },
+    "settingsBasePrivateVCCatUpdate": {
+      "please": "**Bitte geben Sie eine Kategorie-ID an, an die die privaten VC-Kanäle gesendet werden sollen.**",
+      "cancelled": "Abgebrochen.",
+      "updated": "** Private VC Kategorie aktualisiert **"
     },
     "settingsFunAutoReact": {
       "next": "Nächste Seite",
-      "back": "Rückseite",
+      "back": "Zurück",
       "add": "Antwort hinzufügen",
       "title": "Automatische Reaktionen",
       "channel": "**Kanal:**",
@@ -2300,11 +2324,11 @@
       "emoji": "Emoji nicht gesetzt..."
     },
     "settingsFunAutoreactAdd": {
-      "please": "Bitte geben Sie den Kanal an, den der Bot für Reaktionen hören soll.",
+      "please": "Bitte geben Sie den Kanal an, auf den der Bot hören soll, um Reaktionen zu erhalten.",
       "cancelled": "Abgebrochen.",
-      "provide": "Bitte geben Sie an, worauf der Bot jetzt reagieren soll, wenn er eine Nachricht in diesem Kanal hört.\n**Hinweis:** Sie müssen das Emoji in einen Codeblock einfügen, z. B. \":monkey_face:\"",
+      "provide": "Bitte geben Sie an, womit der Bot nun reagieren soll, wenn er eine Nachricht in diesem Kanal hört.\n** Hinweis: ** Sie müssen das Emoji in einen Codeblock einfügen, z. B. ':monkey_face:'",
       "valid": "Bitte geben Sie einen gültigen Kanal an.",
-      "added": "**Automatische Reaktion hinzugefügt**"
+      "added": "**Auto-Reaktion hinzugefügt**"
     },
     "settingsFunAutoreactBack": {
       "title": "Automatische Reaktionen",
@@ -2314,7 +2338,7 @@
       "emoji": "Emoji nicht gesetzt..."
     },
     "settingsFunAutoreactDelete": {
-      "no": "Für diese Gilde sind keine automatischen Reaktionen festgelegt.",
+      "no": "Es gibt keine automatischen Reaktionen für diese Gilde.",
       "deleted": "**Automatische Reaktion gelöscht**"
     },
     "settingsFunAutoreactNext": {
@@ -2325,7 +2349,7 @@
       "emoji": "Emoji nicht gesetzt..."
     },
     "settingsFunAutoRespond": {
-      "back": "Rückseite",
+      "back": "Zurück",
       "next": "Nächste Seite",
       "add": "Antwort hinzufügen",
       "title": "Automatische Antworten",
@@ -2337,7 +2361,7 @@
     "settingsFunAutorespondAdd": {
       "please": "Bitte geben Sie die Wörter an, auf die der Bot hören soll, bevor er antwortet.",
       "cancelled": "Abgebrochen.",
-      "provide": "Bitte geben Sie an, womit der Bot jetzt antworten soll, wenn er eine Nachricht hört, die diesen Inhalt enthält.",
+      "provide": "Bitte geben Sie an, womit der Bot jetzt antworten soll, wenn er eine Nachricht mit diesem Inhalt hört.",
       "added": "**Automatische Antwort hinzugefügt**"
     },
     "settingsFunAutorespondBack": {
@@ -2348,7 +2372,7 @@
       "none": "Keine gesetzt..."
     },
     "settingsFunAutorespondDelete": {
-      "no": "Für diese Gilde gibt es keine automatischen Antworten.",
+      "no": "Es gibt keine automatischen Antworten für diese Gilde.",
       "deleted": "**Automatische Antwort gelöscht**"
     },
     "settingsFunAutorespondNext": {
@@ -2359,83 +2383,83 @@
       "none": "Keine gesetzt..."
     },
     "settingsFunBirthdays": {
-      "clear": "Löschen von Geburtstagsdaten",
+      "clear": "Geburtstagsdaten löschen",
       "cleared": "Geburtstagsdaten gelöscht"
     },
     "settingsFunClearLevelData": {
-      "clear": "Clear im Urlaub",
-      "cleared": "Leveldaten gelöscht",
-      "level": "Niveausystem"
+      "clear": "Clear On Urlaub",
+      "cleared": "Füllstandsdaten gelöscht",
+      "level": "Level-System"
     },
     "settingsFunEconomy": {
       "back": "Zurück Artikel",
-      "next": "Nächster Artikel",
+      "next": "Nächster Eintrag",
       "add": "Shop-Artikel hinzufügen",
       "currency": "Währung",
       "clear": "Alle Daten löschen",
       "cleared": "Alle Daten gelöscht",
-      "cooldowns": "Abklingzeiten:",
+      "cooldowns": "Abklingzeit:",
       "work": "Arbeit",
       "crime": "Verbrechen",
       "rob": "Rauben",
       "economy": "Economy-Einstellungen",
-      "currency2": "** Währung: **",
+      "currency2": "**Währung:**",
       "shop": "** Shop-Artikel-Info: **",
-      "id": "**○ ID:**",
+      "id": "**○ Id:**",
       "no": "Keine aktuellen Shop-Artikel...",
       "name": "**○ Name:**",
       "price": "**○ Preis:**"
     },
     "settingsFunEconomyWork": {
-      "text": "In dieser Gilde wurde die 2-stündige Arbeitsabklingzeit für alle Benutzer zurückgesetzt."
+      "text": "2 Stunden Abklingzeit für alle Benutzer wurde in dieser Gilde zurückgesetzt."
     },
     "settingsFunEconomyAdd": {
       "p": "Bitte geben Sie den Namen des Produkts an.",
       "c": "Abgebrochen.",
-      "price": "Bitte geben Sie einen Preis für diesen Artikel an.\n**Ex:** '10'",
-      "price1": "Bitte geben Sie einen gültigen Preis an.\n**Ex:** '10'",
+      "price": "Bitte geben Sie einen Preis für diesen Artikel an.\n** Beispiel: ** '10'",
+      "price1": "Bitte geben Sie einen gültigen Preis an.\n** Beispiel: ** '10'",
       "added": "'**Shop-Artikel hinzugefügt**",
-      "title": " - Erstellter Artikel",
+      "title": " - Erstellter Gegenstand",
       "item": "Artikel",
       "Price": "Preis"
     },
     "settingsFunEconomyCrime": {
-      "a": "In dieser Gilde wurde der 2-stündige Kriminal-Cooldown für alle Benutzer zurückgesetzt."
+      "a": "2 Stunden Verbrechensabklingzeit für alle Benutzer wurde in dieser Gilde zurückgesetzt."
     },
     "settingsFunEconomyCurrency": {
-      "a": "Bitte gebt die Währung für diese Gilde an.\n**Hinweis:** Sie müssen es in Codeblockform bereitstellen, z. B. \":moneybag:\"",
+      "a": "Bitte geben Sie die Währung für diese Gilde an.\n** Hinweis: ** Sie müssen es in Codeblockform wie ':moneybag:' bereitstellen.",
       "c": "Abgebrochen.",
       "u": "**Währung aktualisiert!**"
     },
     "settingsFunEconomyDelete": {
-      "a": "Es gibt keine Shop-Artikel in dieser Gilde.",
+      "a": "In dieser Gilde gibt es keine Shop-Gegenstände.",
       "d": "**Shop-Artikel gelöscht**",
       "title": "Gelöschtes Element",
       "i": "Artikel"
     },
     "settingsFunEconomyRob": {
-      "a": "In dieser Gilde wurde die 2-stündige Rob-Abklingzeit für alle Benutzer zurückgesetzt."
+      "a": "2 Stunden Rob-Abklingzeit für alle Benutzer wurde in dieser Gilde zurückgesetzt."
     },
     "settingsFunLevelSystem": {
       "c": "Klare Füllstandsdaten",
-      "l": "Niveausystem",
-      "cL": "Clear im Urlaub"
+      "l": "Level-System",
+      "cL": "Clear On Urlaub"
     },
     "settingsFunToggleLevelKick": {
       "a": "🏠 Geh nach Hause",
       "b": "Umschalten:",
       "c": "Einstellungen:",
       "d": "Klare Füllstandsdaten",
-      "e": "Niveausystem",
-      "f": "Clear im Urlaub"
+      "e": "Level-System",
+      "f": "Clear On Urlaub"
     },
     "settingsFunToggleLevelSystem": {
       "a": "🏠 Geh nach Hause",
       "b": "Umschalten:",
       "c": "Einstellungen:",
       "d": "Klare Füllstandsdaten",
-      "e": "Niveausystem",
-      "f": "Clear im Urlaub"
+      "e": "Level-System",
+      "f": "Clear On Urlaub"
     },
     "settingsSecurityAltPrevention": {
       "a": "Umschalten:",
@@ -2443,40 +2467,40 @@
       "c": "Alter des Kontos"
     },
     "settingsSecurityAltPrevTime": {
-      "a": "Bitte geben Sie ein Mindestalter für ein neues Konto an.\nEx: 30d = 30 Tage.",
+      "a": "Bitte geben Sie ein Mindestalter für ein neues Konto an.\nBeispiel: 30d = 30 Tage.",
       "b": "Abgebrochen.",
       "c": "**Kontoalter aktualisiert**"
     },
     "settingsSecurityFilter": {
       "a": "Steuerung:",
-      "b": "Rückseite",
+      "b": "Zurück",
       "c": "Nächste Seite",
       "d": "Optionen:",
       "e": "Filter hinzufügen",
-      "f": "Ausgewählt löschen",
+      "f": "Ausgewählte löschen",
       "g": "Sicherheitsfilter",
       "h": "**Inhalt:**",
-      "i": "Keine aktuellen Filter..."
+      "i": "Keine Stromfilter..."
     },
     "settingsSecuirtyFilterAdd": {
-      "a": "Bitte geben Sie das Wort / den Link an, den Sie auf die schwarze Liste setzen möchten.",
+      "a": "Bitte geben Sie das Wort / den Link an, das Sie auf die schwarze Liste setzen möchten.",
       "b": "Abgebrochen.",
       "c": "**Filter hinzugefügt**"
     },
     "settingsSecurityFilterBack": {
       "a": "Sicherheitsfilter",
       "b": "**Inhalt:**",
-      "c": "Keine aktuellen Filter..."
+      "c": "Keine Stromfilter..."
     },
     "settingsSecurityFilterDelete": {
-      "a": "Für diese Gilde sind keine Filter eingestellt.",
+      "a": "Es gibt keine Filter für diese Gilde.",
       "b": "Dieser Filter existiert nicht.",
       "c": "**Filter gelöscht**"
     },
     "settingsSecurityFilterNext": {
       "a": "Sicherheitsfilter",
       "b": "**Inhalt:**",
-      "c": "Keine aktuellen Filter..."
+      "c": "Keine Stromfilter..."
     },
     "settingsSecuritySelect": {
       "a": "🏠 Geh nach Hause:"
@@ -2495,48 +2519,48 @@
     "settingsSecurityToggleLockdown": {
       "a": "🏠 Geh nach Hause",
       "b": "Umschalten:",
-      "c": "Server-Sperre",
-      "d": "Server-Sperre umgeschaltet!",
+      "c": "Serversperre",
+      "d": "Serversperre umgeschaltet!",
       "e": "Benutzer:",
       "f": "Umgeschaltet:",
-      "g": "Server-Sperre"
+      "g": "Serversperre"
     },
     "settingsSelect": {
       "a": "🏠 Geh nach Hause",
       "b": "👓 Allgemeine Einstellungen",
       "c": "🟢 Willkommensmodul",
-      "d": "🔴 Leave Modul",
+      "d": "🔴 Modul verlassen",
       "e": "🗝️ Verifizierung",
-      "f": "👋 Autorolle",
+      "f": "👋 Autorole",
       "g": "👻 Alt-Prävention",
-      "h": "🔒 Server-Sperrung",
+      "h": "🔒 Serversperre",
       "i": "❌ Filtersystem",
-      "j": "📊 Niveausystem",
+      "j": "📊 Level-System",
       "k": "🎉 Geburtstage",
       "l": "💰 Wirtschaft",
       "m": "🎯 Automatische Reaktion",
       "n": "🦜 Automatische Reaktion",
-      "o": "Ändere die allgemeinen Einstellungen für diese Gilde.',",
+      "o": "Ändern Sie die allgemeinen Einstellungen für diese Gilde.\"",
       "p": "Ändern Sie das Willkommensmodul für diese Gilde.",
-      "q": "Ändern Sie das Leave-Modul für diese Gilde.",
-      "r": "Ändern Sie das Verifizierungsmodul für diese Gilde.",
+      "q": "Wechseln Sie das Urlaubsmodul für diese Gilde.",
+      "r": "Verifizierungsmodul für diese Gilde ändern.",
       "s": "Ändern Sie das Autorollenmodul für diese Gilde.",
-      "t": "Ändern Sie das Alt-Prevention-System.",
+      "t": "Ändern Sie das Alt-Präventionssystem.",
       "u": "Ändern Sie den Serversperrmodus.",
       "v": "Ändern Sie das Filtersystem.",
-      "w": "Verändere das Levelsystem für diese Gilde.",
+      "w": "Ändere das Levelsystem für diese Gilde.",
       "x": "Ändern Sie das Geburtstagsmodul für diese Gilde.",
-      "y": "Ändern Sie das Economy-Modul für diese Gilde.",
+      "y": "Verändere das Economy-Modul für diese Gilde.",
       "z": "Ändern Sie das Auto-React-Modul für diese Gilde.",
-      "aa": "Ändern Sie das automatische Antwortmodul für diese Gilde.",
+      "aa": "Automatisches Antwortmodul für diese Gilde ändern.",
       "ab": "Wählen Sie eine Basiseinstellungsoption aus.",
       "ac": "Wählen Sie eine Option für Sicherheitseinstellungen aus.",
       "ad": "Wählen Sie eine Option für lustige Einstellungen aus."
     },
     "shopSelect": {
-      "a": "Dieser Artikel befindet sich nicht im Shop.",
+      "a": "Dieser Artikel ist nicht im Shop.",
       "b": "Sie haben nicht genug Geld, um diesen Artikel zu kaufen.",
-      "c": "hat **1** gekauft",
+      "c": "hat gekauft **1**",
       "d": "Gekaufter Artikel",
       "e": "Artikel",
       "f": "Preis",
@@ -2544,47 +2568,47 @@
     },
     "stickyAdd": {
       "a": "Abgebrochen.",
-      "b": "Dieser Kanal hat bereits eine klebrige Nachricht.\nBitte versuchen Sie es erneut.",
-      "c": "Bitte geben Sie ein, was die Sticky-Nachricht sagen soll.",
+      "b": "Dieser Kanal hat bereits eine Sticky-Nachricht.\nBitte versuchen Sie es erneut.",
+      "c": "Bitte geben Sie ein, was in der Haftnachricht stehen soll.",
       "d": "Bitte geben Sie einen gültigen Kanal an.",
-      "e": "**Haftnachricht erstellt!**"
+      "e": "** Haftnachricht erstellt! **"
     },
     "stickyRemove": {
       "a": "Es gibt keine klebrigen Nachrichten in dieser Gilde.",
       "b": "Bitte definieren Sie den Kanal, aus dem die Sticky-Nachricht entfernt werden soll.",
       "c": "Abgebrochen.",
       "d": "Bitte geben Sie einen gültigen Kanal an.",
-      "e": "**Sticky Nachricht entfernt!**",
-      "f": "Dieser Kanal hat keine klebrige Nachricht.\nBitte versuchen Sie es erneut."
+      "e": "**Sticky Message entfernt!**",
+      "f": "Dieser Kanal hat keine Sticky-Nachricht.\nBitte versuchen Sie es erneut."
     },
     "ticketAdd": {
-      "a": "Bitte geben Sie einen Namen für dieses Ticket-Panel an",
+      "a": "Bitte geben Sie einen Namen für dieses Ticketfeld an.",
       "b": "Abgebrochen.",
-      "c": "Bitte geben Sie eine Beschreibung für dieses Ticket-Panel an.",
-      "d": "Bitte geben Sie eine Kategorie \"Id\" für Tickets an, zu denen Sie gehen können.",
+      "c": "Bitte geben Sie eine Beschreibung für dieses Ticketfeld an.",
+      "d": "Bitte geben Sie eine Kategorie 'ID' für Tickets an.",
       "e": "**Panel erstellt!**"
     },
     "ticketAddUser": {
       "a": "Sie können diesen Befehl nur in einem Ticketkanal verwenden!",
       "b": "Bitte geben Sie den Benutzer an, den Sie dem Ticket hinzufügen möchten.",
       "c": "Abgebrochen.",
-      "d": "Bitte geben Sie einen gültigen Benutzer an, der zu diesem Ticket hinzugefügt werden soll.",
+      "d": "Bitte geben Sie einen gültigen Benutzer an, um dieses Ticket hinzuzufügen.",
       "e": "wurde zu diesem Ticket hinzugefügt."
     },
     "ticketBack": {
       "a": "Ticket-Panels",
-      "b": "**○ Name des Panels:**",
+      "b": "**○ Panel-Name:**",
       "c": "Noch keine Panels...",
       "d": "**○ Panel-Beschreibung:**",
       "e": "N/A"
     },
     "ticketClaim": {
-      "a": "Dies kann nur innerhalb eines Ticketkanals erfolgen.",
+      "a": "Dies ist nur innerhalb eines Ticketkanals möglich.",
       "b": "🔒 Ticket schließen",
       "c": "✏️ Ticket umbenennen",
       "d": "📥 Benutzer hinzufügen",
       "e": "📤 Benutzer entfernen",
-      "f": "🤝 Reklamiert von",
+      "f": "🤝 Beansprucht von",
       "g": "Beansprucht von:"
     },
     "ticketClose": {
@@ -2595,7 +2619,7 @@
       "e": "Unbekannt",
       "f": "Ticket geschlossen",
       "g": "Ticket-ID",
-      "h": "Abschließendes Mitglied",
+      "h": "Schließendes Mitglied",
       "i": "Mitglieder im Ticket",
       "j": "Gremium"
     },
@@ -2605,24 +2629,24 @@
     },
     "ticketNext": {
       "a": "Ticket-Panels",
-      "b": "**○ Name des Panels:**",
+      "b": "**○ Panel-Name:**",
       "c": "Noch keine Panels...",
       "d": "**○ Panel-Beschreibung:**",
       "e": "N/A"
     },
     "ticketPanelPost": {
       "a": "Diese Gilde hat noch keine Ticketkategorien eingerichtet.",
-      "b": "Ticketkategorien",
-      "c": "Hier sind die Ticketkategorien für diese Gilde. Wählen Sie eines aus, um ein Ticket in dieser Kategorie zu öffnen.",
+      "b": "Ticket-Kategorien",
+      "c": "Hier sind die Ticketkategorien für diese Gilde. Wählen Sie eines aus, um ein Ticket in dieser Kategorie zu eröffnen.",
       "d": "Ticketsystem",
       "e": "Wählen Sie eine Ticketkategorie aus.",
       "f": "Abgebrochen",
       "g": "Bitte geben Sie einen gültigen Kanal an.",
-      "h": "**Ticket-Panel veröffentlicht!**",
-      "i": "Bitte geben Sie einen Kanal an, über den Sie das Panel veröffentlichen können."
+      "h": "**Ticket-Panel gepostet!**",
+      "i": "Bitte geben Sie einen Kanal an, auf dem Sie das Panel veröffentlichen können."
     },
     "ticketremove": {
-      "a": "Sie können diesen Befehl nur in einem Ticketkanal verwenden!',",
+      "a": "Sie können diesen Befehl nur in einem Ticketkanal verwenden!\"",
       "b": "Bitte geben Sie den Benutzer an, den Sie aus dem Ticket entfernen möchten.",
       "c": "Abgebrochen.",
       "d": "Bitte geben Sie einen gültigen Benutzer an, der von diesem Ticket entfernt werden soll.",
@@ -2630,20 +2654,20 @@
     },
     "ticketrename": {
       "a": "Sie können diesen Befehl nur in einem Ticketkanal verwenden!",
-      "b": "Bitte geben Sie den Namen an, auf den das Ticket eingestellt werden soll.",
+      "b": "Bitte geben Sie den Namen an, auf den das Ticket gesetzt werden soll.",
       "c": "Abgebrochen.",
       "d": "**Ticket umbenannt!**"
     },
     "ticketselect": {
       "catna": "Diese Ticketkategorie existiert nicht.",
-      "content1": "Möglicherweise haben Sie nur **",
-      "content2": "Ticket(s)** Jeweils geöffnet.",
-      "notpset": "Es sind noch keine Ticket-Support-Dauerwellen eingerichtet.",
+      "content1": "Sie dürfen nur **",
+      "content2": "Ticket(s)** gleichzeitig geöffnet.",
+      "notpset": "Es sind noch keine Ticket-Support-Perms eingerichtet.",
       "nocreate": "**Ich konnte dieses Ticket nicht erstellen.**",
       "closetick": "🔒 Ticket schließen",
-      "opened1": "**Geöffnet von:**",
-      "opened2": "Bitte beschreiben Sie unter dieser Nachricht Ihren Grund für das Öffnen dieses Tickets.",
-      "opener": "**Geöffnet von:** '${interaction.user.tag}'\n\nBitte beschreiben Sie unter dieser Nachricht Ihren Grund für das Öffnen dieses Tickets.",
+      "opened1": "** Geöffnet von:**",
+      "opened2": "Bitte beschreiben Sie Ihren Grund für das Öffnen dieses Tickets unter dieser Nachricht.",
+      "opener": "**Geöffnet von:** '${interaction.user.tag}'\n\nBitte beschreiben Sie Ihren Grund für das Öffnen dieses Tickets unter dieser Nachricht.",
       "success": "Ihr neues Ticket wurde eröffnet in ",
       "title": "Ticketsystem"
     },
@@ -2651,11 +2675,11 @@
       "humanVerify": "Menschliche Verifizierung",
       "desc1": "Bitte geben Sie das folgende Captcha unten ein, um zu bestätigen, dass Sie ein Mensch sind.",
       "content1": "Bitte überprüfen Sie Ihre Direktnachrichten (DMs).",
-      "noleft": "Sie haben keine Versuche mehr, bitte überprüfen Sie erneut auf dem Server.",
+      "noleft": "Sie haben keine Versuche mehr, bitte überprüfen Sie es erneut auf dem Server.",
       "left1": "Falsch, Sie haben ",
-      "left2": " Versuch (verbleibende) Versuch.",
+      "left2": " Versuch(e) übrig.",
       "youverifed": "Sie wurden verifiziert!",
-      "dmsna": "Ihre DMs sind derzeit auf privat eingestellt, bitte aktivieren Sie sie, damit ich Ihnen unseren menschlichen Verifizierungstest DM kann."
+      "dmsna": "Ihre DMs sind derzeit auf privat gesetzt, bitte aktivieren Sie sie, damit ich Ihnen unseren menschlichen Verifizierungstest DM senden kann."
     }
   }
 }
