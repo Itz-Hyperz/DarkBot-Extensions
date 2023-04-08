@@ -1,3 +1,6 @@
+# CustomStaticVoting
+I literally only wrote this extension for the Discord I have with my IRL friends. This makes the server a total meme every time we get on Discord and it's great. I don't recommend using this in a large community server, or a server that you really care about very much. It's all for fun and this gives more opportunity for people to have a real say in the server itself without creating their own.
+
 # Commands
 
 ```
