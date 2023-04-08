@@ -54,7 +54,7 @@ function winnerVote(category, msg, value) {
         let daRole = msg.guild.roles.cache.find(roleval => roleval.id == mainRoleId)
         daRole.edit({
             name: value
-        });
+        }).catch(e => {console.log(e);});
     };
     if(typeof msg == 'undefined') return;
     msg?.edit({ content: `~~ ${msg.content} ~~\n\n**__VOTING HAS ENDED__**\n\`${category.toUpperCase()}\` has been changed!` }).catch(e => console.log(e));
