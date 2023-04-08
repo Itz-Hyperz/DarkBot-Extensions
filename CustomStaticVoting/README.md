@@ -1,3 +1,11 @@
+# Commands
+
+```
+vote!servername [NEW NAME]
+vote!servericon [IMAGE URL]
+vote!rolename [NEW NAME]
+```
+
 # Examples
 
 ![ex1](https://cdn.bosssoftware.net/u/main/vSu2NjL.png)
