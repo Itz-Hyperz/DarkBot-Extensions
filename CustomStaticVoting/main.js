@@ -1,4 +1,5 @@
 // This extension allows your server members to vote to change the server name, server icon, and whatever the "member" role name is.
+// BEWARE THERE IS A RATE LIMIT FOR EDITING ROLES!
 
 let guildId = "1094126197471989881";
 let mainRoleId = "1094127441880023083";
