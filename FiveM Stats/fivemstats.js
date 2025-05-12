@@ -1,21 +1,21 @@
-const { MessageEmbed } = require('discord.js')
+// Credit to aspectalex for fixing this btw.
 
+const { MessageEmbed } = require('discord.js')
+const Gamedig = require('gamedig')
 module.exports = async function(client, con, app) {
 
     const conf = {
-        ip: "127.0.0.1", // Server IP
+        ip: "1.1.1.1", // Server IP Domains can work as well
         port: "30120", // Server port
-        serverName: "My FiveM Server", // Server Name
-        statusMessage: "974851090963132508", // Message ID (use the /embed command and use that message ID)
-        statusChannel: "874124347487420448", // Channel ID the message is in
-        guildId: "874124347009294396" // Guild ID of the guild the message is in
+        serverName: "Country Roleplay™", // Server Name
+        statusMessage: "1371331749602398215", // Message ID (use the /embed command and use that message ID)
+        statusChannel: "1369806911725109369", // Channel ID the message is in
+        guildId: "1368671156118491307" // Guild ID of the guild the message is in
     }
 
     var net = require('net');
     let sock = new net.Socket();
      
-    
-    const Gamedig = require('gamedig')
     
     setInterval(async () => {
       if (!conf.statusMessage) return
@@ -49,21 +49,33 @@ module.exports = async function(client, con, app) {
          state.players.forEach(p => {
           players.push(`\`\`${p.name}\`\``)
       });
-     
+
+    try {
+        await client.user.setPresence({
+            activities: [{
+                name: `${conf.serverName} ${state.raw.clients} / ${state.raw.sv_maxclients}`,
+                type: 'PLAYING'
+            }],
+            status: 'available'
+        });
+    } catch(e) {}
+        
       var embed = new MessageEmbed()
           .setColor("GREEN")
           .setTitle(`${conf.serverName}`) 
           .addField('**Status**', `${stats}`, true)
           .addField('**Direct Connect:**', `\`${conf.ip}\``, true)
           .addField('**Online Players:**', `**Total:** \`${state.raw.clients}\` / \`${state.raw.sv_maxclients}\``, true)
-          .addField('**Current Players:**', `${players.join(',  ').toString()}`)
+          if(players.length > 0) {
+          embed.addField('**Current Players:**', `${players.join(',  ').toString()}`)
+          }
           const maindiscord = client.guilds.cache.find(g => g.id === conf.guildId) 
           const statuschannel = maindiscord.channels.cache.find(c => c.id === conf.statusChannel); 
-          statuschannel.messages.fetch(conf.fivem.statusMessage).then((msg) => { 
+          statuschannel.messages.fetch(conf.statusMessage).then((msg) => { 
             msg.edit({embeds: [embed]})
           })
-    }).catch(async => {
-    
+    }).catch((e) => {
+          
     
         var embed = new MessageEmbed()
           .setColor(color)
@@ -78,7 +90,7 @@ module.exports = async function(client, con, app) {
     
     
     });
-    }, 15000) 
+    }, 480000) // Every 8 minutes
 
 
 };
