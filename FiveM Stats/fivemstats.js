@@ -1,4 +1,5 @@
 // Credit to aspectalex for fixing this btw.
+// USE GAMEDIG VERSION 2.0.20
 
 const { MessageEmbed } = require('discord.js')
 const Gamedig = require('gamedig')
