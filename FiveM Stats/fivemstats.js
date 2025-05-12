@@ -17,9 +17,17 @@ module.exports = async function(client, con, app) {
     var net = require('net');
     let sock = new net.Socket();
      
+    runsomeshit(client, con, app, conf, net, sock) // run on bot startup
     
     setInterval(async () => {
-      if (!conf.statusMessage) return
+      runsomeshit(client, con, app, conf, net, sock);
+    }, 480000) // Every 8 minutes
+
+
+};
+
+async function runsomeshit(client, con, app, conf, net, sock) {
+    if (!conf.statusMessage) return
     let stats;
     let color;
       sock.setTimeout(5000);
@@ -91,7 +99,4 @@ module.exports = async function(client, con, app) {
     
     
     });
-    }, 480000) // Every 8 minutes
-
-
-};
+}
